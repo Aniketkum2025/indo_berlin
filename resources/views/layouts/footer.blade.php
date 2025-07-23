@@ -142,20 +142,22 @@
 
         <div class="max-w-7xl mx-auto px-4 mt-4 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
             <div class="flex justify-center space-x-4 mb-4">
-                <a href="cancellation-policy" class="text-red-700 font-[600] text-[14px] font-semibold">Cancellation
-                    Policy</a>
+                <a href="cancellation-&-refund-policy" class="text-red-700 font-[600] text-[14px] font-semibold">Cancellation & Refund Policy</a>
                 <span>|</span>
                 <a href="terms-&-conditions" class="text-red-700 font-[600] text-[14px] font-semibold">Terms &
                     Conditions</a>
                 <span>|</span>
-                <a href="refund-policy" class="text-red-700 font-[600] text-[14px] font-semibold">Refund Policy</a>
-            </div>
-
-            <div class="flex justify-center space-x-4 mb-4">
                 <a href="privacy-policy" class="text-red-700 font-[600]">Privacy Policy</a>
                 <span>|</span>
-                <a href="terms-of-use" class="text-red-700 font-[600]">Terms of Use</a>
+                <a href="contact-us" class="text-red-700 font-[600]">Customer Service</a>
+                <!-- <a href="refund-policy" class="text-red-700 font-[600] text-[14px] font-semibold">Refund Policy</a> -->
             </div>
+
+            <!-- <div class="flex justify-center space-x-4 mb-4">
+                <a href="privacy-policy" class="text-red-700 font-[600]">Privacy Policy</a>
+                <span>|</span>
+                <a href="contact-us" class="text-red-700 font-[600]">Customer Service</a>
+            </div> -->
             <p>&copy; 2025, kazumi Japanese School, All Rights Reserved<br>Global With us is a subsidiary of Henry
                 Harvin Education.</p>
         </div>

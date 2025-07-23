@@ -31,8 +31,8 @@ Route::get('blog', function () {
 Route::get('contact-us', function () {
     return view('contact_us');
 });
-Route::get('cancellation-policy', function () {
-    return view('cancellation_policy');
+Route::get('cancellation-&-refund-policy', function () {
+    return view('cancellation_&_refund_policy');
 });
 Route::get('faq', function () {
     return view('faq');
@@ -47,13 +47,13 @@ Route::get('message-from-the-president', function () {
     return view('message_from_the_president');
 });
 Route::get('privacy-policy', function () {
-    return view('privacy-policy');
+    return view('privacy_policy');
 });
 Route::get('refund-policy', function () {
     return view('refund_policy');
 });
 
-Route::get('terms_&_conditions', function () {
+Route::get('terms-&-conditions', function () {
     return view('terms_&_conditions');
 });
 Route::get('terms-of-use', function () {
