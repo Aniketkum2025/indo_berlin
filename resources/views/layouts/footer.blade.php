@@ -7,10 +7,7 @@
                         class="h-[180px] w-auto bg-white rounded-full ">
                 </div>
                 <p class="text-gray-300 text-sm mt-4">
-                    Accredited and award-winning Japanese school in Tokyo, Kyoto, Okinawa, Fukuoka, and Nagoya.
-                    Learn real-world, communicative Japanese in small, intimate classes. Kickstart the journey of a
-                    lifetime
-                    in Japan, or bring your existing skills to new levels.
+                    Kazumi Japanese & Culture School is a branch of Henry Harvin promoting Japanese language and culture, recognised globally with affiliations like the Japanese Language Proficiency Test (JLPT) framework and Henry Harvin’s prestigious accreditations from ISO, UKAF, MSME, and affiliations with leading global educational platforms.
                 </p>
             </div>
 

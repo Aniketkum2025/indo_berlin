@@ -851,7 +851,7 @@
             <div class="bg-white shadow-md rounded-lg p-6">
                 <h3 class="text-4xl font-semibold text-center text-gray-800 mb-4">Established in</h3>
                 <div class="flex items-center justify-center gap-2">
-                    <p class="text-5xl font-bold text-red-600 count-up" data-count="2025">0</p>
+                    <p class="text-5xl font-bold text-red-600 count-up" data-count="2013">0</p>
                 </div>
             </div>
 
@@ -862,12 +862,12 @@
     <div class="max-w-7xl mx-auto px-4">
         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Accreditations & Affiliations
         </h2>
-        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-6">
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <!-- Card 1 -->
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1707134567acceration1.webp" alt="AAEFL"
-                        class="h-16 w-auto">
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1724768847Screenshot_2024-08-27_190332.png" alt="AAEFL"
+                        class="h-28 w-auto">
                 </div>
 
             </div>
@@ -875,8 +875,8 @@
             <!-- Card 2 -->
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://cdn.henryharvin.com/images/1683956483ezgif.com-resize%20(11).webp" alt="AAEFL"
-                        class=" h-16 w-auto">
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753255971sxsssswc.PNG" alt="AAEFL"
+                        class=" h-28 w-auto">
                 </div>
 
             </div>
@@ -884,8 +884,8 @@
             <!-- Card 3 -->
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1714458908download%20(1).png" alt="AAEFL"
-                        class=" h-16 w-auto">
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1726071455watts_we_logo_jft.png" alt="AAEFL"
+                        class=" h-28 w-auto">
                 </div>
 
             </div>
@@ -893,50 +893,36 @@
             <!-- Card 4 -->
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://cdn.henryharvin.com/images/1683955853ezgif.com-gif-maker%20-%202023-05-13T110039.349.webp"
-                        alt="AAEFL" class=" h-16 w-auto">
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1736849226DBS_C-01.png"
+                        alt="AAEFL" class=" h-28 w-auto">
                 </div>
 
             </div>
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1730798266ss_s.png" alt="AAEFL"
+                    <img src="https://flism.org/wp-content/uploads/2025/01/Logo_Florida_7.jpg" alt="AAEFL"
                         class=" h-16 w-auto">
                 </div>
             </div>
             <!-- Card 5 -->
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1730802663WhatsApp_Image_2024-11-05_at_2.47.25_PM.jpeg"
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753256081hhlogo.png"
                         alt="AAEFL" class=" h-16 w-auto">
                 </div>
             </div>
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1730802732WhatsApp_Image_2024-11-05_at_2.47.35_PM.jpeg"
+                    <img src="https://kodakco.sgp1.cdn.digitaloceanspaces.com/1702461434kodacko.webp"
                         alt="AAEFL" class=" h-16 w-auto">
                 </div>
             </div>
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1730802758WhatsApp_Image_2024-11-05_at_2.47.47_PM.jpeg"
-                        alt="AAEFL" class=" h-16 w-auto">
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/171514477432e3rr.webp"
+                        alt="AAEFL" class=" h-24 w-auto">
                 </div>
             </div>
-            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
-                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1730802782WhatsApp_Image_2024-11-05_at_2.48.26_PM.jpeg"
-                        alt="AAEFL" class=" h-16 w-auto">
-                </div>
-            </div>
-            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
-                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1730802808WhatsApp_Image_2024-11-05_at_2.48.39_PM.jpeg"
-                        alt="AAEFL" class=" h-16 w-auto">
-                </div>
-            </div>
-
-            <!-- Additional Cards Below... -->
         </div>
     </div>
 </section>
