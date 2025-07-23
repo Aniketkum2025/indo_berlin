@@ -1209,7 +1209,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide p-8 lg:p-8">
+                    <!-- <div class="swiper-slide p-8 lg:p-8">
                         <div class="grid mx-2 p-2 gap-4 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
@@ -1224,7 +1224,7 @@
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="swiper-slide p-8 lg:p-8">
                         <div class="grid mx-2 p-2 gap-4 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
