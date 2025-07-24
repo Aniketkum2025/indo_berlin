@@ -34,7 +34,7 @@
 <body class="font-sans">
 
     <!-- Navbar -->
-    <nav class="bg-white sticky top-0 z-40 w-full bg-background/50 border-b border-white backdrop-blur-2xl">
+    <nav class="bg-white sticky top-0 z-40 w-full bg-background/50 border-b border-white backdrop-blur-2xl" style="box-shadow: 0px -1px 28px -11px red;">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center ">
                 <div class="flex items-center space-x-3">
@@ -124,7 +124,7 @@
                 </div>
 
                 <div class="hidden md:flex md:items-center space-x-4">
-                    <button class="bg-red-600 text-white px-4 py-2 rounded-md text-sm">Apply</button>
+                    <button  data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button" class="bg-red-600 text-white px-4 py-2 rounded-md text-sm">Apply</button>
                 </div>
 
                 <div class="md:hidden">
@@ -179,7 +179,7 @@
             <a href="/contact-us" class="block px-4 py-2 text-[#da2028] font-[600] hover:bg-gray-100">Contact Us</a>
 
             <div class="flex space-x-4 px-4 py-2">
-                <button class="bg-red-600 text-white px-4 py-2 rounded-md text-sm">Apply</button>
+                <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button" class="bg-red-600 text-white px-4 py-2 rounded-md text-sm">Apply</button>
             </div>
         </div>
     </nav>

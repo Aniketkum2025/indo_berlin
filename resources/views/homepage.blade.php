@@ -147,7 +147,7 @@
         <div
             class="w-full sm:w-[45%] md:w-[22%] flex flex-col shadow-xl border border-red-100 rounded-xl overflow-hidden">
             <img class="w-full h-60 object-cover"
-                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753098812website_image_300x300_5.png" alt="">
+                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753340788asian-woman-practicing-japanese-handwriting-indoors.jpg" alt="">
             <div class="flex flex-col flex-grow h-full px-4 py-4">
                 <p class="text-[16px] font-[500] text-gray-900">PG Diploma in Japanese Language</p>
                 <p class="text-[14px] text-gray-700 mt-2 flex-grow">Master advanced vocabulary, sentence structure,
@@ -163,7 +163,7 @@
         <div
             class="w-full sm:w-[45%] md:w-[22%] flex flex-col shadow-xl border border-red-100 rounded-xl overflow-hidden">
             <img class="w-full h-60 object-cover"
-                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753098812website_image_300x300_5.png" alt="">
+                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753340863man-sitting-reading-book-stairs.jpg" alt="">
             <div class="flex flex-col flex-grow h-full px-4 py-4">
                 <p class="text-[16px] font-[500] text-gray-900">Master’s in Japanese Language</p>
                 <p class="text-[14px] text-gray-700 mt-2 flex-grow">Achieve near native proficiency, build strong
