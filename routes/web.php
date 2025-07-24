@@ -78,20 +78,20 @@ Route::get('esteemed-faculty', function () {
     return view('esteemed_faculty');
 });
 
-Route::get('application-guide', function () {
-    return view('application_guide');
+Route::get('admission-process', function () {
+    return view('admission_process');
 });
-Route::get('application-download', function () {
-    return view('application_download');
-});
-Route::get('Japanese-language-requirements-for-student-visa', function () {
-    return view('Japanese_language_requirements_for_student_visa');
+Route::get('prospective-students', function () {
+    return view('prospective_students');
 });
 Route::get('existing-students', function () {
     return view('existing_students');
 });
 Route::get('online-payment', function () {
     return view('online_payment');
+});
+Route::get('request-certificate', function () {
+    return view('request_certificate');
 });
 Route::get('accreditation', function () {
     return view('accreditation');

@@ -1414,6 +1414,9 @@
                 </div>
             </div>
         </div>
+        <div class="mt-4 flex justify-center items-center">
+            <a href="/esteemed-faculty" class="bg-red-500 text-white text-[14px] px-6 py-2 rounded hover:bg-red-600">View More</a>
+        </div>
     </div>
 </section>
 

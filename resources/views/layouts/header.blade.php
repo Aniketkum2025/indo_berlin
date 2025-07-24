@@ -72,23 +72,19 @@
                         </a>
                         <div
                             class="absolute top-full -left-2 z-30 w-48 bg-white shadow-lg border rounded-md p-2 space-y-1 submenu">
-                            <a href="application-guide"
-                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Application
-                                Guide</a>
-                            <a href="application-download"
-                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Application
-                                Download</a>
-                            <a href="Japanese-language-requirements-for-student-visa"
-                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Japanese
-                                language requirements for student visa</a>
-                            <a href="existing-students"
-                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Existing
-                                Students</a>
+                            <a href="admission-process"
+                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Admission Process</a>
+                            <a href="prospective-students"
+                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Prospective Students</a>
                             <a href="online-payment"
-                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Online
-                                payment</a>
+                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Online Payment</a>
+                            <a href="existing-students"
+                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Existing Students</a>
+                            <a href="request-certificate"
+                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Request Certificate</a>
                         </div>
                     </div>
+                    <a href="https://yuvaintern.com/" class="text-[#da2028] font-[600] text-[14px] py-6">Internship</a>
                     <a href="accreditation" class="text-[#da2028] font-[600] text-[14px] py-6">Accreditation</a>
                     <div class="group relative">
                         <a class="flex items-center text-[#da2028] font-[600] text-[14px] space-x-1 py-6">
@@ -156,14 +152,14 @@
             <div class="px-4 py-2">
                 <button onclick="toggleMobileSubmenu('admission')" class="text-[#da2028] font-[600]">Admission</button>
                 <div id="mobile-submenu-admission" class="hidden ml-4">
-                    <a href="application-guide" class="block py-1 text-gray-700">Application Guide</a>
-                    <a href="application-download" class="block py-1 text-gray-700">Application Download</a>
-                    <a href="Japanese-language-requirements-for-student-visa" class="block py-1 text-gray-700">Japanese language requirements for student visa</a>
+                    <a href="admission-process" class="block py-1 text-gray-700">Admission Process</a>
+                    <a href="prospective-students" class="block py-1 text-gray-700">Prospective Students</a>
+                    <a href="online-payment" class="block py-1 text-gray-700">Online Payment</a>
                     <a href="existing-students" class="block py-1 text-gray-700">Existing Students</a>
-                    <a href="online-payment" class="block py-1 text-gray-700">Online payment</a>
+                    <a href="request-certificate" class="block py-1 text-gray-700">Request Certificate</a>
                 </div>
             </div>
-
+            <a href="https://yuvaintern.com/" class="block px-4 py-2 text-[#da2028] font-[600] hover:bg-gray-100">Internship</a>
             <a href="accreditation" class="block px-4 py-2 text-[#da2028] font-[600] hover:bg-gray-100">Accreditation</a>
 
             <div class="px-4 py-2">
