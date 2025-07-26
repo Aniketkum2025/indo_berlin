@@ -72,10 +72,11 @@
                         </a>
                         <div
                             class="absolute top-full -left-2 z-30 w-48 bg-white shadow-lg border rounded-md p-2 space-y-1 submenu">
+                            <a href="why-kazumi"
+                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Why Kazumi?</a>
                             <a href="admission-process"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Admission Process</a>
-                            <a href="prospective-students"
-                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Prospective Students</a>
+                            
                             <a href="online-payment"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Online Payment</a>
                             <a href="existing-students"
@@ -118,6 +119,8 @@
                             <a href="esteemed-faculty"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Esteemed
                                 Faculty</a>
+                                <a href="kazumi-community"
+                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Kazumi Community</a>
                         </div>
                     </div>
                     <a href="/contact-us" class="text-[#da2028] font-[600] text-[14px] py-6">Contact Us</a>
@@ -152,8 +155,9 @@
             <div class="px-4 py-2">
                 <button onclick="toggleMobileSubmenu('admission')" class="text-[#da2028] font-[600]">Admission</button>
                 <div id="mobile-submenu-admission" class="hidden ml-4">
+                    <a href="why-kazumi" class="block py-1 text-gray-700">Why Kazumi?</a>
                     <a href="admission-process" class="block py-1 text-gray-700">Admission Process</a>
-                    <a href="prospective-students" class="block py-1 text-gray-700">Prospective Students</a>
+                    
                     <a href="online-payment" class="block py-1 text-gray-700">Online Payment</a>
                     <a href="existing-students" class="block py-1 text-gray-700">Existing Students</a>
                     <a href="request-certificate" class="block py-1 text-gray-700">Request Certificate</a>
@@ -173,6 +177,7 @@
                     <a href="operations-and-future-plans" class="block py-1 text-gray-700">Operations and future plans</a>
                     <a href="research-activities" class="block py-1 text-gray-700">Research Activities</a>
                     <a href="esteemed-faculty" class="block py-1 text-gray-700">Esteemed Faculty</a>
+                    <a href="kazumi-community" class="block py-1 text-gray-700">Kazumi Community</a>
                 </div>
             </div>
 

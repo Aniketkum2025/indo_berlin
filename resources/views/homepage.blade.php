@@ -985,69 +985,136 @@
         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Testimonial
             Videos
         </h2>
-        <div class="relative mx-auto">
-            <div class="swiper mySwiper1">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+        <div class="relative">
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
+                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
                         <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                            <a href="javascript:void(0)" class="relative open-video"
-                                data-video="https://www.youtube.com/embed/IB93ChBLEnU">
-                                <img src="https://sgp1.digitaloceanspaces.com/hh-certificates/images/1595490180SSBB1.jpg"
-                                    class="w-full" alt="Program 1">
-
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                            <a href="javascript:void(0)" class="relative open-video"
-                                data-video="https://www.youtube.com/embed/IB93ChBLEnU">
-                                <img src="https://sgp1.digitaloceanspaces.com/hh-certificates/images/1595490180SSBB1.jpg"
-                                    class="w-full" alt="Program 1">
-
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                            <a href="javascript:void(0)" class="relative open-video"
-                                data-video="https://www.youtube.com/embed/IB93ChBLEnU">
-                                <img src="https://sgp1.digitaloceanspaces.com/hh-certificates/images/1595490180SSBB1.jpg"
-                                    class="w-full" alt="Program 1">
-
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                            <a href="javascript:void(0)" class="relative open-video"
-                                data-video="https://www.youtube.com/embed/IB93ChBLEnU">
-                                <img src="https://sgp1.digitaloceanspaces.com/hh-certificates/images/1595490180SSBB1.jpg"
-                                    class="w-full" alt="Program 1">
-
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                            <a href="javascript:void(0)" class="relative open-video"
-                                data-video="https://www.youtube.com/embed/IB93ChBLEnU">
-                                <img src="https://sgp1.digitaloceanspaces.com/hh-certificates/images/1595490180SSBB1.jpg"
-                                    class="w-full" alt="Program 1">
-
-                            </a>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HAI_ZAMooLk?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review By Sachet | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/K4NAAHCtbo8?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review By Anupam | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mZkFP1ZWJv4?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/YqdggC5M90s?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review by Khushi Goswami | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/L9QZCK1P5O0?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review by Khushi Jain | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JYPNfkyyx08?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review by Vandana | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BooTihSy8dA?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Review by Tarni | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/h2558oOB2GM?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review by  Rayajiri Kumar | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/uggeKrYDD1s?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review by Mayuresh | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/RvJ-DSVFVv4?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Review by Vasundhara | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2vKgb2MJlzI?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Review by Pravallika | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/LCPhZuc1RqQ?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Review by Tanisha | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TQM2QkyQ9eE?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Review by Vivek Saini | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_BMlRAi9dK8?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Reviews | Best Japanese Language Course Online | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/pfkbInIwD6Q?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Reviews | Best Japanese Language Course Online  | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5rIlYy7SO08?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review By Muskan | Best Japanese Language Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/O_yLL2aNXTY?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Reviews | Best Japanese Language Course Online  | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bsPvt3xJTEc?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Review by Prashub | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                 
             </div>
-
-            <!-- Navigation Buttons -->
-            <!-- <div
-            class="swiper-button-next text-xs shadow-xl border border-gray-300 rounded-full h-8 w-8 flex items-center justify-center absolute top-1/2 -translate-y-1/2 right-0 md:-right-[30px] bg-white text-gray-700">
-        </div>
-        <div
-            class="swiper-button-prev text-xs shadow-xl border border-gray-300 rounded-full h-8 w-8 flex items-center justify-center absolute top-1/2 -translate-y-1/2 left-0 md:-left-[30px] bg-white text-gray-700">
-        </div> -->
         </div>
 
     </div>

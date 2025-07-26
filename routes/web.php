@@ -96,5 +96,11 @@ Route::get('request-certificate', function () {
 Route::get('accreditation', function () {
     return view('accreditation');
 });
+Route::get('kazumi-community', function () {
+    return view('kazumi_community');
+});
+Route::get('why-kazumi', function () {
+    return view('why_kazumi');
+});
 
 
