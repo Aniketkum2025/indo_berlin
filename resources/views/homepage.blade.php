@@ -1328,7 +1328,7 @@
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532671964rd.webp" alt="">
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523883sucheta_(1).jpg" alt="">
                             </div>
                             <div class="p-2 ">
                                 <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Sucheta Patil</h2>
@@ -1343,11 +1343,11 @@
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532672225rd.webp" alt="">
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523973Swagata.jpg" alt="">
                             </div>
                             <div class="p-2 ">
                                 <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Swagata</h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">3+ Years
+                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">5+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
@@ -1358,11 +1358,11 @@
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532672456rd.webp" alt="">
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524020siddharth.jpg" alt="">
                             </div>
                             <div class="p-2 ">
                                 <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Siddharth Chopra</h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">4+ Years
+                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">6+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
@@ -1373,11 +1373,11 @@
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532672727rd.webp" alt="">
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524020siddharth.jpg" alt="">
                             </div>
                             <div class="p-2 ">
                                 <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Saniya Parchure</h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">3+ Years
+                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">7+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
@@ -1388,7 +1388,7 @@
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532673008rd.webp" alt="">
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524020siddharth.jpg" alt="">
                             </div>
                             <div class="p-2 ">
                                 <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Aditya</h2>
@@ -1403,7 +1403,7 @@
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532673279rd.webp" alt="">
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524195Apeksha.jpg" alt="">
                             </div>
                             <div class="p-2 ">
                                 <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Apeksha</h2>
@@ -1433,7 +1433,7 @@
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753267852prachi.webp" alt="">
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524239Prachi.jpg" alt="">
                             </div>
                             <div class="p-2 ">
                                 <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Prachi</h2>
