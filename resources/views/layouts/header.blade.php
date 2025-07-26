@@ -42,6 +42,8 @@
                         <img class="h-[60px] w-auto"
                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753532921Logo_Kazumi_Japanese_&_Culture_School_.png"
                         alt="Kazumi Logo">
+
+                        
                     </a>
                 </div>
 
