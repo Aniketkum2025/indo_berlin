@@ -972,7 +972,7 @@
             </div>
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/171514477432e3rr.webp" alt="AAEFL"
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1744023905ezgif.com-crop_(7).webp" alt="AAEFL"
                         class=" h-24 w-auto">
                 </div>
             </div>
@@ -1265,12 +1265,28 @@
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532613282nd.webp" alt="">
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522620Varsha_Mehroliya.jpg" alt="">
+                            </div>
+                            <div class="p-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Varsha Mehroliya
+                                </h2>
+                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">5+ Years
+                                    Of Experience</h2>
+                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-8 lg:p-8">
+                        <div class="grid mx-2 p-2 gap-4 place-items-center rounded-2xl"
+                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                            <div class="rounded-2xl">
+                                <img class="h-full w-full object-cover rounded-2xl"
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522683Sonali_Srivastava_(1).jpg" alt="">
                             </div>
                             <div class="p-2 ">
                                 <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Sonali Srivastava
                                 </h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">3+ Years
+                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">6+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
