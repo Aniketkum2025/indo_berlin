@@ -10,10 +10,10 @@
         </video> --}}
         <div
             class="relative z-10 flex flex-col justify-center space-y-4 items-center h-full text-center text-white bg-black bg-opacity-30">
-            <h1 class="text-4xl md:text-[52px] tracking-widest mb-10 font-[600]" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Welcome to Kazumi Japanese & Culture School. </h1>
-            <p class="uppercase text-xl md:text-4xl tracking-widest font-[600]"
+            <h1 class="text-3xl md:text-[48px] tracking-widest mb-10 font-[600]" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Welcome to Kazumi Japanese & Culture School. </h1>
+            <p class="uppercase text-xl md:text-3xl tracking-widest font-[600]"
                 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">新しい日本語教育と文化の基準を体験しましょう。</p>
-            <p class="uppercase text-xl md:text-4xl tracking-widest mt-4 font-[600]"
+            <p class="uppercase text-xl md:text-3xl tracking-widest mt-4 font-[600]"
                 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Discover a new standard of Japanese Education and Culture.</p>
             <div class="flex space-x-4 mb-8 items-center justify-center">
                 <a data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button"
