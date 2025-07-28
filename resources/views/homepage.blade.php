@@ -1,27 +1,26 @@
 @extends('layouts.app')
 @section('content')
 <section>
-    <div class="relative w-full h-screen overflow-hidden">
+    <div class="relative w-full h-screen overflow-hidden" style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1753693794WhatsApp_Image_2025-07-28_at_2.25.31_PM.jpeg); background-position: top;">
         <!-- Video Background -->
-        <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover">
+        {{-- <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover">
             <source src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175274277337088-413229662_medium.mp4"
                 type="video/mp4">
             Your browser does not support the video tag.
-        </video>
-
-        <!-- Content Overlay -->
+        </video> --}}
         <div
-            class="relative z-10 flex flex-col justify-center items-center h-full text-center text-white bg-black bg-opacity-30">
-            <p class="uppercase text-2xl md:text-4xl tracking-widest mb-4"
-                style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Welcome to Kazumi Japanese & Culture School.</p>
-            <h1 class="text-xl md:text-2xl tracking-widest mb-6">Discover a new standard of Japanese Education and
-                Culture.</h1>
-            <div class="flex space-x-4 mb-8">
+            class="relative z-10 flex flex-col justify-center space-y-4 items-center h-full text-center text-white bg-black bg-opacity-30">
+            <h1 class="text-4xl md:text-[52px] tracking-widest mb-10 font-[600]" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Welcome to Kazumi Japanese & Culture School. </h1>
+            <p class="uppercase text-xl md:text-4xl tracking-widest font-[600]"
+                style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">新しい日本語教育と文化の基準を体験しましょう。</p>
+            <p class="uppercase text-xl md:text-4xl tracking-widest mt-4 font-[600]"
+                style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Discover a new standard of Japanese Education and Culture.</p>
+            <div class="flex space-x-4 mb-8 items-center justify-center">
                 <a data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button"
                     class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600">Apply
                     Now</a>
-                <!-- <a href="#" class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600"> Learn
-                    More</a> -->
+                <a href="/about-us" class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600"> Learn
+                    More</a>
             </div>
             <div>
                 <style>
@@ -55,15 +54,80 @@
     </div>
 </section>
 
-
 <section id="course_section" class="py-12 px-4 max-w-7xl mx-auto">
     <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Courses
     </h2>
-    <p class="text-center text-gray-600 text-[16px] font-[600] my-2">Just like the famous Japanese proverb "継続は力なり"
-        (Continuity is power), we bring a series of courses starting from Basic (N5) to Super Advanced (N1) level for
-        continuous learning and growth.</p>
-    <div class="w-full flex flex-wrap justify-center gap-6 my-10 px-4">
-        <!-- Card 1 -->
+    <p class="text-center text-gray-600 text-[16px] font-[600] my-2">Just like the famous Japanese proverb "継続は力なり" (Continuity is power), we bring a series of courses starting from Basic (N5) to Super Advanced (N1) level for continuous learning and growth.</p>
+     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 my-10"> 
+        <div class="w-full flex flex-col rounded-xl overflow-hidden">
+            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753689366Japanese_Language_Courses.jpg" alt="">
+            <div class=" h-full py-4">
+                <p class="text-[18px] font-[500] text-gray-900">Japanese Language Courses</p>
+                <p class="text-[16px] text-gray-700 mt-2 flex-grow">Extensive & intensive modules Weekdays, and weekend batch</p>
+                <div class="mt-2">
+                    <ul class="">
+                        <li><a href="https://www.henryharvin.com/japanese-beginners-course" class="text-blue-600 hover:underline text-[14px] font-[600]">Japanese for Beginners Course</a></li>
+                        <li><a href="https://www.henryharvin.com/japanese-language-course" class="text-blue-600 hover:underline text-[14px] font-[600]">Japanese Language N5 Level Course</a></li>
+                        <li><a href="https://www.henryharvin.com/japanese-language-course" class="text-blue-600 hover:underline text-[14px] font-[600]">Japanese Language N4 Level Course</a></li>
+                        <li><a href="https://www.henryharvin.com/japanese-language-course" class="text-blue-600 hover:underline text-[14px] font-[600]">Japanese Language N3 Level Course</a></li>
+                        <li><a href="https://www.henryharvin.com/japanese-language-course" class="text-blue-600 hover:underline text-[14px] font-[600]">Japanese Language N3 Level Course</a></li>
+                        <li><a href="https://www.henryharvin.com/japanese-language-course" class="text-blue-600 hover:underline text-[14px] font-[600]">Japanese Language N1 Level Course</a></li>
+                        <li><a href="https://www.henryharvin.com/post-graduate-diploma-in-japanese-language-by-dbs" class="text-blue-600 hover:underline text-[14px] font-[600]">Post Graduate Diploma in Japanese Language by Dunster Business School</a></li>
+                        <li><a href="https://www.henryharvin.com/post-graduate-diploma-professional-in-japanese-language-by-dbs" class="text-blue-600 hover:underline text-[14px] font-[600]">Post Graduate Diploma Professional in Japanese Language by Dunster Business School</a></li>
+                        <li><a href="https://www.henryharvin.com/masters-in-japanese-language" class="text-blue-600 hover:underline text-[14px] font-[600]">Master’s in Japanese Language</a></li>
+                        <li><a href="https://www.henryharvin.com/migrate-japan" class="text-blue-600 hover:underline text-[14px] font-[600]">Migrate to Japan</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="w-full flex flex-col rounded-xl overflow-hidden">
+            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753694789Japanese_Occupational_Courses.jpg" alt="">
+            <div class=" h-full py-4">
+                <p class="text-[18px] font-[500] text-gray-900">Japanese Occupational Courses</p>
+                <p class="text-[16px] text-gray-700 mt-2 flex-grow">Extensive & Intensive courses for individuals in corporate and business sector</p>
+                <div class="mt-4">
+                    <ul class="">
+                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Business Japanese Course</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Corporate Business Japanese</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Career Japanese Course</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Business Japanese for Beginners</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Intercultural Business Japanese</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Japanese for Work – Hospitality / Nursing / IT</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Rocket Japanese</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Japanese for the Workplace</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="w-full flex flex-col rounded-xl overflow-hidden">
+            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753694973Japanese_Cross-Cultural_Courses.jpg" alt="">
+            <div class=" h-full py-4">
+                <p class="text-[18px] font-[500] text-gray-900">Japanese Cross-Cultural Courses</p>
+                 <p class="text-[16px] text-gray-700 mt-2 flex-grow">For both Indian and Japanese Audiences (Seminar and Workshops)</p>
+                <div class="mt-4">
+                    <ul class="">
+                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Pre Departure Orientation Training & Placement</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Japanese Management Course</a></li>
+                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Cross-Cultural Sensitization for Engineers, Businessmen & Professionals</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="w-full flex flex-col rounded-xl overflow-hidden">
+            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753696001Japanese_Crash_Course.jpg" alt="">
+            <div class=" h-full py-4">
+                <p class="text-[18px] font-[500] text-gray-900">Crash Course in Japanese Language</p>
+                <p class="text-[16px] text-gray-700 mt-2 flex-grow">Cover all the topics from N5 (basic) to N5 (advance) level, understand important and useful Japanese traditions and etiquettes</p>
+                <div class="mt-4">
+                    <ul class="">
+                        <li><a href="https://www.henryharvin.com/crash-course-for-japanese-language" class="text-blue-600 hover:underline text-[14px] font-[600]">Crash Course for Japanese Language</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- <div class="w-full flex flex-wrap justify-center gap-6 my-10 px-4"> 
         <div
             class="w-full sm:w-[45%] md:w-[22%] flex flex-col shadow-xl border border-red-100 rounded-xl overflow-hidden">
             <img class="w-full h-60 object-cover"
@@ -78,8 +142,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- Card 2 -->
         <div
             class="w-full sm:w-[45%] md:w-[22%] flex flex-col shadow-xl border border-red-100 rounded-xl overflow-hidden">
             <img class="w-full h-60 object-cover"
@@ -94,8 +156,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- Card 3 -->
         <div
             class="w-full sm:w-[45%] md:w-[22%] flex flex-col shadow-xl border border-red-100 rounded-xl overflow-hidden">
             <img class="w-full h-60 object-cover"
@@ -110,8 +170,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- Card 4 -->
         <div
             class="w-full sm:w-[45%] md:w-[22%] flex flex-col shadow-xl border border-red-100 rounded-xl overflow-hidden">
             <img class="w-full h-60 object-cover"
@@ -126,8 +184,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- Card 5 -->
         <div
             class="w-full sm:w-[45%] md:w-[22%] flex flex-col shadow-xl border border-red-100 rounded-xl overflow-hidden">
             <img class="w-full h-60 object-cover"
@@ -142,8 +198,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- Card 6 -->
         <div
             class="w-full sm:w-[45%] md:w-[22%] flex flex-col shadow-xl border border-red-100 rounded-xl overflow-hidden">
             <img class="w-full h-60 object-cover"
@@ -158,8 +212,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- Card 7 -->
         <div
             class="w-full sm:w-[45%] md:w-[22%] flex flex-col shadow-xl border border-red-100 rounded-xl overflow-hidden">
             <img class="w-full h-60 object-cover"
@@ -174,7 +226,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
 
 </section>
