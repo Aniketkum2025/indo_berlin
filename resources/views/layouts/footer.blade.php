@@ -7,7 +7,7 @@
                         class="h-[180px] w-auto bg-white rounded-full ">
                 </div>
                 <p class="text-gray-300 text-sm mt-4">
-                    Kazumi Japanese & Culture School is a branch of Henry Harvin promoting Japanese language and culture, recognised globally with affiliations like the Japanese Language Proficiency Test (JLPT) framework and Henry Harvin’s prestigious accreditations from ISO, UKAF, MSME, and affiliations with leading global educational platforms.
+                   Kazumi Japanese & Culture School is a branch of Henry Harvin® promoting Japanese 言語 (gengo) and 文化 (bunka), recognised globally with affiliations like the Japanese Language Proficiency Test (JLPT) framework and Henry Harvin’s prestigious accreditations from ISO, UKAF, MSME, and affiliations with leading global 教育的 (kyōikuteki) platforms.
                 </p>
             </div>
 

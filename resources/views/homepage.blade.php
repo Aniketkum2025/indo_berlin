@@ -11,9 +11,9 @@
         <div
             class="relative z-10 flex flex-col justify-center space-y-4 items-center h-full text-center text-white bg-black bg-opacity-30">
             <h1 class="text-3xl md:text-[48px] tracking-widest mb-10 font-[600]" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Welcome to Kazumi Japanese & Culture School. </h1>
-            <p class="uppercase text-xl md:text-3xl tracking-widest font-[600]"
+            <p class="capitalize text-xl md:text-3xl tracking-widest font-[600]"
                 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">新しい日本語教育と文化の基準を体験しましょう。</p>
-            <p class="uppercase text-xl md:text-3xl tracking-widest mt-4 font-[600]"
+            <p class="capitalize text-xl md:text-3xl tracking-widest mt-4 font-[600]"
                 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Discover a new standard of Japanese Education and Culture.</p>
             <div class="flex space-x-4 mb-8 items-center justify-center">
                 <a data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button"
@@ -55,7 +55,7 @@
 </section>
 
 <section id="course_section" class="py-12 px-4 max-w-7xl mx-auto">
-    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Courses
+    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Courses
     </h2>
     <p class="text-center text-gray-600 text-[16px] font-[600] my-2">Just like the famous Japanese proverb "継続は力なり" (Continuity is power), we bring a series of courses starting from Basic (N5) to Super Advanced (N1) level for continuous learning and growth.</p>
      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 my-10"> 
@@ -232,7 +232,7 @@
 </section>
 <section id="stats" class="py-12 bg-red-600 mx-auto px-4">
     <div class="max-w-6xl mx-auto">
-        <!-- <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Key Highlight
+        <!-- <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Key Highlight
         </h2> -->
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
 
@@ -270,7 +270,7 @@
 
 <section class="py-12 bg-gray-100 mx-auto px-4">
     <div class="max-w-7xl mx-auto">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Why Kazumi Japanese & Culture School?
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Why Kazumi Japanese & Culture School?
         </h2>
         <div class="py-8">
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 text-center">
@@ -371,25 +371,18 @@
 </section>
 <section class="py-12 mx-auto px-4">
     <div class="max-w-6xl mx-auto" bis_skin_checked="1">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Agota™ Framework
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-2 text-[#da2028] capitalize my-4">Agota™ Framework
         </h2>
-        <p class="text-[16px] text-gray-800 font-[600] text-center">It is a trajectory that offers complete growth of an
-            individual incorporating
-            the two most significant focus areas of contemporary learning:<span class="font-[600]">The Competency
-                Development and The Career Development .</span></p>
-        <p class="text-[16px] text-gray-800 font-[600] text-center mt-2">Competency development is about building
-            capabilities that not only meet
-            current job demands but also anticipates the future needs. It includes:</p>
+        <p class="text-[16px] text-gray-800 font-[600] text-center">AGOTA™ Framework is a trajectory that offers complete growth of an individual incorporating the two most significant focus areas of contemporary learning:<span class="font-bold text-gray-900"> The 能力 (Nōryoku) development and キャリア (Kyaria) development. </span></p>
+        <p class="text-[16px] text-gray-800 font-[600] text-center mt-4"><span class="font-bold text-gray-900">能力 (Nōryoku) development </span> is about building capabilities that not only meet current job demands but also anticipates the future needs. It includes:</p>
         <div class="relative grid md:grid-cols-2 gap-2 my-2" bis_skin_checked="1">
             <div bis_skin_checked="1">
                 <ul class="disk mt-2">
                     <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                             bis_skin_checked="1">
-                            <p class="col-span-2 text-red-600">1: Two-Way Live Training
-                                <span class="block text-[12px] text-gray-800 font-[600]">Two-way Live Online Interactive
-                                    Classroom
-                                    Sessions</span>
+                            <p class="col-span-2 text-red-600">1: Training
+                                <span class="block text-[12px] text-gray-800 font-[600]">144 Hours of Two-Way Live Online Interactive Sessions</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2 " bis_skin_checked="1">
                                 <a target="_blank" href="https://youtu.be/lMkxmdUnAPc"
@@ -413,9 +406,7 @@
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                             bis_skin_checked="1">
                             <p class="col-span-2 text-red-600">2: Projects
-                                <span class="block text-[12px] text-gray-800 font-[600]">Facility to undergo various
-                                    projects along
-                                    with the course.</span>
+                                <span class="block text-[12px] text-gray-800 font-[600]"> Facility to undergo projects along with the course</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2  " bis_skin_checked="1">
                                 <a target="_blank" href="https://youtu.be/p86YBsCkb0A"
@@ -441,9 +432,7 @@
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                             bis_skin_checked="1">
                             <p class="col-span-2 text-red-600">3: Student Engagement &amp; Events
-                                <span class="block text-[12px] text-gray-800 font-[600]">Free Access to #AskHenry
-                                    Hackathons and
-                                    Competitions &amp; many other facilities from Henry Harvin®</span>
+                                <span class="block text-[12px] text-gray-800 font-[600]"> Free Access to #AskHenry Hackathons and Competitions & many other facilities from Henry Harvin®</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2 " bis_skin_checked="1">
                                 <a target="_blank" href="https://youtu.be/K7HdNdMwOuE"
@@ -467,9 +456,7 @@
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                             bis_skin_checked="1">
                             <p class="col-span-2 text-red-600">4: Masterclass
-                                <span class="block text-[12px] text-gray-800 font-[600]">Access to 60+ Masterclass
-                                    Sessions for
-                                    essential soft skill development</span>
+                                <span class="block text-[12px] text-gray-800 font-[600]">Access to 52+ Masterclass Sessions for essential soft スキル (Sukiru) development</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2  " bis_skin_checked="1">
                                 <a target="_blank" href="https://youtu.be/Gk3t1W3LVZ8"
@@ -495,8 +482,7 @@
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                             bis_skin_checked="1">
                             <p class="col-span-2 text-red-600">5: Membership
-                                <span class="block text-[12px] text-gray-800 font-[600]">Get Gold Membership of Henry
-                                    Harvin®</span>
+                                <span class="block text-[12px] text-gray-800 font-[600]"> 30 Months Gold Membership of Henry Harvin® School of Languages</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2  " bis_skin_checked="1">
                                 <a target="_blank" href="https://www.youtube.com/watch?v=bzJOMiJu_QA">
@@ -517,16 +503,14 @@
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                             bis_skin_checked="1">
                             <p class="col-span-2 text-red-600">6: E-Learning Access
-                                <span class="block text-[12px] text-gray-800 font-[600]">Free access to the E-learning
-                                    Portal and
-                                    future updates. Get access to PPTs, Projects, Quizzes, self-paced Video-based
-                                    learning, a question bank, a library, practice tests <a
+                                <span class="block text-[12px] text-gray-800 font-[600]">Get free access to the LMS having PPTs, projects, self-paced video-based learning, library, quizzes, question bank, practice tests, final assessments, and a forum, powered by 
+                                    <a
                                         href="https://examopedia.com/"
                                         class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1734598082examopedia_logo.webp"
-                                            alt="Examopedia Logo" class="h-3">Examopedia</span> final assessment, a
-                                forum, and
-                                doubt sessions.</span>
+                                            alt="Examopedia Logo" class="h-3">Examopedia</span> </a>
+
+                               </span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2  " bis_skin_checked="1">
                                 <a target="_blank" href="https://www.youtube.com/watch?v=XUQm0ecT6ts">
@@ -552,17 +536,13 @@
                             <li  class="text-[15px] py-2 text-left font-[600] flex items-center justify-between border-b border-purple">5: Membership Access <span class="hidden"><a href="" class="text-white bg-red-500 hover:bg-red-600 focus:outline-none rounded-full px-4"><i class="fa fa-play-circle text-[#ffc107]" style="font-size:24px;"></i></a></span></li>
                             <li  class="text-[15px] py-2 text-left font-[600] flex items-center justify-between border-b border-purple">6: E-Learning <span class="hidden"><a href="" class="text-white bg-red-500 hover:bg-red-600 focus:outline-none rounded-full px-4"><i class="fa fa-play-circle text-[#ffc107]" style="font-size:24px;"></i></a></span></li> -->
                 </ul>
-                <p class="text-[15px] text-left my-4">Career Development lays focus on the essentials for acquiring a
-                    good career or diving into a highly competent one. It includes:</p>
+                <p class="text-[15px] text-left my-8"><span class="font-bold text-gray-900">ア (Kyaria) development </span> lays focus on the essentials for acquiring a good career or diving into a highly competent one. It includes:</p>
                 <ul class="disk">
                     <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                             bis_skin_checked="1">
-                            <p class="col-span-2 text-red-600">7: Hallmark Certification + License
-                                <span class="block text-[12px] text-gray-800 font-[600]">Distinguish your profile with
-                                    global
-                                    credentials and showcase expertise with our Hallmark Completion certificate with
-                                    Professional License</span>
+                            <p class="col-span-2 text-red-600">7: 特徴 (Tokuchō) Certification + License
+                                <span class="block text-[12px] text-gray-800 font-[600]">Distinguish your profile with global credentials and showcase expertise with our 特徴 (Tokuchō) Completion certificate with Professional License</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2  " bis_skin_checked="1">
                                 <a target="_blank" href="https://youtu.be/LJH79vKhyXc"
@@ -585,11 +565,13 @@
                         </div>
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                             bis_skin_checked="1">
-                            <p class="col-span-2 text-red-600">8: Guaranteed Internship
-                                <span class="block text-[12px] text-gray-800 font-[600]">Get a guaranteed Internship
-                                    with Henry
-                                    Harvin® and in top MNCs like J.P. Morgan, Accenture &amp; many more via
-                                    Yuva Intern.</span>
+                            <p class="col-span-2 text-red-600">8: Internship Support
+                                <span class="block text-[12px] text-gray-800 font-[600]">Get Internship Support with Henry Harvin® and in top MNCs like J.P. Morgan, Accenture & many more via 100X Suite and 
+                                     <a
+                                        href="https://yuvaintern.com//"
+                                        class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
+                                            src="https://yuvaintern.com/assets/img/logo.png"
+                                            alt="Examopedia Logo" class="h-3">Yuva Intern</span> </a>.</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2  " bis_skin_checked="1">
                                 <a target="_blank" href="https://www.youtube.com/shorts/2od0SMHat-A">
@@ -612,10 +594,7 @@
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                             bis_skin_checked="1">
                             <p class="col-span-2 text-red-600">9: Entrepreneurship Mentorship
-                                <span class="block text-[12px] text-gray-800 font-[600]">Mentorship from Young
-                                    Successful
-                                    Entrepreneurs to set up a sustainable &amp; scalable Business from scratch at both
-                                    Freelance and entrepreneur levels</span>
+                                <span class="block text-[12px] text-gray-800 font-[600]">Mentorship from Young Successful Entrepreneurs to set up a sustainable & scalable Business from scratch at both Freelance & Entrepreneur level</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2  " bis_skin_checked="1">
                                 <a target="_blank"
@@ -637,10 +616,7 @@
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                             bis_skin_checked="1">
                             <p class="col-span-2 text-red-600">10: Placement Support
-                                <span class="block text-[12px] text-gray-800 font-[600]">Get 3 in 1 Placement support
-                                    through
-                                    Placement Drives, Premium access to Job portal &amp; Personalized Job
-                                    Consulting</span>
+                                <span class="block text-[12px] text-gray-800 font-[600]">Get 3 in 1 Placement support through Placement Drives, Premium access to the Job portal & Personalized Job Consulting</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2  " bis_skin_checked="1">
                                 <a target="_blank" href="https://www.youtube.com/shorts/KTb2gD30FNw">
@@ -869,7 +845,7 @@
 
 <section class="py-12 px-4 bg-gray-100">
     <div class="max-w-7xl mx-auto">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">7000+ Reviews
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">7000+ Reviews
             with 4.6/5 Avg Rating
         </h2>
         <div
@@ -966,7 +942,7 @@
 </section>
 <section class="py-12">
     <div class="max-w-7xl mx-auto px-4">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Accreditations &
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Accreditations &
             Affiliations
         </h2>
         <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -1036,7 +1012,7 @@
 
 <section class="py-12 bg-gray-100">
     <div class="max-w-7xl mx-auto px-4">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Testimonial
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Testimonial
             Videos
         </h2>
         <div class="relative">
@@ -1176,7 +1152,7 @@
 
 <section class="py-12 bg-gray-100">
     <div class="max-w-7xl mx-auto px-4">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Placement
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Placement
             Partners
         </h2>
         <div class="swiper linearswiper">
@@ -1301,7 +1277,7 @@
 
 <section class="py-12">
     <div class="max-w-7xl mx-auto">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Esteemed Faculty
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Esteemed Faculty
         </h2>
         <div class="relative w-wull mx-auto flex flex-row py-10">
 
@@ -1558,7 +1534,7 @@
 </section>
 
 <section class="py-12 px-4 bgpgray-100">
-    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Our Latest Updates!
+    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Our Latest Updates!
     </h2>
     <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 py-4 md:px-2">
         <!-- Card 1 -->
