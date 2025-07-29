@@ -727,7 +727,7 @@
     <div class="max-w-7xl mx-auto">
         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Esteemed Faculty
         </h2>
-        <div class="relative w-wull mx-auto flex flex-row py-10">
+        <div class="relative w-wull mx-auto flex flex-row py-4">
 
             <!-- Prev Button -->
             <div class="absolute inset-y-0 left-0 z-10 flex items-center">
@@ -1437,7 +1437,7 @@
         </div>
     </div>
 </section>
-<section class="py-12 px-4 bgpgray-100">
+{{-- <section class="py-12 px-4 bgpgray-100">
     <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Our Latest Updates!
     </h2>
     <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 py-4 md:px-2">
@@ -1497,7 +1497,7 @@
             <p class="text-xs text-gray-500 border-t border-red-500 bg-gray-200 mt-2 p-1">📅 June 9, 2025</p>
         </div>
     </div>
-</section>
+</section> --}}
 
 
 @endsection
