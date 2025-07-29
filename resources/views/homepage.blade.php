@@ -63,19 +63,19 @@
             <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753689366Japanese_Language_Courses.jpg" alt="">
             <div class=" h-full py-4">
                 <p class="text-[18px] font-[500] text-gray-900">Japanese Language Courses</p>
-                <p class="text-[16px] text-gray-700 mt-2 flex-grow">Extensive & intensive modules Weekdays, and weekend batch</p>
+                <p class="text-[16px] text-gray-700 mt-2 flex-grow">Extensive & intensive modules 平日 (Heijitsu) and 週末 (Shūmatsu) batch</p>
                 <div class="mt-2">
                     <ul class="">
-                        <li><a href="https://www.henryharvin.com/japanese-beginners-course" class="text-blue-600 hover:underline text-[14px] font-[600]">Japanese for Beginners Course</a></li>
-                        <li><a href="https://www.henryharvin.com/japanese-language-course" class="text-blue-600 hover:underline text-[14px] font-[600]">Japanese Language N5 Level Course</a></li>
-                        <li><a href="https://www.henryharvin.com/japanese-language-course" class="text-blue-600 hover:underline text-[14px] font-[600]">Japanese Language N4 Level Course</a></li>
-                        <li><a href="https://www.henryharvin.com/japanese-language-course" class="text-blue-600 hover:underline text-[14px] font-[600]">Japanese Language N3 Level Course</a></li>
-                        <li><a href="https://www.henryharvin.com/japanese-language-course" class="text-blue-600 hover:underline text-[14px] font-[600]">Japanese Language N3 Level Course</a></li>
-                        <li><a href="https://www.henryharvin.com/japanese-language-course" class="text-blue-600 hover:underline text-[14px] font-[600]">Japanese Language N1 Level Course</a></li>
-                        <li><a href="https://www.henryharvin.com/post-graduate-diploma-in-japanese-language-by-dbs" class="text-blue-600 hover:underline text-[14px] font-[600]">Post Graduate Diploma in Japanese Language by Dunster Business School</a></li>
-                        <li><a href="https://www.henryharvin.com/post-graduate-diploma-professional-in-japanese-language-by-dbs" class="text-blue-600 hover:underline text-[14px] font-[600]">Post Graduate Diploma Professional in Japanese Language by Dunster Business School</a></li>
-                        <li><a href="https://www.henryharvin.com/masters-in-japanese-language" class="text-blue-600 hover:underline text-[14px] font-[600]">Master’s in Japanese Language</a></li>
-                        <li><a href="https://www.henryharvin.com/migrate-japan" class="text-blue-600 hover:underline text-[14px] font-[600]">Migrate to Japan</a></li>
+                        <li><a href="https://www.henryharvin.com/japanese-beginners-course" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese for Beginners Course</a></li>
+                        <li><a href="https://www.henryharvin.com/japanese-language-course" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese Language N5 Level Course</a></li>
+                        <li><a href="https://www.henryharvin.com/japanese-language-course" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese Language N4 Level Course</a></li>
+                        <li><a href="https://www.henryharvin.com/japanese-language-course" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese Language N3 Level Course</a></li>
+                        <li><a href="https://www.henryharvin.com/japanese-language-course" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese Language N3 Level Course</a></li>
+                        <li><a href="https://www.henryharvin.com/japanese-language-course" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese Language N1 Level Course</a></li>
+                        <li><a href="https://www.henryharvin.com/post-graduate-diploma-in-japanese-language-by-dbs" class="text-red-600 hover:underline text-[14px] font-[600]">Post Graduate Diploma in Japanese Language by Dunster Business School</a></li>
+                        <li><a href="https://www.henryharvin.com/post-graduate-diploma-professional-in-japanese-language-by-dbs" class="text-red-600 hover:underline text-[14px] font-[600]">Post Graduate Diploma Professional in Japanese Language by Dunster Business School</a></li>
+                        <li><a href="https://www.henryharvin.com/masters-in-japanese-language" class="text-red-600 hover:underline text-[14px] font-[600]">Master’s in Japanese Language</a></li>
+                        <li><a href="https://www.henryharvin.com/migrate-japan" class="text-red-600 hover:underline text-[14px] font-[600]">Migrate to Japan</a></li>
                     </ul>
                 </div>
             </div>
@@ -84,17 +84,17 @@
             <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753694789Japanese_Occupational_Courses.jpg" alt="">
             <div class=" h-full py-4">
                 <p class="text-[18px] font-[500] text-gray-900">Japanese Occupational Courses</p>
-                <p class="text-[16px] text-gray-700 mt-2 flex-grow">Extensive & Intensive courses for individuals in corporate and business sector</p>
+                <p class="text-[16px] text-gray-700 mt-2 flex-grow">Extensive & Intensive courses for 個人 (Kojin) in corporate and business sector</p>
                 <div class="mt-4">
                     <ul class="">
-                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Business Japanese Course</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Corporate Business Japanese</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Career Japanese Course</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Business Japanese for Beginners</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Intercultural Business Japanese</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Japanese for Work – Hospitality / Nursing / IT</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Rocket Japanese</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Japanese for the Workplace</a></li>
+                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Business Japanese Course</a></li>
+                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Corporate Business Japanese</a></li>
+                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Career Japanese Course</a></li>
+                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Business Japanese for Beginners</a></li>
+                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Intercultural Business Japanese</a></li>
+                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese for Work – Hospitality / Nursing / IT</a></li>
+                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Rocket Japanese</a></li>
+                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese for the Workplace</a></li>
                     </ul>
                 </div>
             </div>
@@ -103,12 +103,12 @@
             <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753694973Japanese_Cross-Cultural_Courses.jpg" alt="">
             <div class=" h-full py-4">
                 <p class="text-[18px] font-[500] text-gray-900">Japanese Cross-Cultural Courses</p>
-                 <p class="text-[16px] text-gray-700 mt-2 flex-grow">For both Indian and Japanese Audiences (Seminar and Workshops)</p>
+                 <p class="text-[16px] text-gray-700 mt-2 flex-grow">Extensive & Intensive courses for 個人 (Kojin) in corporate and business sector</p>
                 <div class="mt-4">
                     <ul class="">
-                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Pre Departure Orientation Training & Placement</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Japanese Management Course</a></li>
-                        <li><a href="#" class="text-blue-600 hover:underline text-[14px] font-[600]">Cross-Cultural Sensitization for Engineers, Businessmen & Professionals</a></li>
+                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Pre Departure Orientation Training & Placement</a></li>
+                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese Management Course</a></li>
+                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Cross-Cultural Sensitization for Engineers, Businessmen & Professionals</a></li>
                     </ul>
                 </div>
             </div>
@@ -117,10 +117,10 @@
             <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753696001Japanese_Crash_Course.jpg" alt="">
             <div class=" h-full py-4">
                 <p class="text-[18px] font-[500] text-gray-900">Crash Course in Japanese Language</p>
-                <p class="text-[16px] text-gray-700 mt-2 flex-grow">Cover all the topics from N5 (basic) to N5 (advance) level, understand important and useful Japanese traditions and etiquettes</p>
+                <p class="text-[16px] text-gray-700 mt-2 flex-grow">Cover all the topics from N5 (basic) to N5 (advance) level, understand important and useful Japanese 伝統（Dentō) and etiquettes</p>
                 <div class="mt-4">
                     <ul class="">
-                        <li><a href="https://www.henryharvin.com/crash-course-for-japanese-language" class="text-blue-600 hover:underline text-[14px] font-[600]">Crash Course for Japanese Language</a></li>
+                        <li><a href="https://www.henryharvin.com/crash-course-for-japanese-language" class="text-red-600 hover:underline text-[14px] font-[600]">Crash Course for Japanese Language</a></li>
                     </ul>
                 </div>
             </div>
@@ -230,197 +230,138 @@
 
 
 </section>
+<section id="stats" class="py-12 bg-red-600 mx-auto px-4">
+    <div class="max-w-6xl mx-auto">
+        <!-- <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Key Highlight
+        </h2> -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
 
-<section class="py-12 px-4 bg-gray-100">
-    <div class="max-w-7xl mx-auto">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">7000+ Reviews
-            with 4.6/5 Avg Rating
-        </h2>
-        <div
-            class="relative max-w-[1200px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 py-4 gap-4 md:gap-8 my-1 rounded-lg">
-            <div
-                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
-                <div class="flex items-center justify-center">
-                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.8
-                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star-half text-red-700"></i></a>
+            <!-- Countries -->
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h3 class="text-4xl font-semibold text-center text-gray-800 mb-4">Countries</h3>
+                <div class="flex items-center justify-center gap-2">
+                    <p class="text-5xl font-bold text-red-600 count-up" data-count="97">0</p>
+                    <span class="text-6xl font-[600] text-red-600">+</span>
                 </div>
-                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733730860forbes.webp"
-                    alt="justdial">
             </div>
-            <div
-                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
-                <div class="flex items-center justify-center">
-                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.5
-                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star-half text-red-700"></i></a>
+
+            <!-- Enrolled Students -->
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h3 class="text-4xl font-semibold text-center text-gray-800 mb-4">Enrolled Students</h3>
+                <div class="flex items-center justify-center gap-2">
+                    <p class="text-5xl font-bold text-red-600 count-up" data-count="460000">0</p>
+                    <span class="text-6xl font-[600] text-red-600">+</span>
                 </div>
-                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1746770909ezgif.com-resize.png"
-                    alt="justdial">
+
             </div>
-            <div
-                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
-                <div class="flex items-center justify-center">
-                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.9
-                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i></a>
+
+            <!-- Established In -->
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h3 class="text-4xl font-semibold text-center text-gray-800 mb-4">Established in</h3>
+                <div class="flex items-center justify-center gap-2">
+                    <p class="text-5xl font-bold text-red-600 count-up" data-count="2013">0</p>
                 </div>
-                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1730089884544x180-BR-300x99-1.png"
-                    alt="mouthshut">
-            </div>
-            <div
-                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
-                <div class="flex items-center justify-center">
-                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">5.0
-                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i></a>
-                </div>
-                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1752832498wwd2e1.png"
-                    alt="edugorrilla">
-            </div>
-            <div
-                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
-                <div class="flex items-center justify-center">
-                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">5.0
-                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i></a>
-                </div>
-                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17196452202d2d (2).webp"
-                    alt="google">
-            </div>
-            <div
-                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
-                <div class="flex items-center justify-center">
-                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.5
-                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star-half text-red-700"></i></a>
-                </div>
-                <img class="h-16" src="https://cdn.henryharvin.com/gooo1.webp" alt="google">
-            </div>
-            <div
-                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
-                <div class="flex items-center justify-center">
-                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.6
-                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star-half text-red-700"></i></a>
-                </div>
-                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1746772870coursereport-.png"
-                    alt="google">
-            </div>
-            <div
-                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
-                <div class="flex items-center justify-center">
-                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.5
-                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star-half text-red-700"></i></a>
-                </div>
-                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/171964550223e23e23.webp"
-                    alt="google">
             </div>
         </div>
     </div>
 </section>
 
 
+
 <section class="py-12 bg-gray-100 mx-auto px-4">
     <div class="max-w-7xl mx-auto">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Key Highlights
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Why Kazumi Japanese & Culture School?
         </h2>
-        <div class="max-w-6xl mx-auto py-8 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-center">
+        <div class="py-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 text-center">
 
                 <!-- Live Online Classes -->
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
-                    <div class="text-red-600 mb-3">
-                        <i class="fa fa-video-camera text-6xl"></i>
+                    <div class="flex items-center justify-center mb-2">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753773279Globe.jpg" alt="">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Live Online Classes</h3>
-                    <p class="text-gray-700 text-[14px] mt-2">Join real-time interactive classes designed for flexible
-                        schedules, along with recorded lessons.</p>
+                    <h3 class="text-xl font-[600] text-red-600 mt-4">Global</h3>
+                    <p class="text-gray-700 text-[14px] mt-2">Kazumi offers a global learning 環境 (kankyō), with around 1200+ international 学生 (gakusei) enrolled from up to 80+ countries. This diverse setting is ideal for those seeking cross-cultural 交換 (kōkan).</p>
                 </div>
 
                 <!-- Personalized Learning -->
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
-                    <div class="text-red-600 mb-3">
-                        <i class="fa fa-user text-6xl"></i>
+                     <div class="flex items-center justify-center mb-2">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774841diagrams.jpg" alt="">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Personalized Learning</h3>
-                    <p class="text-gray-700 text-[14px] mt-2">Get access to various tools and learning options with our
-                        mobile application.</p>
+                    <h3 class="text-xl font-[600] text-red-600 mt-4">Objective Based</h3>
+                    <p class="text-gray-700 text-[14px] mt-2">Kazumi has over 12+ years of history and 伝統 (dentō), with an excellent track record in supporting international 学生 (gakusei) with their studies.</p>
                 </div>
 
                 <!-- Expert Trainers -->
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
-                    <div class="text-red-600 mb-3">
-                        <i class="fa fa-graduation-cap text-6xl"></i>
+                    <div class="flex items-center justify-center mb-2">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753773441agota.jpg" alt="">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Expert Trainers</h3>
-                    <p class="text-gray-700 text-[14px] mt-2">Learn from certified, highly experienced and passionate
-                        faculties.</p>
+                    <h3 class="text-xl font-[600] text-red-600 mt-4">Unique Pedagogical Model: Agota™ Framework</h3>
+                    <p class="text-gray-700 text-[14px] mt-2">Learn through innovative teaching methods that make learning easy and 実践的 (Jissen-teki). This framework essentially promotes the 能力 (Nōryoku) development and キャリア (Kyaria) development.</p>
                 </div>
 
                 <!-- JLPT Preparation Training -->
                 <div
                     class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center col-span-1 sm:col-span-1 md:col-span-1">
-                    <div class="text-red-600 mb-3">
-                        <i class="fa fa-pencil text-6xl"></i>
+                     <div class="flex items-center justify-center mb-2">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753773598teaching.jpg" alt="">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">JLPT Preparation Training</h3>
-                    <p class="text-gray-700 text-[14px] mt-2">Excel in the JLPT with our specialized modules, mock
-                        tests,
-                        personalized coaching, and JLPT-focused materials sourced directly from Japan.</p>
+                    <h3 class="text-xl font-[600] text-red-600 mt-4">Native Japanese Trainers</h3>
+                    <p class="text-gray-700 text-[14px] mt-2">Learn from certified, highly 経験豊富 (keiken hōfu) and 情熱的な (jōnetsu-teki na) faculties.</p>
                 </div>
 
                 <!-- Unique Learning Methods -->
                 <div
                     class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center col-span-1 sm:col-span-1 md:col-span-1">
-                    <div class="text-red-600 mb-3">
-                        <i class="fa fa-lightbulb-o text-6xl"></i>
+                     <div class="flex items-center justify-center mb-2">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753773736classes.jpg" alt="">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Unique Learning Methods</h3>
-                    <p class="text-gray-700 text-[14px] mt-2">Learn through innovative teaching methods that make
-                        learning
-                        easy and practical.</p>
+                    <h3 class="text-xl font-[600] text-red-600 mt-4">Live Online Classes</h3>
+                    <p class="text-gray-700 text-[14px] mt-2">Join real-time interactive クラス (Kurasu) designed for flexible schedules, along with recorded lessons.</p>
                 </div>
 
                 <!-- Practical Focus -->
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
-                    <div class="text-red-600 mb-3">
-                        <i class="fa fa-cogs text-6xl"></i>
+                     <div class="flex items-center justify-center mb-2">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753773786sheet.jpg" alt="">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Practical Focus</h3>
-                    <p class="text-gray-700 text-[14px] mt-2">Focus on gaining practical linguistics skills that can be
-                        applied to daily life, work and business.</p>
+                    <h3 class="text-xl font-[600] text-red-600 mt-4">JLPT Preparation Training</h3>
+                    <p class="text-gray-700 text-[14px] mt-2">Excel in the JLPT with our 専門的な (Senmon-teki na) modules, mock tests, personalized coaching, and JLPT-focused materials sourced directly from Japan.</p>
                 </div>
 
                 <!-- International Network -->
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
-                    <div class="text-red-600 mb-3">
-                        <i class="fa fa-globe text-6xl"></i>
+                    <div class="flex items-center justify-center mb-2">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753773842OccupationPrograms.jpg" alt="">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">International Network</h3>
-                    <p class="text-gray-700 text-[14px] mt-2">Join a diverse community of learners and professionals
-                        from
-                        around the world.</p>
+                    <h3 class="text-xl font-[600] text-red-600 mt-4">Japanese Occupational Programs</h3>
+                    <p class="text-gray-700 text-[14px] mt-2">At Kazumi, we offer programs that will help you build corporate, business and 職場 (shokuba) skills required to secure good 仕事 (shigoto) internationally.</p>
                 </div>
 
                 <!-- Cultural Training -->
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
-                    <div class="text-red-600 mb-3">
-                        <i class="fa fa-university text-6xl"></i>
+                     <div class="flex items-center justify-center mb-2">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774206culture.jpg" alt="">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Cultural Training</h3>
-                    <p class="text-gray-700 text-[14px] mt-2">Explore traditions, etiquettes, festivals, and practices
-                        used
-                        in an authentic environment.</p>
+                    <p class="text-gray-700 text-[14px] mt-2">Explore 伝統 (Dentō), etiquettes, festivals, and practices used in an authentic environment.</p>
+                </div>
+
+                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
+                     <div class="flex items-center justify-center mb-2">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774903Network.jpg" alt="">
+                    </div>
+                    <h3 class="text-xl font-[600] text-red-600 mt-4">International Network</h3>
+                    <p class="text-gray-700 text-[14px] mt-2">Join a diverse コミュニティ(Komyuniti) of learners and professionals from around the world.</p>
+                </div>
+                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
+                     <div class="flex items-center justify-center mb-2">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774339talking.jpg" alt="">
+                    </div>
+                    <h3 class="text-xl font-[600] text-red-600 mt-4">Internship for Japanese</h3>
+                    <p class="text-gray-700 text-[14px] mt-2">Kazumi provides Internship Support via Yuva Intern, India’s first バーチャル (bācharu) internship platform where you get to select from the best curated internships that match your skills and interests.</p>
                 </div>
 
             </div>
@@ -926,39 +867,100 @@
     </div>
 </section>
 
-<section id="stats" class="py-12 bg-red-600 mx-auto px-4">
-    <div class="max-w-6xl mx-auto">
-        <!-- <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Key Highlight
-        </h2> -->
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
-
-            <!-- Countries -->
-            <div class="bg-white shadow-md rounded-lg p-6">
-                <h3 class="text-4xl font-semibold text-center text-gray-800 mb-4">Countries</h3>
-                <div class="flex items-center justify-center gap-2">
-                    <p class="text-5xl font-bold text-red-600 count-up" data-count="97">0</p>
-                    <span class="text-6xl font-[600] text-red-600">+</span>
+<section class="py-12 px-4 bg-gray-100">
+    <div class="max-w-7xl mx-auto">
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">7000+ Reviews
+            with 4.6/5 Avg Rating
+        </h2>
+        <div
+            class="relative max-w-[1200px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 py-4 gap-4 md:gap-8 my-1 rounded-lg">
+            <div
+                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                <div class="flex items-center justify-center">
+                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.8
+                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star-half text-red-700"></i></a>
                 </div>
+                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733730860forbes.webp"
+                    alt="justdial">
             </div>
-
-            <!-- Enrolled Students -->
-            <div class="bg-white shadow-md rounded-lg p-6">
-                <h3 class="text-4xl font-semibold text-center text-gray-800 mb-4">Enrolled Students</h3>
-                <div class="flex items-center justify-center gap-2">
-                    <p class="text-5xl font-bold text-red-600 count-up" data-count="460000">0</p>
-                    <span class="text-6xl font-[600] text-red-600">+</span>
+            <div
+                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                <div class="flex items-center justify-center">
+                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.5
+                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star-half text-red-700"></i></a>
                 </div>
-
+                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1746770909ezgif.com-resize.png"
+                    alt="justdial">
             </div>
-
-            <!-- Established In -->
-            <div class="bg-white shadow-md rounded-lg p-6">
-                <h3 class="text-4xl font-semibold text-center text-gray-800 mb-4">Established in</h3>
-                <div class="flex items-center justify-center gap-2">
-                    <p class="text-5xl font-bold text-red-600 count-up" data-count="2013">0</p>
+            <div
+                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                <div class="flex items-center justify-center">
+                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.9
+                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i></a>
                 </div>
+                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1730089884544x180-BR-300x99-1.png"
+                    alt="mouthshut">
             </div>
-
+            <div
+                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                <div class="flex items-center justify-center">
+                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">5.0
+                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i></a>
+                </div>
+                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1752832498wwd2e1.png"
+                    alt="edugorrilla">
+            </div>
+            <div
+                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                <div class="flex items-center justify-center">
+                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">5.0
+                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i></a>
+                </div>
+                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17196452202d2d (2).webp"
+                    alt="google">
+            </div>
+            <div
+                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                <div class="flex items-center justify-center">
+                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.5
+                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star-half text-red-700"></i></a>
+                </div>
+                <img class="h-16" src="https://cdn.henryharvin.com/gooo1.webp" alt="google">
+            </div>
+            <div
+                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                <div class="flex items-center justify-center">
+                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.6
+                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star-half text-red-700"></i></a>
+                </div>
+                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1746772870coursereport-.png"
+                    alt="google">
+            </div>
+            <div
+                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                <div class="flex items-center justify-center">
+                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.5
+                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star-half text-red-700"></i></a>
+                </div>
+                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/171964550223e23e23.webp"
+                    alt="google">
+            </div>
         </div>
     </div>
 </section>
