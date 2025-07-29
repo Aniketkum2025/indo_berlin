@@ -48,7 +48,7 @@
                 </div>
 
                 <div class="hidden md:flex md:space-x-6">
-                    <a href="/" class="text-[#da2028] font-[600] text-[14px] py-6">Home</a>
+                    <a href="/" class="text-[#da2028] font-[600] text-[14px] py-6">家</a>
                     <div class="group relative">
                         <a href="#" class="flex items-center text-[#da2028] font-[600] text-[14px] space-x-1 py-6">
                             <span>Courses</span>
@@ -145,7 +145,7 @@
         </div>
 
         <div id="mobile-menu" class="md:hidden hidden bg-white border-t">
-            <a href="/" class="block px-4 py-2 text-[#da2028] font-[600] hover:bg-gray-100">Home</a>
+            <a href="/" class="block px-4 py-2 text-[#da2028] font-[600] hover:bg-gray-100">家</a>
 
             <div class="px-4 py-2">
                 <button onclick="toggleMobileSubmenu('courses')" class="text-[#da2028] font-[600]">Courses</button>

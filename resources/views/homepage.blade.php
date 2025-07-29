@@ -72,10 +72,10 @@
                         <li><a href="https://www.henryharvin.com/japanese-language-course" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese Language N3 Level Course</a></li>
                         <li><a href="https://www.henryharvin.com/japanese-language-course" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese Language N3 Level Course</a></li>
                         <li><a href="https://www.henryharvin.com/japanese-language-course" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese Language N1 Level Course</a></li>
-                        <li><a href="https://www.henryharvin.com/post-graduate-diploma-in-japanese-language-by-dbs" class="text-red-600 hover:underline text-[14px] font-[600]">Post Graduate Diploma in Japanese Language by Dunster Business School</a></li>
-                        <li><a href="https://www.henryharvin.com/post-graduate-diploma-professional-in-japanese-language-by-dbs" class="text-red-600 hover:underline text-[14px] font-[600]">Post Graduate Diploma Professional in Japanese Language by Dunster Business School</a></li>
+                        <li><a href="https://www.henryharvin.com/post-graduate-diploma-in-japanese-language-by-dbs" class="text-red-600 hover:underline text-[14px] font-[600]">Post Graduate Diploma in Japanese Language by Dunster Business School, Switzerland</a></li>
+                        <li><a href="https://www.henryharvin.com/post-graduate-diploma-professional-in-japanese-language-by-dbs" class="text-red-600 hover:underline text-[14px] font-[600]">Post Graduate Diploma Professional in Japanese Language by Dunster Business School, Switzerland</a></li>
                         <li><a href="https://www.henryharvin.com/masters-in-japanese-language" class="text-red-600 hover:underline text-[14px] font-[600]">Master’s in Japanese Language</a></li>
-                        <li><a href="https://www.henryharvin.com/migrate-japan" class="text-red-600 hover:underline text-[14px] font-[600]">Migrate to Japan</a></li>
+                        <li><a href="https://www.henryharvin.com/migrate-japan" class="text-red-600 hover:underline text-[14px] font-[600]">Migrate to Japan Course</a></li>
                     </ul>
                 </div>
             </div>
@@ -88,13 +88,13 @@
                 <div class="mt-4">
                     <ul class="">
                         <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Business Japanese Course</a></li>
-                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Corporate Business Japanese</a></li>
+                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Corporate Business Japanese Course</a></li>
                         <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Career Japanese Course</a></li>
-                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Business Japanese for Beginners</a></li>
-                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Intercultural Business Japanese</a></li>
+                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Business Japanese for Beginners Course</a></li>
+                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Intercultural Business Japanese Course</a></li>
                         <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese for Work – Hospitality / Nursing / IT</a></li>
                         <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Rocket Japanese</a></li>
-                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese for the Workplace</a></li>
+                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese for the Workplace Course</a></li>
                     </ul>
                 </div>
             </div>
@@ -106,7 +106,7 @@
                  <p class="text-[16px] text-gray-700 mt-2 flex-grow">Extensive & Intensive courses for 個人 (Kojin) in corporate and business sector</p>
                 <div class="mt-4">
                     <ul class="">
-                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Pre Departure Orientation Training & Placement</a></li>
+                        <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Pre Departure Orientation Training & Placement Course</a></li>
                         <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese Management Course</a></li>
                         <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Cross-Cultural Sensitization for Engineers, Businessmen & Professionals</a></li>
                     </ul>
@@ -117,7 +117,7 @@
             <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753696001Japanese_Crash_Course.jpg" alt="">
             <div class=" h-full py-4">
                 <p class="text-[18px] font-[500] text-gray-900">Crash Course in Japanese Language</p>
-                <p class="text-[16px] text-gray-700 mt-2 flex-grow">Cover all the topics from N5 (basic) to N5 (advance) level, understand important and useful Japanese 伝統（Dentō) and etiquettes</p>
+                <p class="text-[16px] text-gray-700 mt-2 flex-grow">Cover all the topics from N5 (basic) to N1 (advance) level, understand important and useful Japanese 伝統（Dentō) and etiquettes</p>
                 <div class="mt-4">
                     <ul class="">
                         <li><a href="https://www.henryharvin.com/crash-course-for-japanese-language" class="text-red-600 hover:underline text-[14px] font-[600]">Crash Course for Japanese Language</a></li>
@@ -234,13 +234,13 @@
     <div class="max-w-6xl mx-auto">
         <!-- <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Key Highlight
         </h2> -->
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             <!-- Countries -->
             <div class="bg-white shadow-md rounded-lg p-6">
                 <h3 class="text-4xl font-semibold text-center text-gray-800 mb-4">Countries</h3>
                 <div class="flex items-center justify-center gap-2">
-                    <p class="text-5xl font-bold text-red-600 count-up" data-count="97">0</p>
+                    <p class="text-5xl font-bold text-red-600 count-up" data-count="97">97</p>
                     <span class="text-6xl font-[600] text-red-600">+</span>
                 </div>
             </div>
@@ -249,7 +249,7 @@
             <div class="bg-white shadow-md rounded-lg p-6">
                 <h3 class="text-4xl font-semibold text-center text-gray-800 mb-4">Enrolled Students</h3>
                 <div class="flex items-center justify-center gap-2">
-                    <p class="text-5xl font-bold text-red-600 count-up" data-count="460000">0</p>
+                    <p class="text-5xl font-bold text-red-600">4,60,000</p>
                     <span class="text-6xl font-[600] text-red-600">+</span>
                 </div>
 
@@ -259,7 +259,7 @@
             <div class="bg-white shadow-md rounded-lg p-6">
                 <h3 class="text-4xl font-semibold text-center text-gray-800 mb-4">Established in</h3>
                 <div class="flex items-center justify-center gap-2">
-                    <p class="text-5xl font-bold text-red-600 count-up" data-count="2013">0</p>
+                    <p class="text-5xl font-bold text-red-600 count-up" data-count="2013">2013</p>
                 </div>
             </div>
         </div>
@@ -270,8 +270,11 @@
 
 <section class="py-12 bg-gray-100 mx-auto px-4">
     <div class="max-w-7xl mx-auto">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Why Kazumi Japanese & Culture School?
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize mt-4 mb-2">Why Kazumi Japanese & Culture School?
         </h2>
+        <p class="text-[16px] font-[600] text-gray-800 mb-4 text-center">
+            なぜカズミ日本語・文化学校なのか？
+        </p>
         <div class="py-8">
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 text-center">
 
@@ -298,7 +301,7 @@
                     <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753773441agota.jpg" alt="">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Unique Pedagogical Model: Agota™ Framework</h3>
+                    <h3 class="text-xl font-[600] text-red-600 mt-4">Unique 10 in 1 Program: Agota™ Framework</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Learn through innovative teaching methods that make learning easy and 実践的 (Jissen-teki). This framework essentially promotes the 能力 (Nōryoku) development and キャリア (Kyaria) development.</p>
                 </div>
 
@@ -979,8 +982,11 @@
 </section>
 <section class="py-12 bg-gray-100">
     <div class="max-w-7xl mx-auto px-4">
-         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Life in Japan
+         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize mt-4 mb-2">Life in Japan
         </h2>
+             <p class="text-[16px] font-[600] text-gray-800 mb-2 text-center">
+                   日本での生活 (Nihon de no seikatsu)
+                </p>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                <div class="mt-4 relative">
                 <img class="agota_image sticky" alt="agota frame"
@@ -988,9 +994,7 @@
                 src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753788535japan's_national_day_(1).jpg" alt="">
                </div>
                <div class="mt-6">
-                <p class="text-[16px] font-[600] text-gray-800 mb-2">
-                   日本での生活 (Nihon de no seikatsu)
-                </p>
+                
                 <p class="text-[14px] text-gray-700 mb-2">
                    As of 2025, Japan ranks 11th in the world for quality of life, while coming 3rd in the world for quality of healthcare, and 6th for safety. The Japanese landscape offers a little bit of everything. The northernmost region (Hokkaido) is renowned for its mountains and winter sports. In the southern part, the sandy beaches of the Okinawan island are a delight comparable to Hawaii and Mauritius. In-between is the mainland of Honshu, where major metropolitan cities dominate the landscape.
                 </p>
@@ -1009,14 +1013,15 @@
 </section>
 <section class="py-12 bg-gray-100">
     <div class="max-w-7xl mx-auto px-4">
-         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Jobs & Careers in Japan
+         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize mt-4 mb-2">Jobs & Careers in Japan
         </h2>
+         <p class="text-[16px] font-[600] text-gray-800 mb-4 text-center">
+                日本での仕事とキャリア(Nihon de no shigoto to kyaria)
+            </p>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
               
                <div>
-                <p class="text-[16px] font-[600] text-gray-800 mb-2">
-                   日本での仕事とキャリア(Nihon de no shigoto to kyaria)
-                </p>
+               
                 <p class="text-[14px] text-gray-700 mb-4">
                     Japan is actively expanding opportunities for international talent. Japanese employers prioritize candidates who can provide immediate expertise, possess strong communication skills, independence, and a cooperative attitude.
                 </p>
@@ -1040,18 +1045,25 @@
                 <!-- Popular Sectors -->
                 <div>
                     <h2 class="text-[16px] font-[600] text-gray-800 mb-2">人気 (Ninki) Sectors for International Hires</h2>
-                    <ul class="list-disc list-inside space-y-1 text-[14px] text-gray-700">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      <ul class="list-disc list-inside space-y-1 text-[14px] text-gray-700">
                         <li>Information Technology</li>
                         <li>Finance</li>
                         <li>Education</li>
                         <li>Translation & Interpretations</li>
                         <li>Government and Diplomatic Roles</li>
+                       
+                    </ul>
+                     <ul class="list-disc list-inside space-y-1 text-[14px] text-gray-700">
+                       
                         <li>Travel, Tourism, and Hospitality</li>
                         <li>International Business</li>
                         <li>Research & Publishing</li>
                         <li>Journalism</li>
                         <li>Entertainment</li>
                     </ul>
+                    </div>
+                    
                 </div>
                </div>
                 <div class="mt-4 relative" bis_skin_checked="1">
