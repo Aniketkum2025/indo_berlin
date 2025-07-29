@@ -86,7 +86,7 @@
       Our clientele
     </p>
 
-    <h2 class="text-3xl md:text-4xl font-bold text-red-800 uppercase">
+    <h2 class="text-3xl md:text-4xl font-bold text-red-800 capitalize">
      Start Your Journey at Kazumi
     </h2>
 

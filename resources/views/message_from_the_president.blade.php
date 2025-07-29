@@ -13,7 +13,7 @@
         <!-- Content Overlay -->
         <div
             class="relative z-10 flex flex-col justify-center items-center h-full text-center text-white bg-black bg-opacity-30">
-            <p class="uppercase text-2xl md:text-4xl tracking-widest mb-4"
+            <p class="capitalize text-2xl md:text-4xl tracking-widest mb-4"
                 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Welcome to Kazumi Japanese & Culture School.</p>
             <h1 class="text-xl md:text-2xl tracking-widest mb-6">Discover a new standard of Japanese Education and
                 Culture.</h1>

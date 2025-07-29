@@ -48,7 +48,7 @@
         <!-- Content Overlay -->
         <div
             class="relative z-10 flex flex-col justify-center items-center h-full text-center text-white bg-black bg-opacity-30">
-            <p class="uppercase text-2xl md:text-4xl tracking-widest mb-4"
+            <p class="capitalize text-2xl md:text-4xl tracking-widest mb-4"
                 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">private online lessons</p>
             <!-- <h1 class="text-xl md:text-2xl tracking-widest mb-6">Discover a new standard of Japanese Education and
                 Culture.</h1> -->
@@ -67,7 +67,7 @@
 <section class="py-12 px-4">
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mt-2">
         <div class="md:col-span-2">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 uppercase">Key Highlights</h2>
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Key Highlights</h2>
             <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mx-auto gap-2">
                 <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2 " x-data="accordion(1609)">
                     <div @click="handleClick()" class="flex items-start gap-2">
@@ -370,7 +370,7 @@
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div class="md:col-span-2">
             <div class="md:px-4 p-3 border-2 border-red-700">
-                <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">About
+                <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">About
                     Japanese Language Course
                 </h2>
                 <div class="custome prose prose-sm mt-4 max-w-none mx-auto 
@@ -792,7 +792,7 @@
                 </button>
             </div>
             <div class="text-center py-10">
-                <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">COURSE
+                <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">COURSE
                     FEATURES </h2>
 
                 <div
@@ -908,7 +908,7 @@
 </section>
 <section class="py-12 px-4">
     <div class="max-w-7xl mx-auto">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 uppercase">Japanese Language Course
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Japanese Language Course
             Curriculum</h2>
 
         <ul class="flex flex-col max-w-5xl mx-auto space-y-3">
@@ -999,7 +999,7 @@
 </section>
 <section class="py-12 bg-gray-100">
     <div class="max-w-7xl mx-auto px-4">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Placed Learners
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Placed Learners
         </h2>
         <div class="swiper linearswiper">
             <div class="swiper-wrapper my-4" style="transition-timing-function: linear !important;">
@@ -1136,7 +1136,7 @@
 </section>
 <section class="py-12 bg-gray-50">
     <div class="max-w-6xl mx-auto px-4" x-data="{ activeTab: 'tab1' }">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 uppercase">Our Certification </h2>
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Our Certification </h2>
 
         <div class="bg-white shadow-lg rounded-xl p-6">
             <!-- Tabs -->
@@ -1189,7 +1189,7 @@
 </section>
 <section class="py-12">
     <div class="max-w-6xl mx-auto px-4">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 uppercase">Skills Covered</h2>
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Skills Covered</h2>
         <div class="grid md:grid-cols-3 gap-4">
             <div class="flex items-start space-x-3">
                 <i
@@ -1227,7 +1227,7 @@
 </section>
 <section class="py-12">
     <div class="max-w-6xl mx-auto px-4">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 uppercase">Job Profiles</h2>
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Job Profiles</h2>
         <div class="grid md:grid-cols-3 gap-4">
             <div class="flex items-start space-x-3">
                 <i
@@ -1279,7 +1279,7 @@
 </section>
 <section class="py-12 bg-gray-50">
     <div class="max-w-6xl mx-auto px-4">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 uppercase">FAQ</h2>
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">FAQ</h2>
         <div class="my-6">
             <ul class="flex flex-col border-2 shadow-lg" x-data="{ selected: null }">
                 <!-- FAQ Item 1 -->
@@ -1362,7 +1362,7 @@
 </section>
 <section class="py-12 mx-auto px-4">
     <div class="max-w-6xl mx-auto" bis_skin_checked="1">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Agota™ Framework
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Agota™ Framework
         </h2>
         <p class="text-[16px] text-gray-800 font-[600] text-center">It is a trajectory that offers complete growth of an
             individual incorporating

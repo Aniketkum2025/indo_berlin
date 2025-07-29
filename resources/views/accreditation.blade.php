@@ -2,7 +2,7 @@
 @section('content')
 <section class="py-12">
     <div class="max-w-7xl mx-auto px-4">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">Accreditations &amp;
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Accreditations &amp;
             Affiliations
         </h2>
         <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">

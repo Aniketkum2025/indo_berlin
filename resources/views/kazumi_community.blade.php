@@ -38,7 +38,7 @@
       Foster a global mindset, fuel career ambitions and celebrate diversity.
     </p>
 
-    <h2 class="text-3xl md:text-4xl font-bold text-red-800 uppercase">
+    <h2 class="text-3xl md:text-4xl font-bold text-red-800 capitalize">
       Join Kazumi Community
     </h2>
 

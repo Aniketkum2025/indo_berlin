@@ -2,7 +2,7 @@
 @section('content')
 <section class="py-12 bg-gray-100 mx-auto px-4">
     <div class="max-w-7xl mx-auto">
-        <h2 style="place-self: center;" class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">
+        <h2 style="place-self: center;" class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">
             Henry Harvin Course Inquiry
         </h2>
         <div class=" w-full" bis_skin_checked="1">
@@ -37,7 +37,7 @@
             </div>
         </div>
 
-        <h2 style="place-self: center;" class="mt-2 text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] uppercase my-4">
+        <h2 style="place-self: center;" class="mt-2 text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">
                 Henry Harvin Customer Support
         </h2>
         <div class="w-full" bis_skin_checked="1">
