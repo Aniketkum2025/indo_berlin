@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+{{-- welcome setion --}}
 <section>
     <div class="relative w-full h-screen overflow-hidden" style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1753693794WhatsApp_Image_2025-07-28_at_2.25.31_PM.jpeg); background-position: top;">
         <!-- Video Background -->
@@ -54,6 +55,7 @@
     </div>
 </section>
 
+{{-- courses section --}}
 <section id="course_section" class="py-12 px-4 max-w-7xl mx-auto">
     <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Courses
     </h2>
@@ -230,6 +232,246 @@
 
 
 </section>
+
+{{-- vedio section --}}
+<section class="py-12 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Testimonial
+            Videos
+        </h2>
+        <div class="relative">
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
+                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HAI_ZAMooLk?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review By Sachet | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/K4NAAHCtbo8?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review By Anupam | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mZkFP1ZWJv4?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/YqdggC5M90s?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review by Khushi Goswami | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/L9QZCK1P5O0?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review by Khushi Jain | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JYPNfkyyx08?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review by Vandana | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BooTihSy8dA?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Review by Tarni | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/h2558oOB2GM?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review by  Rayajiri Kumar | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/uggeKrYDD1s?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review by Mayuresh | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/RvJ-DSVFVv4?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Review by Vasundhara | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2vKgb2MJlzI?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Review by Pravallika | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/LCPhZuc1RqQ?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Review by Tanisha | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TQM2QkyQ9eE?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Review by Vivek Saini | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_BMlRAi9dK8?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Reviews | Best Japanese Language Course Online | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/pfkbInIwD6Q?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Reviews | Best Japanese Language Course Online  | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5rIlYy7SO08?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review By Muskan | Best Japanese Language Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/O_yLL2aNXTY?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Reviews | Best Japanese Language Course Online  | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                                <div class="">
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bsPvt3xJTEc?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Review by Prashub | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                 
+            </div>
+        </div>
+
+    </div>
+</section>
+ 
+{{-- reviews section --}}
+<section class="py-12 px-4 bg-gray-100">
+    <div class="max-w-7xl mx-auto">
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">7000+ Reviews
+            with 4.6/5 Avg Rating
+        </h2>
+        <div
+            class="relative max-w-[1200px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 py-4 gap-4 md:gap-8 my-1 rounded-lg">
+            <div
+                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                <div class="flex items-center justify-center">
+                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.8
+                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star-half text-red-700"></i></a>
+                </div>
+                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733730860forbes.webp"
+                    alt="justdial">
+            </div>
+            <div
+                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                <div class="flex items-center justify-center">
+                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.5
+                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star-half text-red-700"></i></a>
+                </div>
+                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1746770909ezgif.com-resize.png"
+                    alt="justdial">
+            </div>
+            <div
+                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                <div class="flex items-center justify-center">
+                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.9
+                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i></a>
+                </div>
+                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1730089884544x180-BR-300x99-1.png"
+                    alt="mouthshut">
+            </div>
+            <div
+                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                <div class="flex items-center justify-center">
+                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">5.0
+                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i></a>
+                </div>
+                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1752832498wwd2e1.png"
+                    alt="edugorrilla">
+            </div>
+            <div
+                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                <div class="flex items-center justify-center">
+                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">5.0
+                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i></a>
+                </div>
+                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17196452202d2d (2).webp"
+                    alt="google">
+            </div>
+            <div
+                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                <div class="flex items-center justify-center">
+                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.5
+                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star-half text-red-700"></i></a>
+                </div>
+                <img class="h-16" src="https://cdn.henryharvin.com/gooo1.webp" alt="google">
+            </div>
+            <div
+                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                <div class="flex items-center justify-center">
+                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.6
+                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star-half text-red-700"></i></a>
+                </div>
+                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1746772870coursereport-.png"
+                    alt="google">
+            </div>
+            <div
+                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                <div class="flex items-center justify-center">
+                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.5
+                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                            class="fa fa-star-half text-red-700"></i></a>
+                </div>
+                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/171964550223e23e23.webp"
+                    alt="google">
+            </div>
+        </div>
+    </div>
+</section>
 <section id="stats" class="py-12 bg-red-600 mx-auto px-4">
     <div class="max-w-6xl mx-auto">
         <!-- <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Key Highlight
@@ -266,8 +508,7 @@
     </div>
 </section>
 
-
-
+{{-- why kazumi section--}}
 <section class="py-12 bg-gray-100 mx-auto px-4">
     <div class="max-w-7xl mx-auto">
         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize mt-4 mb-2">Why Kazumi Japanese & Culture School?
@@ -372,6 +613,464 @@
 
     </div>
 </section>
+
+{{-- Accreditations & Affiliations section--}}
+<section class="py-12">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Accreditations &
+            Affiliations
+        </h2>
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Card 1 -->
+            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
+                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1724768847Screenshot_2024-08-27_190332.png"
+                        alt="AAEFL" class="h-28 w-auto">
+                </div>
+
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
+                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753255971sxsssswc.PNG" alt="AAEFL"
+                        class=" h-28 w-auto">
+                </div>
+
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
+                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1726071455watts_we_logo_jft.png" alt="AAEFL"
+                        class=" h-28 w-auto">
+                </div>
+
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
+                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1736849226DBS_C-01.png" alt="AAEFL"
+                        class=" h-28 w-auto">
+                </div>
+
+            </div>
+            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
+                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
+                    <img src="https://flism.org/wp-content/uploads/2025/01/Logo_Florida_7.jpg" alt="AAEFL"
+                        class=" h-16 w-auto">
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
+                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753256081hhlogo.png" alt="AAEFL"
+                        class=" h-16 w-auto">
+                </div>
+            </div>
+            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
+                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
+                    <img src="https://kodakco.sgp1.cdn.digitaloceanspaces.com/1702461434kodacko.webp" alt="AAEFL"
+                        class=" h-16 w-auto">
+                </div>
+            </div>
+            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
+                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1744023905ezgif.com-crop_(7).webp" alt="AAEFL"
+                        class=" h-24 w-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{-- placement partners section --}}
+<section class="py-12 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-4">
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Placement
+            Partners
+        </h2>
+        <div class="swiper linearswiper">
+            <div class="swiper-wrapper my-4" style="transition-timing-function: linear !important;">
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753867920200000000138112_1TCS_NewLogo_Final_CMYK.png" alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753867955images.png" alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868038images_(1).png" alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868067images_(2).png" alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868099sdl-logo-png_seeklogo-347042.png" alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175386813502c4095c-f9fa-4d70-be49-63ba162289e2_thumb.jpg" alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868252images_(3).png" alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868291images_(4).png" alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868344images_(5).png" alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868383images_(6).png" alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868430FirstStudy.jpg" alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868553Hotsuma.jpg" alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868596Human.jpg"
+                        alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868637Linguage.jpg"
+                        alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868755JCCIC.png"
+                        alt="images-8">
+                </div>
+                {{-- <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141398ezgif.com-webp-maker_(6).webp"
+                        alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141500ezgif.com-webp-maker_(4).webp"
+                        alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141519aws.png" alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141551issa.png" alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141068ezgif.com-webp-maker_(21).webp"
+                        alt="images-8">
+                </div>
+                <div
+                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
+                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141094ezgif.com-webp-maker_(19).webp"
+                        alt="images-8">
+                </div> --}}
+            </div>
+        </div>
+    </div>
+</section>
+
+{{-- esteemed faculty section --}}
+<section class="py-12">
+    <div class="max-w-7xl mx-auto">
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Esteemed Faculty
+        </h2>
+        <div class="relative w-wull mx-auto flex flex-row py-4">
+
+            <!-- Prev Button -->
+            <div class="absolute inset-y-0 left-0 z-10 flex items-center">
+                <div class="swiper-button-prev flex justify-center items-center text-[14px] text-red-600 custom">
+                </div>
+            </div>
+
+            <!-- Swiper -->
+            <div class="swiper mySwiper swiper-container w-full">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide p-8 lg:p-8">
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
+                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                            <div class="rounded-2xl">
+                                <img class="h-full w-full object-cover rounded-2xl"
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522620Varsha_Mehroliya.jpg" alt="">
+                            </div>
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Varsha Mehroliya
+                                </h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">5+ Years
+                                    Of Experience</h2>
+                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-8 lg:p-8">
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
+                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                            <div class="rounded-2xl">
+                                <img class="h-full w-full object-cover rounded-2xl"
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522683Sonali_Srivastava_(1).jpg" alt="">
+                            </div>
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Sonali Srivastava
+                                </h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
+                                    Of Experience</h2>
+                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-slide p-8 lg:p-8">
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
+                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                            <div class="rounded-2xl">
+                                <img class="h-full w-full object-cover rounded-2xl"
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532613282nd.webp" alt="">
+                            </div>
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Sonali Srivastava
+                                </h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">3+ Years
+                                    Of Experience</h2>
+                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="swiper-slide p-8 lg:p-8">
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
+                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                            <div class="rounded-2xl">
+                                <img class="h-full w-full object-cover rounded-2xl"
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532671153rd.webp" alt="">
+                            </div>
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Claire</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
+                                    Of Experience</h2>
+                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-8 lg:p-8">
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
+                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                            <div class="rounded-2xl">
+                                <img class="h-full w-full object-cover rounded-2xl"
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523883sucheta_(1).jpg" alt="">
+                            </div>
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Sucheta Patil</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">9+ Years
+                                    Of Experience</h2>
+                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-8 lg:p-8">
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
+                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                            <div class="rounded-2xl">
+                                <img class="h-full w-full object-cover rounded-2xl"
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523973Swagata.jpg" alt="">
+                            </div>
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Swagata</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">5+ Years
+                                    Of Experience</h2>
+                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-8 lg:p-8">
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
+                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                            <div class="rounded-2xl">
+                                <img class="h-full w-full object-cover rounded-2xl"
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524020siddharth.jpg" alt="">
+                            </div>
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Siddharth Chopra</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
+                                    Of Experience</h2>
+                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-8 lg:p-8">
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
+                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                            <div class="rounded-2xl">
+                                <img class="h-full w-full object-cover rounded-2xl"
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753786854Saniya_Parchure_(1).jpg" alt="">
+                            </div>
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Saniya Parchure</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">7+ Years
+                                    Of Experience</h2>
+                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-8 lg:p-8">
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
+                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                            <div class="rounded-2xl">
+                                <img class="h-full w-full object-cover rounded-2xl"
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753856360Aditya.jpg" alt="">
+                            </div>
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Aditya</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">7+ Years
+                                    Of Experience</h2>
+                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide p-8 lg:p-8">
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
+                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                            <div class="rounded-2xl">
+                                <img class="h-full w-full object-cover rounded-2xl"
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753786915Apeksha.jpg" alt="">
+                            </div>
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Apeksha</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
+                                    Of Experience</h2>
+                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                            </div>
+                        </div>
+                    </div>
+                    {{-- <div class="swiper-slide p-8 lg:p-8">
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
+                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                            <div class="rounded-2xl">
+                                <img class="h-full w-full object-cover rounded-2xl"
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532613282nd.webp" alt="">
+                            </div>
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Hiroshi Matano</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
+                                    Of Experience</h2>
+                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                            </div>
+                        </div>
+                    </div> --}}
+                    <div class="swiper-slide p-8 lg:p-8">
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
+                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                            <div class="rounded-2xl">
+                                <img class="h-full w-full object-cover rounded-2xl"
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524239Prachi.jpg" alt="">
+                            </div>
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Prachi</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
+                                    Of Experience</h2>
+                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-8 lg:p-8">
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
+                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                            <div class="rounded-2xl">
+                                <img class="h-full w-full object-cover rounded-2xl"
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753787152Abha.jpg" alt="">
+                            </div>
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Abha</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">5+ Years
+                                    Of Experience</h2>
+                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-8 lg:p-8">
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
+                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                            <div class="rounded-2xl">
+                                <img class="h-full w-full object-cover rounded-2xl"
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753268551malini.webp" alt="">
+                            </div>
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Malini</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
+                                    Of Experience</h2>
+                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                            </div>
+                        </div>
+                    </div>
+                    {{-- <div class="swiper-slide p-8 lg:p-8">
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
+                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                            <div class="rounded-2xl">
+                                <img class="h-full w-full object-cover rounded-2xl"
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753268583shivalika.webp" alt="">
+                            </div>
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Shivalika</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">7+ Years
+                                    Of Experience</h2>
+                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                            </div>
+                        </div>
+                    </div> --}}
+                </div>
+            </div>
+
+            <!-- Next Button -->
+            <div class="absolute inset-y-0 right-0 z-10 flex items-center">
+                <div class="swiper-button-next flex justify-center items-center text-[14px] text-red-600 custom">
+                </div>
+            </div>
+        </div>
+        <div class="mt-4 flex justify-center items-center">
+            <a href="/esteemed-faculty" class="bg-red-500 text-white text-[14px] px-6 py-2 rounded hover:bg-red-600">View More</a>
+        </div>
+    </div>
+</section>
+
+{{-- Agota™ Framework section --}}
 <section class="py-12 mx-auto px-4">
     <div class="max-w-6xl mx-auto" bis_skin_checked="1">
         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-2 text-[#da2028] capitalize my-4">Agota™ Framework
@@ -653,334 +1352,7 @@
     </div>
 </section>
 
-
-<section class="py-12">
-    <div class="max-w-7xl mx-auto px-4">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Accreditations &
-            Affiliations
-        </h2>
-        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <!-- Card 1 -->
-            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
-                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1724768847Screenshot_2024-08-27_190332.png"
-                        alt="AAEFL" class="h-28 w-auto">
-                </div>
-
-            </div>
-
-            <!-- Card 2 -->
-            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
-                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753255971sxsssswc.PNG" alt="AAEFL"
-                        class=" h-28 w-auto">
-                </div>
-
-            </div>
-
-            <!-- Card 3 -->
-            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
-                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1726071455watts_we_logo_jft.png" alt="AAEFL"
-                        class=" h-28 w-auto">
-                </div>
-
-            </div>
-
-            <!-- Card 4 -->
-            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
-                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1736849226DBS_C-01.png" alt="AAEFL"
-                        class=" h-28 w-auto">
-                </div>
-
-            </div>
-            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
-                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://flism.org/wp-content/uploads/2025/01/Logo_Florida_7.jpg" alt="AAEFL"
-                        class=" h-16 w-auto">
-                </div>
-            </div>
-            <!-- Card 5 -->
-            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
-                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753256081hhlogo.png" alt="AAEFL"
-                        class=" h-16 w-auto">
-                </div>
-            </div>
-            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
-                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://kodakco.sgp1.cdn.digitaloceanspaces.com/1702461434kodacko.webp" alt="AAEFL"
-                        class=" h-16 w-auto">
-                </div>
-            </div>
-            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
-                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1744023905ezgif.com-crop_(7).webp" alt="AAEFL"
-                        class=" h-24 w-auto">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="py-12">
-    <div class="max-w-7xl mx-auto">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Esteemed Faculty
-        </h2>
-        <div class="relative w-wull mx-auto flex flex-row py-4">
-
-            <!-- Prev Button -->
-            <div class="absolute inset-y-0 left-0 z-10 flex items-center">
-                <div class="swiper-button-prev flex justify-center items-center text-[14px] text-red-600 custom">
-                </div>
-            </div>
-
-            <!-- Swiper -->
-            <div class="swiper mySwiper swiper-container w-full">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522620Varsha_Mehroliya.jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Varsha Mehroliya
-                                </h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">5+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522683Sonali_Srivastava_(1).jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Sonali Srivastava
-                                </h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532613282nd.webp" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Sonali Srivastava
-                                </h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">3+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div> -->
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532671153rd.webp" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Claire</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523883sucheta_(1).jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Sucheta Patil</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">9+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523973Swagata.jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Swagata</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">5+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524020siddharth.jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Siddharth Chopra</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753786854Saniya_Parchure_(1).jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Saniya Parchure</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">7+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753856360Aditya.jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Aditya</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">7+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753786915Apeksha.jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Apeksha</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    {{-- <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532613282nd.webp" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Hiroshi Matano</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div> --}}
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524239Prachi.jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Prachi</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753787152Abha.jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Abha</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">5+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753268551malini.webp" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Malini</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    {{-- <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753268583shivalika.webp" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Shivalika</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">7+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div> --}}
-                </div>
-            </div>
-
-            <!-- Next Button -->
-            <div class="absolute inset-y-0 right-0 z-10 flex items-center">
-                <div class="swiper-button-next flex justify-center items-center text-[14px] text-red-600 custom">
-                </div>
-            </div>
-        </div>
-        <div class="mt-4 flex justify-center items-center">
-            <a href="/esteemed-faculty" class="bg-red-500 text-white text-[14px] px-6 py-2 rounded hover:bg-red-600">View More</a>
-        </div>
-    </div>
-</section>
+{{-- life in japan section --}}
 <section class="py-12 bg-gray-100">
     <div class="max-w-7xl mx-auto px-4">
          <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize mt-4 mb-2">Life in Japan
@@ -1012,6 +1384,8 @@
         </div>
     </div>
 </section>
+
+{{-- Jobs & Careers in Japan --}}
 <section class="py-12 bg-gray-100">
     <div class="max-w-7xl mx-auto px-4">
          <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize mt-4 mb-2">Jobs & Careers in Japan
@@ -1075,369 +1449,21 @@
     </div>
 </section>
 
-<section class="py-12 bg-gray-100">
-    <div class="max-w-7xl mx-auto px-4">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Testimonial
-            Videos
-        </h2>
-        <div class="relative">
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
-                <div class="">
-                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HAI_ZAMooLk?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review By Sachet | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                                <div class="">
-                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/K4NAAHCtbo8?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review By Anupam | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                                <div class="">
-                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mZkFP1ZWJv4?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                                <div class="">
-                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/YqdggC5M90s?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review by Khushi Goswami | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                                <div class="">
-                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/L9QZCK1P5O0?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review by Khushi Jain | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                                <div class="">
-                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JYPNfkyyx08?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review by Vandana | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                                <div class="">
-                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BooTihSy8dA?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Review by Tarni | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                                <div class="">
-                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/h2558oOB2GM?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review by  Rayajiri Kumar | Best Japanese Course Institute | Henry Harvin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                                <div class="">
-                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/uggeKrYDD1s?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review by Mayuresh | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                                <div class="">
-                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/RvJ-DSVFVv4?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Review by Vasundhara | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                                <div class="">
-                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2vKgb2MJlzI?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Review by Pravallika | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                                <div class="">
-                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/LCPhZuc1RqQ?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Review by Tanisha | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                                <div class="">
-                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TQM2QkyQ9eE?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Review by Vivek Saini | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                                <div class="">
-                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                           <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_BMlRAi9dK8?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Reviews | Best Japanese Language Course Online | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                                <div class="">
-                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/pfkbInIwD6Q?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Reviews | Best Japanese Language Course Online  | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                                <div class="">
-                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5rIlYy7SO08?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review By Muskan | Best Japanese Language Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                                <div class="">
-                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/O_yLL2aNXTY?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Reviews | Best Japanese Language Course Online  | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                                <div class="">
-                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                        <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/bsPvt3xJTEc?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Course Review by Prashub | Best Japanese Course Institute | Henry Harvin Reviews" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                 
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<section class="py-12 bg-gray-100">
-    <div class="max-w-7xl mx-auto px-4">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Placement
-            Partners
-        </h2>
-        <div class="swiper linearswiper">
-            <div class="swiper-wrapper my-4" style="transition-timing-function: linear !important;">
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://cdn.henryharvin.com/images/1698213063honeywell.webp" alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://cdn.henryharvin.com/images/1698212200bosch.webp" alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://cdn.henryharvin.com/images/1698212278cognizant.webp" alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://cdn.henryharvin.com/images/1698212335dell.webp" alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://cdn.henryharvin.com/images/1698212440pepsico.webp" alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://cdn.henryharvin.com/images/1698212146ibm.webp" alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://cdn.henryharvin.com/images/1697883856ACCENTURE.webp" alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://cdn.henryharvin.com/images/1698211994xerox.webp" alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://cdn.henryharvin.com/images/1698212083techm.webp" alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://cdn.henryharvin.com/images/1698212946fargo.webp" alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://cdn.henryharvin.com/images/1698212496itc.webp" alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://cdn.henryharvin.com/images/1698212545mindtree.webp" alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141320ezgif.com-webp-maker_(9).webp"
-                        alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141282ezgif.com-webp-maker_(12).webp"
-                        alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141263ezgif.com-webp-maker_(13).webp"
-                        alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141398ezgif.com-webp-maker_(6).webp"
-                        alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141500ezgif.com-webp-maker_(4).webp"
-                        alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141519aws.png" alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141551issa.png" alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141068ezgif.com-webp-maker_(21).webp"
-                        alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141094ezgif.com-webp-maker_(19).webp"
-                        alt="images-8">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 
-<section class="py-12 px-4 bg-gray-100">
-    <div class="max-w-7xl mx-auto">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">7000+ Reviews
-            with 4.6/5 Avg Rating
-        </h2>
-        <div
-            class="relative max-w-[1200px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 py-4 gap-4 md:gap-8 my-1 rounded-lg">
-            <div
-                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
-                <div class="flex items-center justify-center">
-                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.8
-                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star-half text-red-700"></i></a>
-                </div>
-                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733730860forbes.webp"
-                    alt="justdial">
-            </div>
-            <div
-                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
-                <div class="flex items-center justify-center">
-                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.5
-                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star-half text-red-700"></i></a>
-                </div>
-                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1746770909ezgif.com-resize.png"
-                    alt="justdial">
-            </div>
-            <div
-                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
-                <div class="flex items-center justify-center">
-                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.9
-                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i></a>
-                </div>
-                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1730089884544x180-BR-300x99-1.png"
-                    alt="mouthshut">
-            </div>
-            <div
-                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
-                <div class="flex items-center justify-center">
-                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">5.0
-                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i></a>
-                </div>
-                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1752832498wwd2e1.png"
-                    alt="edugorrilla">
-            </div>
-            <div
-                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
-                <div class="flex items-center justify-center">
-                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">5.0
-                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i></a>
-                </div>
-                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17196452202d2d (2).webp"
-                    alt="google">
-            </div>
-            <div
-                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
-                <div class="flex items-center justify-center">
-                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.5
-                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star-half text-red-700"></i></a>
-                </div>
-                <img class="h-16" src="https://cdn.henryharvin.com/gooo1.webp" alt="google">
-            </div>
-            <div
-                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
-                <div class="flex items-center justify-center">
-                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.6
-                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star-half text-red-700"></i></a>
-                </div>
-                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1746772870coursereport-.png"
-                    alt="google">
-            </div>
-            <div
-                class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
-                <div class="flex items-center justify-center">
-                    <a class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.5
-                        <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
-                            class="fa fa-star-half text-red-700"></i></a>
-                </div>
-                <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/171964550223e23e23.webp"
-                    alt="google">
-            </div>
-        </div>
-    </div>
-</section>
+
+
+
+
+
+
+
+
+
+
+
+
 {{-- <section class="py-12 px-4 bgpgray-100">
     <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Our Latest Updates!
     </h2>

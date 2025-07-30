@@ -103,4 +103,8 @@ Route::get('why-kazumi', function () {
     return view('why_kazumi');
 });
 
+// all courses
+Route::get('japanese-language-course', function () {
+    return view('japanese_language_course');
+});
 
