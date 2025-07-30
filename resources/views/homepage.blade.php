@@ -739,228 +739,229 @@
             <div class="swiper mySwiper swiper-container w-full">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-4 place-items-center rounded-2xl"
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
                                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522620Varsha_Mehroliya.jpg" alt="">
                             </div>
-                            <div class="p-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Varsha Mehroliya
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Varsha Mehroliya
                                 </h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">5+ Years
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">5+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-4 place-items-center rounded-2xl"
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
                                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522683Sonali_Srivastava_(1).jpg" alt="">
                             </div>
-                            <div class="p-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Sonali Srivastava
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Sonali Srivastava
                                 </h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">6+ Years
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
                         </div>
                     </div>
                     <!-- <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-4 place-items-center rounded-2xl"
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
                                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532613282nd.webp" alt="">
                             </div>
-                            <div class="p-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Sonali Srivastava
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Sonali Srivastava
                                 </h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">3+ Years
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">3+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
                         </div>
                     </div> -->
                     <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-4 place-items-center rounded-2xl"
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
                                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532671153rd.webp" alt="">
                             </div>
-                            <div class="p-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Claire</h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">6+ Years
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Claire</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-4 place-items-center rounded-2xl"
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
                                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523883sucheta_(1).jpg" alt="">
                             </div>
-                            <div class="p-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Sucheta Patil</h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">9+ Years
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Sucheta Patil</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">9+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-4 place-items-center rounded-2xl"
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
                                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523973Swagata.jpg" alt="">
                             </div>
-                            <div class="p-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Swagata</h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">5+ Years
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Swagata</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">5+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-4 place-items-center rounded-2xl"
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
                                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524020siddharth.jpg" alt="">
                             </div>
-                            <div class="p-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Siddharth Chopra</h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">6+ Years
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Siddharth Chopra</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-4 place-items-center rounded-2xl"
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
                                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753786854Saniya_Parchure_(1).jpg" alt="">
                             </div>
-                            <div class="p-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Saniya Parchure</h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">7+ Years
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Saniya Parchure</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">7+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-4 place-items-center rounded-2xl"
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753786915Apeksha.jpg" alt="">
+                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753856360Aditya.jpg" alt="">
                             </div>
-                            <div class="p-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Aditya</h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">7+ Years
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Aditya</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">7+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
                         </div>
                     </div>
+
                     <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-4 place-items-center rounded-2xl"
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
                                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753786915Apeksha.jpg" alt="">
                             </div>
-                            <div class="p-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Apeksha</h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">6+ Years
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Apeksha</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
                         </div>
                     </div>
                     {{-- <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-4 place-items-center rounded-2xl"
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
                                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532613282nd.webp" alt="">
                             </div>
-                            <div class="p-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Hiroshi Matano</h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">6+ Years
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Hiroshi Matano</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
                         </div>
                     </div> --}}
                     <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-4 place-items-center rounded-2xl"
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
                                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524239Prachi.jpg" alt="">
                             </div>
-                            <div class="p-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Prachi</h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">6+ Years
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Prachi</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-4 place-items-center rounded-2xl"
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
                                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753787152Abha.jpg" alt="">
                             </div>
-                            <div class="p-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Abha</h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">5+ Years
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Abha</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">5+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-4 place-items-center rounded-2xl"
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
                                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753268551malini.webp" alt="">
                             </div>
-                            <div class="p-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Malini</h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">6+ Years
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Malini</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
                         </div>
                     </div>
                     {{-- <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-4 place-items-center rounded-2xl"
+                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                             <div class="rounded-2xl">
                                 <img class="h-full w-full object-cover rounded-2xl"
                                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753268583shivalika.webp" alt="">
                             </div>
-                            <div class="p-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-4">Shivalika</h2>
-                                <h2 class="text-white text-[16px] text-center md:text-[18px] font-[600] py-2">7+ Years
+                            <div class="px-2 ">
+                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Shivalika</h2>
+                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">7+ Years
                                     Of Experience</h2>
                                 <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                             </div>
