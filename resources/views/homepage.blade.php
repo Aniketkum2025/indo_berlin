@@ -472,36 +472,36 @@
         </div>
     </div>
 </section>
-<section id="stats" class="py-12 bg-red-600 mx-auto px-4">
+<section id="stats" class="py-4 bg-red-600 mx-auto px-4">
     <div class="max-w-6xl mx-auto">
         <!-- <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Key Highlight
         </h2> -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
 
             <!-- Countries -->
-            <div class="bg-white shadow-md rounded-lg p-6">
-                <h3 class="text-4xl font-semibold text-center text-gray-800 mb-4">Countries</h3>
+            <div class="bg-white shadow-md rounded-lg p-2">
+                <h3 class="text-[32px] font-semibold text-center text-gray-800 mb-1">Countries</h3>
                 <div class="flex items-center justify-center gap-2">
-                    <p class="text-5xl font-bold text-red-600 count-up" data-count="97">97</p>
-                    <span class="text-6xl font-[600] text-red-600">+</span>
+                    <p class="text-[32px] font-bold text-red-600 count-up" data-count="97">97</p>
+                    <span class="text-5xl font-[600] text-red-600">+</span>
                 </div>
             </div>
 
             <!-- Enrolled Students -->
-            <div class="bg-white shadow-md rounded-lg p-6">
-                <h3 class="text-4xl font-semibold text-center text-gray-800 mb-4">Enrolled Students</h3>
+            <div class="bg-white shadow-md rounded-lg p-2">
+                <h3 class="text-[32px] font-semibold text-center text-gray-800 mb-1">Enrolled Students</h3>
                 <div class="flex items-center justify-center gap-2">
-                    <p class="text-5xl font-bold text-red-600">4,60,000</p>
-                    <span class="text-6xl font-[600] text-red-600">+</span>
+                    <p class="text-[32px] font-bold text-red-600">4,60,000</p>
+                    <span class="text-5xl font-[600] text-red-600">+</span>
                 </div>
 
             </div>
 
             <!-- Established In -->
-            <div class="bg-white shadow-md rounded-lg p-6">
-                <h3 class="text-4xl font-semibold text-center text-gray-800 mb-4">Established in</h3>
+            <div class="bg-white shadow-md rounded-lg p-2">
+                <h3 class="text-[32px] font-semibold text-center text-gray-800 mb-1">Established in</h3>
                 <div class="flex items-center justify-center gap-2">
-                    <p class="text-5xl font-bold text-red-600 count-up" data-count="2013">2013</p>
+                    <p class="text-[32px] font-bold text-red-600 count-up" data-count="2013">2013</p>
                 </div>
             </div>
         </div>
@@ -511,42 +511,13 @@
 {{-- why kazumi section--}}
 <section class="py-12 bg-gray-100 mx-auto px-4">
     <div class="max-w-7xl mx-auto">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize mt-4 mb-2">Why Kazumi Japanese & Culture School?
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize mt-4 mb-4"> Why Kazumi Japanese & Culture 文化 School?
         </h2>
-        <p class="text-[16px] font-[600] text-gray-800 mb-4 text-center">
+        {{-- <p class="text-[16px] font-[600] text-gray-800 mb-4 text-center">
             なぜカズミ日本語・文化学校なのか？
-        </p>
+        </p> --}}
         <div class="py-8">
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 text-center">
-
-                <!-- Live Online Classes -->
-                <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
-                    <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789015orconnections.jpg" alt="">
-                    </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Global</h3>
-                    <p class="text-gray-700 text-[14px] mt-2">Kazumi offers a global learning 環境 (kankyō), with around 1200+ international 学生 (gakusei) enrolled from up to 80+ countries. This diverse setting is ideal for those seeking cross-cultural 交換 (kōkan).</p>
-                </div>
-
-                <!-- Personalized Learning -->
-                <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
-                     <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789058differentdiagrams.jpg" alt="">
-                    </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Objective Based</h3>
-                    <p class="text-gray-700 text-[14px] mt-2">Kazumi has over 12+ years of history and 伝統 (dentō), with an excellent track record in supporting international 学生 (gakusei) with their studies.</p>
-                </div>
-
-                <!-- Expert Trainers -->
-                <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
-                    <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753773441agota.jpg" alt="">
-                    </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Unique 10 in 1 Program: Agota™ Framework</h3>
-                    <p class="text-gray-700 text-[14px] mt-2">Learn through innovative teaching methods that make learning easy and 実践的 (Jissen-teki). This framework essentially promotes the 能力 (Nōryoku) development and キャリア (Kyaria) development.</p>
-                </div>
-
-                <!-- JLPT Preparation Training -->
                 <div
                     class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center col-span-1 sm:col-span-1 md:col-span-1">
                      <div class="flex items-center justify-center mb-2">
@@ -556,35 +527,89 @@
                     <p class="text-gray-700 text-[14px] mt-2">Learn from certified, highly 経験豊富 (keiken hōfu) and 情熱的な (jōnetsu-teki na) faculties.</p>
                 </div>
 
-                <!-- Unique Learning Methods -->
-                <div
-                    class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center col-span-1 sm:col-span-1 md:col-span-1">
-                     <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753773736classes.jpg" alt="">
-                    </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Live Online Classes</h3>
-                    <p class="text-gray-700 text-[14px] mt-2">Join real-time interactive クラス (Kurasu) designed for flexible schedules, along with recorded lessons.</p>
-                </div>
-
-                <!-- Practical Focus -->
-                <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
+                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789154examsheet.jpg" alt="">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">JLPT Preparation Training</h3>
+                    <h3 class="text-xl font-[600] text-red-600 mt-4">JLPT Intensive Course</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Excel in the JLPT with our 専門的な (Senmon-teki na) modules, mock tests, personalized coaching, and JLPT-focused materials sourced directly from Japan.</p>
                 </div>
 
-                <!-- International Network -->
+                <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
+                     <div class="flex items-center justify-center mb-2">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881317elearning.jpg" alt="">
+                    </div>
+                    <h3 class="text-xl font-[600] text-red-600 mt-4">Access to E-learning Portal</h3>
+                    <p class="text-gray-700 text-[14px] mt-2">Kazumi partners with <span>
+                        <a
+                                        href="https://examopedia.com/"
+                                        class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
+                                            src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1734598082examopedia_logo.webp"
+                                            alt="Examopedia Logo" class="h-4">Examopedia</span> </a>
+                        , a comprehensive E-learning portal that provides future updates, PPTs, projects, quizzes, 模擬試験 (Mogi Shiken), question banks, assessments and interactive forums.</p>
+                </div>
+
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                     <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789196OccupationalPrograms.jpg" alt="">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Japanese Occupational Programs</h3>
+                    <h3 class="text-xl font-[600] text-red-600 mt-4">Japanese Occupational Courses</h3>
                     <p class="text-gray-700 text-[14px] mt-2">At Kazumi, we offer programs that will help you build corporate, business and 職場 (shokuba) skills required to secure good 仕事 (shigoto) internationally.</p>
                 </div>
 
-                <!-- Cultural Training -->
+                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
+                     <div class="flex items-center justify-center mb-2">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774339talking.jpg" alt="">
+                    </div>
+                    <h3 class="text-xl font-[600] text-red-600 mt-4">Internship for Japanese Language</h3>
+                    <p class="text-gray-700 text-[14px] mt-2">Kazumi provides Internship Support via 
+                        <span><a
+                                        href="https://yuvaintern.com//"
+                                        class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
+                                            src="https://yuvaintern.com/assets/img/logo.png"
+                                            alt="Examopedia Logo" class="h-4">Yuva Intern</span> </a>
+                                            , India’s first バーチャル (bācharu) internship platform where you get to select from the best curated internships that match your skills and interests.</p>
+                </div>
+
+                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
+                     <div class="flex items-center justify-center mb-2">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881283study.jpg" alt="">
+                    </div>
+                    <h3 class="text-xl font-[600] text-red-600 mt-4">Study Abroad & Recruitment Services</h3>
+                    <p class="text-gray-700 text-[14px] mt-2">Kazumi offers study abroad and 就職支援 (Shūshoku Shien) via 
+                        <a
+                                        href="https://leochase.com/"
+                                        class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
+                                            src="https://leochase.com/wp-content/uploads/2025/04/Logo_Leo-Chase_F.png"
+                                            alt="Examopedia Logo" class="h-3">Leo & Chase</span> </a>
+                        , no. 1 recruitment provider, assisting from visa application to settling abroad.</p>
+                </div>
+
+                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
+                    <div class="flex items-center justify-center mb-2">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881176agota2.jpg" alt="">
+                    </div>
+                    <h3 class="text-xl font-[600] text-red-600 mt-4">Unique 10 in 1 Program: Agota™ Framework</h3>
+                    <p class="text-gray-700 text-[14px] mt-2">Learn through innovative teaching methods that make learning easy and 実践的 (Jissen-teki). This framework essentially promotes the 能力 (Nōryoku) development and キャリア (Kyaria) development.</p>
+                </div>
+
+                <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
+                    <div class="flex items-center justify-center mb-2">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789015orconnections.jpg" alt="">
+                    </div>
+                    <h3 class="text-xl font-[600] text-red-600 mt-4">Global Presence</h3>
+                    <p class="text-gray-700 text-[14px] mt-2">With offices in 4+ countries, UK, USA, Middle East, and India, Kazumi is a global brand, offering a global learning 環境 (kankyō), with around 1200+ international 学生 (gakusei).</p>
+                </div>
+
+                <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
+                     <div class="flex items-center justify-center mb-2">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774903Network.jpg" alt="">
+                    </div>
+                    <h3 class="text-xl font-[600] text-red-600 mt-4">International Alumni Network</h3>
+                    <p class="text-gray-700 text-[14px] mt-2">Join a diverse コミュニティ(Komyuniti) of learners and professionals from around the world.</p>
+                </div>
+                <!-- Live Online Classes -->
+             
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774206culture.jpg" alt="">
@@ -592,21 +617,7 @@
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Cultural Training</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Explore 伝統 (Dentō), etiquettes, festivals, and practices used in an authentic environment.</p>
                 </div>
-
-                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
-                     <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774903Network.jpg" alt="">
-                    </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">International Network</h3>
-                    <p class="text-gray-700 text-[14px] mt-2">Join a diverse コミュニティ(Komyuniti) of learners and professionals from around the world.</p>
-                </div>
-                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
-                     <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774339talking.jpg" alt="">
-                    </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Internship for Japanese</h3>
-                    <p class="text-gray-700 text-[14px] mt-2">Kazumi provides Internship Support via Yuva Intern, India’s first バーチャル (bācharu) internship platform where you get to select from the best curated internships that match your skills and interests.</p>
-                </div>
+                
 
             </div>
         </div>
@@ -665,19 +676,46 @@
             <!-- Card 5 -->
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753256081hhlogo.png" alt="AAEFL"
+                    <img src="https://cdn.henryharvin.com/images/1686549627AAEFL.webp" alt="AAEFL"
+                        class=" h-24 w-auto">
+                </div>
+            </div>
+            <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
+                <div class="w-full mx-auto text-center overflow-hidden flex gap-2 justify-center">
+                    <img src="https://nsdcindia.org/logo_nsdc.svg" alt="AAEFL"
                         class=" h-16 w-auto">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753882471skills.svg" alt="AAEFL"
+                        class=" h-16 w-auto">
+
                 </div>
             </div>
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://kodakco.sgp1.cdn.digitaloceanspaces.com/1702461434kodacko.webp" alt="AAEFL"
-                        class=" h-16 w-auto">
+                    <img src="https://cdn.henryharvin.com/images/1683959258ezgif.com-gif-maker%20-%202023-05-13T115731.582.webp" alt="AAEFL"
+                        class=" h-24 w-auto">
                 </div>
             </div>
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1744023905ezgif.com-crop_(7).webp" alt="AAEFL"
+                    <img src="https://cdn.henryharvin.com/images/1683959347ezgif.com-resize%20(20).webp" alt="AAEFL"
+                        class=" h-24 w-auto">
+                </div>
+            </div>
+             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
+                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17461814492024030441_-_henry_harvin_india_education_llp_-_iso_29990-2010_(1)_(1)-1.png" alt="AAEFL"
+                        class=" h-24 w-auto">
+                </div>
+            </div>
+             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
+                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
+                    <img src="https://cdn.henryharvin.com/images/1683958602ezgif.com-resize%20(16).webp" alt="AAEFL"
+                        class=" h-24 w-auto">
+                </div>
+            </div>
+             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
+                <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17380605202024030441_-_henry_harvin_india_education_llp_-_iso_29990-2010_(1)_(2)_page-0001.jpg" alt="AAEFL"
                         class=" h-24 w-auto">
                 </div>
             </div>
@@ -815,15 +853,213 @@
     <div class="max-w-7xl mx-auto">
         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Esteemed Faculty
         </h2>
-        <div class="relative w-wull mx-auto flex flex-row py-4">
 
-            <!-- Prev Button -->
+            <div class="grid grid-cols-5 gap-2">
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753875885212w-ezgif.com-resize.webp" alt="">
+                        </div>
+                        <div class="px-2">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Seema
+                            </h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">11+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522620Varsha_Mehroliya.jpg" alt="">
+                        </div>
+                        <div class="px-2">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Varsha Mehroliya
+                            </h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">5+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522683Sonali_Srivastava_(1).jpg" alt="">
+                        </div>
+                        <div class="px-2 ">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Sonali Srivastava
+                            </h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532671153rd.webp" alt="">
+                        </div>
+                        <div class="px-2 ">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Claire</h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523883sucheta_(1).jpg" alt="">
+                        </div>
+                        <div class="px-2 ">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Sucheta Patil</h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">9+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+                {{-- <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523973Swagata.jpg" alt="">
+                        </div>
+                        <div class="px-2 ">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Swagata</h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">5+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524020siddharth.jpg" alt="">
+                        </div>
+                        <div class="px-2 ">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Siddharth Chopra</h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753786854Saniya_Parchure_(1).jpg" alt="">
+                        </div>
+                        <div class="px-2 ">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Saniya Parchure</h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">7+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753856360Aditya.jpg" alt="">
+                        </div>
+                        <div class="px-2 ">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Aditya</h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">7+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753786915Apeksha.jpg" alt="">
+                        </div>
+                        <div class="px-2 ">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Apeksha</h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524239Prachi.jpg" alt="">
+                        </div>
+                        <div class="px-2 ">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Prachi</h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753787152Abha.jpg" alt="">
+                        </div>
+                        <div class="px-2 ">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Abha</h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">5+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753268551malini.webp" alt="">
+                        </div>
+                        <div class="px-2 ">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Malini</h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div> --}}
+            </div>
+
+        {{-- <div class="relative w-wull mx-auto flex flex-row py-4">
             <div class="absolute inset-y-0 left-0 z-10 flex items-center">
                 <div class="swiper-button-prev flex justify-center items-center text-[14px] text-red-600 custom">
                 </div>
             </div>
-
-            <!-- Swiper -->
             <div class="swiper mySwiper swiper-container w-full">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide p-8 lg:p-8">
@@ -858,22 +1094,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532613282nd.webp" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Sonali Srivastava
-                                </h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">3+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div> -->
+                   
                     <div class="swiper-slide p-8 lg:p-8">
                         <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
@@ -980,21 +1201,7 @@
                             </div>
                         </div>
                     </div>
-                    {{-- <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532613282nd.webp" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Hiroshi Matano</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div> --}}
+                   
                     <div class="swiper-slide p-8 lg:p-8">
                         <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
                             style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
@@ -1040,30 +1247,15 @@
                             </div>
                         </div>
                     </div>
-                    {{-- <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753268583shivalika.webp" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Shivalika</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">7+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div> --}}
+                    
                 </div>
             </div>
 
-            <!-- Next Button -->
             <div class="absolute inset-y-0 right-0 z-10 flex items-center">
                 <div class="swiper-button-next flex justify-center items-center text-[14px] text-red-600 custom">
                 </div>
             </div>
-        </div>
+        </div> --}}
         <div class="mt-4 flex justify-center items-center">
             <a href="/esteemed-faculty" class="bg-red-500 text-white text-[14px] px-6 py-2 rounded hover:bg-red-600">View More</a>
         </div>
