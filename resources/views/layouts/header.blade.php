@@ -39,8 +39,8 @@
             <div class="flex justify-between items-center ">
                 <div class="flex items-center space-x-3">
                     <a href="/">
-                        <img class="h-[60px] w-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753532921Logo_Kazumi_Japanese_&_Culture_School_.png"
+                        <img class="h-[75px] w-auto"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753872845ezgif.com-crop.webp"
                         alt="Kazumi Logo">
 
                         
@@ -50,7 +50,7 @@
                 <div class="hidden md:flex md:space-x-6">
                     <a href="/" class="text-[#da2028] font-[600] text-[14px] py-6">家</a>
                     <div class="group relative">
-                        <a href="#" class="flex items-center text-[#da2028] font-[600] text-[14px] space-x-1 py-6">
+                        <a class="flex items-center text-[#da2028] font-[600] text-[14px] space-x-1 py-6">
                             <span>Courses</span>
                             <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
                                 <path
@@ -59,9 +59,8 @@
                         </a>
                         <div
                             class="absolute top-full -left-2 z-30 w-48 bg-white shadow-lg border rounded-md p-2 space-y-1 submenu">
-                            <a href="#"
-                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Japanese
-                                Course</a>
+                            <a href="japanese-language-course"
+                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Japanese Language Course</a>
                         </div>
                     </div>
                     <div class="group relative">
@@ -150,7 +149,7 @@
             <div class="px-4 py-2">
                 <button onclick="toggleMobileSubmenu('courses')" class="text-[#da2028] font-[600]">Courses</button>
                 <div id="mobile-submenu-courses" class="hidden ml-4">
-                    <a href="courses" class="block py-1 text-gray-700">Japanese Course</a>
+                    <a href="japanese-language-course" class="block py-1 text-gray-700">Japanese Language Course</a>
                 </div>
             </div>
 

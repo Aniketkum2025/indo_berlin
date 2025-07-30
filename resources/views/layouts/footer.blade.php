@@ -297,7 +297,7 @@ const swiper17 = new Swiper('.linearswiper', {
 <script>
 const swiper = new Swiper('.mySwiper', {
     loop: true,
-    slidesPerView: 1,
+    slidesPerView: 2,
     spaceBetween: 0,
     autoplay: {
         delay: 2000,
