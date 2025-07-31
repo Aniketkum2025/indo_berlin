@@ -178,7 +178,8 @@
                 </div>
 
                 <!-- Modal body -->
-                <form class="p-4 md:p-5 space-y-4">
+                <form class="p-4 md:p-5 space-y-4" action="https://www.henryharvin.com/admin/lead" method="POST">
+                    @csrf
                     <div>
                         <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
                         <input type="text" name="name" id="name" placeholder="Name" required class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
@@ -195,22 +196,19 @@
                         <label for="countryCode" class="block text-sm mb-1 font-[600] text-red-600">Country Code</label>
                         <div class="flex gap-2">
                             <select name="countryCode" class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-2.5">
-                                <option value="(+971)" selected>UAE (+971)</option>
-                                <option value="(+91)">India (+91)</option>
-                                <option value="(+1)">USA (+1)</option>
+                                <option value="+971" selected>UAE (+971)</option>
+                                <option value="+91">India (+91)</option>
+                                <option value="+1">USA (+1)</option>
                             </select>
-                            <input type="number" name="phone" placeholder="Mobile no *" class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
+                            <input type="number" name="sendto" placeholder="Mobile no *" class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
                         </div>
                         <span id="phone_error3" class="text-red-500 text-xs"></span>
                     </div>
 
                     <!-- Hidden Inputs -->
-                    <input type="hidden" name="description2" value="SAP FICO Training (Power User Program) Course Certification">
-                    <input type="hidden" name="academy" value="20">
-                    <input type="hidden" name="source" value="FORM Henry Harvin UAE">
-                    <input type="hidden" name="lead_source_page_url" value="https://henryharvin.ae/sap-fico-training">
-                    <input type="hidden" name="slug" value="sap-fico-training">
-                    <input type="hidden" name="crm_course_id" value="SAP-FICO">
+                    <input type="hidden" name="source" class="textbox" value="KAZUMI WEBSITE" placeholder="" />
+                    <input type="hidden" name="lead_source_page_url" class="textbox" value="{{url()->full()}}" placeholder="" id="">
+                    <input type="hidden" name="slug" value="contact-us">
 
                     <div class="flex justify-center pt-3">
                         <button type="submit" class="bg-red-600 text-white py-2 px-4 text-lg rounded-md">Submit</button>
