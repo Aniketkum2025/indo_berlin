@@ -6,7 +6,7 @@
       <h2 class="text-3xl font-bold mb-2">Admissions <span class="text-yellow-300">Overview</span></h2>
 
       <p>
-        <span class="font-semibold">Kazumi Japanese & Culture School by Henry Harvin</span> welcomes those who wish to learn and enhance their Japanese language skills through our comprehensive programs.
+        <span class="font-semibold">Kazumi Japanese & Culture School by Henry Harvin®</span> welcomes those who wish to learn and enhance their Japanese language skills through our comprehensive programs.
       </p>
 
       <p>
@@ -43,7 +43,7 @@
 <section class="py-6 px-4 max-w-4xl mx-auto hidden">
   <div class="bg-white shadow-2xl rounded-xl p-8 space-y-6 border border-gray-200">
     <h2 class="text-3xl font-bold text-red-600">Apply for <span class="text-yellow-500">Admission</span></h2>
-    <p class="text-gray-600">Please fill out the form below to begin your application process for Kazumi Japanese & Culture School by Henry Harvin.</p>
+    <p class="text-gray-600">Please fill out the form below to begin your application process for Kazumi Japanese & Culture School by Henry Harvin®.</p>
 
     <form action="#" method="POST" class="space-y-6">
 
@@ -107,7 +107,7 @@
 <section class="py-16 px-4 max-w-7xl mx-auto">
   <div class="text-center mb-12">
     <h2 class="text-4xl font-bold text-red-600 mb-4">Admissions <span class="text-yellow-500">Process</span></h2>
-    <p class="text-gray-600 text-lg">Follow these easy steps to complete your application to Kazumi Japanese & Culture School by Henry Harvin.</p>
+    <p class="text-gray-600 text-lg">Follow these easy steps to complete your application to Kazumi Japanese & Culture School by Henry Harvin®.</p>
   </div>
 
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
@@ -168,7 +168,7 @@
 
   </div>
 
-  <div class="mt-12 text-center text-[14px] text-gray-600 text-[600]">
+  <div class="mt-12 text-center text-[16px] text-gray-600 text-bold">
     <p>The entire process should take approximately <span class="font-semibold text-red-600">10 minutes</span>. After submission, our team may take up to <span class="font-semibold text-yellow-500">48 hours</span> to review your application.</p>
   </div>
 </section>
