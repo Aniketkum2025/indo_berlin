@@ -204,8 +204,9 @@
   <!-- Main Courses Toggle -->
   <button onclick="toggleMobileSubmenu('courses')" class="flex items-center justify-between w-full text-[#da2028] font-[600]">
     <span>Courses</span>
-    <svg id="arrow-courses" class="w-4 h-4 transition-transform" fill="currentColor" viewBox="0 0 20 20">
-      <path d="M6 8l4 4 4-4" />
+    <svg id="arrow-courses" class="w-4 h-4 ml-2 transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2"
+      viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
     </svg>
   </button>
 
@@ -276,41 +277,70 @@
 </div>
 
 
-            <div class="px-4 py-2">
-                <button onclick="toggleMobileSubmenu('admission')" class="text-[#da2028] font-[600]">Admission</button>
-                <div id="mobile-submenu-admission" class="hidden ml-4">
-                    {{-- <a href="why-kazumi" class="block py-1 text-gray-700">Why Kazumi?</a> --}}
-                    <a href="admission-process" class="block py-1 text-gray-700">Admission Process</a>
-                    
-                    <a href="https://www.henryharvin.com/pay-fee" class="block py-1 text-gray-700">Online Payment</a>
-                    <a href="existing-students" class="block py-1 text-gray-700">Existing Students</a>
-                    <a href="https://www.henryharvin.com/request-certificate" class="block py-1 text-gray-700">Request Certificate</a>
-                    <a href="contact-us" class="block py-1 text-gray-700">Contact Us</a>
-                </div>
-            </div>
+           <!-- Mobile Admission Menu with Arrow -->
+<div class="px-4 py-2">
+  <button onclick="toggleMobileSubmenu('admission')" class="flex items-center justify-between w-full text-[#da2028] font-[600]">
+    <span>Admission</span>
+    <svg id="arrow-admission" class="w-4 h-4 ml-2 transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2"
+      viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+
+  <div id="mobile-submenu-admission" class="hidden mt-2 ml-4 space-y-1">
+    <!-- <a href="why-kazumi" class="block py-1 text-gray-700">Why Kazumi?</a> -->
+    <a href="admission-process" class="block py-1 text-gray-700">Admission Process</a>
+    <a href="https://www.henryharvin.com/pay-fee" class="block py-1 text-gray-700">Online Payment</a>
+    <a href="existing-students" class="block py-1 text-gray-700">Existing Students</a>
+    <a href="https://www.henryharvin.com/request-certificate" class="block py-1 text-gray-700">Request Certificate</a>
+    <a href="contact-us" class="block py-1 text-gray-700">Contact Us</a>
+  </div>
+</div>
+
+<script>
+  function toggleMobileSubmenu(id) {
+    const submenu = document.getElementById(`mobile-submenu-${id}`);
+    const arrow = document.getElementById(`arrow-${id}`);
+    submenu.classList.toggle('hidden');
+    arrow.classList.toggle('rotate-180');
+  }
+</script>
+
             <a href="https://yuvaintern.com/" class="block px-4 py-2 text-[#da2028] font-[600] hover:bg-gray-100">Internship</a>
             <a href="accreditation" class="block px-4 py-2 text-[#da2028] font-[600] hover:bg-gray-100">Accreditation</a>
 
-            <div class="px-4 py-2">
-                <button onclick="toggleMobileSubmenu('about')" class="text-[#da2028] font-[600]">About Us</button>
-                <div id="mobile-submenu-about" class="hidden ml-4">
-                    <a href="about-us" class="block py-1 text-gray-700">Knowing Kazumi</a>
-                    <a href="values" class="block py-1 text-gray-700">Values</a>
-                    <a href="media" class="block py-1 text-gray-700">Media</a>
-                    {{-- <a href="our-affiliations" class="block py-1 text-gray-700">Our Affiliations</a>
-                    <a href="quality-assurance" class="block py-1 text-gray-700">Quality Assurance</a>
-                    <a href="esteemed-faculty" class="block py-1 text-gray-700">Esteemed Faculty</a>
-                    <a href="careers" class="block py-1 text-gray-700">Careers </a> --}}
-                    <a href="https://www.henryharvin.com/affiliations-accreditations" class="block py-1 text-gray-700">Our Affiliations</a>
-                    {{-- <a href="quality-assurance" class="block py-1 text-gray-700">Quality Assurance</a> --}}
-                    <a href="esteemed-faculty" class="block py-1 text-gray-700">Esteemed Faculty</a>
-                    <a href="https://www.henryharvin.com/careers" class="block py-1 text-gray-700">Careers </a>
-                    <a href="https://www.henryharvin.com/our-customer" class="block py-1 text-gray-700">Our Customers</a>
-                    <a href="https://www.henryharvin.com/placed-students-list" class="block py-1 text-gray-700">Placed Student List</a>
-                     {{--<a href="kazumi-community" class="block py-1 text-gray-700">Kazumi Community</a> --}}
-                    {{-- <a href="contact-us" class="block py-1 text-gray-700">Contact US</a> --}}
-                </div>
-            </div>
+            <!-- Mobile About Us Menu with Arrow -->
+<div class="px-4 py-2">
+  <button onclick="toggleMobileSubmenu('about')" class="flex items-center justify-between w-full text-[#da2028] font-[600]">
+    <span>About Us</span>
+    <svg id="arrow-about" class="w-4 h-4 ml-2 transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2"
+      viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+
+  <div id="mobile-submenu-about" class="hidden mt-2 ml-4 space-y-1">
+    <a href="about-us" class="block py-1 text-gray-700">Knowing Kazumi</a>
+    <a href="values" class="block py-1 text-gray-700">Values</a>
+    <a href="media" class="block py-1 text-gray-700">Media</a>
+    <a href="https://www.henryharvin.com/affiliations-accreditations" class="block py-1 text-gray-700">Our Affiliations</a>
+    <a href="esteemed-faculty" class="block py-1 text-gray-700">Esteemed Faculty</a>
+    <a href="https://www.henryharvin.com/careers" class="block py-1 text-gray-700">Careers</a>
+    <a href="https://www.henryharvin.com/our-customer" class="block py-1 text-gray-700">Our Customers</a>
+    <a href="https://www.henryharvin.com/placed-students-list" class="block py-1 text-gray-700">Placed Student List</a>
+  </div>
+</div>
+
+<!-- JS toggle function (use once globally) -->
+<script>
+  function toggleMobileSubmenu(id) {
+    const submenu = document.getElementById(`mobile-submenu-${id}`);
+    const arrow = document.getElementById(`arrow-${id}`);
+    submenu.classList.toggle('hidden');
+    arrow.classList.toggle('rotate-180');
+  }
+</script>
+
 
             <a href="/contact-us" class="block px-4 py-2 text-[#da2028] font-[600] hover:bg-gray-100">Contact Us</a>
 

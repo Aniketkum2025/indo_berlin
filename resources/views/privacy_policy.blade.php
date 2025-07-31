@@ -11,7 +11,7 @@
 
       <h3 class="text-2xl text-yellow-300 font-semibold mt-4">About Us and the Website</h3>
       <p>
-        <span class="font-semibold">Kazumi Japanese & Culture School by Henry Harvin</span> strives to ensure all website content is accurate, although changes may occur. We are not liable for any damages from using the information provided. All downloadable content is virus-checked, but we cannot guarantee against all infections.
+        <span class="font-semibold">Kazumi Japanese & Culture School by Henry Harvin®</span> strives to ensure all website content is accurate, although changes may occur. We are not liable for any damages from using the information provided. All downloadable content is virus-checked, but we cannot guarantee against all infections.
       </p>
 
       <h3 class="text-2xl text-yellow-300 font-semibold mt-4">Information Collected</h3>
@@ -63,7 +63,7 @@
 
       <h3 class="text-2xl text-yellow-300 font-semibold mt-4">Fraud Awareness</h3>
       <p>
-        Beware of fake overseas job offers, unauthorized institutes, or forged certificates. To verify authenticity or certificates issued by Kazumi Japanese & Culture School by Henry Harvin, please call <a href="tel:9899577620" class="underline text-yellow-300">9899577620</a> or email <a href="mailto:finance@henryharvin.com" class="underline text-yellow-300">finance@henryharvin.com</a>. You can also click here to verify certifications and view the official public notice.
+        Beware of fake overseas job offers, unauthorized institutes, or forged certificates. To verify authenticity or certificates issued by Kazumi Japanese & Culture School by Henry Harvin®, please call <a href="tel:9899577620" class="underline text-yellow-300">9899577620</a> or email <a href="mailto:finance@henryharvin.com" class="underline text-yellow-300">finance@henryharvin.com</a>. You can also click here to verify certifications and view the official public notice.
       </p>
     </div>
   </div>
