@@ -74,7 +74,7 @@
 
 <section class="text-white py-12 px-6">
     <div class="max-w-4xl mx-auto">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Ideas Behind Kazumi’s 教育的 (kyōikuteki) Framework</h2>
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize">Ideas Behind Kazumi’s 教育的 (kyōikuteki) Framework</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 border border-gray-200 bg-white">
 
             <!-- Card 1 -->
@@ -189,8 +189,8 @@
 <section class="py-12">
     <div class="max-w-7xl mx-auto px-4">
         <!-- Advisory Board -->
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4 mt-12">Kazumi Advisory Board Members</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6 place-items-center">
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-4 text-[#da2028] capitalize my-4">Kazumi Advisory Board Members</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 place-items-center">
             <!-- Mr. Kounal Gupta -->
             <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
                 <div class="rounded-2xl">
@@ -235,7 +235,7 @@
 
 
 <section class="py-12 px-4 bg-gray-50">
-    <div class="max-w-6xl mx-auto">
+    <div class="max-w-4xl mx-auto">
         <h2 class="text-2xl md:text-3xl font-bold text-red-600 mb-6 text-center">
             Kazumi 違い (chigai): What Sets Us Apart?
         </h2>
@@ -244,9 +244,9 @@
             <table class="w-full text-left border border-gray-300 bg-white shadow-md text-sm md:text-base">
                 <thead class="bg-red-600 text-white">
                     <tr>
-                        <th class="p-3">Feature 特徴 (Tokuchō)</th>
-                        <th class="p-3">Kazumi Japanese & Culture (文化) School</th>
-                        <th class="p-3">Other Japanese School 他の日本語学校 (hoka no nihongo gakkō)</th>
+                        <th class="p-3">Feature <br>特徴 (Tokuchō)</th>
+                        <th class="p-3">Kazumi Japanese & Culture<br> (文化) School</th>
+                        <th class="p-3">Other Japanese School <br>他の日本語学校 (hoka no nihongo gakkō)</th>
                     </tr>
                 </thead>
                 <tbody class="text-gray-700">
@@ -263,7 +263,7 @@
                     <tr class="border-t">
                         <td class="p-3">Job-Oriented Curriculum</td>
                         <td class="p-3 text-center">✔</td>
-                        <td class="p-3 text-center">✖</td>
+                        <td class="p-3 text-center">✔</td>
                     </tr>
                     <tr class="border-t bg-gray-50">
                         <td class="p-3">Mobile App for Learning</td>
@@ -283,12 +283,12 @@
                     <tr class="border-t">
                         <td class="p-3">Occupational & Cross Cultural Course</td>
                         <td class="p-3 text-center">✔</td>
-                        <td class="p-3 text-center">✖</td>
+                        <td class="p-3 text-center">✔</td>
                     </tr>
                     <tr class="border-t bg-gray-50">
                         <td class="p-3">JLPT Exam Preparation</td>
                         <td class="p-3 text-center">✔</td>
-                        <td class="p-3 text-center">✖</td>
+                        <td class="p-3 text-center">✔</td>
                     </tr>
                     <tr class="border-t">
                         <td class="p-3">Japanese Culture Training</td>
@@ -298,12 +298,12 @@
                     <tr class="border-t bg-gray-50">
                         <td class="p-3">International Networking/ Alumni</td>
                         <td class="p-3 text-center">✔</td>
-                        <td class="p-3 text-center">✖</td>
+                        <td class="p-3 text-center">✔</td>
                     </tr>
                     <tr class="border-t">
                         <td class="p-3">Highly rated and Certified by external organizations</td>
                         <td class="p-3 text-center">✔</td>
-                        <td class="p-3 text-center">✖</td>
+                        <td class="p-3 text-center">✔</td>
                     </tr>
                     <tr class="border-t bg-gray-50">
                         <td class="p-3">Internship Support</td>
