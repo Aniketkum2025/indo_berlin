@@ -392,3 +392,11 @@ function toggleText() {
     }
   });
 </script>
+<script>
+  window.addEventListener('load', () => {
+    const lazyIframes = document.querySelectorAll('iframe[data-src]');
+    lazyIframes.forEach(iframe => {
+      iframe.src = iframe.getAttribute('data-src');
+    });
+  });
+</script>
