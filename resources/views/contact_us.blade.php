@@ -3,7 +3,7 @@
 <section class="py-12 bg-gray-100 mx-auto px-4">
     <div class="max-w-7xl mx-auto">
         <h2 style="place-self: center;" class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">
-            Henry Harvin Course Inquiry
+            Henry Harvin® Course Inquiry
         </h2>
         <div class=" w-full" bis_skin_checked="1">
             <div class="grid grid-cols-2 gap-1 md:gap-7 mt-3" bis_skin_checked="1">
@@ -38,7 +38,7 @@
         </div>
 
         <h2 style="place-self: center;" class="mt-2 text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">
-                Henry Harvin Customer Support
+                Henry Harvin® Customer Support
         </h2>
         <div class="w-full" bis_skin_checked="1">
             
@@ -86,7 +86,7 @@
                         </p>
                         <span class="flex mx-4 gap-4 mb-2">
                             <p class="text-red-600 font-[400] text-[12px]">Address:</p>
-                            <p class="text-[12px]">Henry Harvin House B-12 Sector-6 Noida (UP)- 201301</p>
+                            <p class="text-[12px]">Henry Harvin® House B-12 Sector-6 Noida (UP)- 201301</p>
                         </span>
                         <span class="flex items-center mx-4 gap-2">
                             <p class="text-red-600 font-[400] text-[12px]">Contact:</p>

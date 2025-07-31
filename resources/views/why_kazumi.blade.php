@@ -6,7 +6,7 @@
   <div class="bg-red-600 text-white max-w-4xl mx-auto p-8 rounded-xl shadow-xl space-y-6">
     <h3 class="text-2xl text-yellow-300 font-semibold">Recognition & Awards</h3>
     <p>
-      <span class="font-semibold">Kazumi Japanese & Culture School</span> is a branch of Henry Harvin, which upholds its legacy while providing exclusively Japanese language courses. Kazumi’s values reflect the harmony between Japanese educational philosophy and international teaching standards.
+      <span class="font-semibold">Kazumi Japanese & Culture School</span> is a branch of Henry Harvin®, which upholds its legacy while providing exclusively Japanese language courses. Kazumi’s values reflect the harmony between Japanese educational philosophy and international teaching standards.
     </p>
   </div>
 </section>

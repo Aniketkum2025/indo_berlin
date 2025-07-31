@@ -24,14 +24,14 @@
             </div>
 
             <div>
-                 <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mb-3">Henry Harvin America Head Office</h3>
-                <p class="text-white text-sm mb-2">Henry Harvin Inc</p>
+                 <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mb-3">Henry Harvin® America Head Office</h3>
+                <p class="text-white text-sm mb-2">Henry Harvin® Inc</p>
                 <p class="text-white text-sm">8 The Green, # 19614 Dover, DE 19901, United States.</a></p>
                 <p class="text-white text-sm">Phone: +1 209 382 3469</p>
 
 
-                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mt-4 mb-3">Henry Harvin Asia Pacific Office</h3>
-                <p class="text-white text-sm mb-2">Henry Harvin India Education LLP Henry Harvin House,
+                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mt-4 mb-3">Henry Harvin® Asia Pacific Office</h3>
+                <p class="text-white text-sm mb-2">Henry Harvin® India Education LLP Henry Harvin® House,
                 </p>
                 <p class="text-white text-sm">B-12, Sector-6, Noida(UP), India- 201301</a></p>
                 <p class="text-white text-sm">Phone:  +91 989 957 7620</p>
@@ -41,14 +41,14 @@
             </div>
 
             <div>
-                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mb-3">Henry Harvin Middle East Office</h3>
-                <p class="text-white text-sm mb-2">Henry Harvin Co. L.L.C.</p>
+                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mb-3">Henry Harvin® Middle East Office</h3>
+                <p class="text-white text-sm mb-2">Henry Harvin® Co. L.L.C.</p>
                 <p class="text-white text-sm">2703, Blue Matrix, 27th floor The Prime Tower, Business Bay, Dubai, UAE</a></p>
                 <p class="text-white text-sm">Phone:  +971 566 697 936</p>
                 <a class="bg-white py-1 px-3 text-[#3d0561] text-[11px] mt-1 flex items-center w-fit block cursor-pointer rounded-lg" href="https://henryharvin.ae/"><i class="fa fa-globe animate-pulse pr-2 text-[16px] text-red-600" aria-hidden="true"></i>Website</a>
 
-                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mt-4 mb-3">Henry Harvin United Kingdom Office</h3>
-                <p class="text-white text-sm mb-2">Henry Harvin Limited</p>
+                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mt-4 mb-3">Henry Harvin® United Kingdom Office</h3>
+                <p class="text-white text-sm mb-2">Henry Harvin® Limited</p>
                 <p class="text-white text-sm">Office No: 71-75, Shelton Street, Covent Garden, London, WC2H 9JQ</a></p>
                 <p class="text-white text-sm">Phone:  +44 2080 891010</p>
             </div>

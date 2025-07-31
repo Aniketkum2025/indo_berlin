@@ -6,7 +6,7 @@
       <h2 class="text-3xl font-bold mb-2">Cancellation & Refund <span class="text-yellow-300">Policy</span></h2>
 
       <p>
-        Thank you for enrolling for the <span class="font-semibold">Kazumi Japanese & Culture School by Henry Harvin</span>.
+        Thank you for enrolling for the <span class="font-semibold">Kazumi Japanese & Culture School by Henry Harvin®</span>.
         We ensure that our learners have a rewarding experience while they discover, assess, and purchase our programs,
         whether instructor-led, online, or self-paced.
       </p>
@@ -29,7 +29,7 @@
       <h3 class="text-2xl font-semibold mt-4 text-yellow-300">Event Cancellations</h3>
       <ul class="list-disc ml-6 space-y-1">
         <li>
-          Kazumi Japanese & Culture School by Henry Harvin may cancel/postpone an event due to low enrollments, instructor illness, or force majeure (e.g., floods, earthquakes, political unrest).
+          Kazumi Japanese & Culture School by Henry Harvin® may cancel/postpone an event due to low enrollments, instructor illness, or force majeure (e.g., floods, earthquakes, political unrest).
         </li>
         <li>
           If event canceled within 10 days of course purchase: 100% refund (excluding travel/logistics/personal costs).

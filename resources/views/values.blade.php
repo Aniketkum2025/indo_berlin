@@ -10,7 +10,7 @@
           To become a <span class="text-yellow-300 font-semibold">globally valued pioneer</span> in Japanese language and 
           <span class="italic">文化教育 (bunka kyōiku)</span>, transforming learning through 
           <span class="underline">innovation</span>, <span class="underline">quality</span>, and the trusted legacy of 
-          <span class="font-semibold text-yellow-300">Henry Harvin</span>.
+          <span class="font-semibold text-yellow-300">Henry Harvin®</span>.
         </p>
       </div>
 
@@ -45,7 +45,7 @@
     <div class="md:w-2/3">
       <h3 class="text-2xl font-semibold text-center text-red-600 mb-2">Meeting Global Standards</h3>
       <p class="text-gray-700 text-xl text-center">
-        Our courses follow global frameworks, that set us apart. Kazumi, a branch of Henry Harvin, promotes Japanese culture, aligned with JLPT and backed by ISO, UKAF, MSME, and top education platforms.
+        Our courses follow global frameworks, that set us apart. Kazumi, a branch of Henry Harvin®, promotes Japanese culture, aligned with JLPT and backed by ISO, UKAF, MSME, and top education platforms.
       </p>
     </div>
   </div>
