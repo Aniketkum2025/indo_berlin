@@ -110,7 +110,7 @@
                         <!-- Other Main Submenu Items -->
                         <a class="block px-3 py-2 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Japanese Occupational Courses</a>
                         <a class="block px-3 py-2 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Japanese Cross-Cultural Courses</a>
-                        <a class="block px-3 py-2 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Crash Course in Japanese</a>
+                        <a href="https://www.henryharvin.com/crash-course-for-japanese-language" class="block px-3 py-2 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Crash Course in Japanese</a>
                         </div>
                     </div>
                     <div class="group relative">
@@ -268,9 +268,9 @@
           <path d="M6 8l4 4 4-4" />
         </svg>
       </button>
-      {{-- <div id="mobile-submenu-crash-course" class="hidden ml-4 mt-1 space-y-1 text-sm">
-        <a href="#" class="block text-gray-700">Japanese Crash Course</a>
-      </div> --}}
+      <div id="mobile-submenu-crash-course" class="hidden ml-4 mt-1 space-y-1 text-sm">
+        <a href="https://www.henryharvin.com/crash-course-for-japanese-language" class="block text-gray-700">Japanese Crash Course</a>
+      </div>
     </div>
   </div>
 </div>
