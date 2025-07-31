@@ -15,7 +15,7 @@
                         <div class="px-2">
                             <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Seema
                             </h2>
-                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">11+ Years
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">21+ Years
                                 Of Experience</h2>
                             <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                         </div>
