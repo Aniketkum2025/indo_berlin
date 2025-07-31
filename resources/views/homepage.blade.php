@@ -240,7 +240,7 @@
             Videos
         </h2>
         <div class="relative">
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
+            <div id="videoGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 hidden">
                 <div class="">
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
                         <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
@@ -370,7 +370,6 @@
                  
             </div>
         </div>
-
     </div>
 </section>
  

@@ -6,8 +6,8 @@
                     <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1752739115Logo_Kazumi_Japanese.png"
                         class="h-[180px] w-auto bg-white rounded-full ">
                 </div>
-                <p class="text-gray-300 text-sm mt-4">
-                   Kazumi Japanese & Culture School is a branch of Henry Harvin® promoting Japanese 言語 (gengo) and 文化 (bunka), recognised globally with affiliations like the Japanese Language Proficiency Test (JLPT) framework and Henry Harvin’s prestigious accreditations from ISO, UKAF, MSME, and affiliations with leading global 教育的 (kyōikuteki) platforms.
+                <p class="text-gray-300 text-sm mt-4 text-justify">
+                   Kazumi Japanese & Culture School by Henry Harvin® promoting Japanese 言語 (gengo) and 文化 (bunka), recognised globally with affiliations like the Japanese Language Proficiency Test (JLPT) framework and Henry Harvin’s prestigious accreditations from ISO, UKAF, MSME, and affiliations with leading global 教育的 (kyōikuteki) platforms.
                 </p>
             </div>
 
@@ -15,13 +15,11 @@
                 <h3 class="text-white font-semibold border-b border-gray-600 pb-1 mb-3">USEFUL PAGES</h3>
                 <ul class="space-y-2 text-gray-400 text-sm">
                     <li><a href="about-us" class="hover:text-red-500">Knowing Kazumi</a></li>
-                    <li><a href="president's-words" class="hover:text-red-500">President's Words</a></li>
-                    <li><a href="values" class="hover:text-red-500">Values</a></li>
-                    <li><a href="faq" class="hover:text-red-500">FAQ</a></li>
-                    <li><a href="links" class="hover:text-red-500">Links</a></li>
-                    <li><a href="contact-us" class="hover:text-red-500">Contact Us</a></li>
-                    <li><a href="photo-gallery" class="hover:text-red-500">Photo Gallery</a></li>
-                    <li><a href="blog" class="hover:text-red-500">Blog</a></li>
+                    <li><a href="president's-words" class="hover:text-red-500">Courses</a></li>
+                    <li><a href="values" class="hover:text-red-500">Internship</a></li>
+                    <li><a href="faq" class="hover:text-red-500">Why Kazumi?</a></li>
+                    <li><a href="links" class="hover:text-red-500">Online Payment</a></li>
+                    <li><a href="contact-us" class="hover:text-red-500">Request Certificate</a></li>
                 </ul>
             </div>
 
@@ -158,8 +156,7 @@
                 <span>|</span>
                 <a href="contact-us" class="text-red-700 font-[600]">Customer Service</a>
             </div> -->
-            <p>&copy; 2025, kazumi Japanese School, All Rights Reserved<br>Global With us is a subsidiary of Henry
-                Harvin Education.</p>
+            <p>&copy; 2025, Kazumi Japanese School, All Rights Reserved<br>Global With us is a subsidiary of Henry Harvin® Education.</p>
         </div>
     </div>
 </footer>
@@ -384,4 +381,14 @@ function toggleText() {
 
     isExpanded = !isExpanded;
 }
+</script>
+<script>
+  window.addEventListener('load', () => {
+    const grid = document.getElementById('videoGrid');
+    if (grid) {
+      grid.classList.remove('hidden');
+      // If using inline style:
+      // grid.style.display = 'grid';
+    }
+  });
 </script>
