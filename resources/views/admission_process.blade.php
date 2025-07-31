@@ -115,11 +115,7 @@
     <!-- Step 1 -->
     <div class="flex flex-col items-center space-y-4 p-6 border rounded-lg shadow-md">
       <div class="text-red-600">
-        <svg class="w-16 h-16" fill="none" stroke="currentColor" stroke-width="1.5"
-             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M12 6V4m0 2v2m0 0c2.28 0 4.308.858 5.657 2.243A8 8 0 0112 20a8 8 0 01-5.657-13.757A7.978 7.978 0 0112 8z" />
-        </svg>
+        <img class="h-24" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17539630871111.png" alt="">
       </div>
       <h3 class="text-xl font-semibold">Step 1</h3>
       <p class="text-gray-600">Gather all the required documents</p>
@@ -128,11 +124,7 @@
     <!-- Step 2 -->
     <div class="flex flex-col items-center space-y-4 p-6 border rounded-lg shadow-md">
       <div class="text-red-600">
-        <svg class="w-16 h-16" fill="none" stroke="currentColor" stroke-width="1.5"
-             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M4 6h16M4 10h16M4 14h16M4 18h16" />
-        </svg>
+        <img class="h-24" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753963105shopping-list_6572247.png" alt="">
       </div>
       <h3 class="text-xl font-semibold">Step 2</h3>
       <p class="text-gray-600">Fill in the admission form carefully</p>
@@ -141,11 +133,7 @@
     <!-- Step 3 -->
     <div class="flex flex-col items-center space-y-4 p-6 border rounded-lg shadow-md">
       <div class="text-red-600">
-        <svg class="w-16 h-16" fill="none" stroke="currentColor" stroke-width="1.5"
-             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M12 4v16m8-8H4" />
-        </svg>
+         <img class="h-24" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17539631233333.png" alt="">
       </div>
       <h3 class="text-xl font-semibold">Step 3</h3>
       <p class="text-gray-600">Upload documents in JPG or PDF format</p>
@@ -154,39 +142,27 @@
     <!-- Step 4 -->
     <div class="flex flex-col items-center space-y-4 p-6 border rounded-lg shadow-md">
       <div class="text-red-600">
-        <svg class="w-16 h-16" fill="none" stroke="currentColor" stroke-width="1.5"
-             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M5 10h14M12 6l4 4-4 4" />
-        </svg>
+        <img class="h-24" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753963197444.png" alt="">
       </div>
       <h3 class="text-xl font-semibold">Step 4</h3>
       <p class="text-gray-600">Choose your preferred course</p>
     </div>
 
     <!-- Step 5 -->
-    <div class="flex flex-col items-center space-y-4 p-6 border rounded-lg shadow-md">
+    {{-- <div class="flex flex-col items-center space-y-4 p-6 border rounded-lg shadow-md">
       <div class="text-red-600">
-        <svg class="w-16 h-16" fill="none" stroke="currentColor" stroke-width="1.5"
-             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M12 8c-1.657 0-3 1.343-3 3s1.343 3 3 3m0 0c1.657 0 3 1.343 3 3m-3-3c1.657 0 3-1.343 3-3s-1.343-3-3-3m0 0V4m0 16v-4" />
-        </svg>
+         <img src="" alt="">
       </div>
       <h3 class="text-xl font-semibold">Step 5</h3>
       <p class="text-gray-600">Choose your payment method</p>
-    </div>
+    </div> --}}
 
     <!-- Step 6 -->
     <div class="flex flex-col items-center space-y-4 p-6 border rounded-lg shadow-md">
       <div class="text-red-600">
-        <svg class="w-16 h-16" fill="none" stroke="currentColor" stroke-width="1.5"
-             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M9 12l2 2 4-4M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
-        </svg>
+         <img class="h-24" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753963225555.png" alt="">
       </div>
-      <h3 class="text-xl font-semibold">Step 6</h3>
+      <h3 class="text-xl font-semibold">Step 5</h3>
       <p class="text-gray-600">Complete admission with online payment</p>
     </div>
 
