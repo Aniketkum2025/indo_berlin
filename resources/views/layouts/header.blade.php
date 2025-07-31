@@ -58,9 +58,22 @@
                             </svg>
                         </a>
                         <div
-                            class="absolute top-full -left-2 z-30 w-48 bg-white shadow-lg border rounded-md p-2 space-y-1 submenu">
-                            <a href="japanese-language-course"
+                            class="absolute top-full -left-2 z-30 w-60 bg-white shadow-lg border rounded-md p-2 space-y-1 submenu">
+                            <a href="https://www.henryharvin.com/japanese-language-course"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Japanese Language Course</a>
+
+                                <a href="https://www.henryharvin.com/japanese-beginners-course" class="block text-gray-700 hover:text-[#da2028] text-[13px] font-[600] hover:bg-gray-100 px-1">Japanese for Beginners Course</a>
+                                <a href="https://www.henryharvin.com/japanese-language-course" class="block text-gray-700 hover:text-[#da2028] text-[13px] font-[600] hover:bg-gray-100 px-1">Japanese Language N5 Level Course</a>
+                                <a href="https://www.henryharvin.com/japanese-language-course" class="block text-gray-700 hover:text-[#da2028] text-[13px] font-[600] hover:bg-gray-100 px-1">Japanese Language N4 Level Course</a>
+                                <a href="https://www.henryharvin.com/japanese-language-course" class="block text-gray-700 hover:text-[#da2028] text-[13px] font-[600] hover:bg-gray-100 px-1">Japanese Language N3 Level Course</a>
+                                <a href="https://www.henryharvin.com/japanese-language-course" class="block text-gray-700 hover:text-[#da2028] text-[13px] font-[600] hover:bg-gray-100 px-1">Japanese Language N3 Level Course</a>
+                                <a href="https://www.henryharvin.com/japanese-language-course" class="block text-gray-700 hover:text-[#da2028] text-[13px] font-[600] hover:bg-gray-100 px-1">Japanese Language N1 Level Course</a>
+                                <a href="https://www.henryharvin.com/post-graduate-diploma-in-japanese-language-by-dbs" class="block text-gray-700 hover:text-[#da2028] text-[13px] font-[600] hover:bg-gray-100 px-1">Post Graduate Diploma in Japanese Language by Dunster Business School, Switzerland</a>
+                                <a href="https://www.henryharvin.com/post-graduate-diploma-professional-in-japanese-language-by-dbs" class="block text-gray-700 hover:text-[#da2028] text-[13px] font-[600] hover:bg-gray-100 px-1">Post Graduate Diploma Professional in Japanese Language by Dunster Business School, Switzerland</a>
+                                <a href="https://www.henryharvin.com/masters-in-japanese-language" class="block text-gray-700 hover:text-[#da2028] text-[13px] font-[600] hover:bg-gray-100 px-1">Master’s in Japanese Language</a>
+                                <a href="https://www.henryharvin.com/migrate-japan" class="block text-gray-700 hover:text-[#da2028] text-[13px] font-[600] hover:bg-gray-100 px-1">Migrate to Japan Course</a>
+
+
                         </div>
                     </div>
                     <div class="group relative">
@@ -73,8 +86,8 @@
                         </a>
                         <div
                             class="absolute top-full -left-2 z-30 w-48 bg-white shadow-lg border rounded-md p-2 space-y-1 submenu">
-                            <a href="why-kazumi"
-                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Why Kazumi?</a>
+                            {{-- <a href="why-kazumi"
+                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Why Kazumi?</a> --}}
                             <a href="admission-process"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Admission Process</a>
                             
@@ -160,7 +173,7 @@
             <div class="px-4 py-2">
                 <button onclick="toggleMobileSubmenu('admission')" class="text-[#da2028] font-[600]">Admission</button>
                 <div id="mobile-submenu-admission" class="hidden ml-4">
-                    <a href="why-kazumi" class="block py-1 text-gray-700">Why Kazumi?</a>
+                    {{-- <a href="why-kazumi" class="block py-1 text-gray-700">Why Kazumi?</a> --}}
                     <a href="admission-process" class="block py-1 text-gray-700">Admission Process</a>
                     
                     <a href="https://www.henryharvin.com/pay-fee" class="block py-1 text-gray-700">Online Payment</a>
