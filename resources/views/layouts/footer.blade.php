@@ -14,7 +14,7 @@
             <div>
                 <h3 class="text-white font-semibold border-b border-gray-600 pb-1 mb-3">USEFUL PAGES</h3>
                 <ul class="space-y-2 text-gray-400 text-sm">
-                    <li><a href="about-us" class="hover:text-red-500">Knowing Kazumi</a></li>
+                    <li><a href="/about-us" class="hover:text-red-500">Knowing Kazumi</a></li>
                     {{-- <li><a href="president's-words" class="hover:text-red-500">Courses</a></li> --}}
                     <li><a href="https://yuvaintern.com/" class="hover:text-red-500">Internship</a></li>
                     <li><a href="why-kazumi" class="hover:text-red-500">Why Kazumi?</a></li>
