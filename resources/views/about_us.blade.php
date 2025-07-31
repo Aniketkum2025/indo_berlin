@@ -2,26 +2,25 @@
 @section('content')
 
 <section>
-    <div class="relative w-full h-screen overflow-hidden">
+    <div class="relative w-full h-screen overflow-hidden" style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1753942717banner.webp); background-position: top;">
         <!-- Video Background -->
-        <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover">
+        {{-- <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover">
             <source src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175274277337088-413229662_medium.mp4"
                 type="video/mp4">
             Your browser does not support the video tag.
-        </video>
-
-        <!-- Content Overlay -->
+        </video> --}}
         <div
-            class="relative z-10 flex flex-col justify-center items-center h-full text-center text-white bg-black bg-opacity-30">
-            <p class="capitalize text-2xl md:text-4xl tracking-widest mb-4"
-                style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Welcome to Kazumi Japanese & Culture School</p>
-            <h1 class="text-xl md:text-2xl tracking-widest mb-6">Discover a new standard of Japanese Education and
-                Culture.</h1>
-            <div class="flex space-x-4 mb-8">
+            class="relative z-10 flex flex-col justify-center space-y-4 items-center h-full text-center text-white bg-black bg-opacity-30">
+            <h1 class="text-3xl md:text-[48px] tracking-widest mb-10 font-[600]" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Welcome to Kazumi Japanese & Culture School </h1>
+            <p class="capitalize text-xl md:text-3xl tracking-widest font-[600]"
+                style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">新しい日本語教育と文化の基準を体験しましょう</p>
+            <p class="capitalize text-xl md:text-3xl tracking-widest mt-4 font-[600]"
+                style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Discover a new standard of Japanese Education and Culture</p>
+            <div class="flex space-x-4 mb-8 items-center justify-center">
                 <a data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button"
                     class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600">Apply
                     Now</a>
-                <a href="#" class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600"> Learn
+                <a href="/about-us" class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600"> Learn
                     More</a>
             </div>
             <div>
@@ -42,7 +41,6 @@
                     animation: bounceY 1s infinite;
                 }
                 </style>
-
                 <button class="bg-white bg-opacity-50 text-red-800 p-4 rounded-full hover:bg-opacity-40 shadow-md"
                     onclick="document.getElementById('course_section').scrollIntoView({ behavior: 'smooth' });">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 animate-bounceY" fill="none"
@@ -164,7 +162,7 @@
 
     </div>
 </section>
-<section class="bg-gray-100 py-12 px-6">
+{{-- <section class="bg-gray-100 py-12 px-6">
     <div class="max-w-4xl mx-auto text-center">
         <h2 class="text-3xl font-bold text-red-600 capitalize mb-8">Kazumi Advisory Board Members</h2>
 
@@ -196,7 +194,7 @@
 
         </div>
     </div>
-</section>
+</section> --}}
 
 <section class="py-12 px-4 bg-gray-50">
     <div class="max-w-6xl mx-auto">
