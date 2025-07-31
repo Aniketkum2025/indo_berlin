@@ -41,7 +41,6 @@
                     animation: bounceY 1s infinite;
                 }
                 </style>
-
                 <button class="bg-white bg-opacity-50 text-red-800 p-4 rounded-full hover:bg-opacity-40 shadow-md"
                     onclick="document.getElementById('course_section').scrollIntoView({ behavior: 'smooth' });">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 animate-bounceY" fill="none"
@@ -62,7 +61,7 @@
     <p class="text-center text-gray-600 text-[16px] font-[600] my-2">Just like the famous Japanese proverb "継続は力なり" (Continuity is power), we bring a series of courses starting from Basic (N5) to Super Advanced (N1) level for continuous learning and growth.</p>
      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 my-10"> 
         <div class="w-full flex flex-col rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753689366Japanese_Language_Courses.jpg" alt="">
+            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753689366Japanese_Language_Courses.jpg" alt="img-1">
             <div class=" h-full py-4">
                 <p class="text-[18px] font-[500] text-gray-900">Japanese Language Courses</p>
                 <p class="text-[16px] text-gray-700 mt-2 flex-grow">Extensive & intensive modules 平日 (Heijitsu) and 週末 (Shūmatsu) batch</p>
@@ -83,7 +82,7 @@
             </div>
         </div>
         <div class="w-full flex flex-col rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753694789Japanese_Occupational_Courses.jpg" alt="">
+            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753694789Japanese_Occupational_Courses.jpg" alt="img-2">
             <div class=" h-full py-4">
                 <p class="text-[18px] font-[500] text-gray-900">Japanese Occupational Courses</p>
                 <p class="text-[16px] text-gray-700 mt-2 flex-grow">Extensive & Intensive courses for 個人 (Kojin) in corporate and business sector</p>
@@ -102,7 +101,7 @@
             </div>
         </div>
         <div class="w-full flex flex-col rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753694973Japanese_Cross-Cultural_Courses.jpg" alt="">
+            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753943372ezgif.com-png-to-webp-converter_(1).webp" alt="culture">
             <div class=" h-full py-4">
                 <p class="text-[18px] font-[500] text-gray-900">Japanese Cross-Cultural Courses</p>
                  <p class="text-[16px] text-gray-700 mt-2 flex-grow">Extensive & Intensive courses for 個人 (Kojin) in corporate and business sector</p>
@@ -116,7 +115,7 @@
             </div>
         </div>
         <div class="w-full flex flex-col rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753696001Japanese_Crash_Course.jpg" alt="">
+            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753696001Japanese_Crash_Course.jpg" alt="crash">
             <div class=" h-full py-4">
                 <p class="text-[18px] font-[500] text-gray-900">Crash Course in Japanese Language</p>
                 <p class="text-[16px] text-gray-700 mt-2 flex-grow">Cover all the topics from N5 (basic) to N1 (advance) level, understand important and useful Japanese 伝統（Dentō) and etiquettes</p>
@@ -128,111 +127,7 @@
             </div>
         </div>
     </div>
-
-    {{-- <div class="w-full flex flex-wrap justify-center gap-6 my-10 px-4"> 
-        <div
-            class="w-full sm:w-[45%] md:w-[22%] flex flex-col shadow-xl border border-red-100 rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover"
-                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753098617website_image_300x300_1.png" alt="">
-            <div class="flex flex-col flex-grow h-full px-4 py-4">
-                <p class="text-[16px] font-[500] text-gray-900">Japanese Language N5 Level Course</p>
-                <p class="text-[14px] text-gray-700 mt-2 flex-grow">Master everyday greetings, simple kanji and basic
-                    conversations.</p>
-                <div class="mt-4">
-                    <a href="#" class="bg-red-500 text-white text-xs px-3 py-1 rounded hover:bg-red-600">Read
-                        more...</a>
-                </div>
-            </div>
-        </div>
-        <div
-            class="w-full sm:w-[45%] md:w-[22%] flex flex-col shadow-xl border border-red-100 rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover"
-                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753098647website_image_300x300_2.png" alt="">
-            <div class="flex flex-col flex-grow h-full px-4 py-4">
-                <p class="text-[16px] font-[500] text-gray-900">Japanese Language N4 Level Course</p>
-                <p class="text-[14px] text-gray-700 mt-2 flex-grow">Handle daily situations, expanded vocabulary and
-                    essential grammar for smooth conversations.</p>
-                <div class="mt-4">
-                    <a href="#" class="bg-red-500 text-white text-xs px-3 py-1 rounded hover:bg-red-600">Read
-                        more...</a>
-                </div>
-            </div>
-        </div>
-        <div
-            class="w-full sm:w-[45%] md:w-[22%] flex flex-col shadow-xl border border-red-100 rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover"
-                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753098744website_image_300x300_3.png" alt="">
-            <div class="flex flex-col flex-grow h-full px-4 py-4">
-                <p class="text-[16px] font-[500] text-gray-900">Japanese Language N3 Level Course</p>
-                <p class="text-[14px] text-gray-700 mt-2 flex-grow">Understand complex sentences, express opinions and
-                    interact in real life situations.</p>
-                <div class="mt-4">
-                    <a href="#" class="bg-red-500 text-white text-xs px-3 py-1 rounded hover:bg-red-600">Read
-                        more...</a>
-                </div>
-            </div>
-        </div>
-        <div
-            class="w-full sm:w-[45%] md:w-[22%] flex flex-col shadow-xl border border-red-100 rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover"
-                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753098769website_image_300x300_4.png" alt="">
-            <div class="flex flex-col flex-grow h-full px-4 py-4">
-                <p class="text-[16px] font-[500] text-gray-900">Japanese Language N2 Level Course</p>
-                <p class="text-[14px] text-gray-700 mt-2 flex-grow">Achieve professional level mastery, comprehend news
-                    and gain academic competency.</p>
-                <div class="mt-4">
-                    <a href="#" class="bg-red-500 text-white text-xs px-3 py-1 rounded hover:bg-red-600">Read
-                        more...</a>
-                </div>
-            </div>
-        </div>
-        <div
-            class="w-full sm:w-[45%] md:w-[22%] flex flex-col shadow-xl border border-red-100 rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover"
-                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753098812website_image_300x300_5.png" alt="">
-            <div class="flex flex-col flex-grow h-full px-4 py-4">
-                <p class="text-[16px] font-[500] text-gray-900">Japanese Language N1 Level Course</p>
-                <p class="text-[14px] text-gray-700 mt-2 flex-grow">Gain near native proficiency and understand advanced
-                    texts, subtleties and business vocabulary.</p>
-                <div class="mt-4">
-                    <a href="#" class="bg-red-500 text-white text-xs px-3 py-1 rounded hover:bg-red-600">Read
-                        more...</a>
-                </div>
-            </div>
-        </div>
-        <div
-            class="w-full sm:w-[45%] md:w-[22%] flex flex-col shadow-xl border border-red-100 rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover"
-                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753340788asian-woman-practicing-japanese-handwriting-indoors.jpg" alt="">
-            <div class="flex flex-col flex-grow h-full px-4 py-4">
-                <p class="text-[16px] font-[500] text-gray-900">PG Diploma in Japanese Language</p>
-                <p class="text-[14px] text-gray-700 mt-2 flex-grow">Master advanced vocabulary, sentence structure,
-                    grammar, and abstract comprehension.</p>
-                <div class="mt-4">
-                    <a href="#" class="bg-red-500 text-white text-xs px-3 py-1 rounded hover:bg-red-600">Read
-                        more...</a>
-                </div>
-            </div>
-        </div>
-        <div
-            class="w-full sm:w-[45%] md:w-[22%] flex flex-col shadow-xl border border-red-100 rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover"
-                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753340863man-sitting-reading-book-stairs.jpg" alt="">
-            <div class="flex flex-col flex-grow h-full px-4 py-4">
-                <p class="text-[16px] font-[500] text-gray-900">Master’s in Japanese Language</p>
-                <p class="text-[14px] text-gray-700 mt-2 flex-grow">Achieve near native proficiency, build strong
-                    foundations, and reach the highest fluency levels.</p>
-                <div class="mt-4">
-                    <a href="#" class="bg-red-500 text-white text-xs px-3 py-1 rounded hover:bg-red-600">Read
-                        more...</a>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-
-
 </section>
-
 {{-- vedio section --}}
 <section class="py-12 bg-gray-100">
     <div class="max-w-7xl mx-auto px-4">
@@ -390,7 +285,7 @@
                             class="fa fa-star-half text-red-700"></i></a>
                 </div>
                 <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733730860forbes.webp"
-                    alt="justdial">
+                    alt="justdial1">
             </div>
             <div
                 class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
@@ -412,7 +307,7 @@
                             class="fa fa-star text-red-700"></i></a>
                 </div>
                 <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1730089884544x180-BR-300x99-1.png"
-                    alt="mouthshut">
+                    alt="mouthshut2">
             </div>
             <div
                 class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
@@ -444,7 +339,7 @@
                             class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
                             class="fa fa-star-half text-red-700"></i></a>
                 </div>
-                <img class="h-16" src="https://cdn.henryharvin.com/gooo1.webp" alt="google">
+                <img class="h-16" src="https://cdn.henryharvin.com/gooo1.webp" alt="google2">
             </div>
             <div
                 class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
@@ -466,18 +361,14 @@
                             class="fa fa-star-half text-red-700"></i></a>
                 </div>
                 <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/171964550223e23e23.webp"
-                    alt="google">
+                    alt="google4">
             </div>
         </div>
     </div>
 </section>
 <section id="stats" class="py-4 bg-red-600 mx-auto px-4">
     <div class="max-w-6xl mx-auto">
-        <!-- <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Key Highlight
-        </h2> -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
-
-            <!-- Countries -->
             <div class="bg-white shadow-md rounded-lg p-2">
                 <h3 class="text-[32px] font-semibold text-center text-gray-800 mb-1">Countries</h3>
                 <div class="flex items-center justify-center gap-2">
@@ -485,18 +376,13 @@
                     <span class="text-5xl font-[600] text-red-600">+</span>
                 </div>
             </div>
-
-            <!-- Enrolled Students -->
             <div class="bg-white shadow-md rounded-lg p-2">
                 <h3 class="text-[32px] font-semibold text-center text-gray-800 mb-1">Enrolled Students</h3>
                 <div class="flex items-center justify-center gap-2">
                     <p class="text-[32px] font-bold text-red-600">4,60,000</p>
                     <span class="text-5xl font-[600] text-red-600">+</span>
                 </div>
-
             </div>
-
-            <!-- Established In -->
             <div class="bg-white shadow-md rounded-lg p-2">
                 <h3 class="text-[32px] font-semibold text-center text-gray-800 mb-1">Established in</h3>
                 <div class="flex items-center justify-center gap-2">
@@ -512,31 +398,26 @@
     <div class="max-w-7xl mx-auto">
         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize mt-4 mb-4"> Why Kazumi Japanese & Culture 文化 School?
         </h2>
-        {{-- <p class="text-[16px] font-[600] text-gray-800 mb-4 text-center">
-            なぜカズミ日本語・文化学校なのか？
-        </p> --}}
         <div class="py-8">
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 text-center">
                 <div
                     class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center col-span-1 sm:col-span-1 md:col-span-1">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789102Trainerteaching.jpg" alt="">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789102Trainerteaching.jpg" alt="wwww">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Native Japanese Trainers</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Learn from certified, highly 経験豊富 (keiken hōfu) and 情熱的な (jōnetsu-teki na) faculties.</p>
                 </div>
-
                  <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789154examsheet.jpg" alt="">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789154examsheet.jpg" alt="course">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">JLPT Intensive Course</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Excel in the JLPT with our 専門的な (Senmon-teki na) modules, mock tests, personalized coaching, and JLPT-focused materials sourced directly from Japan.</p>
                 </div>
-
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881317elearning.jpg" alt="">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881317elearning.jpg" alt="access">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Access to E-learning Portal</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Kazumi partners with <span>
@@ -547,15 +428,13 @@
                                             alt="Examopedia Logo" class="h-4">Examopedia</span> </a>
                         , a comprehensive E-learning portal that provides future updates, PPTs, projects, quizzes, 模擬試験 (Mogi Shiken), question banks, assessments and interactive forums.</p>
                 </div>
-
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                     <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789196OccupationalPrograms.jpg" alt="">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789196OccupationalPrograms.jpg" alt="offer">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Japanese Occupational Courses</h3>
                     <p class="text-gray-700 text-[14px] mt-2">At Kazumi, we offer programs that will help you build corporate, business and 職場 (shokuba) skills required to secure good 仕事 (shigoto) internationally.</p>
                 </div>
-
                  <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774339talking.jpg" alt="">
@@ -566,61 +445,50 @@
                                         href="https://yuvaintern.com//"
                                         class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
                                             src="https://yuvaintern.com/assets/img/logo.png"
-                                            alt="Examopedia Logo" class="h-4">Yuva Intern</span> </a>
+                                            alt="Yuva Intern Logo" class="h-4">Yuva Intern</span> </a>
                                             , India’s first バーチャル (bācharu) internship platform where you get to select from the best curated internships that match your skills and interests.</p>
                 </div>
-
                  <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881283study.jpg" alt="">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881283study.jpg" alt="study">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Study Abroad & Recruitment Services</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Kazumi offers study abroad and 就職支援 (Shūshoku Shien) via 
-                        <a
-                                        href="https://leochase.com/"
-                                        class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
-                                            src="https://leochase.com/wp-content/uploads/2025/04/Logo_Leo-Chase_F.png"
-                                            alt="Examopedia Logo" class="h-3">Leo & Chase</span> </a>
+                        <a href="https://leochase.com/" class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
+                                src="https://leochase.com/wp-content/uploads/2025/04/Logo_Leo-Chase_F.png"
+                                alt="Leo & Chase Logo" class="h-3">Leo & Chase</span> </a>
                         , no. 1 recruitment provider, assisting from visa application to settling abroad.</p>
                 </div>
-
                  <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                     <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881176agota2.jpg" alt="">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881176agota2.jpg" alt="Unique">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Unique 10 in 1 Program: Agota™ Framework</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Learn through innovative teaching methods that make learning easy and 実践的 (Jissen-teki). This framework essentially promotes the 能力 (Nōryoku) development and キャリア (Kyaria) development.</p>
                 </div>
-
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                     <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789015orconnections.jpg" alt="">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789015orconnections.jpg" alt="globle">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Global Presence</h3>
                     <p class="text-gray-700 text-[14px] mt-2">With offices in 4+ countries, UK, USA, Middle East, and India, Kazumi is a global brand, offering a global learning 環境 (kankyō), with around 1200+ international 学生 (gakusei).</p>
                 </div>
-
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774903Network.jpg" alt="">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774903Network.jpg" alt="international">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">International Alumni Network</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Join a diverse コミュニティ(Komyuniti) of learners and professionals from around the world.</p>
                 </div>
-                <!-- Live Online Classes -->
-             
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774206culture.jpg" alt="">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774206culture.jpg" alt="culture two">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Cultural Training</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Explore 伝統 (Dentō), etiquettes, festivals, and practices used in an authentic environment.</p>
                 </div>
-                
-
             </div>
         </div>
-
     </div>
 </section>
 
@@ -637,53 +505,43 @@
                     <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1724768847Screenshot_2024-08-27_190332.png"
                         alt="AAEFL" class="h-28 w-auto">
                 </div>
-
             </div>
-
-            <!-- Card 2 -->
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753255971sxsssswc.PNG" alt="AAEFL"
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753255971sxsssswc.PNG" alt="AAEFL56"
                         class=" h-28 w-auto">
                 </div>
-
             </div>
-
-            <!-- Card 3 -->
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1726071455watts_we_logo_jft.png" alt="AAEFL"
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1726071455watts_we_logo_jft.png" alt="AAEF565L"
                         class=" h-28 w-auto">
                 </div>
-
             </div>
-
-            <!-- Card 4 -->
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1736849226DBS_C-01.png" alt="AAEFL"
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1736849226DBS_C-01.png" alt="AAEFLewe"
                         class=" h-28 w-auto">
                 </div>
-
             </div>
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://flism.org/wp-content/uploads/2025/01/Logo_Florida_7.jpg" alt="AAEFL"
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753943295ezgif.com-resize_(2).webp" alt="AAEFdfhL"
                         class=" h-16 w-auto">
                 </div>
             </div>
             <!-- Card 5 -->
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://cdn.henryharvin.com/images/1686549627AAEFL.webp" alt="AAEFL"
+                    <img src="https://cdn.henryharvin.com/images/1686549627AAEFL.webp" alt="AAEFL897"
                         class=" h-24 w-auto">
                 </div>
             </div>
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex gap-2 justify-center">
-                    <img src="https://nsdcindia.org/logo_nsdc.svg" alt="AAEFL"
+                    <img src="https://nsdcindia.org/logo_nsdc.svg" alt="AAEFLfsdf"
                         class=" h-16 w-auto">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753882471skills.svg" alt="AAEFL"
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753882471skills.svg" alt="AAEFLsde"
                         class=" h-16 w-auto">
 
                 </div>
@@ -696,25 +554,25 @@
             </div>
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://cdn.henryharvin.com/images/1683959347ezgif.com-resize%20(20).webp" alt="AAEFL"
+                    <img src="https://cdn.henryharvin.com/images/1683959347ezgif.com-resize%20(20).webp" alt="AAEFLcxcvcxz"
                         class=" h-24 w-auto">
                 </div>
             </div>
              <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753941817ezgif.com-resize_(1).webp" alt="AAEFL"
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753941817ezgif.com-resize_(1).webp" alt="AAEFLqwdD"
                         class=" h-24 w-auto">
                 </div>
             </div>
              <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://cdn.henryharvin.com/images/1683958602ezgif.com-resize%20(16).webp" alt="AAEFL"
+                    <img src="https://cdn.henryharvin.com/images/1683958602ezgif.com-resize%20(16).webp" alt="AAEFLFGEFF"
                         class=" h-24 w-auto">
                 </div>
             </div>
              <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753941817ezgif.com-resize_(1).webp" alt="AAEFL"
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753941817ezgif.com-resize_(1).webp" alt="AAEFDFEEGEL"
                         class=" h-24 w-auto">
                 </div>
             </div>
@@ -738,7 +596,7 @@
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753867955images.png" alt="images-8">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753867955images.png" alt="images-81">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
@@ -748,100 +606,66 @@
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868067images_(2).png" alt="images-8">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868067images_(2).png" alt="images-82">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868099sdl-logo-png_seeklogo-347042.png" alt="images-8">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868099sdl-logo-png_seeklogo-347042.png" alt="images-83">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175386813502c4095c-f9fa-4d70-be49-63ba162289e2_thumb.jpg" alt="images-8">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175386813502c4095c-f9fa-4d70-be49-63ba162289e2_thumb.jpg" alt="images-84">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868252images_(3).png" alt="images-8">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868252images_(3).png" alt="images-85">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868291images_(4).png" alt="images-8">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868291images_(4).png" alt="images-86">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868344images_(5).png" alt="images-8">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868344images_(5).png" alt="images-88">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868383images_(6).png" alt="images-8">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868383images_(6).png" alt="images-87">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868430FirstStudy.jpg" alt="images-8">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868430FirstStudy.jpg" alt="images-89">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868553Hotsuma.jpg" alt="images-8">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868553Hotsuma.jpg" alt="images-809">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868596Human.jpg"
-                        alt="images-8">
+                        alt="images-8FDF">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868637Linguage.jpg"
-                        alt="images-8">
+                        alt="images-8DFD">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868755JCCIC.png"
-                        alt="images-8">
+                        alt="images-8DFD">
                 </div>
-                {{-- <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141398ezgif.com-webp-maker_(6).webp"
-                        alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141500ezgif.com-webp-maker_(4).webp"
-                        alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141519aws.png" alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141551issa.png" alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141068ezgif.com-webp-maker_(21).webp"
-                        alt="images-8">
-                </div>
-                <div
-                    class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
-                    <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1750141094ezgif.com-webp-maker_(19).webp"
-                        alt="images-8">
-                </div> --}}
             </div>
         </div>
     </div>
@@ -852,14 +676,13 @@
     <div class="max-w-7xl mx-auto">
         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Esteemed Faculty
         </h2>
-
             <div class="grid grid-cols-5 gap-2">
                 <div class="">
                     <div class="grid p-2 gap-2 place-items-center rounded-2xl"
                         style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753875885212w-ezgif.com-resize.webp" alt="">
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753875885212w-ezgif.com-resize.webp" alt="FEFE">
                         </div>
                         <div class="px-2">
                             <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Seema
@@ -875,7 +698,7 @@
                         style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522620Varsha_Mehroliya.jpg" alt="">
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522620Varsha_Mehroliya.jpg" alt="Varsha Mehroliya">
                         </div>
                         <div class="px-2">
                             <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Varsha Mehroliya
@@ -891,7 +714,7 @@
                         style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522683Sonali_Srivastava_(1).jpg" alt="">
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522683Sonali_Srivastava_(1).jpg" alt="Sonali Srivastava">
                         </div>
                         <div class="px-2 ">
                             <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Sonali Srivastava
@@ -907,7 +730,7 @@
                         style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532671153rd.webp" alt="">
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532671153rd.webp" alt="Claire">
                         </div>
                         <div class="px-2 ">
                             <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Claire</h2>
@@ -922,7 +745,7 @@
                         style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523883sucheta_(1).jpg" alt="">
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523883sucheta_(1).jpg" alt="Patil">
                         </div>
                         <div class="px-2 ">
                             <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Sucheta Patil</h2>
@@ -932,329 +755,8 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div class="">
-                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
-                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                        <div class="rounded-2xl">
-                            <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523973Swagata.jpg" alt="">
-                        </div>
-                        <div class="px-2 ">
-                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Swagata</h2>
-                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">5+ Years
-                                Of Experience</h2>
-                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
-                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                        <div class="rounded-2xl">
-                            <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524020siddharth.jpg" alt="">
-                        </div>
-                        <div class="px-2 ">
-                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Siddharth Chopra</h2>
-                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
-                                Of Experience</h2>
-                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
-                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                        <div class="rounded-2xl">
-                            <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753786854Saniya_Parchure_(1).jpg" alt="">
-                        </div>
-                        <div class="px-2 ">
-                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Saniya Parchure</h2>
-                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">7+ Years
-                                Of Experience</h2>
-                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
-                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                        <div class="rounded-2xl">
-                            <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753856360Aditya.jpg" alt="">
-                        </div>
-                        <div class="px-2 ">
-                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Aditya</h2>
-                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">7+ Years
-                                Of Experience</h2>
-                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
-                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                        <div class="rounded-2xl">
-                            <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753786915Apeksha.jpg" alt="">
-                        </div>
-                        <div class="px-2 ">
-                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Apeksha</h2>
-                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
-                                Of Experience</h2>
-                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
-                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                        <div class="rounded-2xl">
-                            <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524239Prachi.jpg" alt="">
-                        </div>
-                        <div class="px-2 ">
-                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Prachi</h2>
-                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
-                                Of Experience</h2>
-                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
-                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                        <div class="rounded-2xl">
-                            <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753787152Abha.jpg" alt="">
-                        </div>
-                        <div class="px-2 ">
-                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Abha</h2>
-                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">5+ Years
-                                Of Experience</h2>
-                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
-                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                        <div class="rounded-2xl">
-                            <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753268551malini.webp" alt="">
-                        </div>
-                        <div class="px-2 ">
-                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Malini</h2>
-                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
-                                Of Experience</h2>
-                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                        </div>
-                    </div>
-                </div> --}}
+              
             </div>
-
-        {{-- <div class="relative w-wull mx-auto flex flex-row py-4">
-            <div class="absolute inset-y-0 left-0 z-10 flex items-center">
-                <div class="swiper-button-prev flex justify-center items-center text-[14px] text-red-600 custom">
-                </div>
-            </div>
-            <div class="swiper mySwiper swiper-container w-full">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522620Varsha_Mehroliya.jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Varsha Mehroliya
-                                </h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">5+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522683Sonali_Srivastava_(1).jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Sonali Srivastava
-                                </h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                   
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532671153rd.webp" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Claire</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523883sucheta_(1).jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Sucheta Patil</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">9+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523973Swagata.jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Swagata</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">5+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524020siddharth.jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Siddharth Chopra</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753786854Saniya_Parchure_(1).jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Saniya Parchure</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">7+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753856360Aditya.jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Aditya</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">7+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753786915Apeksha.jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Apeksha</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                   
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524239Prachi.jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Prachi</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753787152Abha.jpg" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Abha</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">5+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide p-8 lg:p-8">
-                        <div class="grid mx-2 p-2 gap-2 place-items-center rounded-2xl"
-                            style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                            <div class="rounded-2xl">
-                                <img class="h-full w-full object-cover rounded-2xl"
-                                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753268551malini.webp" alt="">
-                            </div>
-                            <div class="px-2 ">
-                                <h2 class="text-white text-center text-[16px] md:text-[20px] pb-2">Malini</h2>
-                                <h2 class="text-white text-[14px] text-center md:text-[18px] font-[500]">6+ Years
-                                    Of Experience</h2>
-                                <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-
-            <div class="absolute inset-y-0 right-0 z-10 flex items-center">
-                <div class="swiper-button-next flex justify-center items-center text-[14px] text-red-600 custom">
-                </div>
-            </div>
-        </div> --}}
         <div class="mt-4 flex justify-center items-center">
             <a href="/esteemed-faculty" class="bg-red-500 text-white text-[14px] px-6 py-2 rounded hover:bg-red-600">View More</a>
         </div>
@@ -1306,7 +808,7 @@
                                     bis_size="{&quot;x&quot;:580,&quot;y&quot;:1734,&quot;w&quot;:96,&quot;h&quot;:72,&quot;abs_x&quot;:580,&quot;abs_y&quot;:1734}">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719575893ezgif.com-resize - 2024-06-28T172803.379.webp"
-                                        alt="Video Thumbnail"
+                                        alt="Video ThumbnailRE"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg"
                                         bis_size="{&quot;x&quot;:580,&quot;y&quot;:1734,&quot;w&quot;:96,&quot;h&quot;:72,&quot;abs_x&quot;:580,&quot;abs_y&quot;:1734}"
                                         bis_id="bn_r7y6rulp4482rexmqhjbp6">
@@ -1332,7 +834,7 @@
                                     bis_size="{&quot;x&quot;:258,&quot;y&quot;:1847,&quot;w&quot;:96,&quot;h&quot;:72,&quot;abs_x&quot;:258,&quot;abs_y&quot;:1847}">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719576156sxw (2).webp"
-                                        alt="Video Thumbnail"
+                                        alt="Video ThumbnaiERl"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg"
                                         bis_size="{&quot;x&quot;:258,&quot;y&quot;:1847,&quot;w&quot;:96,&quot;h&quot;:72,&quot;abs_x&quot;:258,&quot;abs_y&quot;:1847}"
                                         bis_id="bn_76rdo306qf4u6okmbjp8xc">
@@ -1356,7 +858,7 @@
                                     bis_size="{&quot;x&quot;:580,&quot;y&quot;:1847,&quot;w&quot;:96,&quot;h&quot;:68,&quot;abs_x&quot;:580,&quot;abs_y&quot;:1847}">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719577083dcwcw.webp"
-                                        alt="Video Thumbnail"
+                                        alt="Video ThumREbnail"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg"
                                         bis_size="{&quot;x&quot;:580,&quot;y&quot;:1847,&quot;w&quot;:96,&quot;h&quot;:68,&quot;abs_x&quot;:580,&quot;abs_y&quot;:1847}"
                                         bis_id="bn_d8rrolf3o360b2tlne44wh">
@@ -1381,7 +883,7 @@
                                 <a target="_blank" href="https://www.youtube.com/watch?v=bzJOMiJu_QA">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1728970566Membership_Card_Collage_(1).png"
-                                        alt="Video Thumbnail"
+                                        alt="Video ThumbnailTTT"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg">
                                     <div id="playButton" class="absolute inset-0 flex items-center justify-center"
                                         bis_skin_checked="1">
@@ -1409,7 +911,7 @@
                                 <a target="_blank" href="https://www.youtube.com/watch?v=XUQm0ecT6ts">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719487342ezgif.com-resize (35).webp"
-                                        alt="Video Thumbnail"
+                                        alt="Video ThumbnailQWTRT"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg">
                                     <div id="playButton" class="absolute inset-0 flex items-center justify-center"
                                         bis_skin_checked="1">
@@ -1422,13 +924,7 @@
                             </div>
                         </div>
                     </li>
-                    <!-- <li  class="text-[15px] py-2 text-left font-[600] flex items-center justify-between border-b border-purple">1: Two-Way Live Training <span class="hidden"><a href="" class="text-white bg-red-500 hover:bg-red-600 focus:outline-none rounded-full px-4"><i class="fa fa-play-circle text-[#ffc107]" style="font-size:24px;"></i></a></span></li>
-                            <li  class="text-[15px] py-2 text-left font-[600] flex items-center justify-between border-b border-purple">2: Projects <span class="hidden"><a href="" class="text-white bg-red-500 hover:bg-red-600 focus:outline-none rounded-full px-4"><i class="fa fa-play-circle text-[#ffc107]" style="font-size:24px;"></i></a></span></li>
-                            <li  class="text-[15px] py-2 text-left font-[600] flex items-center justify-between border-b border-purple">3: Student Engagement & Events <span class="hidden"><a href="" class="text-white bg-red-500 hover:bg-red-600 focus:outline-none rounded-full px-4"><i class="fa fa-play-circle text-[#ffc107]" style="font-size:24px;"></i></a></span></li>
-                            <li  class="text-[15px] py-2 text-left font-[600] flex items-center justify-between border-b border-purple">4: Masterclasses <span class="hidden"><a href="" class="text-white bg-red-500 hover:bg-red-600 focus:outline-none rounded-full px-4"><i class="fa fa-play-circle text-[#ffc107]" style="font-size:24px;"></i></a></span></li>
-                            <li  class="text-[15px] py-2 text-left font-[600] flex items-center justify-between border-b border-purple">5: Membership Access <span class="hidden"><a href="" class="text-white bg-red-500 hover:bg-red-600 focus:outline-none rounded-full px-4"><i class="fa fa-play-circle text-[#ffc107]" style="font-size:24px;"></i></a></span></li>
-                            <li  class="text-[15px] py-2 text-left font-[600] flex items-center justify-between border-b border-purple">6: E-Learning <span class="hidden"><a href="" class="text-white bg-red-500 hover:bg-red-600 focus:outline-none rounded-full px-4"><i class="fa fa-play-circle text-[#ffc107]" style="font-size:24px;"></i></a></span></li> -->
-                </ul>
+                    </ul>
                 <p class="text-[15px] text-left my-8"><span class="font-bold text-gray-900">ア (Kyaria) development </span> lays focus on the essentials for acquiring a good career or diving into a highly competent one. It includes:</p>
                 <ul class="disk">
                     <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
@@ -1442,7 +938,7 @@
                                     bis_size="{&quot;x&quot;:258,&quot;y&quot;:2242,&quot;w&quot;:96,&quot;h&quot;:68,&quot;abs_x&quot;:258,&quot;abs_y&quot;:2242}">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719487248ezgif.com-resize (33).webp"
-                                        alt="Video Thumbnail"
+                                        alt="Video ThumbnailWERWG"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg"
                                         bis_size="{&quot;x&quot;:258,&quot;y&quot;:2242,&quot;w&quot;:96,&quot;h&quot;:68,&quot;abs_x&quot;:258,&quot;abs_y&quot;:2242}"
                                         bis_id="bn_0196ld4v20caat8svgsg34">
@@ -1464,13 +960,13 @@
                                         href="https://yuvaintern.com//"
                                         class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
                                             src="https://yuvaintern.com/assets/img/logo.png"
-                                            alt="Examopedia Logo" class="h-3">Yuva Intern</span> </a>.</span>
+                                            alt="YUVA Logo" class="h-3">Yuva Intern</span> </a>.</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2  " bis_skin_checked="1">
                                 <a target="_blank" href="https://www.youtube.com/shorts/2od0SMHat-A">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719575988d233dd23d.webp"
-                                        alt="Video Thumbnail"
+                                        alt="Video DSSDDThumbnail"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg">
                                     <div id="playButton" class="absolute inset-0 flex items-center justify-center"
                                         bis_skin_checked="1">
@@ -1494,7 +990,7 @@
                                     href="https://www.youtube.com/watch?v=pdffXkaWqVg&amp;feature=youtu.be">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719487388ezgif.com-resize (36).webp"
-                                        alt="Video Thumbnail"
+                                        alt="Videodfvdfv Thumbnail"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg">
                                     <div id="playButton" class="absolute inset-0 flex items-center justify-center"
                                         bis_skin_checked="1">
@@ -1515,7 +1011,7 @@
                                 <a target="_blank" href="https://www.youtube.com/shorts/KTb2gD30FNw">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719487296ezgif.com-resize (34).webp"
-                                        alt="Video Thumbnail"
+                                        alt="Videodvdffvdf Thumbnail"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg">
                                     <div id="playButton" class="absolute inset-0 flex items-center justify-center"
                                         bis_skin_checked="1">
@@ -1528,14 +1024,10 @@
                             </div>
                         </div>
                     </li>
-                    <!-- <li  class="text-[15px] py-2 text-left font-[600] flex items-center justify-between border-b border-purple">7: Hallmark Certification + License <span class="hidden"><a href="" class="text-white bg-red-500 hover:bg-red-600 focus:outline-none rounded-full px-4"><i class="fa fa-play-circle text-[#ffc107]" style="font-size:24px;"></i></a></span></li>
-                            <li  class="text-[15px] py-2 text-left font-[600] flex items-center justify-between border-b border-purple">8: Internship Support <span><a href="https://www.youtube.com/shorts/2od0SMHat-A" class="text-white bg-red-500 hover:bg-red-600 focus:outline-none rounded-full px-4"><i class="fa fa-play-circle text-[#ffc107]" style="font-size:24px;"></i></a></span></li>
-                            <li  class="text-[15px] py-2 text-left font-[600] flex items-center justify-between border-b border-purple">9: Entrepreneurship Mentorship <span class="hidden"><a href="" class="text-white bg-red-500 hover:bg-red-600 focus:outline-none rounded-full px-4"><i class="fa fa-play-circle text-[#ffc107]" style="font-size:24px;"></i></a></span></li>
-                            <li  class="text-[15px] py-2 text-left font-[600] flex items-center justify-between border-b border-purple">10: Placement Support <span><a href="https://www.youtube.com/shorts/KTb2gD30FNw" class="text-white bg-red-500 hover:bg-red-600 focus:outline-none rounded-full px-4"><i class="fa fa-play-circle text-[#ffc107]" style="font-size:24px;"></i></a></span></li> -->
-                </ul>
+                   </ul>
             </div>
             <div class="mt-4 relative" bis_skin_checked="1">
-                <img class="agota_image sticky" alt="agota frame"
+                <img class="agota_image sticky" alt="agota ddd frame"
                     style="width:100%; max-width:500px; top:80px; margin: auto;"
                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753941681ezgif.com-resize.webp">
             </div>
@@ -1553,9 +1045,9 @@
                 </p>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                <div class="mt-4 relative">
-                <img class="agota_image sticky" alt="agota frame"
+                <img class="agota_image sticky" alt="agota frame2"
                     style="width:100%; max-width:500px; top:80px; margin: auto;"
-                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753788535japan's_national_day_(1).jpg" alt="">
+                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753788535japan's_national_day_(1).jpg" alt="quality">
                </div>
                <div class="mt-6">
                 
@@ -1585,30 +1077,22 @@
                 日本での仕事とキャリア(Nihon de no shigoto to kyaria)
             </p>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
-              
                <div>
-               
                 <p class="text-[14px] text-gray-700 mb-4">
                     Japan is actively expanding opportunities for international talent. Japanese employers prioritize candidates who can provide immediate expertise, possess strong communication skills, independence, and a cooperative attitude.
                 </p>
-
-                <!-- Job Hunting Info -->
                 <div class="mb-4">
                     <h2 class="text-[16px] font-[600] text-gray-800 mb-2">Job Hunting (Shūkatsu) in Japan</h2>
                     <p class="text-[14px] text-gray-700">
                         The job hunting process in Japan follows formal procedures, and it is highly recommended for students to begin their search from April 1, as it aligns with Japan's undergraduate and master's programs. When applying for jobs, candidates must undergo written exams in languages, mathematics, and other relevant assessments. After passing the exams, candidates participate in interview rounds to ensure their profile aligns with the roles and company culture.
                     </p>
                 </div>
-
-                <!-- Visa & Part-Time Work -->
                 <div class="mb-4">
                     <h2 class="text-[16px] font-[600] text-gray-800 mb-2">Visa & Part-Time Work</h2>
                     <p class="text-[14px] text-gray-700">
                         International students wishing to work in Japan must transition from a "Student" visa to a work-eligible status such as Engineer or Specialist in Humanities & International Studies Services. The part-time work rules in Japan state that, while studying, students can only work up to 28 hours per week after obtaining permission.
                     </p>
                 </div>
-
-                <!-- Popular Sectors -->
                 <div>
                     <h2 class="text-[16px] font-[600] text-gray-800 mb-2">人気 (Ninki) Sectors for International Hires</h2>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -1618,10 +1102,8 @@
                         <li>Education</li>
                         <li>Translation & Interpretations</li>
                         <li>Government and Diplomatic Roles</li>
-                       
                     </ul>
                      <ul class="list-disc list-inside space-y-1 text-[14px] text-gray-700">
-                       
                         <li>Travel, Tourism, and Hospitality</li>
                         <li>International Business</li>
                         <li>Research & Publishing</li>
@@ -1629,32 +1111,15 @@
                         <li>Entertainment</li>
                     </ul>
                     </div>
-                    
                 </div>
                </div>
                 <div class="mt-4 relative" bis_skin_checked="1">
-                    <img class="agota_image sticky" alt="agota frame"
-                    style="width:100%; max-width:500px; top:80px; margin: auto;" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753942112ezgif.com-png-to-webp-converter.webp" alt="">
+                    <img class="agota_image sticky" alt="agota new frame"
+                    style="width:100%; max-width:500px; top:80px; margin: auto;" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753942112ezgif.com-png-to-webp-converter.webp" alt="dcsdc">
                </div>
         </div>
     </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {{-- <section class="py-12 px-4 bgpgray-100">
     <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Our Latest Updates!
     </h2>
@@ -1716,6 +1181,4 @@
         </div>
     </div>
 </section> --}}
-
-
 @endsection
