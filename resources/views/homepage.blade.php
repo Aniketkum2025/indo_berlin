@@ -61,7 +61,7 @@
     <p class="text-center text-gray-600 text-[16px] font-[600] my-2">Just like the famous Japanese proverb "継続は力なり" (Continuity is power), we bring a series of courses starting from Basic (N5) to Super Advanced (N1) level for continuous learning and growth.</p>
      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 my-10"> 
         <div class="w-full flex flex-col rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753689366Japanese_Language_Courses.jpg" alt="img-1">
+            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753689366Japanese_Language_Courses.jpg"  loading="lazy "alt="img-1" loading="lazy">
             <div class=" h-full py-4">
                 <p class="text-[18px] font-[500] text-gray-900">Japanese Language Courses</p>
                 <p class="text-[16px] text-gray-700 mt-2 flex-grow">Extensive & intensive modules 平日 (Heijitsu) and 週末 (Shūmatsu) batch</p>
@@ -82,7 +82,7 @@
             </div>
         </div>
         <div class="w-full flex flex-col rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753694789Japanese_Occupational_Courses.jpg" alt="img-2">
+            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753694789Japanese_Occupational_Courses.jpg"  loading="lazy "alt="img-2" loading="lazy">
             <div class=" h-full py-4">
                 <p class="text-[18px] font-[500] text-gray-900">Japanese Occupational Courses</p>
                 <p class="text-[16px] text-gray-700 mt-2 flex-grow">Extensive & Intensive courses for 個人 (Kojin) in corporate and business sector</p>
@@ -101,7 +101,7 @@
             </div>
         </div>
         <div class="w-full flex flex-col rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753943372ezgif.com-png-to-webp-converter_(1).webp" alt="culture">
+            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753943372ezgif.com-png-to-webp-converter_(1).webp"  loading="lazy "alt="culture" loading="lazy">
             <div class=" h-full py-4">
                 <p class="text-[18px] font-[500] text-gray-900">Japanese Cross-Cultural Courses</p>
                  <p class="text-[16px] text-gray-700 mt-2 flex-grow">Extensive & Intensive courses for 個人 (Kojin) in corporate and business sector</p>
@@ -115,7 +115,7 @@
             </div>
         </div>
         <div class="w-full flex flex-col rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753696001Japanese_Crash_Course.jpg" alt="crash">
+            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753696001Japanese_Crash_Course.jpg"  loading="lazy "alt="crash" loading="lazy">
             <div class=" h-full py-4">
                 <p class="text-[18px] font-[500] text-gray-900">Crash Course in Japanese Language</p>
                 <p class="text-[16px] text-gray-700 mt-2 flex-grow">Cover all the topics from N5 (basic) to N1 (advance) level, understand important and useful Japanese 伝統（Dentō) and etiquettes</p>
@@ -339,7 +339,7 @@
                             class="fa fa-star-half text-red-700"></i></a>
                 </div>
                 <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733730860forbes.webp"
-                    alt="justdial1">
+                     loading="lazy "alt="justdial1" loading="lazy">
             </div>
             <div
                 class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
@@ -350,7 +350,7 @@
                             class="fa fa-star-half text-red-700"></i></a>
                 </div>
                 <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1746770909ezgif.com-resize.png"
-                    alt="justdial">
+                     loading="lazy "alt="justdial" loading="lazy">
             </div>
             <div
                 class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
@@ -361,7 +361,7 @@
                             class="fa fa-star text-red-700"></i></a>
                 </div>
                 <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1730089884544x180-BR-300x99-1.png"
-                    alt="mouthshut2">
+                     loading="lazy "alt="mouthshut2" loading="lazy">
             </div>
             <div
                 class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
@@ -372,7 +372,7 @@
                             class="fa fa-star text-red-700"></i></a>
                 </div>
                 <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1752832498wwd2e1.png"
-                    alt="edugorrilla">
+                     loading="lazy "alt="edugorrilla" loading="lazy">
             </div>
             <div
                 class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
@@ -383,7 +383,7 @@
                             class="fa fa-star text-red-700"></i></a>
                 </div>
                 <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17196452202d2d (2).webp"
-                    alt="google">
+                     loading="lazy "alt="google" loading="lazy">
             </div>
             <div
                 class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
@@ -393,7 +393,7 @@
                             class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
                             class="fa fa-star-half text-red-700"></i></a>
                 </div>
-                <img class="h-16" src="https://cdn.henryharvin.com/gooo1.webp" alt="google2">
+                <img class="h-16" src="https://cdn.henryharvin.com/gooo1.webp"  loading="lazy "alt="google2" loading="lazy">
             </div>
             <div
                 class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
@@ -404,7 +404,7 @@
                             class="fa fa-star-half text-red-700"></i></a>
                 </div>
                 <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1746772870coursereport-.png"
-                    alt="google">
+                     loading="lazy "alt="google">
             </div>
             <div
                 class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
@@ -415,7 +415,7 @@
                             class="fa fa-star-half text-red-700"></i></a>
                 </div>
                 <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/171964550223e23e23.webp"
-                    alt="google4">
+                     loading="lazy "alt="google4">
             </div>
         </div>
     </div>
@@ -457,21 +457,21 @@
                 <div
                     class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center col-span-1 sm:col-span-1 md:col-span-1">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789102Trainerteaching.jpg" alt="wwww">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789102Trainerteaching.jpg"  loading="lazy "alt="wwww">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Native Japanese Trainers</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Learn from certified, highly 経験豊富 (keiken hōfu) and 情熱的な (jōnetsu-teki na) faculties.</p>
                 </div>
                  <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789154examsheet.jpg" alt="course">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789154examsheet.jpg"  loading="lazy "alt="course">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">JLPT Intensive Course</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Excel in the JLPT with our 専門的な (Senmon-teki na) modules, mock tests, personalized coaching, and JLPT-focused materials sourced directly from Japan.</p>
                 </div>
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881317elearning.jpg" alt="access">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881317elearning.jpg"  loading="lazy "alt="access">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Access to E-learning Portal</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Kazumi partners with <span>
@@ -479,19 +479,19 @@
                                         href="https://examopedia.com/"
                                         class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1734598082examopedia_logo.webp"
-                                            alt="Examopedia Logo" class="h-4">Examopedia</span> </a>
+                                             loading="lazy "alt="Examopedia Logo" class="h-4">Examopedia</span> </a>
                         , a comprehensive E-learning portal that provides future updates, PPTs, projects, quizzes, 模擬試験 (Mogi Shiken), question banks, assessments and interactive forums.</p>
                 </div>
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                     <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789196OccupationalPrograms.jpg" alt="offer">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789196OccupationalPrograms.jpg"  loading="lazy "alt="offer">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Japanese Occupational Courses</h3>
                     <p class="text-gray-700 text-[14px] mt-2">At Kazumi, we offer programs that will help you build corporate, business and 職場 (shokuba) skills required to secure good 仕事 (shigoto) internationally.</p>
                 </div>
                  <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774339talking.jpg" alt="">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774339talking.jpg"  loading="lazy "alt="">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Internship for Japanese Language</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Kazumi provides Internship Support via 
@@ -499,44 +499,44 @@
                                         href="https://yuvaintern.com//"
                                         class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
                                             src="https://yuvaintern.com/assets/img/logo.png"
-                                            alt="Yuva Intern Logo" class="h-4">Yuva Intern</span> </a>
+                                             loading="lazy "alt="Yuva Intern Logo" class="h-4">Yuva Intern</span> </a>
                                             , India’s first バーチャル (bācharu) internship platform where you get to select from the best curated internships that match your skills and interests.</p>
                 </div>
                  <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881283study.jpg" alt="study">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881283study.jpg"  loading="lazy "alt="study">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Study Abroad & Recruitment Services</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Kazumi offers study abroad and 就職支援 (Shūshoku Shien) via 
                         <a href="https://leochase.com/" class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
                                 src="https://leochase.com/wp-content/uploads/2025/04/Logo_Leo-Chase_F.png"
-                                alt="Leo & Chase Logo" class="h-3">Leo & Chase</span> </a>
+                                 loading="lazy "alt="Leo & Chase Logo" class="h-3">Leo & Chase</span> </a>
                         , no. 1 recruitment provider, assisting from visa application to settling abroad.</p>
                 </div>
                  <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                     <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881176agota2.jpg" alt="Unique">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881176agota2.jpg"  loading="lazy "alt="Unique">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Unique 10 in 1 Program: Agota™ Framework</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Learn through innovative teaching methods that make learning easy and 実践的 (Jissen-teki). This framework essentially promotes the 能力 (Nōryoku) development and キャリア (Kyaria) development.</p>
                 </div>
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                     <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789015orconnections.jpg" alt="globle">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789015orconnections.jpg"  loading="lazy "alt="globle">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Global Presence</h3>
                     <p class="text-gray-700 text-[14px] mt-2">With offices in 4+ countries, UK, USA, Middle East, and India, Kazumi is a global brand, offering a global learning 環境 (kankyō), with around 1200+ international 学生 (gakusei).</p>
                 </div>
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774903Network.jpg" alt="international">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774903Network.jpg"  loading="lazy "alt="international">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">International Alumni Network</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Join a diverse コミュニティ(Komyuniti) of learners and professionals from around the world.</p>
                 </div>
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774206culture.jpg" alt="culture two">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774206culture.jpg"  loading="lazy "alt="culture two">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Cultural Training</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Explore 伝統 (Dentō), etiquettes, festivals, and practices used in an authentic environment.</p>
@@ -557,76 +557,76 @@
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
                     <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1724768847Screenshot_2024-08-27_190332.png"
-                        alt="AAEFL" class="h-28 w-auto">
+                         loading="lazy "alt="AAEFL" class="h-28 w-auto">
                 </div>
             </div>
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753255971sxsssswc.PNG" alt="AAEFL56"
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753255971sxsssswc.PNG"  loading="lazy "alt="AAEFL56"
                         class=" h-28 w-auto">
                 </div>
             </div>
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1726071455watts_we_logo_jft.png" alt="AAEF565L"
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1726071455watts_we_logo_jft.png"  loading="lazy "alt="AAEF565L"
                         class=" h-28 w-auto">
                 </div>
             </div>
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1736849226DBS_C-01.png" alt="AAEFLewe"
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1736849226DBS_C-01.png"  loading="lazy "alt="AAEFLewe"
                         class=" h-28 w-auto">
                 </div>
             </div>
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753943295ezgif.com-resize_(2).webp" alt="AAEFdfhL"
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753943295ezgif.com-resize_(2).webp"  loading="lazy "alt="AAEFdfhL"
                         class=" h-16 w-auto">
                 </div>
             </div>
             <!-- Card 5 -->
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://cdn.henryharvin.com/images/1686549627AAEFL.webp" alt="AAEFL897"
+                    <img src="https://cdn.henryharvin.com/images/1686549627AAEFL.webp"  loading="lazy "alt="AAEFL897"
                         class=" h-24 w-auto">
                 </div>
             </div>
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex gap-2 justify-center">
-                    <img src="https://nsdcindia.org/logo_nsdc.svg" alt="AAEFLfsdf"
+                    <img src="https://nsdcindia.org/logo_nsdc.svg"  loading="lazy "alt="AAEFLfsdf"
                         class=" h-16 w-auto">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753882471skills.svg" alt="AAEFLsde"
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753882471skills.svg"  loading="lazy "alt="AAEFLsde"
                         class=" h-16 w-auto">
 
                 </div>
             </div>
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://cdn.henryharvin.com/images/1683959258ezgif.com-gif-maker%20-%202023-05-13T115731.582.webp" alt="AAEFL"
+                    <img src="https://cdn.henryharvin.com/images/1683959258ezgif.com-gif-maker%20-%202023-05-13T115731.582.webp"  loading="lazy "alt="AAEFL"
                         class=" h-24 w-auto">
                 </div>
             </div>
             <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://cdn.henryharvin.com/images/1683959347ezgif.com-resize%20(20).webp" alt="AAEFLcxcvcxz"
+                    <img src="https://cdn.henryharvin.com/images/1683959347ezgif.com-resize%20(20).webp"  loading="lazy "alt="AAEFLcxcvcxz"
                         class=" h-24 w-auto">
                 </div>
             </div>
              <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753941817ezgif.com-resize_(1).webp" alt="AAEFLqwdD"
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753941817ezgif.com-resize_(1).webp"  loading="lazy "alt="AAEFLqwdD"
                         class=" h-24 w-auto">
                 </div>
             </div>
              <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://cdn.henryharvin.com/images/1683958602ezgif.com-resize%20(16).webp" alt="AAEFLFGEFF"
+                    <img src="https://cdn.henryharvin.com/images/1683958602ezgif.com-resize%20(16).webp"  loading="lazy "alt="AAEFLFGEFF"
                         class=" h-24 w-auto">
                 </div>
             </div>
              <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753941817ezgif.com-resize_(1).webp" alt="AAEFDFEEGEL"
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753941817ezgif.com-resize_(1).webp"  loading="lazy "alt="AAEFDFEEGEL"
                         class=" h-24 w-auto">
                 </div>
             </div>
@@ -645,80 +645,80 @@
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753867920200000000138112_1TCS_NewLogo_Final_CMYK.png" alt="images-8">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753867920200000000138112_1TCS_NewLogo_Final_CMYK.png"  loading="lazy "alt="images-8">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753867955images.png" alt="images-81">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753867955images.png"  loading="lazy "alt="images-81">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868038images_(1).png" alt="images-8">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868038images_(1).png"  loading="lazy "alt="images-8">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868067images_(2).png" alt="images-82">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868067images_(2).png"  loading="lazy "alt="images-82">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868099sdl-logo-png_seeklogo-347042.png" alt="images-83">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868099sdl-logo-png_seeklogo-347042.png"  loading="lazy "alt="images-83">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175386813502c4095c-f9fa-4d70-be49-63ba162289e2_thumb.jpg" alt="images-84">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175386813502c4095c-f9fa-4d70-be49-63ba162289e2_thumb.jpg"  loading="lazy "alt="images-84">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868252images_(3).png" alt="images-85">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868252images_(3).png"  loading="lazy "alt="images-85">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868291images_(4).png" alt="images-86">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868291images_(4).png"  loading="lazy "alt="images-86">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868344images_(5).png" alt="images-88">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868344images_(5).png"  loading="lazy "alt="images-88">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868383images_(6).png" alt="images-87">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868383images_(6).png"  loading="lazy "alt="images-87">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[80px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868430FirstStudy.jpg" alt="images-89">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868430FirstStudy.jpg"  loading="lazy "alt="images-89">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868553Hotsuma.jpg" alt="images-809">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868553Hotsuma.jpg"  loading="lazy "alt="images-809">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868596Human.jpg"
-                        alt="images-8FDF">
+                         loading="lazy "alt="images-8FDF">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868637Linguage.jpg"
-                        alt="images-8DFD">
+                         loading="lazy "alt="images-8DFD">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753868755JCCIC.png"
-                        alt="images-8DFD">
+                         loading="lazy "alt="images-8DFD">
                 </div>
             </div>
         </div>
@@ -736,7 +736,7 @@
                         style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753875885212w-ezgif.com-resize.webp" alt="FEFE">
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753875885212w-ezgif.com-resize.webp"  loading="lazy "alt="FEFE">
                         </div>
                         <div class="px-2">
                             <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Seema
@@ -752,7 +752,7 @@
                         style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522620Varsha_Mehroliya.jpg" alt="Varsha Mehroliya">
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522620Varsha_Mehroliya.jpg"  loading="lazy "alt="Varsha Mehroliya">
                         </div>
                         <div class="px-2">
                             <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Varsha Mehroliya
@@ -768,7 +768,7 @@
                         style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522683Sonali_Srivastava_(1).jpg" alt="Sonali Srivastava">
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522683Sonali_Srivastava_(1).jpg"  loading="lazy "alt="Sonali Srivastava">
                         </div>
                         <div class="px-2 ">
                             <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Sonali Srivastava
@@ -784,7 +784,7 @@
                         style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532671153rd.webp" alt="Claire">
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532671153rd.webp"  loading="lazy "alt="Claire">
                         </div>
                         <div class="px-2 ">
                             <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Claire</h2>
@@ -799,7 +799,7 @@
                         style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523883sucheta_(1).jpg" alt="Patil">
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523883sucheta_(1).jpg"  loading="lazy "alt="Patil">
                         </div>
                         <div class="px-2 ">
                             <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Sucheta Patil</h2>
@@ -838,7 +838,7 @@
                                     bis_size="{&quot;x&quot;:258,&quot;y&quot;:1734,&quot;w&quot;:96,&quot;h&quot;:68,&quot;abs_x&quot;:258,&quot;abs_y&quot;:1734}">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719487194ezgif.com-resize (32).webp"
-                                        alt="Video Thumbnail"
+                                         loading="lazy "alt="Video Thumbnail"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg"
                                         bis_size="{&quot;x&quot;:258,&quot;y&quot;:1734,&quot;w&quot;:96,&quot;h&quot;:68,&quot;abs_x&quot;:258,&quot;abs_y&quot;:1734}"
                                         bis_id="bn_k6nxes1kgls9urroq3b79m">
@@ -862,7 +862,7 @@
                                     bis_size="{&quot;x&quot;:580,&quot;y&quot;:1734,&quot;w&quot;:96,&quot;h&quot;:72,&quot;abs_x&quot;:580,&quot;abs_y&quot;:1734}">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719575893ezgif.com-resize - 2024-06-28T172803.379.webp"
-                                        alt="Video ThumbnailRE"
+                                         loading="lazy "alt="Video ThumbnailRE"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg"
                                         bis_size="{&quot;x&quot;:580,&quot;y&quot;:1734,&quot;w&quot;:96,&quot;h&quot;:72,&quot;abs_x&quot;:580,&quot;abs_y&quot;:1734}"
                                         bis_id="bn_r7y6rulp4482rexmqhjbp6">
@@ -888,7 +888,7 @@
                                     bis_size="{&quot;x&quot;:258,&quot;y&quot;:1847,&quot;w&quot;:96,&quot;h&quot;:72,&quot;abs_x&quot;:258,&quot;abs_y&quot;:1847}">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719576156sxw (2).webp"
-                                        alt="Video ThumbnaiERl"
+                                         loading="lazy "alt="Video ThumbnaiERl"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg"
                                         bis_size="{&quot;x&quot;:258,&quot;y&quot;:1847,&quot;w&quot;:96,&quot;h&quot;:72,&quot;abs_x&quot;:258,&quot;abs_y&quot;:1847}"
                                         bis_id="bn_76rdo306qf4u6okmbjp8xc">
@@ -912,7 +912,7 @@
                                     bis_size="{&quot;x&quot;:580,&quot;y&quot;:1847,&quot;w&quot;:96,&quot;h&quot;:68,&quot;abs_x&quot;:580,&quot;abs_y&quot;:1847}">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719577083dcwcw.webp"
-                                        alt="Video ThumREbnail"
+                                         loading="lazy "alt="Video ThumREbnail"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg"
                                         bis_size="{&quot;x&quot;:580,&quot;y&quot;:1847,&quot;w&quot;:96,&quot;h&quot;:68,&quot;abs_x&quot;:580,&quot;abs_y&quot;:1847}"
                                         bis_id="bn_d8rrolf3o360b2tlne44wh">
@@ -937,7 +937,7 @@
                                 <a target="_blank" href="https://www.youtube.com/watch?v=bzJOMiJu_QA">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1728970566Membership_Card_Collage_(1).png"
-                                        alt="Video ThumbnailTTT"
+                                         loading="lazy "alt="Video ThumbnailTTT"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg">
                                     <div id="playButton" class="absolute inset-0 flex items-center justify-center"
                                         bis_skin_checked="1">
@@ -957,7 +957,7 @@
                                         href="https://examopedia.com/"
                                         class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1734598082examopedia_logo.webp"
-                                            alt="Examopedia Logo" class="h-3">Examopedia</span> </a>
+                                             loading="lazy "alt="Examopedia Logo" class="h-3">Examopedia</span> </a>
 
                                </span>
                             </p>
@@ -965,7 +965,7 @@
                                 <a target="_blank" href="https://www.youtube.com/watch?v=XUQm0ecT6ts">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719487342ezgif.com-resize (35).webp"
-                                        alt="Video ThumbnailQWTRT"
+                                         loading="lazy "alt="Video ThumbnailQWTRT"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg">
                                     <div id="playButton" class="absolute inset-0 flex items-center justify-center"
                                         bis_skin_checked="1">
@@ -992,7 +992,7 @@
                                     bis_size="{&quot;x&quot;:258,&quot;y&quot;:2242,&quot;w&quot;:96,&quot;h&quot;:68,&quot;abs_x&quot;:258,&quot;abs_y&quot;:2242}">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719487248ezgif.com-resize (33).webp"
-                                        alt="Video ThumbnailWERWG"
+                                         loading="lazy "alt="Video ThumbnailWERWG"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg"
                                         bis_size="{&quot;x&quot;:258,&quot;y&quot;:2242,&quot;w&quot;:96,&quot;h&quot;:68,&quot;abs_x&quot;:258,&quot;abs_y&quot;:2242}"
                                         bis_id="bn_0196ld4v20caat8svgsg34">
@@ -1014,13 +1014,13 @@
                                         href="https://yuvaintern.com//"
                                         class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
                                             src="https://yuvaintern.com/assets/img/logo.png"
-                                            alt="YUVA Logo" class="h-3">Yuva Intern</span> </a>.</span>
+                                             loading="lazy "alt="YUVA Logo" class="h-3">Yuva Intern</span> </a>.</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2  " bis_skin_checked="1">
                                 <a target="_blank" href="https://www.youtube.com/shorts/2od0SMHat-A">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719575988d233dd23d.webp"
-                                        alt="Video DSSDDThumbnail"
+                                         loading="lazy "alt="Video DSSDDThumbnail"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg">
                                     <div id="playButton" class="absolute inset-0 flex items-center justify-center"
                                         bis_skin_checked="1">
@@ -1044,7 +1044,7 @@
                                     href="https://www.youtube.com/watch?v=pdffXkaWqVg&amp;feature=youtu.be">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719487388ezgif.com-resize (36).webp"
-                                        alt="Videodfvdfv Thumbnail"
+                                         loading="lazy "alt="Videodfvdfv Thumbnail"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg">
                                     <div id="playButton" class="absolute inset-0 flex items-center justify-center"
                                         bis_skin_checked="1">
@@ -1065,7 +1065,7 @@
                                 <a target="_blank" href="https://www.youtube.com/shorts/KTb2gD30FNw">
                                     <img id="videoThumbnail"
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719487296ezgif.com-resize (34).webp"
-                                        alt="Videodvdffvdf Thumbnail"
+                                         loading="lazy "alt="Videodvdffvdf Thumbnail"
                                         class="object-cover rounded-lg border-4 border-gray-300 shadow-lg">
                                     <div id="playButton" class="absolute inset-0 flex items-center justify-center"
                                         bis_skin_checked="1">
@@ -1081,7 +1081,7 @@
                    </ul>
             </div>
             <div class="mt-4 relative" bis_skin_checked="1">
-                <img class="agota_image sticky" alt="agota ddd frame"
+                <img class="agota_image sticky"  loading="lazy "alt="agota ddd frame"
                     style="width:100%; max-width:500px; top:80px; margin: auto;"
                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753941681ezgif.com-resize.webp">
             </div>
@@ -1099,9 +1099,9 @@
                 </p>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                <div class="mt-4 relative">
-                <img class="agota_image sticky" alt="agota frame2"
+                <img class="agota_image sticky"  loading="lazy "alt="agota frame2"
                     style="width:100%; max-width:500px; top:80px; margin: auto;"
-                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753788535japan's_national_day_(1).jpg" alt="quality">
+                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753788535japan's_national_day_(1).jpg"  loading="lazy "alt="quality">
                </div>
                <div class="mt-6">
                 
@@ -1168,8 +1168,8 @@
                 </div>
                </div>
                 <div class="mt-4 relative" bis_skin_checked="1">
-                    <img class="agota_image sticky" alt="agota new frame"
-                    style="width:100%; max-width:500px; top:80px; margin: auto;" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753942112ezgif.com-png-to-webp-converter.webp" alt="dcsdc">
+                    <img class="agota_image sticky"  loading="lazy "alt="agota new frame"
+                    style="width:100%; max-width:500px; top:80px; margin: auto;" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753942112ezgif.com-png-to-webp-converter.webp"  loading="lazy "alt="dcsdc">
                </div>
         </div>
     </div>
@@ -1180,7 +1180,7 @@
     <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 py-4 md:px-2">
         <!-- Card 1 -->
         <div class="bg-white rounded shadow overflow-hidden">
-            <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175274331911667691_20945544.jpg" alt="Okinawa Branch"
+            <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175274331911667691_20945544.jpg"  loading="lazy "alt="Okinawa Branch"
                 class="w-full h-48 object-cover">
             <div class="p-4">
                 <h3 class="font-semibold text-lg mb-2">Okinawa Branch is Almost Ready</h3>
@@ -1194,7 +1194,7 @@
 
         <!-- Card 2 -->
         <div class="bg-white rounded shadow overflow-hidden">
-            <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175274331911667691_20945544.jpg" alt="Okinawa Branch"
+            <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175274331911667691_20945544.jpg"  loading="lazy "alt="Okinawa Branch"
                 class="w-full h-48 object-cover">
             <div class="p-4">
                 <h3 class="font-semibold text-lg mb-2">Okinawa Branch is Almost Ready</h3>
@@ -1208,7 +1208,7 @@
 
         <!-- Card 3 -->
         <div class="bg-white rounded shadow overflow-hidden">
-            <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175274331911667691_20945544.jpg" alt="Okinawa Branch"
+            <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175274331911667691_20945544.jpg"  loading="lazy "alt="Okinawa Branch"
                 class="w-full h-48 object-cover">
             <div class="p-4">
                 <h3 class="font-semibold text-lg mb-2">Okinawa Branch is Almost Ready</h3>
@@ -1222,7 +1222,7 @@
 
         <!-- Card 4 -->
         <div class="bg-white rounded shadow overflow-hidden">
-            <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175274331911667691_20945544.jpg" alt="Okinawa Branch"
+            <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175274331911667691_20945544.jpg"  loading="lazy "alt="Okinawa Branch"
                 class="w-full h-48 object-cover">
             <div class="p-4">
                 <h3 class="font-semibold text-lg mb-2">Okinawa Branch is Almost Ready</h3>
