@@ -2,7 +2,7 @@
 @section('content')
 {{-- welcome setion --}}
 <section>
-    <div class="relative w-full h-screen overflow-hidden" style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1753693794WhatsApp_Image_2025-07-28_at_2.25.31_PM.jpeg); background-position: top;">
+    <div class="relative w-full h-screen overflow-hidden" style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1753942717banner.webp); background-position: top;">
         <!-- Video Background -->
         {{-- <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover">
             <source src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175274277337088-413229662_medium.mp4"
@@ -702,7 +702,7 @@
             </div>
              <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17461814492024030441_-_henry_harvin_india_education_llp_-_iso_29990-2010_(1)_(1)-1.png" alt="AAEFL"
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753941817ezgif.com-resize_(1).webp" alt="AAEFL"
                         class=" h-24 w-auto">
                 </div>
             </div>
@@ -714,7 +714,7 @@
             </div>
              <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                 <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17380605202024030441_-_henry_harvin_india_education_llp_-_iso_29990-2010_(1)_(2)_page-0001.jpg" alt="AAEFL"
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753941817ezgif.com-resize_(1).webp" alt="AAEFL"
                         class=" h-24 w-auto">
                 </div>
             </div>
@@ -1537,7 +1537,7 @@
             <div class="mt-4 relative" bis_skin_checked="1">
                 <img class="agota_image sticky" alt="agota frame"
                     style="width:100%; max-width:500px; top:80px; margin: auto;"
-                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753788178Agota_Framework_(Kazumi).png">
+                    src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753941681ezgif.com-resize.webp">
             </div>
         </div>
     </div>
@@ -1634,7 +1634,7 @@
                </div>
                 <div class="mt-4 relative" bis_skin_checked="1">
                     <img class="agota_image sticky" alt="agota frame"
-                    style="width:100%; max-width:500px; top:80px; margin: auto;" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753788590cartoon.jpg" alt="">
+                    style="width:100%; max-width:500px; top:80px; margin: auto;" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753942112ezgif.com-png-to-webp-converter.webp" alt="">
                </div>
         </div>
     </div>
