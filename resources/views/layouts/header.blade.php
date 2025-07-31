@@ -42,8 +42,6 @@
                         <img class="md:h-[75px] h-[60px] w-auto"
                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753872845ezgif.com-crop.webp"
                         alt="Kazumi Logo">
-
-                        
                     </a>
                 </div>
 
@@ -176,11 +174,11 @@
                                 {{--<a href="kazumi-community"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Kazumi Community</a> --}}
                                  <a href="contact-us"
-                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Contact US</a>
+                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Contact Us</a>
                                 
                         </div>
                     </div>
-                    <a href="/contact-us" class="text-[#da2028] font-[600] text-[14px] py-6">Contact Us</a>
+                    {{-- <a href="/contact-us" class="text-[#da2028] font-[600] text-[14px] py-6">Contact Us</a> --}}
                 </div>
 
                 <div class="hidden md:flex md:items-center space-x-4">
@@ -310,7 +308,7 @@
                     <a href="https://www.henryharvin.com/our-customer" class="block py-1 text-gray-700">Our Customers</a>
                     <a href="https://www.henryharvin.com/placed-students-list" class="block py-1 text-gray-700">Placed Student List</a>
                      {{--<a href="kazumi-community" class="block py-1 text-gray-700">Kazumi Community</a> --}}
-                    <a href="contact-us" class="block py-1 text-gray-700">Contact US</a>
+                    {{-- <a href="contact-us" class="block py-1 text-gray-700">Contact US</a> --}}
                 </div>
             </div>
 
