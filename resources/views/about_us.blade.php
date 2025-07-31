@@ -57,33 +57,24 @@
 <section class="py-12 px-4 max-w-7xl mx-auto">
     <div>
         <div class="bg-red-600 text-white max-w-4xl mx-auto p-8 rounded-xl shadow-xl space-y-4">
-            <h2 class="text-3xl font-bold mb-2">Kazumi - <span class="text-yellow-300">Where Harmony Meets
-                    Learning!</span></h2>
+            <h2 class="text-3xl font-bold mb-4">Kazumi - <span class="text-yellow-300">Where Harmony Meets Learning!</span></h2>
 
-            <p>Kazumi Japanese & Culture School is a <span class="font-semibold">top ranking Japanese language
-                    institute</span>,
-                and a proud branch of <span class="font-semibold text-yellow-300">Henry Harvin</span>,
-                one of the Largest Global Upskilling Companies in India.</p>
+            <p>Kazumi Japanese & Culture School, is a <span class="font-semibold">top ranking Japanese language learning institute</span> by <span class="text-yellow-300 font-semibold">Henry Harvin®</span>, one of the largest Multinational Higher EdTech companies present globally.</p>
 
-            <p>Kazumi encapsulates the spirit of <span class="italic">Harmony (和)</span> as our core value. We follow
-                two renowned Japanese educational philosophies:</p>
+            <p>With a portfolio of <span class="font-semibold">1200+ courses</span> across <span class="font-semibold">37+ categories</span> and strong presence in the <span class="font-semibold">US, UK, UAE and India</span>, Henry Harvin® offers programs ranging from <span class="italic">Doctorate to Diploma</span>. We have trained <span class="font-semibold">460,000+ individuals</span>, conducted <span class="font-semibold">7,000+ classes per month</span>, and are registered training vendors to <span class="font-semibold">900+ corporate clients</span>.</p>
 
-            <ul class="list-disc ml-6 space-y-1">
-                <li><span class="font-semibold">Zenjin Education (全人教育)</span>: Advocates nurturing the whole person.
-                    Our curriculum targets <span class="underline">intellectual, artistic, creative, and cultural
-                        growth</span>. Students master the Japanese language, customs, values, and social norms.</li>
-                <li><span class="font-semibold">Kaizen (改善)</span>: The philosophy of <span class="underline">continuous
-                        improvement</span>. Our students are encouraged to make incremental progress daily, with regular
-                    feedback and the celebration of small achievements.</li>
-            </ul>
+            <p>Kazumi encapsulates the spirit of <span class="italic">Harmony (和)</span> as our core value. We follow two renowned Japanese educational philosophies: <span class="font-semibold">Zenjin Education (全人教育)</span> and <span class="font-semibold">Kaizen (改善)</span>.</p>
 
-            <p>Join Kazumi and experience a unique journey of learning, self-development, and cultural immersion!</p>
+            <p><span class="font-semibold">Zenjin Education</span> advocates nurturing the whole person. Kazumi ensures that our curriculum is designed to target the overall development of our students — not only intellectually, but also <span class="underline">artistically, creatively, and culturally</span>. Students gain mastery over the Japanese language, customs, values, and social norms.</p>
+
+            <p>Kazumi also follows <span class="font-semibold">Kaizen</span>, the philosophy of <span class="underline">continuous improvement</span>. Our students are encouraged to make incremental progress daily, through regular feedback and the celebration of small achievements.</p>
         </div>
-
     </div>
 </section>
+
 <section class="text-white py-12 px-6">
     <div class="max-w-4xl mx-auto">
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Ideas Behind Kazumi’s 教育的 (kyōikuteki) Framework</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 border border-gray-200 bg-white">
 
             <!-- Card 1 -->
@@ -195,23 +186,72 @@
         </div>
     </div>
 </section> --}}
+<section class="py-12">
+    <div class="max-w-7xl mx-auto px-4">
+        <!-- Advisory Board -->
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4 mt-12">Kazumi Advisory Board Members</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-6 place-items-center">
+            <!-- Mr. Kounal Gupta -->
+            <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                <div class="rounded-2xl">
+                    <img class="h-full w-full object-cover rounded-2xl"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753961762KounalGupta.jpg" alt="">
+                </div>
+                <div class="px-2">
+                    <h2 class="text-white text-center text-[16px] pb-2">Mr. Kounal Gupta</h2>
+                    <p class="text-white text-[14px] text-center font-[500]">CEO & Founder of Kazumi Japanese & Culture School</p>
+                    <p class="text-white text-[14px] text-center">Advisory Board Member</p>
+                </div>
+            </div>
+
+            <!-- Mrs. Ishu Jain -->
+            <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                <div class="rounded-2xl">
+                    <img class="h-full w-full object-cover rounded-2xl"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753961907IshuJain.jpg" alt="">
+                </div>
+                <div class="px-2">
+                    <h2 class="text-white text-center text-[16px] pb-2">Mrs. Ishu Jain</h2>
+                    <p class="text-white text-[14px] text-center font-[500]">Head of Academics</p>
+                    <p class="text-white text-[14px] text-center">Advisory Board Member</p>
+                </div>
+            </div>
+
+            <!-- Mrs. Seema Rampal -->
+            <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                <div class="rounded-2xl">
+                    <img class="h-full w-full object-cover rounded-2xl"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753961856seemarampal.jpg" alt="">
+                </div>
+                <div class="px-2">
+                    <h2 class="text-white text-center text-[16px] pb-2">Mrs. Seema Rampal</h2>
+                    <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p>
+                    <p class="text-white text-[14px] text-center">Advisory Board Member</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <section class="py-12 px-4 bg-gray-50">
     <div class="max-w-6xl mx-auto">
-        <h2 class="text-2xl md:text-3xl font-bold text-red-600 mb-6 text-center">Kazumi Difference: What Sets Us Apart?</h2>
+        <h2 class="text-2xl md:text-3xl font-bold text-red-600 mb-6 text-center">
+            Kazumi 違い (chigai): What Sets Us Apart?
+        </h2>
 
         <div class="overflow-x-auto">
-            <table class="w-full text-left border border-gray-200 bg-white shadow-md">
+            <table class="w-full text-left border border-gray-300 bg-white shadow-md text-sm md:text-base">
                 <thead class="bg-red-600 text-white">
                     <tr>
-                        <th class="p-3 text-sm md:text-base">Feature</th>
-                        <th class="p-3 text-sm md:text-base">Kazumi Japanese & Culture School</th>
-                        <th class="p-3 text-sm md:text-base">Other Japanese School</th>
+                        <th class="p-3">Feature 特徴 (Tokuchō)</th>
+                        <th class="p-3">Kazumi Japanese & Culture (文化) School</th>
+                        <th class="p-3">Other Japanese School 他の日本語学校 (hoka no nihongo gakkō)</th>
                     </tr>
                 </thead>
                 <tbody class="text-gray-700">
                     <tr class="border-t">
-                        <td class="p-3">Live Online Classes</td>
+                        <td class="p-3">Occupational & Cross Cultural Course</td>
                         <td class="p-3 text-center">✔</td>
                         <td class="p-3 text-center">✔</td>
                     </tr>
@@ -236,22 +276,42 @@
                         <td class="p-3 text-center">✖</td>
                     </tr>
                     <tr class="border-t bg-gray-50">
-                        <td class="p-3">Japanese Culture Training</td>
+                        <td class="p-3">Unique 10 in 1 Program</td>
                         <td class="p-3 text-center">✔</td>
                         <td class="p-3 text-center">✖</td>
                     </tr>
                     <tr class="border-t">
-                        <td class="p-3">International Networking/ Alumni</td>
+                        <td class="p-3">Occupational & Cross Cultural Course</td>
                         <td class="p-3 text-center">✔</td>
                         <td class="p-3 text-center">✖</td>
                     </tr>
                     <tr class="border-t bg-gray-50">
-                        <td class="p-3">Highly rated and Certified by external organizations</td>
+                        <td class="p-3">JLPT Exam Preparation</td>
                         <td class="p-3 text-center">✔</td>
                         <td class="p-3 text-center">✖</td>
                     </tr>
                     <tr class="border-t">
+                        <td class="p-3">Japanese Culture Training</td>
+                        <td class="p-3 text-center">✔</td>
+                        <td class="p-3 text-center">✖</td>
+                    </tr>
+                    <tr class="border-t bg-gray-50">
+                        <td class="p-3">International Networking/ Alumni</td>
+                        <td class="p-3 text-center">✔</td>
+                        <td class="p-3 text-center">✖</td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="p-3">Highly rated and Certified by external organizations</td>
+                        <td class="p-3 text-center">✔</td>
+                        <td class="p-3 text-center">✖</td>
+                    </tr>
+                    <tr class="border-t bg-gray-50">
                         <td class="p-3">Internship Support</td>
+                        <td class="p-3 text-center">✔</td>
+                        <td class="p-3 text-center">✖</td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="p-3">Recruitment Opportunities</td>
                         <td class="p-3 text-center">✔</td>
                         <td class="p-3 text-center">✖</td>
                     </tr>
@@ -260,4 +320,5 @@
         </div>
     </div>
 </section>
+
 @endsection
