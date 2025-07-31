@@ -53,7 +53,7 @@
                 <p class="text-white text-sm">Phone:  +44 2080 891010</p>
             </div>
         </div>
-        <div class="max-w-7xl mx-auto px-4 mt-8 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
+        {{-- <div class="max-w-7xl mx-auto px-4 mt-8 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
             <ul class="flex flex-wrap justify-center items-center gap-8 ">
                 <li class="flex flex-wrap items-center gap-4 content-between justify-center">
                     <a aria-label="facebook"
@@ -135,7 +135,7 @@
                     </a>
                 </li>
             </ul>
-        </div>
+        </div> --}}
 
 
         <div class="max-w-7xl mx-auto px-4 mt-4 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
