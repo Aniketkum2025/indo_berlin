@@ -40,7 +40,7 @@
     </ul>
   </div>
 </section>
-<section class="py-12 px-4 max-w-4xl mx-auto hidden">
+<section class="py-6 px-4 max-w-4xl mx-auto hidden">
   <div class="bg-white shadow-2xl rounded-xl p-8 space-y-6 border border-gray-200">
     <h2 class="text-3xl font-bold text-red-600">Apply for <span class="text-yellow-500">Admission</span></h2>
     <p class="text-gray-600">Please fill out the form below to begin your application process for Kazumi Japanese & Culture School by Henry Harvin.</p>
@@ -168,7 +168,7 @@
 
   </div>
 
-  <div class="mt-12 text-center text-gray-600 text-base">
+  <div class="mt-12 text-center text-[14px] text-gray-600 text-[600]">
     <p>The entire process should take approximately <span class="font-semibold text-red-600">10 minutes</span>. After submission, our team may take up to <span class="font-semibold text-yellow-500">48 hours</span> to review your application.</p>
   </div>
 </section>
