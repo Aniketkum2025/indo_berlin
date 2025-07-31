@@ -107,22 +107,22 @@
                              {{-- <a href="media"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Media</a> --}}
                             
-                                {{-- <a href="our-affiliations"
-                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Our Affiliations</a> --}}
+                                <a href="https://www.henryharvin.com/affiliations-accreditations"
+                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Our Affiliations</a>
                                {{-- <a href="quality-assurance"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Quality Assurance</a> --}}
                             <a href="esteemed-faculty"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Esteemed Faculty</a>
-                            {{-- <a href="careers"
+                            <a href="https://www.henryharvin.com/careers"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Careers
-                                </a> --}}
-                            <a href="our-customers"
+                                </a>
+                            <a href="https://www.henryharvin.com/our-customer"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Our Customers</a>
-                                <a href="placed-student-list"
+                                 <a href="https://www.henryharvin.com/placed-students-list"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Placed Student List</a>
                                
-                                <a href="kazumi-community"
-                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Kazumi Community</a>
+                                {{--<a href="kazumi-community"
+                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Kazumi Community</a> --}}
                                  <a href="contact-us"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Contact US</a>
                                 
@@ -182,13 +182,12 @@
                     <a href="esteemed-faculty" class="block py-1 text-gray-700">Esteemed Faculty</a>
                     <a href="careers" class="block py-1 text-gray-700">Careers </a> --}}
                     <a href="https://www.henryharvin.com/affiliations-accreditations" class="block py-1 text-gray-700">Our Affiliations</a>
-                    <a href="quality-assurance" class="block py-1 text-gray-700">Quality Assurance</a>
+                    {{-- <a href="quality-assurance" class="block py-1 text-gray-700">Quality Assurance</a> --}}
                     <a href="esteemed-faculty" class="block py-1 text-gray-700">Esteemed Faculty</a>
-                    <a href="careers" class="block py-1 text-gray-700">Careers </a>
-
-                    <a href="our-customers" class="block py-1 text-gray-700">Our Customers</a>
-                    <a href="placed-student-list" class="block py-1 text-gray-700">Placed Student List</a>
-                    <a href="kazumi-community" class="block py-1 text-gray-700">Kazumi Community</a>
+                    <a href="https://www.henryharvin.com/careers" class="block py-1 text-gray-700">Careers </a>
+                    <a href="https://www.henryharvin.com/our-customer" class="block py-1 text-gray-700">Our Customers</a>
+                    <a href="https://www.henryharvin.com/placed-students-list" class="block py-1 text-gray-700">Placed Student List</a>
+                     {{--<a href="kazumi-community" class="block py-1 text-gray-700">Kazumi Community</a> --}}
                     <a href="contact-us" class="block py-1 text-gray-700">Contact US</a>
                 </div>
             </div>
