@@ -102,6 +102,21 @@ Route::get('kazumi-community', function () {
 Route::get('why-kazumi', function () {
     return view('why_kazumi');
 });
+Route::get('media', function () {
+    return view('media');
+});
+Route::get('our-affiliations', function () {
+    return view('our_affiliations');
+});
+Route::get('careers', function () {
+    return view('careers');
+});
+Route::get('our-customers', function () {
+    return view('our_customers');
+});
+Route::get('placed-student-list', function () {
+    return view('placed_student_list');
+});
 
 // all courses
 Route::get('japanese-language-course', function () {
