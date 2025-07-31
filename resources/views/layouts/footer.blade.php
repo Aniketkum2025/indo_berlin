@@ -3,8 +3,8 @@
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div class="">
                 <div class="flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1752739115Logo_Kazumi_Japanese.png"
-                        class="h-[180px] w-auto bg-white rounded-full ">
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753872845ezgif.com-crop.webp"
+                        class="h-[70px] w-auto bg-white">
                 </div>
                 <p class="text-gray-300 text-sm mt-4 text-justify">
                    Kazumi Japanese & Culture School by Henry Harvin® promoting Japanese 言語 (gengo) and 文化 (bunka), recognised globally with affiliations like the Japanese Language Proficiency Test (JLPT) framework and Henry Harvin’s prestigious accreditations from ISO, UKAF, MSME, and affiliations with leading global 教育的 (kyōikuteki) platforms.
@@ -15,10 +15,10 @@
                 <h3 class="text-white font-semibold border-b border-gray-600 pb-1 mb-3">USEFUL PAGES</h3>
                 <ul class="space-y-2 text-gray-400 text-sm">
                     <li><a href="about-us" class="hover:text-red-500">Knowing Kazumi</a></li>
-                    <li><a href="president's-words" class="hover:text-red-500">Courses</a></li>
-                    <li><a href="values" class="hover:text-red-500">Internship</a></li>
-                    <li><a href="faq" class="hover:text-red-500">Why Kazumi?</a></li>
-                    <li><a href="links" class="hover:text-red-500">Online Payment</a></li>
+                    {{-- <li><a href="president's-words" class="hover:text-red-500">Courses</a></li> --}}
+                    <li><a href="https://yuvaintern.com/" class="hover:text-red-500">Internship</a></li>
+                    <li><a href="why-kazumi" class="hover:text-red-500">Why Kazumi?</a></li>
+                    <li><a href="https://www.henryharvin.com/pay-fee" class="hover:text-red-500">Online Payment</a></li>
                     <li><a href="contact-us" class="hover:text-red-500">Request Certificate</a></li>
                 </ul>
             </div>

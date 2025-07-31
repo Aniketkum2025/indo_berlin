@@ -78,11 +78,11 @@
                             <a href="admission-process"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Admission Process</a>
                             
-                            <a href="online-payment"
+                            <a href="https://www.henryharvin.com/pay-fee"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Online Payment</a>
                             <a href="existing-students"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Existing Students</a>
-                            <a href="request-certificate"
+                            <a href="https://www.henryharvin.com/request-certificate"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Request Certificate</a>
                         </div>
                     </div>
@@ -163,9 +163,10 @@
                     <a href="why-kazumi" class="block py-1 text-gray-700">Why Kazumi?</a>
                     <a href="admission-process" class="block py-1 text-gray-700">Admission Process</a>
                     
-                    <a href="online-payment" class="block py-1 text-gray-700">Online Payment</a>
+                    <a href="https://www.henryharvin.com/pay-fee" class="block py-1 text-gray-700">Online Payment</a>
                     <a href="existing-students" class="block py-1 text-gray-700">Existing Students</a>
-                    <a href="request-certificate" class="block py-1 text-gray-700">Request Certificate</a>
+                    <a href="https://www.henryharvin.com/request-certificate" class="block py-1 text-gray-700">Request Certificate</a>
+                    <a href="contact-us" class="block py-1 text-gray-700">Contact Us</a>
                 </div>
             </div>
             <a href="https://yuvaintern.com/" class="block px-4 py-2 text-[#da2028] font-[600] hover:bg-gray-100">Internship</a>

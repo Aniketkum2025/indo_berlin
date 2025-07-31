@@ -40,14 +40,14 @@
     </ul>
   </div>
 </section>
-<section class="py-12 px-4 max-w-4xl mx-auto">
+<section class="py-12 px-4 max-w-4xl mx-auto hidden">
   <div class="bg-white shadow-2xl rounded-xl p-8 space-y-6 border border-gray-200">
     <h2 class="text-3xl font-bold text-red-600">Apply for <span class="text-yellow-500">Admission</span></h2>
     <p class="text-gray-600">Please fill out the form below to begin your application process for Kazumi Japanese & Culture School by Henry Harvin.</p>
 
     <form action="#" method="POST" class="space-y-6">
 
-      <!-- Full Name -->
+     
       <div>
         <label class="block text-gray-700 font-semibold mb-1" for="name">Full Name</label>
         <input type="text" id="name" name="name" placeholder="e.g. Aisha Tanaka"
