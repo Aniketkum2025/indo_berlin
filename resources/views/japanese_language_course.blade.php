@@ -37,33 +37,93 @@
 }
 </style>
 <section>
-    <div class="relative w-full h-screen overflow-hidden">
+    <div class="relative w-full h-screen overflow-hidden" style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1753942717banner.webp); background-position: top;">
         <!-- Video Background -->
-        <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover">
+        {{-- <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover">
             <source src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175274277337088-413229662_medium.mp4"
                 type="video/mp4">
             Your browser does not support the video tag.
-        </video>
-
-        <!-- Content Overlay -->
-        <div
-            class="relative z-10 flex flex-col justify-center items-center h-full text-center text-white bg-black bg-opacity-30">
-            <p class="capitalize text-2xl md:text-4xl tracking-widest mb-4"
-                style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">private online lessons</p>
-            <!-- <h1 class="text-xl md:text-2xl tracking-widest mb-6">Discover a new standard of Japanese Education and
-                Culture.</h1> -->
-            <div class="flex space-x-4 mb-8">
-                <a data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button"
-                    class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600">Download
-                    Brochure</a>
-                <a href="#" class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600"> Apply
-                    Now</a>
+        </video> --}}
+        <div class="relative z-10 grid md:flex py-2 gap-4 justify-center space-y-4 items- h-full text-center bg-black bg-opacity-90">
+            <div class="md:w-7/12 w-full bg-white p-2 rounded-md space-y-2 text-left">
+                <h1 class="text-[28px] font-[500] text-red-600">Japanese Language Course | 日本語コース </h1>
+                <div class="flex space-x-4 mb-8 items-center ">
+                    <a data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button"
+                        class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600">Apply
+                        Now</a>
+                    <a href="/about-us" class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600"> Learn
+                        More</a>
+                </div>
+                <div class="">
+                    <p class="text-gray-500 text-[16px] font-[400] mb-2"> Henry Harvin® Ranks #1 for Language Courses by <a class="text-blue-600" href="https://www.educationworld.in/top-french-institutes-in-india/" rel="noopener" target="_blank">Education World</a></p> <p></p>
+                </div>
+                <div id="countryPrice" class="grid grid-cols-1 mt-4 lg:gap-2 gap-4">
+                    <div class="w-full">
+                        <span class="text-[16px] font-[600] text-red-600">Starts In 3 day</span>
+                        <span class="font-[800] text-[16px] mt-1 text-red-600">04 Aug 2025</span>
+                    </div>
+                </div>
             </div>
+            <div class="md:w-4/12 w-full ">
+                 <div class="relative bg-white rounded-lg border-2 border-red-600 shadow mb-2">
+                    <!-- Modal header -->
+                    <div class="flex items-center justify-between px-4 py-2 border-b rounded-t">
+                        <h3 class="text-[20px] font-[600] text-red-600 text-center">
+                            Book a Live Class
+                        </h3>
+
+                    </div>
+
+                    <!-- Modal body -->
+                    <form class="p-2 md:p-2 space-y-2 text-left">
+                        <div>
+                            <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
+                            <input type="text" name="name" id="name" placeholder="Name" required="" class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                            <span id="name_error3" class="text-red-500 text-xs"></span>
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-sm mb-1 font-[600] text-red-600">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Email" required="" class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                            <span id="email_error3" class="text-red-500 text-xs"></span>
+                        </div>
+
+                        <div>
+                            <label for="countryCode" class="block text-sm mb-1 font-[600] text-red-600">Country
+                                Code</label>
+                            <div class="flex gap-2">
+                                <select name="countryCode" class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-1">
+                                    <option value="(+971)" selected="">UAE (+971)</option>
+                                    <option value="(+91)">India (+91)</option>
+                                    <option value="(+1)">USA (+1)</option>
+                                </select>
+                                <input type="number" name="phone" placeholder="Mobile no *" class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                            </div>
+                            <span id="phone_error3" class="text-red-500 text-xs"></span>
+                        </div>
+
+                        <!-- Hidden Inputs -->
+                        <input type="hidden" name="description2" value="SAP FICO Training (Power User Program) Course Certification">
+                        <input type="hidden" name="academy" value="20">
+                        <input type="hidden" name="source" value="FORM Henry Harvin UAE">
+                        <input type="hidden" name="lead_source_page_url" value="https://henryharvin.ae/sap-fico-training">
+                        <input type="hidden" name="slug" value="sap-fico-training">
+                        <input type="hidden" name="crm_course_id" value="SAP-FICO">
+
+                        <div class="flex justify-center pt-2">
+                            <button type="submit" class="bg-red-600 text-white px-2 py-1 text-lg rounded-md">Submit</button>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="shadow-lg grid place-content-center bg-white text-center rounded-lg relative mx-auto max-w-full" id="nsdc-logo-div">
+                    <img class="img-nsdc" id="nsdc-logo" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1747289179NSDC_Govt-Logo.png" alt="images3">
+                </div>
+            </div>
+            
         </div>
     </div>
 </section>
-
-
 <section class="py-12 px-4">
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mt-2">
         <div class="md:col-span-2">

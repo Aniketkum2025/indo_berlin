@@ -446,7 +446,25 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<div class="fixed z-20 bottom-6 left-4 hidden md:block">
+    <a class="border-2 border-[#0dc143] flex items-center text-center justify-between w-[170px] bg-white relative rounded-full mb-4" href="https://wa.me/message/2YDWDUFYBSUBA1">
+        <span class="text-[#0dc143] text-[17px] font-[400] ml-3">WhatsApp Us</span>
+        <span class="bg-[#0dc143] w-8 h-8 rounded-full flex items-center text-center justify-center"><i class="fa fa-whatsapp text-white" id="fone" aria-hidden="true"></i></span>
+        <img class="w-3 absolute animate-ping right-0 -top-2" src="https://cdn.henryharvin.com/ezgif.com-resize.webp" alt="whatsapp1" loading="lazy">
+    </a>
+    <a class="border-2 border-[#007bff] flex items-center text-center justify-between w-[170px] bg-white relative rounded-full mb-4" href="">
+        <span class="text-[#007bff] text-[17px] font-[400] ml-3">Talk to Expert</span>
+        <span class="bg-[#007bff] w-8 h-8 rounded-full flex items-center text-center justify-center"><i class="fa fa-video-camera text-white" id="fone" aria-hidden="true"></i></span>
+        <img class="w-2 absolute animate-ping right-0 -top-2" src="https://cdn.henryharvin.com/images/1701330473red.1.webp" alt="talkto" loading="lazy">
+    </a>
+</div>
 
+<div class="fixed z-20 bottom-[50%] rotate-90 hidden lg:block" style="right: -50px;">
+    <a class="border-2 border-[#008000] flex items-center text-center justify-between w-48 bg-white relative rounded-full mb-4 dynamic_contact_href" href="tel: +91 989 957 7620">
+        <span class="text-[#008000] text-[17px] font-[400] ml-2 dynamic_contact">+91 989 957 7620</span>
+        <span class="bg-[#008000] w-8 h-8 rounded-full flex items-center text-center justify-center"><i class="fa fa-phone text-white" id="fone" aria-hidden="true"></i></span>
+    </a>
+</div>
 <script>
 new Swiper('.mySwiper1', {
     slidesPerView: 2,
@@ -630,3 +648,35 @@ function toggleText() {
         }, 1500); 
     });
 </script>
+<script type="text/javascript">
+        var $_Tawk_API = {},
+        $_Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/558149016c610a3d3ba1c533/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+        var _TConnecto = _TConnecto || {};
+        _TConnecto.licenseKey = '6K3UITUZV27OQU8G';
+        (function() {
+            var con = document.createElement('script');
+            con.type = 'text/javascript';
+            var host = (document.location.protocol === 'http:') ? 'http://cdn' : 'https://server';
+            con.src = host + '.connecto.io/javascripts/connect.prod.min.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(con, s);
+        })();
+        setInterval(function () {
+  const iframe = document.querySelector("iframe[src*='tawk.to']");
+  if (iframe) {
+    iframe.style.backgroundColor = "#da2028"; // sets background color of the iframe itself
+    iframe.style.borderRadius = "10px";
+    iframe.style.boxShadow = "0 0 10px rgba(0,0,0,0.2)";
+    clearInterval(this);
+  }
+}, 1000);
+    </script>

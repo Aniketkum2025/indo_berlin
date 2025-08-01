@@ -127,3 +127,7 @@ Route::get('thankyou', function () {
     return view('thankyou');
 });
 
+Route::get('ppc', function () {
+    return view('ppc');
+});
+
