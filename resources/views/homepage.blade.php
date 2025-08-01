@@ -730,7 +730,7 @@
     <div class="max-w-7xl mx-auto">
         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Esteemed Faculty
         </h2>
-            <div class="grid grid-cols-5 gap-2">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
                 <div class="">
                     <div class="grid p-2 gap-2 place-items-center rounded-2xl"
                         style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
@@ -794,7 +794,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="">
+                {{-- <div class="">
                     <div class="grid p-2 gap-2 place-items-center rounded-2xl"
                         style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
                         <div class="rounded-2xl">
@@ -808,7 +808,7 @@
                             <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                         </div>
                     </div>
-                </div>
+                </div> --}}
               
             </div>
         <div class="mt-4 flex justify-center items-center">
