@@ -623,3 +623,10 @@ function toggleText() {
     });
   });
 </script>
+<script>
+    document.querySelector("form").addEventListener("submit", function () {
+        setTimeout(function () {
+            window.location.href = "thankyou";
+        }, 1500); 
+    });
+</script>
