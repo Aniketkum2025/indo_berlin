@@ -730,6 +730,8 @@
     <div class="max-w-7xl mx-auto">
         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Esteemed Faculty
         </h2>
+
+        
             <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
                 <div class="">
                     <div class="grid p-2 gap-2 place-items-center rounded-2xl"
