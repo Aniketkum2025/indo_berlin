@@ -5,7 +5,7 @@
     <div class="max-w-7xl mx-auto px-4 ">
         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Esteemed Faculty
         </h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6 place-items-center">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 place-items-center">
                 <div class="">
                     <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
                         <div class="rounded-2xl">
