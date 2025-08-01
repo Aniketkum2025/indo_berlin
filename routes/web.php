@@ -123,3 +123,7 @@ Route::get('japanese-language-course', function () {
     return view('japanese_language_course');
 });
 
+Route::get('thankyou', function () {
+    return view('thankyou');
+});
+
