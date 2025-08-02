@@ -157,7 +157,7 @@
                              {{-- <a href="media"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Media</a> --}}
                             
-                                <a href="https://www.henryharvin.com/affiliations-accreditations"
+                                <a href="/our-affiliations"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Our Affiliations</a>
                                {{-- <a href="quality-assurance"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Quality Assurance</a> --}}
@@ -323,7 +323,7 @@
     <a href="about-us" class="block py-1 text-gray-700">Knowing Kazumi</a>
     <a href="values" class="block py-1 text-gray-700">Values</a>
     <a href="media" class="block py-1 text-gray-700">Media</a>
-    <a href="https://www.henryharvin.com/affiliations-accreditations" class="block py-1 text-gray-700">Our Affiliations</a>
+    <a href="/our-affiliations" class="block py-1 text-gray-700">Our Affiliations</a>
     <a href="esteemed-faculty" class="block py-1 text-gray-700">Esteemed Faculty</a>
     <a href="/careers" class="block py-1 text-gray-700">Careers</a>
     <a href="/our-customer" class="block py-1 text-gray-700">Our Customers</a>
