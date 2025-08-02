@@ -532,6 +532,45 @@ const swiper17 = new Swiper('.linearswiper', {
     },
 });
 </script>
+
+<script>
+// Swiper 17 - For .linearswiper1
+const swiper20 = new Swiper('.linearswiper2', {
+    loop: true,
+    spaceBetween: 5,
+    speed: 5000,
+    autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: false,
+    },
+    allowTouchMove: false,
+    grabCursor: false,
+    freeMode: true,
+    freeModeMomentum: false,
+    breakpoints: {
+        0: {
+            slidesPerView: 3,
+        },
+        480: {
+            slidesPerView: 3,
+        },
+        640: {
+            slidesPerView: 4,
+        },
+        768: {
+            slidesPerView: 6,
+        },
+        1024: {
+            slidesPerView: 8,
+        },
+        1280: {
+            slidesPerView: 10,
+        }
+    },
+});
+</script>
+
 <script>
 const swiper = new Swiper('.mySwiper', {
     loop: true,

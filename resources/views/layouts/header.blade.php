@@ -39,7 +39,7 @@
             <div class="flex justify-between items-center ">
                 <div class="flex items-center space-x-3">
                     <a href="/">
-                        <img class="md:h-[75px] h-[60px] w-auto"
+                        <img class="md:h-[65px] h-[60px] w-auto"
                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753872845ezgif.com-crop.webp"
                         alt="Kazumi Logo">
                     </a>
