@@ -298,6 +298,8 @@
                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1736849226DBS_C-01.png" alt="slide-4"
                             loading="lazy" />
                     </div>
+
+                    
                     <div class="swiper-slide w-auto px-1 md:px-6 flex items-center justify-center">
                         <img class="max-h-[120px] mt-6 object-contain mx-auto"
                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753943295ezgif.com-resize_(2).webp"
