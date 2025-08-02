@@ -111,7 +111,7 @@ Route::get('our-affiliations', function () {
 Route::get('careers', function () {
     return view('careers');
 });
-Route::get('our-customers', function () {
+Route::get('our-customer', function () {
     return view('our_customers');
 });
 Route::get('placed-student-list', function () {
