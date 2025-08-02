@@ -58,13 +58,13 @@
                                 class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600"> Learn
                                 More</a>
                         </div>
-                        <div class="">
+                        {{-- <div class="">
                             <p class="text-white text-[16px] font-[400] mb-2"> Henry Harvin® Ranks #1 for Language
                                 Courses by <a class="text-blue-600"
                                     href="https://www.educationworld.in/top-french-institutes-in-india/" rel="noopener"
                                     target="_blank">Education World</a></p>
                             <p></p>
-                        </div>
+                        </div> --}}
                         <div id="countryPrice" class="grid grid-cols-1 mt-4 lg:gap-2 gap-4">
                             <div class="w-full">
                                 <span class="text-[16px] font-[600] text-red-600">Starts In 3 day</span>
@@ -299,7 +299,7 @@
                             loading="lazy" />
                     </div>
 
-                    
+
                     <div class="swiper-slide w-auto px-1 md:px-6 flex items-center justify-center">
                         <img class="max-h-[120px] mt-6 object-contain mx-auto"
                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753943295ezgif.com-resize_(2).webp"
@@ -1228,7 +1228,7 @@
                         </span>
                     </button>
                 </div>
-                <div class="text-center py-10">
+                {{-- <div class="text-center py-10">
                     <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">COURSE
                         FEATURES </h2>
 
@@ -1267,7 +1267,7 @@
                         </div>
 
                     </div>
-                </div>
+                </div> --}}
                 <div class="text-center py-10">
                     <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Our
                         Placement Stats </h2>
@@ -1304,7 +1304,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="text-center py-10">
+                {{-- <div class="text-center py-10">
                     <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Access
                         the best jobs in the industry </h2>
                     <div class="my-3 md:block hidden">
@@ -1315,7 +1315,7 @@
                         <img class="w-full" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719478543dwddd.webp"
                             alt="icons-carri5">
                     </div>
-                </div>
+                </div> --}}
                 <div class="">
                     <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Japanese
                         Language
