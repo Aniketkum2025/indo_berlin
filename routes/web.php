@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PpcController;
 
 /*
 |--------------------------------------------------------------------------
@@ -111,7 +112,7 @@ Route::get('our-affiliations', function () {
 Route::get('careers', function () {
     return view('careers');
 });
-Route::get('our-customer', function () {
+Route::get('our-customers', function () {
     return view('our_customers');
 });
 Route::get('placed-student-list', function () {
@@ -131,3 +132,7 @@ Route::get('ppc', function () {
     return view('ppc');
 });
 
+Route::prefix('ppc')->name('ppc.')->controller(PpcController::class)->group(function () {
+    Route::get('japanese-language-course', 'japaneseLanguageCourse')->name('japanese_language_course');
+    
+});
