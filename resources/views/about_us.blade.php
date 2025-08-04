@@ -238,7 +238,7 @@
                 </div>
                 <div class="px-2">
                     <h2 class="text-white text-center text-[16px] pb-2">Toshiyuki Takayasu</h2>
-                    <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p>
+                    {{-- <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p> --}}
                     <p class="text-white text-[14px] text-center">Advisory Board Member</p>
                 </div>
             </div>
