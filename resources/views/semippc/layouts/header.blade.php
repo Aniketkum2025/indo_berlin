@@ -23,14 +23,6 @@
             <img class="md:h-[65px] h-[55px] w-auto" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753872845ezgif.com-crop.webp" alt="Kazumi Logo">
         </a>
     </div>
-    {{-- <div class="flex items-center gap-2">
-      <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733131304School_of_Language_Logo_F_(1).png" alt="Logo" class="h-16">
-      <p class="h-[45px] bg-red-700 w-[1px] p-[1px]"></p>
-      <div class="text-sm text-gray-700">
-        <p class="font-bold text-red-600 text-center text-[20px]">12</p>
-        <p class="text-[16px] text-red-600 font-[500] text-center">Years</p>
-      </div>
-    </div> --}}
     <div class="text-red-600 text-sm text-center lg:text-left md:block hidden">
       <p>460,000+ Trained | 6,700+ Reviews | 7,000+ Live Classes Every Month</p>
       <p>210+ Corporate Partners | 180+ College Partners | 93% Reported Career Benefits</p>
