@@ -2,44 +2,46 @@
 @section('title')Japanese Language course @endsection
 @section('main-section')
 {{-- main section --}}
-    <section class="bg-gradient-to-r from-red-800 to-red-500 text-white px-6 py-10 lg:py-16">
-        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
-            <div class="lg:col-span-2 space-y-4">
-                <h1 class="text-3xl lg:text-4xl font-[600] leading-tight">French Language Certification Course - Job Guarantee Program</h1>
-                <ul class="list-disc ml-5 text-lg space-y-2">
-                    <li>66 Hrs Training Includes (40 Hrs Training + 16 Hrs GD + 10 Hrs Exam Prep) at Each Level</li>
-                    <li>Master A1, A2, B1, B2, C1, C2 Levels of the French Language</li>
-                    <li>Ace the DELF and DALF Exam Preparation</li>
-                </ul>
-                <div class="mt-6 text-yellow-400 text-[22px] flex flex-col space-y-2">
-                    <p class="">
-                        <a data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button">
-                            <strong>Forbes</strong> 
-                            features Henry Harvin 
-                            <span class="text-white font-semibold">4.8 / 5</span> ⭐⭐⭐⭐⭐
-                        </a>
-                    </p>
-                    <p class="text-white"><span class="text-yellow-400">★ 4.9</span> (1583 Ratings) • 2129 Learners</p>
-                </div>
-            </div>
-            <div>
-                <div class="bg-white text-gray-800 p-6 rounded shadow-md space-y-4">
-                    <h3 class="text-lg font-semibold text-center">Download Course Brochure</h3>
-                    <input type="email" placeholder="Enter email here"
-                        class="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500" />
-                    <div class="flex gap-2">
-                        <select
-                            class="w-1/3 border border-gray-300 px-2 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500">
-                            @include('semippc.component.number')
-                        </select>
-                        <input type="tel" placeholder="Enter phone here" class="w-2/3 border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500" />
+    <section class="text-white" style="background: radial-gradient(circle, #BC002D 20%, #FFFFFF 20%);">
+        <div class="px-6 py-10 lg:py-16" style="background-color:#000000b0">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
+                <div class="lg:col-span-2 space-y-4">
+                    <h1 class="text-3xl lg:text-4xl font-[600] leading-tight">French Language Certification Course - Job Guarantee Program</h1>
+                    <ul class="list-disc ml-5 text-lg space-y-2">
+                        <li>66 Hrs Training Includes (40 Hrs Training + 16 Hrs GD + 10 Hrs Exam Prep) at Each Level</li>
+                        <li>Master A1, A2, B1, B2, C1, C2 Levels of the French Language</li>
+                        <li>Ace the DELF and DALF Exam Preparation</li>
+                    </ul>
+                    <div class="mt-6 text-yellow-400 text-[22px] flex flex-col space-y-2">
+                        <p class="">
+                            <a data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button">
+                                <strong>Forbes</strong> 
+                                features Henry Harvin 
+                                <span class="text-white font-semibold">4.8 / 5</span> ⭐⭐⭐⭐⭐
+                            </a>
+                        </p>
+                        <p class="text-white"><span class="text-yellow-400">★ 4.9</span> (1583 Ratings) • 2129 Learners</p>
                     </div>
-                    <button class="w-full bg-red-600 hover:bg-red-900 text-white py-3 rounded-md font-semibold">Send Me Brochure »</button>
                 </div>
-              @include('semippc.component.nsdc-logo')
+                <div>
+                    <div class="bg-white text-gray-800 p-6 rounded shadow-md space-y-4">
+                        <h3 class="text-lg font-semibold text-center">Download Course Brochure</h3>
+                        <input type="email" placeholder="Enter email here"
+                            class="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500" />
+                        <div class="flex gap-2">
+                            <select
+                                class="w-1/3 border border-gray-300 px-2 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500">
+                                @include('semippc.component.number')
+                            </select>
+                            <input type="tel" placeholder="Enter phone here" class="w-2/3 border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500" />
+                        </div>
+                        <button class="w-full bg-red-600 hover:bg-red-900 text-white py-3 rounded-md font-semibold">Send Me Brochure »</button>
+                    </div>
+                @include('semippc.component.nsdc-logo')
+                </div>
             </div>
-        </div>
         @include('semippc.component.logo')
+         </div>
     </section>
 
     @include('semippc.component.exclusive-course', [
