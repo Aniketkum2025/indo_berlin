@@ -200,7 +200,7 @@
                 <div class="px-2">
                     <h2 class="text-white text-center text-[16px] pb-2">Mr. Kounal Gupta</h2>
                     <p class="text-white text-[14px] text-center font-[500]">CEO & Founder of Kazumi Japanese & Culture School</p>
-                    <p class="text-white text-[14px] text-center">Advisory Board Member</p>
+                    <p class="text-white text-[14px] text-center">Board Advisor</p>
                 </div>
             </div>
             <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
@@ -211,7 +211,7 @@
                 <div class="px-2">
                     <h2 class="text-white text-center text-[16px] pb-2">Mrs. Ishu Jain</h2>
                     <p class="text-white text-[14px] text-center font-[500]">Head of Academics</p>
-                    <p class="text-white text-[14px] text-center">Advisory Board Member</p>
+                    <p class="text-white text-[14px] text-center">Board Advisor</p>
                 </div>
             </div>
             <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
@@ -222,7 +222,7 @@
                 <div class="px-2">
                     <h2 class="text-white text-center text-[16px] pb-2">Mrs. Seema Rampal</h2>
                     <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p>
-                    <p class="text-white text-[14px] text-center">Advisory Board Member</p>
+                    <p class="text-white text-[14px] text-center">Board Advisor</p>
                 </div>
             </div>
             <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
