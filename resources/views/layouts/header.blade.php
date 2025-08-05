@@ -1,3 +1,62 @@
+@php
+$mytime = Carbon\Carbon::now();
+$test = $mytime->toDateTimeString();
+@endphp
+@if ($test <= '2025-08-16 00:00:00' )
+    <section class="bg-[#4f2d7f] sticky top-0 z-50 offer-header" style="background: #FF9800;">
+        <style>
+            #sticky {
+                top: 40px !important;
+            }
+
+            #stickey-event {
+                top: 100px !important;
+            }
+
+            @media (max-width: 767px) {
+                .ppp {
+                    display: block;
+                }
+            }
+
+            @media (max-width: 640px) {
+                #sticky {
+                    top: 64px !important;
+                }
+            }
+        </style>
+
+        <div class="py-2 sm:flex sm:gap-2 md:gap-4 max-w-full items-center justify-center" bis_skin_checked="1">
+            <div class="flex" bis_skin_checked="1">
+                <p class="mx-auto text-[11px] font-[500] px-2 text-white md:text-[14px] text-center sm:font-[600]">
+                    <span class="block">BIG FREEDOM OFFER LIVE: Enroll Now & Unlock  Premium Deals</span> <span class="ppp"></span>
+                </p>
+                <!-- <span style="">Don’t Miss Out! Save Big with Scholarships Before Fees Revise on 1st Jan 2025!</p> -->
+            </div>
+            <div class="mt-2 sm:mt-0 flex sm:gap-1 md:gap-4 gap-1 justify-center items-center sm:mx-0 text-[12px] sm:text-[10px] md:text-[12px]" bis_skin_checked="1">
+                <p class="flex gap-1 shadow-sm items-center text-[#fbf7ff] px-1"><strong id="days1" class="w-6 h-6 rounded-full flex items-center justify-center font-[500] bg-[#ffc107]" style="background-color: #e50914;">0</strong> <span class="flex text-[12px] font-[600]">D<span class="hidden lg:block"></span></span>
+                </p>
+                <p class="flex gap-1 shadow-sm items-center text-[#fbf7ff] px-1"><strong id="hours1" class="w-6 h-6 rounded-full flex items-center justify-center font-[500] bg-[#ffc107]" style="background-color: #e50914;">12</strong> <span class="flex text-[12px] font-[600]">H<span class="hidden lg:block"></span></span>
+                </p>
+                <p class="flex gap-1 shadow-sm items-center text-[#fbf7ff] px-1"><strong id="mins1" class="w-6 h-6 rounded-full flex items-center justify-center font-[500] bg-[#ffc107]" style="background-color: #e50914;">59</strong> <span class="flex text-[12px] font-[600]">M<span class="hidden lg:block"></span></span>
+                </p>
+                <p class="flex gap-1 shadow-sm items-center text-[#fbf7ff] px-1"><strong id="seconds1" class="w-6 h-6 rounded-full flex items-center justify-center font-[500] bg-[#ffc107]" style="background-color: #e50914;">45</strong> <span class="flex text-[12px] font-[600]">S<span class="hidden lg:block"></span></span>
+                </p>
+                <!-- <div class="text-center ml-2" bis_skin_checked="1">
+                    <a href="/offers" target="_blank" class="hidden md:block text-gray-900 relative text-[12px] font-[600] bg-white px-2 py-1 rounded-md"   style="background: linear-gradient(to right, #E50914 , #FF8A00 ) !important; color: white !important;">View Offer </a>
+                    <a href="/offers" target="_blank" class="text-[#212529] relative w-20 mr-2 text-[10px] font-[500] bg-white px-2 py-1 rounded-md block md:hidden">View Offer</a>
+                </div> -->
+                <div class="text-center ml-2" bis_skin_checked="1">
+                    <button data-modal-target="authentication-modal2" data-modal-toggle="authentication-modal2" type="button" class="hidden md:block text-gray-900 relative text-[11px] font-[600] bg-white px-2 py-1 rounded-md" style="background: linear-gradient(to right, #E50914 , #FF8A00 ) !important; color: white !important;">Check
+                        Now</button>
+                    <a href="https://api.whatsapp.com/send?phone=919910990543&amp;text=Grab%20Month-End%20Scholarship%20+%20Register%20with%20Best%20Offers" class="text-[#212529] relative w-20 mr-2 text-[10px] font-[500] bg-white px-2 py-1 rounded-md block md:hidden">Check
+                        Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    @endif
 <style>
 .submenu {
     display: none;
@@ -7,32 +66,7 @@
     display: block;
 }
 
-/* .swiper-button-next {
-    height: 30px;
-    width: 30px;
-    right: -40px;
-}
-
-.swiper-button-prev {
-    height: 30px;
-    width: 30px;
-    left: -40px;
-}
-
-@media (max-width: 767px) {
-    .swiper-button-next {
-        right: 0px;
-    }
-
-    .swiper-button-prev {
-        left: 0px;
-    }
-} */
 </style>
-</head>
-
-<body class="font-sans">
-
     <!-- Navbar -->
     <nav class="bg-white sticky top-0 z-40 w-full bg-background/50 border-b border-white backdrop-blur-2xl" style="box-shadow: 0px -1px 28px -11px red;">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
