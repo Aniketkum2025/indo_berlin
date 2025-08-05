@@ -436,7 +436,7 @@
                     <input type="hidden" name="slug" value="contact-us">
 
                     <div class="flex justify-center pt-3">
-                        <button type="submit" class="bg-red-600 text-white py-2 px-4 text-lg rounded-md">Submit</button>
+                        <button type="submit" id="submit_ty" class="bg-red-600 text-white py-2 px-4 text-lg rounded-md">Submit</button>
                     </div>
                 </form>
 
@@ -988,7 +988,7 @@ function toggleText() {
   });
 </script>
 <script>
-    document.querySelector("form").addEventListener("submit", function () {
+    document.getElementById("submit_ty").addEventListener("click", function () {
         setTimeout(function () {
             window.location.href = "thankyou";
         }, 1500); 
