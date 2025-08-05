@@ -40,11 +40,10 @@
                     <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522683Sonali_Srivastava_(1).jpg" alt="">
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753786915Apeksha.jpg" alt="">
                         </div>
                         <div class="px-2 ">
-                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Sonali Srivastava
-                            </h2>
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Apeksha</h2>
                             <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
                                 Of Experience</h2>
                             <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
@@ -59,12 +58,45 @@
                         </div>
                         <div class="px-2 ">
                             <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Claire</h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">25+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="">
+                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1754396312ezgif.com-resize_(3).webp" alt="">
+                        </div>
+                        <div class="px-2 ">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Toshiyuki Takayasu
+                            </h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">20+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522683Sonali_Srivastava_(1).jpg" alt="">
+                        </div>
+                        <div class="px-2 ">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Sonali Srivastava
+                            </h2>
                             <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
                                 Of Experience</h2>
                             <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
                         </div>
                     </div>
                 </div>
+                
                 <div class="">
                     <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
                         <div class="rounded-2xl">
@@ -121,6 +153,22 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="">
+                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1754396507ezgif.com-resize_(4).webp" alt="">
+                        </div>
+                        <div class="px-2 ">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Chinami Yamamoto</h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">30+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+
                 <div class="">
                     <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
                         <div class="rounded-2xl">
@@ -135,20 +183,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="">
-                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
-                        <div class="rounded-2xl">
-                            <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753786915Apeksha.jpg" alt="">
-                        </div>
-                        <div class="px-2 ">
-                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Apeksha</h2>
-                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
-                                Of Experience</h2>
-                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                        </div>
-                    </div>
-                </div>
+
                 <div class="">
                     <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
                         <div class="rounded-2xl">
