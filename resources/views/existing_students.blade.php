@@ -1,11 +1,13 @@
 @extends('layouts.app')
+@section('title', 'Kazumi Student Testimonial | Real Experience Learning')
+@section('meta_description', 'Kazumi Japanese & Culture School helped students improve their Japanese skills and open new career paths with confidence and cultural knowledge.')
 @section('content')
 {{-- vedio section --}}
 <section class="py-12 bg-gray-100">
     <div class="max-w-7xl mx-auto px-4">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Testimonial
+        <h1 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Testimonial
             Videos
-        </h2>
+        </h1>
         <div class="relative">
             <div id="videoGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 hidden">
                 <div class="">
