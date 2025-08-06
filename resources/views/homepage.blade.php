@@ -1129,28 +1129,28 @@
     <div class="max-w-7xl mx-auto px-4">
          <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize mt-4 mb-2">Jobs & Careers in Japan
         </h2>
-         <p class="text-[16px] font-[600] text-gray-800 mb-4 text-center">
+         <h3 class="text-[16px] font-[600] text-gray-800 mb-4 text-center">
                 日本での仕事とキャリア(Nihon de no shigoto to kyaria)
-            </p>
+            </h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
                <div>
                 <p class="text-[14px] text-gray-700 mb-4">
                     Japan is actively expanding opportunities for international talent. Japanese employers prioritize candidates who can provide immediate expertise, possess strong communication skills, independence, and a cooperative attitude.
                 </p>
                 <div class="mb-4">
-                    <h2 class="text-[16px] font-[600] text-gray-800 mb-2">Job Hunting (Shūkatsu) in Japan</h2>
+                    <h3 class="text-[16px] font-[600] text-gray-800 mb-2">Job Hunting (Shūkatsu) in Japan</h3>
                     <p class="text-[14px] text-gray-700">
                         The job hunting process in Japan follows formal procedures, and it is highly recommended for students to begin their search from April 1, as it aligns with Japan's undergraduate and master's programs. When applying for jobs, candidates must undergo written exams in languages, mathematics, and other relevant assessments. After passing the exams, candidates participate in interview rounds to ensure their profile aligns with the roles and company culture.
                     </p>
                 </div>
                 <div class="mb-4">
-                    <h2 class="text-[16px] font-[600] text-gray-800 mb-2">Visa & Part-Time Work</h2>
+                    <h3 class="text-[16px] font-[600] text-gray-800 mb-2">Visa & Part-Time Work</h3>
                     <p class="text-[14px] text-gray-700">
                         International students wishing to work in Japan must transition from a "Student" visa to a work-eligible status such as Engineer or Specialist in Humanities & International Studies Services. The part-time work rules in Japan state that, while studying, students can only work up to 28 hours per week after obtaining permission.
                     </p>
                 </div>
                 <div>
-                    <h2 class="text-[16px] font-[600] text-gray-800 mb-2">人気 (Ninki) Sectors for International Hires</h2>
+                    <h3 class="text-[16px] font-[600] text-gray-800 mb-2">人気 (Ninki) Sectors for International Hires</h3>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <ul class="list-disc list-inside space-y-1 text-[14px] text-gray-700">
                         <li>Information Technology</li>
