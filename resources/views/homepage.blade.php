@@ -11,7 +11,7 @@
         </video> --}}
         <div
             class="relative z-10 flex flex-col justify-center space-y-4 items-center h-full text-center text-white bg-black bg-opacity-30">
-            <h1 class="text-3xl md:text-[48px] tracking-widest mb-10 font-[600]" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Welcome to Kazumi Japanese & Culture School learn With Expert </h1>
+            <h1 class="text-2xl md:text-[44px] tracking-widest mb-10 leading-8 font-[600]" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35); line-height:60px;">Welcome to Kazumi Japanese & Culture School learn With Expert </h1>
             <p class="capitalize text-xl md:text-3xl tracking-widest font-[600]"
                 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">新しい日本語教育と文化の基準を体験しましょう</p>
             <p class="capitalize text-xl md:text-3xl tracking-widest mt-4 font-[600]"
