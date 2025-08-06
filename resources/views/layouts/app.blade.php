@@ -2,9 +2,10 @@
 <html lang="en">
 <script src="https://cdn.tailwindcss.com"></script>
 <head>
-    <title>Kazumi School by Henry Harvin</title>
+    <title>Best Japanese Language Institute – Learn Japanese with Experts | Kazumi</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kazumi is the best Japanese language institute, offering JLPT, Business Japanese, Cross-Cultural Training & Crash Courses. Learn from certified experts!">
     <link rel="apple-touch-icon" sizes="180x180" href="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753077494apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753077423favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753077423favicon-16x16.png">
