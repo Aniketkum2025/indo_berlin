@@ -73,12 +73,12 @@
 </section>
 
 <section class="text-white py-12 px-6">
-    <div class="max-w-4xl mx-auto">
+    <div class="max-w-6xl mx-auto">
         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize">Ideas Behind Kazumi’s 教育的 (kyōikuteki) Framework</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 border border-gray-200 bg-white">
+        <div class="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 border border-gray-200 bg-white">
 
             <!-- Card 1 -->
-            <div class="grid gap-4 p-8 border-b border-r border-gray-200">
+            <div class="grid gap-4 p-8">
                 <div class="text-3xl mt-1">💪</div>
                 <div>
                     <h3 class="font-semibold text-lg text-red-600">Comprehensive Excellence (総合力 - Sōgōryoku)</h3>
@@ -88,7 +88,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="grid gap-4 p-8 border-b border-gray-200">
+            <div class="grid gap-4 p-8">
                 <div class="text-3xl mt-1">🎎</div>
                 <div>
                     <h3 class="font-semibold text-lg text-red-600">Tradition (伝統 - Dentō)</h3>
@@ -99,7 +99,7 @@
             </div>
 
             <!-- Card 3 -->
-            <div class="grid gap-4 p-8 border-r border-gray-200">
+            <div class="grid gap-4 p-8">
                 <div class="text-3xl mt-1">📈</div>
                 <div>
                     <h3 class="font-semibold text-lg text-red-600">Growth (成長 - Seichō)</h3>
@@ -109,7 +109,7 @@
             </div>
 
             <!-- Card 4 -->
-            <div class="grid gap-4 p-8 border-gray-200">
+            <div class="grid gap-4 p-8">
                 <div class="text-3xl mt-1">🚀</div>
                 <div>
                     <h3 class="font-semibold text-lg text-red-600">Aspiration / Ambition (志 - Kokorozashi)</h3>
@@ -119,7 +119,7 @@
             </div>
 
             <!-- Card 5 -->
-            <div class="grid gap-4 p-8 border-t border-r border-gray-200">
+            <div class="grid gap-4 p-8">
                 <div class="text-3xl mt-1">🎯</div>
                 <div>
                     <h3 class="font-semibold text-lg text-red-600">Challenge (挑戦 - Chōsen)</h3>
@@ -129,7 +129,7 @@
             </div>
 
             <!-- Card 6 -->
-            <div class="grid gap-4 p-8 border-t border-gray-200">
+            <div class="grid gap-4 p-8">
                 <div class="text-3xl mt-1">🔮</div>
                 <div>
                     <h3 class="font-semibold text-lg text-red-600">Future (未来 - Mirai)</h3>
@@ -139,7 +139,7 @@
             </div>
 
             <!-- Card 7 -->
-            <div class="grid gap-4 p-8 border-t border-gray-200 md:col-span-2">
+            <div class="grid gap-4 p-8 md:col-span-2">
                 <div class="text-3xl mt-1">🌐</div>
                 <div>
                     <h3 class="font-semibold text-lg text-red-600">Connection (繋がり - Tsunagari)</h3>
@@ -147,45 +147,9 @@
                         immersive community for lifelong learning.</p>
                 </div>
             </div>
-
         </div>
-
-
     </div>
 </section>
-{{-- <section class="bg-gray-100 py-12 px-6">
-    <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl font-bold text-red-600 capitalize mb-8">Kazumi Advisory Board Members</h2>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-
-            <!-- Member 1 -->
-            <div class="bg-white shadow-md rounded-lg overflow-hidden">
-                <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1752923457college-students-cramming-outdoor.jpg" alt="Kazumi Member" class="w-full h-40 object-cover">
-                <div class="p-4">
-                    <h3 class="text-xl font-semibold text-gray-800">Mr. Kounal Gupta</h3>
-                </div>
-            </div>
-
-            <!-- Member 2 -->
-            <div class="bg-white shadow-md rounded-lg overflow-hidden">
-                <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1752923457college-students-cramming-outdoor.jpg" alt="Kazumi Member" class="w-full h-40 object-cover">
-                <div class="p-4">
-                    <h3 class="text-xl font-semibold text-gray-800">Ms. Ishu Jain</h3>
-                </div>
-            </div>
-
-            <!-- Member 3 -->
-            <div class="bg-white shadow-md rounded-lg overflow-hidden">
-                <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1752923457college-students-cramming-outdoor.jpg" alt="Kazumi Member" class="w-full h-40 object-cover">
-                <div class="p-4">
-                    <h3 class="text-xl font-semibold text-gray-800">Ms. Seema</h3>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section> --}}
 <section class="py-8">
     <div class="max-w-7xl mx-auto px-4">
         <!-- Advisory Board -->
@@ -200,7 +164,7 @@
                 <div class="px-2">
                     <h2 class="text-white text-center text-[16px] pb-2">Mr. Kounal Gupta</h2>
                     <p class="text-white text-[14px] text-center font-[500]">CEO & Founder of Kazumi Japanese & Culture School</p>
-                    <p class="text-white text-[14px] text-center">Board Advisor</p>
+                    {{-- <p class="text-white text-[14px] text-center">Board Advisor</p> --}}
                 </div>
             </div>
             <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
@@ -211,7 +175,7 @@
                 <div class="px-2">
                     <h2 class="text-white text-center text-[16px] pb-2">Mrs. Ishu Jain</h2>
                     <p class="text-white text-[14px] text-center font-[500]">Head of Academics</p>
-                    <p class="text-white text-[14px] text-center">Board Advisor</p>
+                    {{-- <p class="text-white text-[14px] text-center">Board Advisor</p> --}}
                 </div>
             </div>
             <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
@@ -222,7 +186,7 @@
                 <div class="px-2">
                     <h2 class="text-white text-center text-[16px] pb-2">Mrs. Seema Rampal</h2>
                     <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p>
-                    <p class="text-white text-[14px] text-center">Board Advisor</p>
+                    {{-- <p class="text-white text-[14px] text-center">Board Advisor</p> --}}
                 </div>
             </div>
             <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
@@ -250,14 +214,11 @@
         </div>
     </div>
 </section>
-
-
 <section class="py-12 px-4 bg-gray-50">
     <div class="max-w-4xl mx-auto">
         <h2 class="text-2xl md:text-3xl font-bold text-red-600 mb-6 text-center">
             Kazumi 違い (chigai): What Sets Us Apart?
         </h2>
-
         <div class="overflow-x-auto">
             <table class="w-full text-left border border-gray-300 bg-white shadow-md text-sm md:text-base">
                 <thead class="bg-red-600 text-white">
@@ -338,5 +299,4 @@
         </div>
     </div>
 </section>
-
 @endsection
