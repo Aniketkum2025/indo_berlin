@@ -166,7 +166,7 @@ $test = $mytime->toDateTimeString();
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Online Payment</a>
                             <a href="existing-students"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Existing Students</a>
-                            <a href="https://www.henryharvin.com/request-certificate"
+                            <a href="{{ url('request-certificate') }}"
                                 class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Request Certificate</a>
                         </div>
                     </div>

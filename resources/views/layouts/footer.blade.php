@@ -988,18 +988,6 @@ function toggleText() {
   });
 </script>
 <script>
-    document.getElementById("submit_ty").addEventListener("click", function () {
-        setTimeout(function () {
-            window.location.href = "thankyou";
-        }, 1500); 
-    });
-    document.getElementById("submit_ty2").addEventListener("click", function () {
-        setTimeout(function () {
-            window.location.href = "thankyou";
-        }, 1500); 
-    });
-</script>
-{{-- <script>
     ['submit_ty', 'submit_ty2'].forEach(function(id) {
         document.getElementById(id).addEventListener("click", function () {
             setTimeout(function () {
@@ -1007,7 +995,7 @@ function toggleText() {
             }, 1500); 
         });
     });
-</script> --}}
+</script>
 
 <script type="text/javascript">
         var $_Tawk_API = {},
