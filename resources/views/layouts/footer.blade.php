@@ -764,7 +764,7 @@
                     <input type="hidden" name="slug" value="contact-us">
 
                     <div class="flex justify-center pt-2">
-                        <button type="submit" class="bg-red-600 text-white py-1 px-4 text-lg rounded-md">Submit</button>
+                        <button type="submit" id="submit_ty2" class="bg-red-600 text-white py-1 px-4 text-lg rounded-md">Submit</button>
                     </div>
                 </form>
             </div>
@@ -993,7 +993,22 @@ function toggleText() {
             window.location.href = "thankyou";
         }, 1500); 
     });
+    document.getElementById("submit_ty2").addEventListener("click", function () {
+        setTimeout(function () {
+            window.location.href = "thankyou";
+        }, 1500); 
+    });
 </script>
+{{-- <script>
+    ['submit_ty', 'submit_ty2'].forEach(function(id) {
+        document.getElementById(id).addEventListener("click", function () {
+            setTimeout(function () {
+                window.location.href = "thankyou";
+            }, 1500); 
+        });
+    });
+</script> --}}
+
 <script type="text/javascript">
         var $_Tawk_API = {},
         $_Tawk_LoadStart = new Date();
