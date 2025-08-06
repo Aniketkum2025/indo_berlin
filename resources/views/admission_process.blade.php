@@ -1,9 +1,11 @@
 @extends('layouts.app')
+@section('title', 'Kazumi Japanese School Admission Process | Join Today')
+@section('meta_description', 'Apply for Japanese classes at Kazumi. Submit documents, choose a course, and pay online – simple and fast admission process.')
 @section('content')
 <section class="py-12 px-4 max-w-7xl mx-auto">
   <div>
     <div class="bg-red-600 text-white max-w-4xl mx-auto p-8 rounded-xl shadow-xl space-y-4">
-      <h2 class="text-3xl font-bold mb-2">Admissions <span class="text-yellow-300">Overview</span></h2>
+      <h1 class="text-3xl font-bold mb-2">Admissions <span class="text-yellow-300">Overview</span></h1>
 
       <p>
         <span class="font-semibold">Kazumi Japanese & Culture School by Henry Harvin®</span> welcomes those who wish to learn and enhance their Japanese language skills through our comprehensive programs.
