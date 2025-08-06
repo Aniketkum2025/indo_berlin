@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PpcController;
+use App\Models\LeadQueue;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,11 @@ use App\Http\Controllers\PpcController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('test/test', function(){
+     $lead = LeadQueue::take(1)->get();
+     dd($lead);
+});
 
 Route::get('/', function () {
     return view('homepage');
