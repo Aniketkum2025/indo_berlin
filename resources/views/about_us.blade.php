@@ -161,7 +161,7 @@
             <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
                 <div class="rounded-2xl">
                     <img class="h-full w-full object-cover rounded-2xl"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753961762KounalGupta.jpg" alt="">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753961762KounalGupta.jpg" alt="Kounal Gupta – CEO & Founder Kazumi Japanese & Culture School">
                 </div>
                 <div class="px-2">
                     <h2 class="text-white text-center text-[16px] pb-2">Mr. Kounal Gupta</h2>
@@ -172,7 +172,7 @@
             <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
                 <div class="rounded-2xl">
                     <img class="h-full w-full object-cover rounded-2xl"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753961907IshuJain.jpg" alt="">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753961907IshuJain.jpg" alt=" Ishu Jain – Head of Academics">
                 </div>
                 <div class="px-2">
                     <h2 class="text-white text-center text-[16px] pb-2">Mrs. Ishu Jain</h2>
@@ -183,7 +183,7 @@
             <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
                 <div class="rounded-2xl">
                     <img class="h-full w-full object-cover rounded-2xl"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753961856seemarampal.jpg" alt="">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753961856seemarampal.jpg" alt="Seema Rampal – Head of Faculty">
                 </div>
                 <div class="px-2">
                     <h2 class="text-white text-center text-[16px] pb-2">Mrs. Seema Rampal</h2>
@@ -194,7 +194,7 @@
             <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
                 <div class="rounded-2xl">
                     <img class="h-full w-full object-cover rounded-2xl"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1754287214a.jpg" alt="">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1754287214a.jpg" alt="Toshiyuki Takayasu – Board Advisor">
                 </div>
                 <div class="px-2">
                     <h2 class="text-white text-center text-[16px] pb-2">Toshiyuki Takayasu</h2>
@@ -205,7 +205,7 @@
             <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
                 <div class="rounded-2xl">
                     <img class="h-full w-full object-cover rounded-2xl"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1754310784qsd.jpg" alt="">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1754310784qsd.jpg" alt="Chinami Yamamoto – Board Advisor">
                 </div>
                 <div class="px-2">
                     <h2 class="text-white text-center text-[16px] pb-2">Chinami Yamamoto</h2>

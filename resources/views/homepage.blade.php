@@ -18,7 +18,7 @@
                 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Discover a new standard of Japanese Education and Culture</p>
             <div class="flex space-x-4 mb-8 items-center justify-center">
                 <a data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button"
-                    class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600">Apply
+                    class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600 pointer-cursor">Apply
                     Now</a>
                 <a href="/about-us" class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600"> Learn
                     More</a>
@@ -61,7 +61,7 @@
     <p class="text-center text-gray-600 text-[16px] font-[600] my-2">Just like the famous Japanese proverb "継続は力なり" (Continuity is power), we bring a series of courses starting from Basic (N5) to Super Advanced (N1) level for continuous learning and growth.</p>
      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 my-10"> 
         <div class="w-full flex flex-col rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753689366Japanese_Language_Courses.jpg"  loading="lazy "alt="img-1" loading="lazy">
+            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753689366Japanese_Language_Courses.jpg"  loading="lazy "alt="Japanese Language Courses All Levels" loading="lazy">
             <div class=" h-full py-4">
                 <h3 class="text-[18px] font-[500] text-gray-900">Japanese Language Courses</h3>
                 <p class="text-[16px] text-gray-700 mt-2 flex-grow">Extensive & intensive modules 平日 (Heijitsu) and 週末 (Shūmatsu) batch</p>
@@ -82,7 +82,7 @@
             </div>
         </div>
         <div class="w-full flex flex-col rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753694789Japanese_Occupational_Courses.jpg"  loading="lazy "alt="img-2" loading="lazy">
+            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753694789Japanese_Occupational_Courses.jpg"  loading="lazy "alt="Japanese Occupational Courses" loading="lazy">
             <div class=" h-full py-4">
                 <h3 class="text-[18px] font-[500] text-gray-900">Japanese Occupational Courses</h3>
                 <p class="text-[16px] text-gray-700 mt-2 flex-grow">Extensive & Intensive courses for 個人 (Kojin) in corporate and business sector</p>
@@ -101,7 +101,7 @@
             </div>
         </div>
         <div class="w-full flex flex-col rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753943372ezgif.com-png-to-webp-converter_(1).webp"  loading="lazy "alt="culture" loading="lazy">
+            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753943372ezgif.com-png-to-webp-converter_(1).webp"  loading="lazy "alt="Cross-Cultural Japanese Courses" loading="lazy">
             <div class=" h-full py-4">
                 <h3 class="text-[18px] font-[500] text-gray-900">Japanese Cross-Cultural Courses</h3>
                  <p class="text-[16px] text-gray-700 mt-2 flex-grow">Extensive & Intensive courses for 個人 (Kojin) in corporate and business sector</p>
@@ -115,7 +115,7 @@
             </div>
         </div>
         <div class="w-full flex flex-col rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753696001Japanese_Crash_Course.jpg"  loading="lazy "alt="crash" loading="lazy">
+            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753696001Japanese_Crash_Course.jpg"  loading="lazy "alt="Crash Course in Japanese Language , N5 to N1" loading="lazy">
             <div class=" h-full py-4">
                 <h3 class="text-[18px] font-[500] text-gray-900">Crash Course in Japanese Language</h3>
                 <p class="text-[16px] text-gray-700 mt-2 flex-grow">Cover all the topics from N5 (basic) to N1 (advance) level, understand important and useful Japanese 伝統（Dentō) and etiquettes</p>
@@ -457,21 +457,21 @@
                 <div
                     class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center col-span-1 sm:col-span-1 md:col-span-1">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789102Trainerteaching.jpg"  loading="lazy "alt="wwww">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789102Trainerteaching.jpg"  loading="lazy "alt="Native Trainers, Kazumi School">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Native Japanese Trainers</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Learn from certified, highly 経験豊富 (keiken hōfu) and 情熱的な (jōnetsu-teki na) faculties.</p>
                 </div>
                  <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789154examsheet.jpg"  loading="lazy "alt="course">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789154examsheet.jpg"  loading="lazy "alt="JLPT Intensive Course">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">JLPT Intensive Course</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Excel in the JLPT with our 専門的な (Senmon-teki na) modules, mock tests, personalized coaching, and JLPT-focused materials sourced directly from Japan.</p>
                 </div>
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881317elearning.jpg"  loading="lazy "alt="access">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881317elearning.jpg"  loading="lazy "alt=" E-learning Portal, Kazumi School">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Access to E-learning Portal</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Kazumi partners with <span>
@@ -484,14 +484,14 @@
                 </div>
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                     <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789196OccupationalPrograms.jpg"  loading="lazy "alt="offer">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789196OccupationalPrograms.jpg"  loading="lazy "alt="Japanese Occupational Courses">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Japanese Occupational Courses</h3>
                     <p class="text-gray-700 text-[14px] mt-2">At Kazumi, we offer programs that will help you build corporate, business and 職場 (shokuba) skills required to secure good 仕事 (shigoto) internationally.</p>
                 </div>
                  <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774339talking.jpg"  loading="lazy "alt="">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774339talking.jpg"  loading="lazy "alt=" Internship for Japanese, Kazumi School">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Internship for Japanese Language</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Kazumi provides Internship Support via 
@@ -504,7 +504,7 @@
                 </div>
                  <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881283study.jpg"  loading="lazy "alt="study">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881283study.jpg"  loading="lazy "alt="Study Abroad, Kazumi School">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Study Abroad & Recruitment Services</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Kazumi offers study abroad and 就職支援 (Shūshoku Shien) via 
@@ -515,28 +515,28 @@
                 </div>
                  <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                     <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881176agota2.jpg"  loading="lazy "alt="Unique">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881176agota2.jpg"  loading="lazy "alt="Agota Framework, Kazumi School">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Unique 10 in 1 Program: Agota™ Framework</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Learn through innovative teaching methods that make learning easy and 実践的 (Jissen-teki). This framework essentially promotes the 能力 (Nōryoku) development and キャリア (Kyaria) development.</p>
                 </div>
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                     <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789015orconnections.jpg"  loading="lazy "alt="globle">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789015orconnections.jpg"  loading="lazy "alt="Global Presence, Kazumi School">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Global Presence</h3>
                     <p class="text-gray-700 text-[14px] mt-2">With offices in 4+ countries, UK, USA, Middle East, and India, Kazumi is a global brand, offering a global learning 環境 (kankyō), with around 1200+ international 学生 (gakusei).</p>
                 </div>
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774903Network.jpg"  loading="lazy "alt="international">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774903Network.jpg"  loading="lazy "alt=" International Alumni, Kazumi School">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">International Alumni Network</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Join a diverse コミュニティ(Komyuniti) of learners and professionals from around the world.</p>
                 </div>
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
-                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774206culture.jpg"  loading="lazy "alt="culture two">
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774206culture.jpg"  loading="lazy "alt="Japanese Cultural Training">
                     </div>
                     <h3 class="text-xl font-[600] text-red-600 mt-4">Cultural Training</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Explore 伝統 (Dentō), etiquettes, festivals, and practices used in an authentic environment.</p>
@@ -1103,7 +1103,7 @@
                <div class="mt-4 relative">
                 <img class="agota_image sticky"  loading="lazy "alt="agota frame2"
                     style="width:100%; max-width:500px; top:80px; margin: auto;"
-                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753788535japan's_national_day_(1).jpg"  loading="lazy "alt="quality">
+                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753788535japan's_national_day_(1).jpg"  loading="lazy "alt="Japan’s National Day">
                </div>
                <div class="mt-6">
                 
@@ -1129,9 +1129,9 @@
     <div class="max-w-7xl mx-auto px-4">
          <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize mt-4 mb-2">Jobs & Careers in Japan
         </h2>
-         <h3 class="text-[16px] font-[600] text-gray-800 mb-4 text-center">
+         <p class="text-[16px] font-[600] text-gray-800 mb-4 text-center">
                 日本での仕事とキャリア(Nihon de no shigoto to kyaria)
-            </h3>
+         </p>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
                <div>
                 <p class="text-[14px] text-gray-700 mb-4">
@@ -1171,7 +1171,7 @@
                </div>
                 <div class="mt-4 relative" bis_skin_checked="1">
                     <img class="agota_image sticky"  loading="lazy "alt="agota new frame"
-                    style="width:100%; max-width:500px; top:80px; margin: auto;" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753942112ezgif.com-png-to-webp-converter.webp"  loading="lazy "alt="dcsdc">
+                    style="width:100%; max-width:500px; top:80px; margin: auto;" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753942112ezgif.com-png-to-webp-converter.webp"  loading="lazy "alt="Jobs & Careers in Japan">
                </div>
         </div>
     </div>
