@@ -4,10 +4,10 @@
 @section('content')
     <section class="py-12 bg-gray-100 mx-auto px-4">
         <div class="max-w-7xl mx-auto">
-            <h2 style="place-self: center;"
+            <h1 style="place-self: center;"
                 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">
                 Henry Harvin® Course Inquiry
-            </h2>
+            </h1>
             <div class=" w-full" bis_skin_checked="1">
                 <div class="grid grid-cols-2 gap-1 md:gap-7 mt-3" bis_skin_checked="1">
                     <a href="tel:  +971 585 857 811"

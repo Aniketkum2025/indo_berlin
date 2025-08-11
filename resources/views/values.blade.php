@@ -7,7 +7,7 @@
     <div class="bg-red-600 text-white max-w-4xl mx-auto p-8 rounded-xl shadow-xl space-y-6">
       
       <div>
-        <h2 class="text-3xl font-bold mb-2">Vision</h2>
+        <h1 class="text-3xl font-bold mb-2">Vision</h1>
         <p>
           To become a <span class="text-yellow-300 font-semibold">globally valued pioneer</span> in Japanese language and 
           <span class="italic">文化教育 (bunka kyōiku)</span>, transforming learning through 
@@ -17,7 +17,7 @@
       </div>
 
       <div>
-        <h2 class="text-3xl font-bold mb-2">Mission</h2>
+        <h1 class="text-3xl font-bold mb-2">Mission</h1>
         <p>
           Nurturing and encouraging our learners with immersive 
           <span class="font-semibold">Japanese language training</span>, <span class="font-semibold">fluency</span>, 

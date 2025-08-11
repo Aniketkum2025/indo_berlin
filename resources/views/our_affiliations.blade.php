@@ -6,7 +6,7 @@
         <div class="md:mx-[100px] mx-[1rem]">
             <div class="grid md:grid-cols-2 gap-2 place-items-center placed-content-center">
                 <div class="image-div">
-                    <h2>Certificate of Partnership</h2>
+                    <h1>Certificate of Partnership</h1>
                     <img src="https://cdn.henryharvin.com/images/1698660795sdww.webp">
                 </div>
                 <div class="p-4">
