@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Cache;
 
 class Course extends Model
 {
-    protected $connection = 'mysql_website';
+    // protected $connection = 'mysql_website';
     use SoftDeletes;
     protected $table = 'course';
  
