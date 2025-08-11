@@ -1,7 +1,11 @@
 <?php
 
+use App\Http\Controllers\CourseController;
+use App\Http\Controllers\LeadController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PpcController;
+use App\Http\Controllers\ThankyouController;
+use App\Models\Course;
 use App\Models\LeadQueue;
 
 /*
@@ -17,6 +21,10 @@ use App\Models\LeadQueue;
 
 Route::get('test/test', function(){
      $lead = LeadQueue::take(1)->get();
+     dd($lead);
+});
+Route::get('test/test/course', function(){
+     $lead = Course::take(1)->get();
      dd($lead);
 });
 
@@ -142,3 +150,7 @@ Route::prefix('ppc')->name('ppc.')->controller(PpcController::class)->group(func
     Route::get('japanese-language-course', 'japaneseLanguageCourse')->name('japanese_language_course');
     
 });
+
+// Route::get('thank-you/{slug}', [ThankyouController::class, 'index'])->name('get.slug');
+// Route::resource('admin/lead', LeadController::class);
+// Route::get('{slug}', [CourseController::class, 'index'])->name('course.index');
