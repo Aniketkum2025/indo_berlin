@@ -1,4 +1,6 @@
 @extends('layouts.app')
+@section('title', 'Vision, Mission & Core Values at Kazumi Japanese School')
+@section('meta_description', 'Discover Kazumi’s vision & mission, and values rooted in Japanese culture, immersive learning, and global standards, powered by Henry Harvin')
 @section('content')
 <section class="py-12 px-4 max-w-7xl mx-auto">
   <div>

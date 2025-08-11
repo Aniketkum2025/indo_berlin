@@ -1,4 +1,6 @@
 @extends('layouts.app')
+@section('title', 'Esteemed Faculty | Kazumi Japanese & Culture School')
+@section('meta_description', 'Meet our esteemed faculty at Kazumi, experts with 5–30+ years of experience in JLPT preparation and immersive Japanese language & culture programs.')
 @section('content')
 
 <section class="py-12">

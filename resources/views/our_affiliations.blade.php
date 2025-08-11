@@ -1,4 +1,6 @@
 @extends('layouts.app')
+@section('title', 'Kazumi School – NSDC & Govt. Approved Japanese Language Institute')
+@section('meta_description', 'Kazumi Japanese & Culture School is proudly certified by NSDC, the Ministry of Skill Development, and other esteemed organizations.')
 @section('content')
     <section id="Affiliation-logo">
         <div class="md:mx-[100px] mx-[1rem]">

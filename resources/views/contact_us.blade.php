@@ -1,4 +1,6 @@
 @extends('layouts.app')
+@section('title', 'Contact Us | Kazumi Japanese & Culture School')
+@section('meta_description', 'Contact with Kazumi Japanese & Culture School for inquiries about our Japanese language courses, faculty, or enrollment. We are here to help!')
 @section('content')
     <section class="py-12 bg-gray-100 mx-auto px-4">
         <div class="max-w-7xl mx-auto">
