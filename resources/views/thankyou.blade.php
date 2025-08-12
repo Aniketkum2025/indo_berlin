@@ -47,6 +47,17 @@
             JOIN NOW <i class="fa fa-video-camera text-white text-xl ml-2" aria-hidden="true" id="zoom-call-1"></i>
         </a>
     </div>
+    @php
+        $course_brochure = $course->courseBrochure ? $course->courseBrochure->generic_ind_close : 'null';
+    @endphp
+    @if($course->slug != 'contact-us' && $course_brochure !='null')
+    <div class="text-center my-6">
+        <a href="{{$course_brochure}}" target="_blank"
+            class="bg-red-600 py-2 px-6 text-white text-xl rounded-3xl border border-white">
+            DOWNLOAD BROCHURE
+        </a>
+    </div>
+    @endif
     {{-- Agota™ Framework section --}}
     <section class="py-12 mx-auto px-4">
         <div class="max-w-6xl mx-auto" bis_skin_checked="1">
