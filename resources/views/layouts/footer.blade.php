@@ -178,7 +178,7 @@
                 </div>
 
                 <!-- Modal body -->
-                <form class="p-4 md:p-5 space-y-4" action="https://www.henryharvin.com/admin/lead" method="POST">
+                <form class="p-4 md:p-5 space-y-4" action="{{ route('lead.store') }}" method="POST">
                     @csrf
                     <div>
                         <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
@@ -506,7 +506,7 @@
                         <span class="sr-only">Close modal</span>
                     </button>
                 </div>
-                <form class="p-4 md:p-2 space-y-1" action="https://www.henryharvin.com/admin/lead" method="POST">
+                <form class="p-4 md:p-2 space-y-1" action="{{ route('lead.store') }}" method="POST">
                     @csrf
                     <div>
                         <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
@@ -987,7 +987,7 @@ function toggleText() {
     });
   });
 </script>
-<script>
+{{-- <script>
     ['submit_ty', 'submit_ty2'].forEach(function(id) {
         document.getElementById(id).addEventListener("click", function () {
             setTimeout(function () {
@@ -995,7 +995,7 @@ function toggleText() {
             }, 1500); 
         });
     });
-</script>
+</script> --}}
 
 <script type="text/javascript">
         var $_Tawk_API = {},
@@ -1074,3 +1074,72 @@ function toggleText() {
         setInterval(countdown, 1000);
     </script>
     @endif
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+         getCountryCode();
+    });
+
+    function getCountryCode() {
+        
+        fetch('https://ipapi.co/json/')
+        .then(response => response.json())
+        .then(data => {
+            
+           
+            const countryNumber = data.country || 'IN';
+            const CountryCodeArray = ['TR', 'IQ', 'SA', 'YE', 'SY', 'AE', 'IL', 'JO', 'PS', 'LB', 'OM', 'KW', 'QA', 'BH', 'IR', 'PK', 'US', 'IN', 'GB'];
+
+            if (countryNumber === 'IN') {
+                $('.dynamic_contact').text('+91 9899577620');
+                $('.dynamic_contact_href, .dynamic_contact_mobile_href').attr('href', 'tel:+919899577620');
+                $('.dynamic_whatsapp_href, .dynamic_whatsapp_mobile_href').attr('href', 'https://wa.me/message/2YDWDUFYBSUBA1');
+                $('#countryPrice, #nsdc-logo-div, #indianPlacedLearner').removeClass('hidden');
+                $('#NonIndiancountryPrice, #nonUsOtherCities').addClass('hidden');
+            }
+            else if (CountryCodeArray.includes(countryNumber) && countryNumber === 'AE') {
+                $(".countryCodeDropDown option[data-countrycode='AE']").prop("selected", true);
+                $('.dynamic_contact').text('+971 566 697 936');
+                $('.dynamic_contact_href, .dynamic_contact_mobile_href').attr('href', 'tel:+971566697936');
+                $('.dynamic_whatsapp_href, .dynamic_whatsapp_coursewise_href, .dynamic_whatsapp_mobile_href, .dynamic_whatsapp_coursewise_mobile_href')
+                    .attr('href', 'https://api.whatsapp.com/send?phone=12093823469&text=Hello%20Henry%20Harvin%20Education,%20Please%20let%20me%20know%20more%20about%20your%20courses.');
+                $('#countryPrice').addClass('hidden');
+                $('#NonIndiancountryPrice, #nonUsOtherCities, #nonIndianPlacedLearner').removeClass('hidden');
+            }
+            else if (countryNumber === 'US') {
+                $(".countryCodeDropDown option[data-countrycode='US']").prop("selected", true);
+                $('.dynamic_contact').text('+1 209 382 3469');
+                $('.dynamic_contact_href, .dynamic_contact_mobile_href').attr('href', 'tel:+12093823469');
+                $('.dynamic_whatsapp_href, .dynamic_whatsapp_coursewise_href, .dynamic_whatsapp_mobile_href, .dynamic_whatsapp_coursewise_mobile_href')
+                    .attr('href', 'https://api.whatsapp.com/send?phone=12093823469&text=Hello%20Henry%20Harvin%20Education,%20Please%20let%20me%20know%20more%20about%20your%20courses.');
+                $('#countryPrice').addClass('hidden');
+                $('#NonIndiancountryPrice, #nonIndianPlacedLearner, #usOtherCities').removeClass('hidden');
+            }
+            else if (countryNumber === 'GB') {
+                $(".countryCodeDropDown option[data-countrycode='GB']").prop("selected", true);
+                $('.dynamic_contact').text('+44 7700 139617');
+                $('.dynamic_contact_href, .dynamic_contact_mobile_href').attr('href', 'tel:+447700139617');
+                $('.dynamic_whatsapp_href, .dynamic_whatsapp_coursewise_href, .dynamic_whatsapp_mobile_href, .dynamic_whatsapp_coursewise_mobile_href')
+                    .attr('href', 'https://api.whatsapp.com/send?phone=12093823469&text=Hello%20Henry%20Harvin%20Education,%20Please%20let%20me%20know%20more%20about%20your%20courses.');
+                $('#countryPrice').addClass('hidden');
+                $('#NonIndiancountryPrice, #nonUsOtherCities, #nonIndianPlacedLearner').removeClass('hidden');
+            }
+            else {
+                // Default (international)
+                $('.dynamic_contact').text('+1 209 382 3469');
+                $('.dynamic_contact_href, .dynamic_contact_mobile_href').attr('href', 'tel:+12093823469');
+                $('.dynamic_whatsapp_href, .dynamic_whatsapp_coursewise_href, .dynamic_whatsapp_mobile_href, .dynamic_whatsapp_coursewise_mobile_href')
+                    .attr('href', 'https://api.whatsapp.com/send?phone=12093823469&text=Hello%20Henry%20Harvin%20Education,%20Please%20let%20me%20know%20more%20about%20your%20courses.');
+                $('#countryPrice').addClass('hidden');
+                $('#NonIndiancountryPrice, #nonIndianPlacedLearner').removeClass('hidden');
+            }
+        })
+        .catch(error => {
+            console.error("GeoLocation API Error:", error);
+            // Fallback to India
+            $('.dynamic_contact').text('+91 9899577620');
+        });
+    }
+</script>

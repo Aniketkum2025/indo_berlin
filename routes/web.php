@@ -134,9 +134,9 @@ Route::get('placed-student-list', function () {
 });
 
 // all courses
-Route::get('japanese-language-course', function () {
-    return view('japanese_language_course');
-});
+// Route::get('japanese-language-course', function () {
+//     return view('japanese_language_course');
+// });
 
 Route::get('thankyou', function () {
     return view('thankyou');
@@ -151,6 +151,6 @@ Route::prefix('ppc')->name('ppc.')->controller(PpcController::class)->group(func
     
 });
 
-// Route::get('thank-you/{slug}', [ThankyouController::class, 'index'])->name('get.slug');
-// Route::resource('admin/lead', LeadController::class);
-// Route::get('{slug}', [CourseController::class, 'index'])->name('course.index');
+Route::get('thank-you/{slug}', [ThankyouController::class, 'index'])->name('get.slug');
+Route::resource('admin/lead', LeadController::class);
+Route::get('{slug}', [CourseController::class, 'index'])->name('course.index');
