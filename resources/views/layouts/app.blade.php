@@ -6,6 +6,7 @@
     <meta name="description" content="@yield('meta_description', 'Kazumi is the best Japanese language institute, offering JLPT, Business Japanese, Cross-Cultural Training & Crash Courses. Learn from certified experts!')">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="gUS8qh-3S2RnKzni6tbYkW5TQBA2CP3drX_05Id_IZA" />
     <meta name="description" content="">
     <link rel="apple-touch-icon" sizes="180x180" href="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753077494apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753077423favicon-16x16.png">
