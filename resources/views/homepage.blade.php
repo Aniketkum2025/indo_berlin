@@ -1,6 +1,8 @@
 
 
 @extends('layouts.app')
+@section('title', 'Kazumi | India’s Leading Japanese Language Institute | N5 to N1')
+@section('meta_description', 'Kazumi, India’s leading Japanese language institute, offers expert-led courses from beginner (N5) to advanced (N1) levels. Start learning Japanese today!')
 @section('schema')
 <script type="application/ld+json">
 {
@@ -41,7 +43,7 @@
                 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Discover a new standard of Japanese Education and Culture</p>
             <div class="flex space-x-4 mb-8 items-center justify-center">
                 <a data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button"
-                    class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600 pointer-cursor">Apply
+                    class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600 cursor-pointer">Apply
                     Now</a>
                 <a href="/about-us" class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600"> Learn
                     More</a>
