@@ -67,7 +67,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
         </video> --}}
             <div class="bg-black bg-opacity-70">
                 <div class="relative z-10 grid md:flex py-2 gap-6 justify-center items-center h-full text-center">
-                    <div class="md:w-7/12 w-full bg-[#0000003b] p-4 rounded-md space-y-4 text-left">
+                    <div class="md:w-7/12 w-full bg-[#0e0e0ead] p-4 rounded-md space-y-4 text-left">
                         <h1 class="text-[26px] md:text-[32px] font-[500] text-red-600">{{ $course->course_name }}
                         </h1>
                         <div class="flex space-x-4 mb-8 items-center ">
@@ -725,7 +725,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                                 <label for="countryCode" class="block text-sm mb-1 font-[600] text-red-600">Country
                                     Code</label>
                                 <div class="flex gap-2">
-                                    <select name="countryCode" class="w-4/12 bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-2.5">
+                                    <select name="countryCode" class="w-4/12 bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-1">
                                         <option value="IN" value="+91" selected="">(+91)</option>
                                         <option value="PK" value="+92">Pakistan (+92)</option>
                                         <option value="US" value="+1">USA (+1)</option>
