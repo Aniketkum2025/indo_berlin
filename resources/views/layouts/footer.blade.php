@@ -178,7 +178,7 @@
                 </div>
 
                 <!-- Modal body -->
-                <form class="p-4 md:p-5 space-y-4" action="https://www.henryharvin.com/admin/lead" method="POST">
+                <form class="p-4 md:p-5 space-y-4" action="{{ route('lead.store') }}" method="POST">
                     @csrf
                     <div>
                         <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
@@ -506,7 +506,7 @@
                         <span class="sr-only">Close modal</span>
                     </button>
                 </div>
-                <form class="p-4 md:p-2 space-y-1" action="https://www.henryharvin.com/admin/lead" method="POST">
+                <form class="p-4 md:p-2 space-y-1" action="{{ route('lead.store') }}" method="POST">
                     @csrf
                     <div>
                         <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
@@ -979,14 +979,14 @@ function toggleText() {
     }
   });
 </script>
-<script>
+{{-- <script>
   window.addEventListener('load', () => {
     const lazyIframes = document.querySelectorAll('iframe[data-src]');
     lazyIframes.forEach(iframe => {
       iframe.src = iframe.getAttribute('data-src');
     });
   });
-</script>
+</script> --}}
 <script>
     ['submit_ty', 'submit_ty2'].forEach(function(id) {
         document.getElementById(id).addEventListener("click", function () {
