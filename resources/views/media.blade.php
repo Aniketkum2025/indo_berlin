@@ -179,6 +179,69 @@
                     </div>
                 </div>
 
+                {{-- ----------------startfor hh---------------- --}}
+                @foreach ($media1 as $med1)
+                <div class="max-w-3xl mx-auto bg-white border rounded-lg shadow-md p-6 flex gap-4">
+                    <div class="grid gap-6">
+                        <!-- Heading -->
+                        <div class="grid md:flex gap-4 items-center">
+                            <div class="flex-shrink-0 border border-lg shadow-lg p-2 h-full flex justifu-center items-center">
+                                <img src="{{ $med1->logo_url }}" alt="Logo" class="h-12 object-contain">
+                            </div>
+
+                            <h2 class="text-[20px] md:text-[24px] font-[700] text-red-600">
+                               {{ $med1->heading }}
+                            </h2>
+                        </div>
+
+                        <!-- Description -->
+                        <p class="mt-2 text-gray-700 line-clamp-8">
+                           {{ $med1->description }}
+                        </p>
+
+                        <!-- Read More Button -->
+                        <div class="flex justify-between items-center">
+                        <a href="{{ $med1->post_link }}" target="_blank"
+                            class="inline-block mt-3 px-4 py-2 bg-red-600 text-white rounded-md shadow hover:bg-red-700 transition">
+                            Read More
+                        </a>
+                        <p class="text-red-600">{{ \Carbon\Carbon::parse($med1->post_date)->format('d-M-Y') }}</p>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+
+                @foreach ($media as $med)
+                <div class="max-w-3xl mx-auto bg-white border rounded-lg shadow-md p-6 flex gap-4">
+                    <div class="grid gap-6">
+                        <!-- Heading -->
+                        <div class="grid md:flex gap-4 items-center">
+                            <div class="flex-shrink-0 border border-lg shadow-lg p-2 h-full flex justifu-center items-center">
+                                <img src="{{ $med->logo_url }}" alt="Logo" class="h-12 object-contain">
+                            </div>
+
+                            <h2 class="text-[20px] md:text-[24px] font-[700] text-red-600">
+                               {{ $med->heading }}
+                            </h2>
+                        </div>
+
+                        <!-- Description -->
+                        <p class="mt-2 text-gray-700 line-clamp-8">
+                           {{ $med->description }}
+                        </p>
+
+                        <!-- Read More Button -->
+                        <div class="flex justify-between items-center">
+                        <a href="{{ $med->post_link }}" target="_blank"
+                            class="inline-block mt-3 px-4 py-2 bg-red-600 text-white rounded-md shadow hover:bg-red-700 transition">
+                            Read More
+                        </a>
+                        <p class="text-red-600">{{ \Carbon\Carbon::parse($med->post_date)->format('d-M-Y') }}</p>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+                {{-- ----------------end for hh----------------- --}}
 
             </div>
         </div>

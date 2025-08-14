@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\LeadController;
+use App\Http\Controllers\MediaController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PpcController;
 use App\Http\Controllers\ThankyouController;
@@ -117,9 +118,9 @@ Route::get('kazumi-community', function () {
 Route::get('why-kazumi', function () {
     return view('why_kazumi');
 });
-Route::get('media', function () {
-    return view('media');
-});
+// Route::get('media', function () {
+//     return view('media');
+// });
 Route::get('our-affiliations', function () {
     return view('our_affiliations');
 });
@@ -151,6 +152,7 @@ Route::prefix('ppc')->name('ppc.')->controller(PpcController::class)->group(func
     
 });
 
+Route::get('media', [MediaController::class, 'index'])->name('media.index');
 Route::get('thank-you/{slug}', [ThankyouController::class, 'index'])->name('get.slug');
 Route::resource('admin/lead', LeadController::class);
 Route::get('{slug}', [CourseController::class, 'index'])->name('course.index');
