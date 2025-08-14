@@ -137,7 +137,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                                     <label for="countryCode" class="block text-sm mb-1 font-[600] text-red-600">Country
                                         Code</label>
                                     <div class="flex gap-2">
-                                    <select name="countryCode" class="w-4/12 bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-2.5">
+                                    <select name="countryCode" class="w-4/12 bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-1">
                                         <option value="IN" value="+91" selected="">(+91)</option>
                                         <option value="PK" value="+92">Pakistan (+92)</option>
                                         <option value="US" value="+1">USA (+1)</option>
