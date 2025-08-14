@@ -13,13 +13,13 @@
                 <div class="max-w-3xl mx-auto bg-white border rounded-lg shadow-md p-6 flex gap-4">
                     <div class="grid gap-6">
                         <!-- Heading -->
-                        <div class="grid md:flex gap-4 items-center">
+                        <div class="grid md:flex gap-4 items-center items-center">
                             <div class="flex-shrink-0 border border-lg shadow-lg p-2 h-full flex justifu-center items-center">
                                 <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755153683iedLogo-1000x.webp" alt="Logo" class="h-10 object-contain">
                             </div>
 
                             <h2 class="text-[20px] md:text-[24px] font-[700] text-red-600">
-                                Henry Harvin Launches Kazumi: A Premier Japanese Language & Culture School for Global Learners
+                                  India Education Diary Features Kazumi by Henry Harvin Education: A Premier Japanese Language & Culture School for Global Learners
                             </h2>
                         </div>
 
@@ -41,13 +41,13 @@
                 <div class="max-w-3xl mx-auto bg-white border rounded-lg shadow-md p-6 flex gap-4">
                     <div class="grid gap-6">
                         <!-- Heading -->
-                        <div class="grid md:flex gap-4 items-center">
+                        <div class="grid md:flex gap-4 items-center items-center">
                             <div class="flex-shrink-0 border border-lg shadow-lg p-2 h-full flex justifu-center items-center">
                                 <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755154721businessnewsthisweek-logo-1.png" alt="Logo" class="h-16 object-contain">
                             </div>
 
                             <h2 class="text-[20px] md:text-[24px] font-[700] text-red-600">
-                               Henry Harvin Launches Kazumi: A Premier Japanese Language and Culture School for Global Learners
+                              Business News This Week Features Kazumi by Henry Harvin Education: A Premier Japanese Language & Culture School for Global Learners
                             </h2>
                         </div>
 
@@ -69,13 +69,13 @@
                 <div class="max-w-3xl mx-auto bg-white border rounded-lg shadow-md p-6 flex gap-4">
                     <div class="grid gap-6">
                         <!-- Heading -->
-                        <div class="grid md:flex gap-4 items-center">
+                        <div class="grid md:flex gap-4 items-center items-center">
                             <div class="flex-shrink-0 border border-lg shadow-lg p-2 h-full flex justifu-center items-center">
                                 <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755155879Copy-Edu-news-Logo.jpg" alt="Logo" class="h-16 object-contain">
                             </div>
 
                             <h2 class="text-[20px] md:text-[24px] font-[700] text-red-600">
-                               Henry Harvin Launches Kazumi: A Premier Japanese Language and Culture School for Global Learners
+                              EDU NEWS Features Kazumi by Henry Harvin Education: A Premier Japanese Language & Culture School for Global Learners
                             </h2>
                         </div>
 
@@ -97,13 +97,13 @@
                 <div class="max-w-3xl mx-auto bg-white border rounded-lg shadow-md p-6 flex gap-4">
                     <div class="grid gap-6">
                         <!-- Heading -->
-                        <div class="grid md:flex gap-4 items-center">
+                        <div class="grid md:flex gap-4 items-center items-center">
                             <div class="flex-shrink-0 border border-lg shadow-lg p-2 h-full flex justifu-center items-center">
                                 <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755156066cropped-Hello-Kotpad-Logo.png" alt="Logo" class="h-16 object-contain">
                             </div>
 
                             <h2 class="text-[20px] md:text-[24px] font-[700] text-red-600">
-                               Henry Harvin Launches Kazumi: A Premier Japanese Language and Culture School for Global Learners
+                              Hello Kotpad Features Kazumi by Henry Harvin Education: A Premier Japanese Language & Culture School for Global Learners
                             </h2>
                         </div>
 
@@ -125,13 +125,13 @@
                 <div class="max-w-3xl mx-auto bg-white border rounded-lg shadow-md p-6 flex gap-4">
                     <div class="grid gap-6">
                         <!-- Heading -->
-                        <div class="grid md:flex gap-4 items-center">
+                        <div class="grid md:flex gap-4 items-center items-center">
                             <div class="flex-shrink-0 border border-lg shadow-lg p-2 h-full flex justifu-center items-center">
                                 <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755156256ewewfe.PNG" alt="Logo" class="h-16 object-contain">
                             </div>
 
                             <h2 class="text-[20px] md:text-[24px] font-[700] text-red-600">
-                               Henry Harvin Launches Kazumi: A Premier Japanese Language and Culture School for Global Learners
+                              Majesty Life Coach Features Kazumi by Henry Harvin Education: A Premier Japanese Language & Culture School for Global Learners
                             </h2>
                         </div>
 
@@ -153,13 +153,13 @@
                 <div class="max-w-3xl mx-auto bg-white border rounded-lg shadow-md p-6 flex gap-4">
                     <div class="grid gap-6">
                         <!-- Heading -->
-                        <div class="grid md:flex gap-4 items-center">
+                        <div class="grid md:flex gap-4 items-center items-center">
                             <div class="flex-shrink-0 border border-lg shadow-lg p-2 h-full flex justifu-center items-center">
                                 <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755156384dqdded.PNG" alt="Logo" class="h-12 object-contain">
                             </div>
 
                             <h2 class="text-[20px] md:text-[24px] font-[700] text-red-600">
-                               Henry Harvin Launches Kazumi: A Premier Japanese Language and Culture School for Global Learners
+                              Marketing News Online Features Kazumi by Henry Harvin Education: A Premier Japanese Language & Culture School for Global Learners
                             </h2>
                         </div>
 
@@ -184,7 +184,7 @@
                 <div class="max-w-3xl mx-auto bg-white border rounded-lg shadow-md p-6 flex gap-4">
                     <div class="grid gap-6">
                         <!-- Heading -->
-                        <div class="grid md:flex gap-4 items-center">
+                        <div class="grid md:flex gap-4 items-center items-center">
                             <div class="flex-shrink-0 border border-lg shadow-lg p-2 h-full flex justifu-center items-center">
                                 <img src="{{ $med1->logo_url }}" alt="Logo" class="h-12 object-contain">
                             </div>
@@ -215,7 +215,7 @@
                 <div class="max-w-3xl mx-auto bg-white border rounded-lg shadow-md p-6 flex gap-4">
                     <div class="grid gap-6">
                         <!-- Heading -->
-                        <div class="grid md:flex gap-4 items-center">
+                        <div class="grid md:flex gap-4 items-center items-center">
                             <div class="flex-shrink-0 border border-lg shadow-lg p-2 h-full flex justifu-center items-center">
                                 <img src="{{ $med->logo_url }}" alt="Logo" class="h-12 object-contain">
                             </div>
