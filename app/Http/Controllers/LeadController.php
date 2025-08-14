@@ -66,17 +66,20 @@ class LeadController extends Controller
 
         $values = array('countryCode' => $countryCode ,'phone' => $phone, 'email' => $email, 'course' => $course, 'source' => $source, 'lead_source_page_url' => $lead_source_page_url, 'description2' => $description, 'name' => $name, 'campaign_name' => $campaign_name, 'gclid_field' => $gclid_field, 'profession' => $profession, 'ip_address' => $ip_address, 'location' => $location, 'dep_type' => $dep_type,'member_id'=>$member_id);
 
-        $lead = LeadQueue::where('email', $email)->whereBetween('created_at', [Carbon::now()->subMinutes(2), Carbon::now()])->first();
-        if(!$lead){
-          $lead = LeadQueue::create($values);
+        $lead = Http::get('https://crm.henryharvin.com/portal-new/api/website-check-lead', [
+            'email' => $email
+        ])->object();
 
+        if ($lead->status == 'false'){
+            $lead = Http::post('https://crm.henryharvin.com/portal-new/api/website-add-lead', $values)->object();
+          
           $val = array('email' => $email, 'brochure' => URL::to('/').'/thank-you/'.$slug, 'course_name' => $course_name, 'status' => 0);
 
           if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
               $email = Thankyouemail::create($val);
           }
         }
-        $lid = $lead ? base64_encode($lead->id) : 0;
+        $lid = $lead ? base64_encode($lead->data->id) : 0;
         return redirect()->route('get.slug', ['slug'=>$request['slug'], 'lid' => $lid]); 
     } 
 }
