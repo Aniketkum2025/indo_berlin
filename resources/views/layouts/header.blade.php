@@ -116,7 +116,7 @@
 
                     <!-- First-Level Submenu -->
                     <div x-show="open" x-transition
-                        class="absolute top-full left-0 mt-2 w-72 bg-white border rounded-md shadow-lg p-2 z-50">
+                        class="absolute top-full left-0 mt-0 w-72 bg-white border rounded-md shadow-lg p-2 z-50 h-[300px] overflow-auto">
 
                         <!-- Japanese Language Courses with second-level menu -->
                         {{-- <div x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false"
@@ -178,53 +178,57 @@
 
                         <!-- Other Main Submenu Items -->
                         <a href="https://www.henryharvin.com/japanese-language-course"
-                                    class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Japanese
-                                    Language Course</a>
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Japanese
+                            Language Course</a>
 
-                                <a href="https://www.henryharvin.com/japanese-beginners-course"
-                                    class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Japanese
-                                    for Beginners Course</a>
+                        <a href="https://www.henryharvin.com/japanese-beginners-course"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Japanese
+                            for Beginners Course</a>
 
-                                <a href="https://www.henryharvin.com/japanese-language-course"
-                                    class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Japanese
-                                    Language N5 Level Course</a>
+                        <a href="https://www.henryharvin.com/japanese-language-course"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Japanese
+                            Language N5 Level Course</a>
 
-                                <a href="https://www.henryharvin.com/japanese-language-course"
-                                    class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Japanese
-                                    Language N4 Level Course</a>
+                        <a href="https://www.henryharvin.com/japanese-language-course"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Japanese
+                            Language N4 Level Course</a>
 
-                                <a href="https://www.henryharvin.com/japanese-language-course"
-                                    class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Japanese
-                                    Language N3 Level Course</a>
+                        <a href="https://www.henryharvin.com/japanese-language-course"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Japanese
+                            Language N3 Level Course</a>
 
-                                <a href="https://www.henryharvin.com/japanese-language-course"
-                                    class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Japanese
-                                    Language N1 Level Course</a>
+                        <a href="https://www.henryharvin.com/japanese-language-course"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Japanese
+                            Language N1 Level Course</a>
 
-                                <a href="https://www.henryharvin.com/post-graduate-diploma-in-japanese-language-by-dbs"
-                                    class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Post
-                                    Graduate Diploma in Japanese Language (DBS)</a>
+                        <a href="https://www.henryharvin.com/post-graduate-diploma-in-japanese-language-by-dbs"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Post
+                            Graduate Diploma in Japanese Language (DBS)</a>
 
-                                <a href="https://www.henryharvin.com/post-graduate-diploma-professional-in-japanese-language-by-dbs"
-                                    class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Post
-                                    Graduate Diploma Professional in Japanese (DBS)</a>
+                        <a href="https://www.henryharvin.com/post-graduate-diploma-professional-in-japanese-language-by-dbs"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Post
+                            Graduate Diploma Professional in Japanese (DBS)</a>
 
-                                <a href="https://www.henryharvin.com/masters-in-japanese-language"
-                                    class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Master’s
-                                    in Japanese Language</a>
+                        <a href="https://www.henryharvin.com/masters-in-japanese-language"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Master’s
+                            in Japanese Language</a>
 
-                                <a href="https://www.henryharvin.com/migrate-japan"
-                                    class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Migrate
-                                    to Japan Course</a>
-                        {{-- <a
-                            class="block px-3 py-2 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Japanese
-                            Occupational Courses</a>
-                        <a
-                            class="block px-3 py-2 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Japanese
-                            Cross-Cultural Courses</a>
-                        <a href="https://www.henryharvin.com/crash-course-for-japanese-language"
-                            class="block px-3 py-2 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Crash
-                            Course in Japanese</a> --}}
+                        <a href="https://www.henryharvin.com/migrate-japan"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Migrate
+                            to Japan Course</a>
+
+                        <a href="https://www.henryharvin.com/business-japanese-for-beginners-course"
+                            class="block px-3 py-1 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Business
+                            Japanese for Beginners Course</a>
+                        <a href="https://www.henryharvin.com/career-japanese-course"
+                            class="block px-3 py-1 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Career
+                            Japanese Course</a>
+                        <a href="https://www.henryharvin.com/corporate-business-japanese-course"
+                            class="block px-3 py-1 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Corporate
+                            Business Japanese Course</a>
+                        <a href="https://www.henryharvin.com/business-japanese-course"
+                            class="block px-3 py-1 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">Business
+                            Japanese Course</a>
                     </div>
                 </div>
                 <div class="group relative">
@@ -304,14 +308,17 @@
                 {{-- <a href="/contact-us" class="text-[#da2028] font-[600] text-[14px] py-6">Contact Us</a> --}}
             </div>
 
-            @if(str_contains(request()->path(), 'japan'))
-            <div class="hidden md:flex md:items-center space-x-4">
-                <button  data-modal-target="course-modal" data-modal-toggle="course-modal" type="button" class="bg-red-600 text-white px-4 py-2 rounded-md text-sm" onclick="openApplyNowModal()">Apply</button>
-            </div>
+            @if (str_contains(request()->path(), 'japan'))
+                <div class="hidden md:flex md:items-center space-x-4">
+                    <button data-modal-target="course-modal" data-modal-toggle="course-modal" type="button"
+                        class="bg-red-600 text-white px-4 py-2 rounded-md text-sm"
+                        onclick="openApplyNowModal()">Apply</button>
+                </div>
             @else
-            <div class="hidden md:flex md:items-center space-x-4">
-                <button  data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button" class="bg-red-600 text-white px-4 py-2 rounded-md text-sm">Apply</button>
-            </div>
+                <div class="hidden md:flex md:items-center space-x-4">
+                    <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal"
+                        type="button" class="bg-red-600 text-white px-4 py-2 rounded-md text-sm">Apply</button>
+                </div>
             @endif
 
             <div class="md:hidden">
@@ -354,26 +361,34 @@
                         </svg>
                     </button> --}}
                     {{-- <div  id="mobile-submenu-language-courses" class="hidden ml-4 mt-1 space-y-1 text-sm"> --}}
-                        <a href="https://www.henryharvin.com/japanese-language-course"
-                            class="block text-gray-700">Japanese Language Course</a>
-                        <a href="https://www.henryharvin.com/japanese-beginners-course"
-                            class="block text-gray-700">Japanese for Beginners Course</a>
-                        <a href="https://www.henryharvin.com/japanese-language-course"
-                            class="block text-gray-700">Japanese Language N5 Level Course</a>
-                        <a href="https://www.henryharvin.com/japanese-language-course"
-                            class="block text-gray-700">Japanese Language N4 Level Course</a>
-                        <a href="https://www.henryharvin.com/japanese-language-course"
-                            class="block text-gray-700">Japanese Language N3 Level Course</a>
-                        <a href="https://www.henryharvin.com/japanese-language-course"
-                            class="block text-gray-700">Japanese Language N1 Level Course</a>
-                        <a href="https://www.henryharvin.com/post-graduate-diploma-in-japanese-language-by-dbs"
-                            class="block text-gray-700">PG Diploma in Japanese Language (DBS)</a>
-                        <a href="https://www.henryharvin.com/post-graduate-diploma-professional-in-japanese-language-by-dbs"
-                            class="block text-gray-700">PG Diploma Professional (DBS)</a>
-                        <a href="https://www.henryharvin.com/masters-in-japanese-language"
-                            class="block text-gray-700">Master’s in Japanese Language</a>
-                        <a href="https://www.henryharvin.com/migrate-japan" class="block text-gray-700">Migrate to
-                            Japan Course</a>
+                    <a href="https://www.henryharvin.com/japanese-language-course"
+                        class="block text-gray-700">Japanese Language Course</a>
+                    <a href="https://www.henryharvin.com/japanese-beginners-course"
+                        class="block text-gray-700">Japanese for Beginners Course</a>
+                    <a href="https://www.henryharvin.com/japanese-language-course"
+                        class="block text-gray-700">Japanese Language N5 Level Course</a>
+                    <a href="https://www.henryharvin.com/japanese-language-course"
+                        class="block text-gray-700">Japanese Language N4 Level Course</a>
+                    <a href="https://www.henryharvin.com/japanese-language-course"
+                        class="block text-gray-700">Japanese Language N3 Level Course</a>
+                    <a href="https://www.henryharvin.com/japanese-language-course"
+                        class="block text-gray-700">Japanese Language N1 Level Course</a>
+                    <a href="https://www.henryharvin.com/post-graduate-diploma-in-japanese-language-by-dbs"
+                        class="block text-gray-700">PG Diploma in Japanese Language (DBS)</a>
+                    <a href="https://www.henryharvin.com/post-graduate-diploma-professional-in-japanese-language-by-dbs"
+                        class="block text-gray-700">PG Diploma Professional (DBS)</a>
+                    <a href="https://www.henryharvin.com/masters-in-japanese-language"
+                        class="block text-gray-700">Master’s in Japanese Language</a>
+                    <a href="https://www.henryharvin.com/migrate-japan" class="block text-gray-700">Migrate to
+                        Japan Course</a>
+                    <a href="https://www.henryharvin.com/business-japanese-for-beginners-course"
+                        class="block text-gray-700">Business Japanese for Beginners Course</a>
+                    <a href="https://www.henryharvin.com/career-japanese-course" class="block text-gray-700">Career
+                        Japanese Course</a>
+                    <a href="https://www.henryharvin.com/corporate-business-japanese-course"
+                        class="block text-gray-700">Corporate Business Japanese Course</a>
+                    <a href="https://www.henryharvin.com/business-japanese-course"
+                        class="block text-gray-700">Business Japanese Course</a>
                     {{-- </div> --}}
                 </div>
             </div>
@@ -452,14 +467,17 @@
 
         <a href="/contact-us" class="block px-4 py-2 text-[#da2028] font-[600] hover:bg-gray-100">Contact Us</a>
 
-        @if(str_contains(request()->path(), 'japan'))
-        <div class="flex space-x-4 px-4 py-2">
-            <button data-modal-target="course-modal" data-modal-toggle="course-modal" type="button" class="bg-red-600 text-white px-4 py-2 rounded-md text-sm" onclick="openApplyNowModal()">Apply</button>
-        </div>
+        @if (str_contains(request()->path(), 'japan'))
+            <div class="flex space-x-4 px-4 py-2">
+                <button data-modal-target="course-modal" data-modal-toggle="course-modal" type="button"
+                    class="bg-red-600 text-white px-4 py-2 rounded-md text-sm"
+                    onclick="openApplyNowModal()">Apply</button>
+            </div>
         @else
-        <div class="flex space-x-4 px-4 py-2">
-            <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button" class="bg-red-600 text-white px-4 py-2 rounded-md text-sm">Apply</button>
-        </div>
+            <div class="flex space-x-4 px-4 py-2">
+                <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal"
+                    type="button" class="bg-red-600 text-white px-4 py-2 rounded-md text-sm">Apply</button>
+            </div>
         @endif
     </div>
 </nav>
