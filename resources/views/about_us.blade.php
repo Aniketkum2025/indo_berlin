@@ -213,6 +213,17 @@
                     <p class="text-white text-[14px] text-center">Board Advisor</p>
                 </div>
             </div>
+            <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                <div class="rounded-2xl">
+                    <img class="h-full w-full object-cover rounded-2xl"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755152043Daisuke-Yamanaka.webp" alt="Daisuke Yamanaka – Board Advisor">
+                </div>
+                <div class="px-2">
+                    <h2 class="text-white text-center text-[16px] pb-2">Daisuke Yamanaka</h2>
+                    {{-- <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p> --}}
+                    <p class="text-white text-[14px] text-center">Board Advisor</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>

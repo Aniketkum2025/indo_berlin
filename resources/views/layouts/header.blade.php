@@ -290,7 +290,7 @@
                         <a href="/careers"
                             class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Careers
                         </a>
-                        <a href="/our-customer"
+                        <a href="/our-customers"
                             class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Our
                             Customers</a>
                         <a href="https://www.henryharvin.com/placed-students-list"
