@@ -444,7 +444,7 @@
         </div>
     </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <div class="fixed z-20 bottom-6 left-4 hidden md:block">
     <a class="border-2 border-[#0dc143] flex items-center text-center justify-between w-[170px] bg-white relative rounded-full mb-4" href="https://wa.me/message/2YDWDUFYBSUBA1">
