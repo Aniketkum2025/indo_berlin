@@ -4,7 +4,7 @@
             <div class="">
                 <div class="flex justify-center">
                     <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753872845ezgif.com-crop.webp"
-                        class="h-[70px] w-auto bg-white">
+                        class="h-[70px] w-auto bg-white" alt="culture">
                 </div>
                 <p class="text-gray-300 text-sm mt-4 text-justify">
                    Kazumi Japanese & Culture School by Henry Harvin® promoting Japanese 言語 (gengo) and 文化 (bunka), recognised globally with affiliations like the Japanese Language Proficiency Test (JLPT) framework and Henry Harvin’s prestigious accreditations from ISO, UKAF, MSME, and affiliations with leading global 教育的 (kyōikuteki) platforms.
@@ -450,7 +450,7 @@
     <a class="border-2 border-[#0dc143] flex items-center text-center justify-between w-[170px] bg-white relative rounded-full mb-4" href="https://wa.me/message/2YDWDUFYBSUBA1">
         <span class="text-[#0dc143] text-[17px] font-[400] ml-3">WhatsApp Us</span>
         <span class="bg-[#0dc143] w-8 h-8 rounded-full flex items-center text-center justify-center"><i class="fa fa-whatsapp text-white" id="fone" aria-hidden="true"></i></span>
-        <img class="w-3 absolute animate-ping right-0 -top-2" src="https://cdn.henryharvin.com/ezgif.com-resize.webp" alt="whatsapp1" loading="lazy">
+        <img class="w-3 absolute animate-ping right-0 -top-2" src="https://cdn.henryharvin.com/ezgif.com-resize.webp" alt="whatsapp_image" loading="lazy">
     </a>
     <a class="border-2 border-[#007bff] flex items-center text-center justify-between w-[170px] bg-white relative rounded-full mb-4" href="">
         <span class="text-[#007bff] text-[17px] font-[400] ml-3">Talk to Expert</span>

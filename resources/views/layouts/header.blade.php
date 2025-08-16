@@ -96,7 +96,7 @@
             <div class="flex items-center space-x-3">
                 <a href="/">
                     <img class="md:h-[65px] h-[60px] w-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753872845ezgif.com-crop.webp"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755327770ezgif.com-resize_(5).webp"
                         alt="Kazumi Logo">
                 </a>
             </div>

@@ -42,9 +42,9 @@
             <p class="capitalize text-xl md:text-3xl tracking-widest mt-4 font-[600]"
                 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Discover a new standard of Japanese Education and Culture</p>
             <div class="flex space-x-4 mb-8 items-center justify-center">
-                <a data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button"
+                <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button"
                     class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600 cursor-pointer">Apply
-                    Now</a>
+                    Now</button>
                 <a href="/about-us" class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600"> Learn
                     More</a>
             </div>
@@ -670,7 +670,7 @@
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
                     <img class="max-h-[40px] sm:max-h-[48px] md:max-h-[56px] object-contain mx-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753867920200000000138112_1TCS_NewLogo_Final_CMYK.png"  loading="lazy "alt="images-8">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755327998tatat.webp"  loading="lazy "alt="images-8">
                 </div>
                 <div
                     class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center text-white text-xl font-[500] bg-cover bg-top">
@@ -1201,7 +1201,7 @@
                <div class="mt-4 relative">
                 <img class="agota_image sticky"  loading="lazy "alt="agota frame2"
                     style="width:100%; max-width:500px; top:80px; margin: auto;"
-                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753788535japan's_national_day_(1).jpg"  loading="lazy "alt="Japan’s National Day">
+                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755327584ezgif.com-png-to-webp-converter_(2).webp"  loading="lazy "alt="Japan’s National Day">
                </div>
                <div class="mt-6">
                 
