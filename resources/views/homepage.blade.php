@@ -27,7 +27,7 @@
     {{-- welcome setion --}}
     <section>
         <div class="relative w-full h-screen overflow-hidden"
-            style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1753942717banner.webp); background-position: top;">
+            style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1755338858banner1.webp); background-position: top;">
             <div
                 class="relative z-10 flex flex-col justify-center space-y-4 items-center h-full text-center text-white bg-black bg-opacity-30">
                 <h1 class="text-2xl md:text-[48px] tracking-widest mb-10 leading-8 font-[600] md:leading-[60px] leading-[30px]"
