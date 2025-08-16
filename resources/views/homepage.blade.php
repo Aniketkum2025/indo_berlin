@@ -107,7 +107,7 @@
             </div>
         </div>
         <div class="w-full flex flex-col rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753694789Japanese_Occupational_Courses.jpg"  loading="lazy "alt="Japanese Occupational Courses" loading="lazy">
+            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755328425occupational.webp"  loading="lazy "alt="Japanese Occupational Courses" loading="lazy">
             <div class=" h-full py-4">
                 <h3 class="text-[18px] font-[500] text-gray-900">Japanese Occupational Courses</h3>
                 <p class="text-[16px] text-gray-700 mt-2 flex-grow">Extensive & Intensive courses for 個人 (Kojin) in corporate and business sector</p>
@@ -140,7 +140,7 @@
             </div>
         </div>
         <div class="w-full flex flex-col rounded-xl overflow-hidden">
-            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753696001Japanese_Crash_Course.jpg"  loading="lazy "alt="Crash Course in Japanese Language , N5 to N1" loading="lazy">
+            <img class="w-full h-60 object-cover" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755328153japan-book.webp"  loading="lazy "alt="Crash Course in Japanese Language , N5 to N1" loading="lazy">
             <div class=" h-full py-4">
                 <h3 class="text-[18px] font-[500] text-gray-900">Crash Course in Japanese Language</h3>
                 <p class="text-[16px] text-gray-700 mt-2 flex-grow">Cover all the topics from N5 (basic) to N1 (advance) level, understand important and useful Japanese 伝統（Dentō) and etiquettes</p>
