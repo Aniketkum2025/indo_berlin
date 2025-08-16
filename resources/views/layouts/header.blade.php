@@ -61,11 +61,7 @@
                         style="background-color: #e50914;">45</strong> <span class="flex text-[12px] font-[600]">S<span
                             class="hidden lg:block"></span></span>
                 </p>
-                <!-- <div class="text-center ml-2" bis_skin_checked="1">
-                    <a href="/offers" target="_blank" class="hidden md:block text-gray-900 relative text-[12px] font-[600] bg-white px-2 py-1 rounded-md"   style="background: linear-gradient(to right, #E50914 , #FF8A00 ) !important; color: white !important;">View Offer </a>
-                    <a href="/offers" target="_blank" class="text-[#212529] relative w-20 mr-2 text-[10px] font-[500] bg-white px-2 py-1 rounded-md block md:hidden">View Offer</a>
-                </div> -->
-                <div class="text-center ml-2" bis_skin_checked="1">
+                {{-- <div class="text-center ml-2" bis_skin_checked="1">
                     <button data-modal-target="authentication-modal2" data-modal-toggle="authentication-modal2"
                         type="button"
                         class="hidden md:block text-gray-900 relative text-[11px] font-[600] bg-white px-2 py-1 rounded-md"
@@ -74,7 +70,7 @@
                     <a href="https://api.whatsapp.com/send?phone=919910990543&amp;text=Grab%20Month-End%20Scholarship%20+%20Register%20with%20Best%20Offers"
                         class="text-[#212529] relative w-20 mr-2 text-[10px] font-[500] bg-white px-2 py-1 rounded-md block md:hidden">Check
                         Now</a>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
