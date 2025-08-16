@@ -936,13 +936,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 </script>
-<script>
-document.getElementById('start_course').addEventListener('click', () => {
-    document.getElementById('course_section').scrollIntoView({
-        behavior: 'smooth'
-    });
-});
-</script>
+
 <script>
 let isExpanded = false;
 
@@ -984,7 +978,7 @@ function toggleText() {
     });
   });
 </script> --}}
-<script>
+{{-- <script>
     ['submit_ty', 'submit_ty2'].forEach(function(id) {
         document.getElementById(id).addEventListener("click", function () {
             setTimeout(function () {
@@ -992,7 +986,7 @@ function toggleText() {
             }, 1500); 
         });
     });
-</script>
+</script> --}}
 
 <script type="text/javascript">
         var $_Tawk_API = {},
