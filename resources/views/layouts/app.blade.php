@@ -14,7 +14,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753077423favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="192x192" href="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753077667android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753077574android-chrome-512x512.png">
-    <link rel="manifest" href="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753077533site.webmanifest">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />

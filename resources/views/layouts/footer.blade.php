@@ -466,7 +466,7 @@
     </a>
 </div>
 
-<div id="authentication-modal2" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed  right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+{{-- <div id="authentication-modal2" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed  right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
     <div class="relative w-md max-w-2xl max-h-full rounded-lg rid h-auto w-10/12 grid-flow-row gap-2 rounded-md shadow-sm md:grid-cols-2 bg-[#fff]">
         <div class="grid h-auto items-center place-items-center grid-flow-row gap-2  md:grid-cols-2">
             <div class="ml-3 rounded-md bg-red-600 px-3 py-5">
@@ -492,8 +492,6 @@
                     </p>
                 </div>
             </div>
-            
-            <!-- form start -->
             <div class="px-4">
                 <div class="flex items-center justify-between p-4 md:p-2 border-b rounded-t">
                     <h3 class="text-[20px] font-[600] text-red-600">
@@ -757,8 +755,6 @@
                         </div>
                         <span id="phone_error3" class="text-red-500 text-xs"></span>
                     </div>
-
-                    <!-- Hidden Inputs -->
                     <input type="hidden" name="source" class="textbox" value="KAZUMI WEBSITE" placeholder="" />
                     <input type="hidden" name="lead_source_page_url" class="textbox" value="{{url()->full()}}" placeholder="" id="">
                     <input type="hidden" name="slug" value="contact-us">
@@ -770,7 +766,8 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
+
 
 <script>
 new Swiper('.mySwiper1', {
