@@ -22,24 +22,17 @@
                     <li><a href="contact-us" class="hover:text-red-500">Request Certificate</a></li>
                 </ul>
             </div>
-
             <div>
                  <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mb-3">Henry Harvin® America Head Office</h3>
                 <p class="text-white text-sm mb-2">Henry Harvin® Inc</p>
                 <p class="text-white text-sm">8 The Green, # 19614 Dover, DE 19901, United States.</a></p>
                 <p class="text-white text-sm">Phone: +1 209 382 3469</p>
-
-
                 <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mt-4 mb-3">Henry Harvin® Asia Pacific Office</h3>
                 <p class="text-white text-sm mb-2">Henry Harvin® India Education LLP Henry Harvin® House,
                 </p>
                 <p class="text-white text-sm">B-12, Sector-6, Noida(UP), India- 201301</a></p>
                 <p class="text-white text-sm">Phone:  +91 989 957 7620</p>
-                
-
-               
             </div>
-
             <div>
                 <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mb-3">Henry Harvin® Middle East Office</h3>
                 <p class="text-white text-sm mb-2">Henry Harvin® Co. L.L.C.</p>
@@ -136,8 +129,6 @@
                 </li>
             </ul>
         </div> --}}
-
-
         <div class="max-w-7xl mx-auto px-4 mt-4 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
             <div class="flex justify-center space-x-4 mb-4">
                 <a href="cancellation-&-refund-policy" class="text-red-700 font-[600] text-[14px] font-semibold">Cancellation & Refund Policy</a>
@@ -148,23 +139,14 @@
                 <a href="privacy-policy" class="text-red-700 font-[600]">Privacy Policy</a>
                 <span>|</span>
                 <a href="contact-us" class="text-red-700 font-[600]">Customer Service</a>
-                <!-- <a href="refund-policy" class="text-red-700 font-[600] text-[14px] font-semibold">Refund Policy</a> -->
             </div>
-
-            <!-- <div class="flex justify-center space-x-4 mb-4">
-                <a href="privacy-policy" class="text-red-700 font-[600]">Privacy Policy</a>
-                <span>|</span>
-                <a href="contact-us" class="text-red-700 font-[600]">Customer Service</a>
-            </div> -->
             <p>&copy; 2025, Kazumi Japanese School, All Rights Reserved<br>Global With us is a subsidiary of Henry Harvin® Education.</p>
         </div>
     </div>
 </footer>
 <div id="authentication-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
         <div class="relative p-4 w-full max-w-md max-h-full">
-            <!-- Modal content -->
             <div class="relative bg-white rounded-lg border-2 border-red-600 shadow">
-                <!-- Modal header -->
                 <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
                     <h3 class="text-[24px] font-[600] text-red-600">
                         Apply Now
@@ -176,8 +158,6 @@
                         <span class="sr-only">Close modal</span>
                     </button>
                 </div>
-
-                <!-- Modal body -->
                 <form class="p-4 md:p-5 space-y-4" action="{{ route('lead.store') }}" method="POST">
                     @csrf
                     <div>
@@ -429,17 +409,13 @@
                         </div>
                         <span id="phone_error3" class="text-red-500 text-xs"></span>
                     </div>
-
-                    <!-- Hidden Inputs -->
                     <input type="hidden" name="source" class="textbox" value="KAZUMI WEBSITE" placeholder="" />
                     <input type="hidden" name="lead_source_page_url" class="textbox" value="{{url()->full()}}" placeholder="" id="">
                     <input type="hidden" name="slug" value="contact-us">
-
                     <div class="flex justify-center pt-3">
                         <button type="submit" id="submit_ty" class="bg-red-600 text-white py-2 px-4 text-lg rounded-md">Submit</button>
                     </div>
                 </form>
-
             </div>
         </div>
     </div>
@@ -458,14 +434,12 @@
         <img class="w-2 absolute animate-ping right-0 -top-2" src="https://cdn.henryharvin.com/images/1701330473red.1.webp" alt="talkto" loading="lazy">
     </a>
 </div>
-
 <div class="fixed z-20 bottom-[50%] rotate-90 hidden lg:block" style="right: -50px;">
     <a class="border-2 border-[#008000] flex items-center text-center justify-between w-48 bg-white relative rounded-full mb-4 dynamic_contact_href" href="tel: +91 989 957 7620">
         <span class="text-[#008000] text-[17px] font-[400] ml-2 dynamic_contact">+91 989 957 7620</span>
         <span class="bg-[#008000] w-8 h-8 rounded-full flex items-center text-center justify-center"><i class="fa fa-phone text-white" id="fone" aria-hidden="true"></i></span>
     </a>
 </div>
-
 {{-- <div id="authentication-modal2" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed  right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
     <div class="relative w-md max-w-2xl max-h-full rounded-lg rid h-auto w-10/12 grid-flow-row gap-2 rounded-md shadow-sm md:grid-cols-2 bg-[#fff]">
         <div class="grid h-auto items-center place-items-center grid-flow-row gap-2  md:grid-cols-2">
@@ -767,8 +741,6 @@
         </div>
     </div>
 </div> --}}
-
-
 <script>
 new Swiper('.mySwiper1', {
     slidesPerView: 2,
@@ -836,7 +808,6 @@ const swiper17 = new Swiper('.linearswiper', {
     },
 });
 </script>
-
 <script>
 // Swiper 17 - For .linearswiper1
 const swiper20 = new Swiper('.linearswiper2', {
@@ -874,7 +845,6 @@ const swiper20 = new Swiper('.linearswiper2', {
     },
 });
 </script>
-
 <script>
 const swiper = new Swiper('.mySwiper', {
     loop: true,
@@ -901,12 +871,9 @@ const swiper = new Swiper('.mySwiper', {
     }
 });
 </script>
-
-
 <script>
 document.addEventListener('DOMContentLoaded', () => {
     const counters = document.querySelectorAll('.count-up');
-
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -930,7 +897,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }, {
         threshold: 0.5
     });
-
     counters.forEach(counter => {
         observer.observe(counter);
     });
@@ -939,12 +905,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <script>
 let isExpanded = false;
-
 function toggleText() {
     const textContainer = document.getElementById("textContainer");
     const toggleButton = document.getElementById("toggleButton");
     const arrowIcon = document.getElementById("arrowIcon");
-
     if (isExpanded) {
         // Show truncated text (3 lines)
         textContainer.style.display = "-webkit-box";
@@ -956,7 +920,6 @@ function toggleText() {
         toggleButton.innerText = "Show less";
         arrowIcon.classList.add("rotate-180"); // Arrow points up
     }
-
     isExpanded = !isExpanded;
 }
 </script>
@@ -1067,22 +1030,16 @@ function toggleText() {
     @endif
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
 <script>
     $(document).ready(function () {
          getCountryCode();
     });
-
     function getCountryCode() {
-        
         fetch('https://ipapi.co/json/')
         .then(response => response.json())
         .then(data => {
-            
-           
             const countryNumber = data.country || 'IN';
             const CountryCodeArray = ['TR', 'IQ', 'SA', 'YE', 'SY', 'AE', 'IL', 'JO', 'PS', 'LB', 'OM', 'KW', 'QA', 'BH', 'IR', 'PK', 'US', 'IN', 'GB'];
-
             if (countryNumber === 'IN') {
                 $('.dynamic_contact').text('+91 9899577620');
                 $('.dynamic_contact_href, .dynamic_contact_mobile_href').attr('href', 'tel:+919899577620');
