@@ -586,7 +586,7 @@
                     </div>
                     <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                         <div class="flex items-center justify-center mb-2">
-                            <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881317elearning.jpg"
+                            <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755407988ewcd.webp"
                                 loading="lazy "alt=" E-learning Portal, Kazumi School">
                         </div>
                         <h3 class="text-xl font-[600] text-red-600 mt-4">Access to E-learning Portal</h3>
@@ -625,7 +625,7 @@
                     </div>
                     <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                         <div class="flex items-center justify-center mb-2">
-                            <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881283study.jpg"
+                            <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755408524ezgif.com-resize_(5).webp"
                                 loading="lazy "alt="Study Abroad, Kazumi School">
                         </div>
                         <h3 class="text-xl font-[600] text-red-600 mt-4">Study Abroad & Recruitment Services</h3>
@@ -639,7 +639,7 @@
                     </div>
                     <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                         <div class="flex items-center justify-center mb-2">
-                            <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881176agota2.jpg"
+                            <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755408255agota_kazumi.webp"
                                 loading="lazy "alt="Agota Framework, Kazumi School">
                         </div>
                         <h3 class="text-xl font-[600] text-red-600 mt-4">Unique 10 in 1 Program: Agota™ Framework</h3>
