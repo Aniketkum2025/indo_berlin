@@ -10,7 +10,7 @@
   "name": "Kazumi Japanese & Culture School",
   "alternateName": "Kazumischool",
   "url": "https://kazumischool.com/",
-  "logo": "https://d1d5cy0fmpy9m8.cloudfront.net/images/1753872845ezgif.com-crop.webp",
+  "logo": "https://d1d5cy0fmpy9m8.cloudfront.net/images/1755407733logo.webp",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+91 989 957 7620",

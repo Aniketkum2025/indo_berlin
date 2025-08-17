@@ -3,7 +3,7 @@
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div class="">
                 <div class="flex justify-center">
-                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753872845ezgif.com-crop.webp"
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755407733logo.webp"
                         class="h-[70px] w-auto bg-white" alt="culture">
                 </div>
                 <p class="text-gray-300 text-sm mt-4 text-justify">
