@@ -927,19 +927,19 @@ function toggleText() {
     const grid = document.getElementById('videoGrid');
     if (grid) {
       grid.classList.remove('hidden');
-      // If using inline style:
-      // grid.style.display = 'grid';
+      //If using inline style:
+      grid.style.display = 'grid';
     }
   });
 </script>
-{{-- <script>
+<script>
   window.addEventListener('load', () => {
     const lazyIframes = document.querySelectorAll('iframe[data-src]');
     lazyIframes.forEach(iframe => {
       iframe.src = iframe.getAttribute('data-src');
     });
   });
-</script> --}}
+</script>
 {{-- <script>
     ['submit_ty', 'submit_ty2'].forEach(function(id) {
         document.getElementById(id).addEventListener("click", function () {
