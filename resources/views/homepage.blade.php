@@ -513,8 +513,8 @@
                                 class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
                                 class="fa fa-star-half text-red-700"></i></a>
                     </div>
-                    <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1746772870coursereport-.png"
-                        loading="lazy "alt="google">
+                    <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755412282course-report.webp"
+                        loading="lazy "alt="course report">
                 </div>
                 <div
                     class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
@@ -568,7 +568,7 @@
                     <div
                         class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center col-span-1 sm:col-span-1 md:col-span-1">
                         <div class="flex items-center justify-center mb-2">
-                            <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789102Trainerteaching.jpg"
+                            <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755412161fi-200.webp"
                                 loading="lazy "alt="Native Trainers, Kazumi School">
                         </div>
                         <h3 class="text-xl font-[600] text-red-600 mt-4">Native Japanese Trainers</h3>
@@ -617,7 +617,7 @@
                         <p class="text-gray-700 text-[14px] mt-2">Kazumi provides Internship Support via
                             <span><a href="https://yuvaintern.com//"
                                     class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
-                                        src="https://yuvaintern.com/assets/img/logo.png"
+                                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755412491yuvaintern.webp"
                                         loading="lazy "alt="Yuva Intern Logo" class="h-4">Yuva Intern</span> </a>
                             , India’s first バーチャル (bācharu) internship platform where you get to select from the best
                             curated internships that match your skills and interests.
@@ -722,13 +722,13 @@
                 <!-- Card 5 -->
                 <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                     <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                        <img src="https://cdn.henryharvin.com/images/1686549627AAEFL.webp" loading="lazy "alt="AAEFL897"
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755412756aaefl.webp" loading="lazy "alt="AAEFL897"
                             class=" h-24 w-auto">
                     </div>
                 </div>
                 <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                     <div class="w-full mx-auto text-center overflow-hidden flex gap-2 justify-center">
-                        <img src="https://nsdcindia.org/logo_nsdc.svg" loading="lazy "alt="AAEFLfsdf"
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755413236nsdc.webp" loading="lazy "alt="AAEFLfsdf"
                             class=" h-16 w-auto">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753882471skills.svg"
                             loading="lazy "alt="AAEFLsde" class=" h-16 w-auto">
@@ -737,7 +737,7 @@
                 </div>
                 <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                     <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                        <img src="https://cdn.henryharvin.com/images/1683959258ezgif.com-gif-maker%20-%202023-05-13T115731.582.webp"
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755412903ukaf.webp"
                             loading="lazy "alt="AAEFL" class=" h-24 w-auto">
                     </div>
                 </div>
@@ -755,7 +755,7 @@
                 </div>
                 <div class="bg-white p-4 grid place-content-evenly place-items-center gap-4">
                     <div class="w-full mx-auto text-center overflow-hidden flex justify-center">
-                        <img src="https://cdn.henryharvin.com/images/1683958602ezgif.com-resize%20(16).webp"
+                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755413059ministry.webp"
                             loading="lazy "alt="AAEFLFGEFF" class=" h-24 w-auto">
                     </div>
                 </div>
@@ -1256,7 +1256,7 @@
                                         and
                                         <a href="https://yuvaintern.com//"
                                             class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
-                                                src="https://yuvaintern.com/assets/img/logo.png"
+                                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755412491yuvaintern.webp"
                                                 loading="lazy "alt="YUVA Logo" class="h-3">Yuva Intern</span>
                                     </a>.</span>
                                 </p>
