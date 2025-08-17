@@ -922,15 +922,22 @@ function toggleText() {
     isExpanded = !isExpanded;
 }
 </script>
+<!-- Lazy Load Script -->
 <script>
-  window.addEventListener('load', () => {
-    const grid = document.getElementById('videoGrid');
-    if (grid) {
-      grid.classList.remove('hidden');
-      //If using inline style:
-      grid.style.display = 'grid';
-    }
-  });
+document.addEventListener("DOMContentLoaded", () => {
+  const iframes = document.querySelectorAll("#videoGrid iframe[data-src]");
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const iframe = entry.target;
+        iframe.src = iframe.getAttribute("data-src");
+        observer.unobserve(iframe);
+      }
+    });
+  }, { rootMargin: "200px 0px" });
+
+  iframes.forEach(iframe => observer.observe(iframe));
+});
 </script>
 <script>
   window.addEventListener('load', () => {
