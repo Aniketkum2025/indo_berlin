@@ -925,18 +925,32 @@ function toggleText() {
 <!-- Lazy Load Script -->
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const iframes = document.querySelectorAll("#videoGrid iframe[data-src]");
+  const lazyVideos = document.querySelectorAll(".lazy-video");
+
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        const iframe = entry.target;
-        iframe.src = iframe.getAttribute("data-src");
-        observer.unobserve(iframe);
+        const img = entry.target;
+        img.src = img.dataset.src; // load thumbnail
+        observer.unobserve(img);
+
+        // On click, replace with iframe
+        img.addEventListener("click", () => {
+          const iframe = document.createElement("iframe");
+          iframe.src = img.dataset.video;
+          iframe.width = "100%";
+          iframe.height = "100%";
+          iframe.frameBorder = "0";
+          iframe.allow =
+            "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+          iframe.allowFullscreen = true;
+          img.replaceWith(iframe);
+        });
       }
     });
   }, { rootMargin: "200px 0px" });
 
-  iframes.forEach(iframe => observer.observe(iframe));
+  lazyVideos.forEach(video => observer.observe(video));
 });
 </script>
 <script>
