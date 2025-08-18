@@ -83,11 +83,12 @@
     .group:hover .submenu {
         display: block;
     }
-    
 </style>
 
 <style>
-    [x-cloak] { display: none !important; }
+    [x-cloak] {
+        display: none !important;
+    }
 </style><!-- Navbar -->
 <nav id="stickyy" class="bg-white sticky top-0 z-40 w-full bg-background/50 border-b border-white backdrop-blur-2xl"
     style="box-shadow: 0px -1px 28px -11px red;">
@@ -96,103 +97,108 @@
             <div class="flex items-center space-x-3">
                 <a href="/">
                     <img class="md:h-[65px] h-[60px] w-auto"
-                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755407733logo.webp"
-                        alt="Kazumi Logo">
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755407733logo.webp" alt="Kazumi Logo">
                 </a>
             </div>
 
             <div class="hidden md:flex md:space-x-6">
                 <a href="/" class="text-[#da2028] font-[600] text-[14px] py-6">家</a>
 
-                <div x-data="{ open: false }"  @mouseenter="open = true" @mouseleave="open = false"
- class="relative group">
+                <div x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false"
+                    class="relative group">
 
-    <!-- Menu Button -->
-    <a class="flex items-center text-[#da2028] font-[600] text-[14px] space-x-1 py-6 cursor-pointer">
-        <span>Courses</span>
-        <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
-            <path
-                d="M5.23 7.21a.75.75 0 011.06-.02L10 10.67l3.71-3.48a.75.75 0 111.04 1.08l-4.25 4a.75.75 0 01-1.04 0l-4.25-4a.75.75 0 01-.02-1.06z" />
-        </svg>
-    </a>
+                    <!-- Menu Button -->
+                    <a class="flex items-center text-[#da2028] font-[600] text-[14px] space-x-1 py-6 cursor-pointer">
+                        <span>Courses</span>
+                        <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M5.23 7.21a.75.75 0 011.06-.02L10 10.67l3.71-3.48a.75.75 0 111.04 1.08l-4.25 4a.75.75 0 01-1.04 0l-4.25-4a.75.75 0 01-.02-1.06z" />
+                        </svg>
+                    </a>
 
-    <!-- Dropdown Menu -->
-    <div x-show="open" 
-         x-cloak 
-         x-transition
-         class="absolute top-full left-0 mt-0 w-72 bg-white border rounded-md shadow-lg p-2 z-50 h-[300px] overflow-auto">
+                    <!-- Dropdown Menu -->
+                    <div x-show="open" x-cloak x-transition
+                        class="absolute top-full left-0 mt-0 w-72 bg-white border rounded-md shadow-lg p-2 z-50 h-[300px] overflow-auto">
 
-        <a href="https://www.henryharvin.com/japanese-language-course"
-           class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
-           Japanese Language Course
-        </a>
+                        <a href="https://www.henryharvin.com/japanese-language-course"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
+                            Japanese Language Course
+                        </a>
 
-        <a href="https://www.henryharvin.com/japanese-beginners-course"
-           class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
-           Japanese for Beginners Course
-        </a>
+                        <a href="https://www.henryharvin.com/japanese-beginners-course"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
+                            Japanese for Beginners Course
+                        </a>
 
-        <a href="https://www.henryharvin.com/japanese-language-course"
-           class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
-           Japanese Language N5 Level Course
-        </a>
+                        <a href="https://www.henryharvin.com/japanese-language-course"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
+                            Japanese Language N5 Level Course
+                        </a>
 
-        <a href="https://www.henryharvin.com/japanese-language-course"
-           class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
-           Japanese Language N4 Level Course
-        </a>
+                        <a href="https://www.henryharvin.com/japanese-language-course"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
+                            Japanese Language N4 Level Course
+                        </a>
 
-        <a href="https://www.henryharvin.com/japanese-language-course"
-           class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
-           Japanese Language N3 Level Course
-        </a>
+                        <a href="https://www.henryharvin.com/japanese-language-course"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
+                            Japanese Language N3 Level Course
+                        </a>
 
-        <a href="https://www.henryharvin.com/japanese-language-course"
-           class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
-           Japanese Language N1 Level Course
-        </a>
+                        <a href="https://www.henryharvin.com/japanese-language-course"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
+                            Japanese Language N1 Level Course
+                        </a>
 
-        <a href="https://www.henryharvin.com/post-graduate-diploma-in-japanese-language-by-dbs"
-           class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
-           Post Graduate Diploma in Japanese Language (DBS)
-        </a>
+                        <a href="https://www.henryharvin.com/post-graduate-diploma-in-japanese-language-by-dbs"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
+                            Post Graduate Diploma in Japanese Language (DBS)
+                        </a>
 
-        <a href="https://www.henryharvin.com/post-graduate-diploma-professional-in-japanese-language-by-dbs"
-           class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
-           Post Graduate Diploma Professional in Japanese (DBS)
-        </a>
+                        <a href="https://www.henryharvin.com/post-graduate-diploma-professional-in-japanese-language-by-dbs"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
+                            Post Graduate Diploma Professional in Japanese (DBS)
+                        </a>
 
-        <a href="https://www.henryharvin.com/masters-in-japanese-language"
-           class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
-           Master’s in Japanese Language
-        </a>
+                        <a href="https://www.henryharvin.com/masters-in-japanese-language"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
+                            Master’s in Japanese Language
+                        </a>
 
-        <a href="https://www.henryharvin.com/migrate-japan"
-           class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
-           Migrate to Japan Course
-        </a>
+                        <a href="https://www.henryharvin.com/migrate-japan"
+                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
+                            Migrate to Japan Course
+                        </a>
 
-        <a href="https://www.henryharvin.com/business-japanese-for-beginners-course"
-           class="block px-3 py-1 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
-           Business Japanese for Beginners Course
-        </a>
+                        <a href="https://www.henryharvin.com/business-japanese-for-beginners-course"
+                            class="block px-3 py-1 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
+                            Business Japanese for Beginners Course
+                        </a>
 
-        <a href="https://www.henryharvin.com/career-japanese-course"
-           class="block px-3 py-1 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
-           Career Japanese Course
-        </a>
+                        <a href="https://www.henryharvin.com/career-japanese-course"
+                            class="block px-3 py-1 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
+                            Career Japanese Course
+                        </a>
 
-        <a href="https://www.henryharvin.com/corporate-business-japanese-course"
-           class="block px-3 py-1 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
-           Corporate Business Japanese Course
-        </a>
+                        <a href="https://www.henryharvin.com/corporate-business-japanese-course"
+                            class="block px-3 py-1 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
+                            Corporate Business Japanese Course
+                        </a>
 
-        <a href="https://www.henryharvin.com/business-japanese-course"
-           class="block px-3 py-1 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
-           Business Japanese Course
-        </a>
-    </div>
-</div>
+                        <a href="https://www.henryharvin.com/business-japanese-course"
+                            class="block px-3 py-1 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
+                            Business Japanese Course
+                        </a>
+                        <a href="https://www.henryharvin.com/japanese-for-the-workplace-course"
+                            class="block px-3 py-1 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
+                            Japanese for the Workplace Course
+                        </a>
+                        <a href="https://www.henryharvin.com/japanese-for-work–hospitality-nursing-it"
+                            class="block px-3 py-1 text-sm text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">
+                            Japanese for Work – Hospitality / Nursing / IT
+                        </a>
+                    </div>
+                </div>
 
                 <div class="group relative">
                     <a class="flex items-center text-[#da2028] font-[600] text-[14px] space-x-1 py-6">
@@ -352,6 +358,14 @@
                         class="block text-gray-700">Corporate Business Japanese Course</a>
                     <a href="https://www.henryharvin.com/business-japanese-course"
                         class="block text-gray-700">Business Japanese Course</a>
+                    <a href="https://www.henryharvin.com/japanese-for-the-workplace-course"
+                        class="block text-gray-700">
+                        Japanese for the Workplace Course
+                    </a>
+                    <a href="https://www.henryharvin.com/japanese-for-work–hospitality-nursing-it"
+                        class="block text-gray-700">
+                        Japanese for Work – Hospitality / Nursing / IT
+                    </a>
                     {{-- </div> --}}
                 </div>
             </div>
