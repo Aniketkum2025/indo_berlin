@@ -22,12 +22,9 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
     <!-- PNG favicons -->
-    <link rel="icon" type="image/png" sizes="16x16"
-        href="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753077423favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32"
-        href="https://d1d5cy0fmpy9m8.cloudfront.net/images/175551018532.png">
-    <link rel="icon" type="image/png" sizes="48x48"
-        href="https://d1d5cy0fmpy9m8.cloudfront.net/images/175551022948.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753077423favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://d1d5cy0fmpy9m8.cloudfront.net/images/175551018532.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="https://d1d5cy0fmpy9m8.cloudfront.net/images/175551022948.png">
 
     <!-- Android Chrome -->
     <link rel="icon" type="image/png" sizes="192x192"
