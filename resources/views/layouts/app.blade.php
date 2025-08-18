@@ -14,7 +14,7 @@
     <meta property="og:description" content="Kazumi, India’s leading Japanese language institute, offers expert-led courses from beginner (N5) to advanced (N1) levels. Start learning Japanese today!" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://kazumischool.com/" />
-    {{-- <meta property="og:image" content="https://kazumischool.com/images/og-image.jpg" /> --}}
+    <meta property="og:image" content="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755407733logo.webp" />
     <meta property="og:site_name" content="Kazumi School" />
     <link rel="apple-touch-icon" sizes="180x180" href="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753077494apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753077423favicon-16x16.png">

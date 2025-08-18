@@ -214,7 +214,7 @@
                     <!-- 1 -->
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
-                            data-src="https://img.youtube.com/vi/HAI_ZAMooLk/hqdefault.jpg"
+                            data-src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755500037review-vedeo1.webp"
                             data-video="https://www.youtube.com/embed/HAI_ZAMooLk?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra"
                             alt="Japanese Language Course Review By Sachet">
                     </div>
@@ -222,7 +222,7 @@
                     <!-- 2 -->
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
-                            data-src="https://img.youtube.com/vi/K4NAAHCtbo8/hqdefault.jpg"
+                            data-src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755500240anupam.webp"
                             data-video="https://www.youtube.com/embed/K4NAAHCtbo8?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra"
                             alt="Japanese Language Course Review By Anupam">
                     </div>
