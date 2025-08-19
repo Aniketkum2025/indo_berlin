@@ -498,7 +498,7 @@
                                     <a href="https://www.henryharvin.com/our-courses"
                                         class="underline text-[12px] font-[600] text-[#007bff]">Click Here</a>
                                 </span>
-                                <a href="/comming-soon" target="_blank" rel="noopener noreferrer"
+                                <a href="/" target="_blank" rel="noopener noreferrer"
                                     class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-red-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
                                     style="border:  1px solid #dadada;">
                                     <i class="fa fa-youtube-play text-[20px] text-[#4f2d7f]" style="color:#ce0909;"></i>
@@ -645,7 +645,7 @@
                                         <a href="https://www.henryharvin.com/our-courses"
                                             class="underline text-[12px] font-[600] text-[#007bff]">Click Here</a>
                                     </span>
-                                    <a href="/comming-soon" target="_blank" rel="noopener noreferrer"
+                                    <a href="/" target="_blank" rel="noopener noreferrer"
                                         class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-red-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
                                         style="border:  1px solid #dadada;">
                                         <i class="fa fa-youtube-play text-[20px] text-[#4f2d7f]"
@@ -695,7 +695,7 @@
                                         <a href="https://www.henryharvin.com/our-courses"
                                             class="underline text-[12px] font-[600] text-[#007bff]">Click Here</a>
                                     </span>
-                                    <a href="/comming-soon" target="_blank" rel="noopener noreferrer"
+                                    <a href="/" target="_blank" rel="noopener noreferrer"
                                         class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-red-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
                                         style="border:  1px solid #dadada;">
                                         <i class="fa fa-youtube-play text-[20px] text-[#4f2d7f]"
