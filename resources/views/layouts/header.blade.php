@@ -311,7 +311,7 @@
                 <a href="/our-affiliations" class="block py-1 text-gray-700">Our Affiliations</a>
                 <a href="esteemed-faculty" class="block py-1 text-gray-700">Esteemed Faculty</a>
                 <a href="/careers" class="block py-1 text-gray-700">Careers</a>
-                <a href="/our-customer" class="block py-1 text-gray-700">Our Customers</a>
+                <a href="/our-customers" class="block py-1 text-gray-700">Our Customers</a>
                 <a href="https://www.henryharvin.com/placed-students-list" class="block py-1 text-gray-700">Placed
                     Student List</a>
             </div>
