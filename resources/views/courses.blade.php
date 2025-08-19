@@ -86,14 +86,14 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         </div> --}}
                         <div id="countryPrice" class="grid grid-cols-1 mt-4 lg:gap-2 gap-4">
                             <div class="w-full">
-                                <span class="text-[16px] font-[600] text-red-600">Starts In {{$batchDay}} day</span>
+                                <span class="text-[16px] font-[600] text-red-600">Starts In {{$batchDay}} day(s)</span>
                                 <span class="font-[800] text-[16px] mt-1 text-red-600">{{$batchDate}}</span>
                             </div>
                         </div>
                         <div class="text-red-600 text-[20px] flex flex-col space-y-2">
                             <p class="font-[600]"><a data-modal-target="authentication-modal"
                                     data-modal-toggle="authentication-modal" type="button"><span
-                                        class="text-white">Forbes</span> features
+                                        class="text-white">Forbes</span> featured
                                     Henry Harvin <span class="text-white font-semibold">4.8 / 5</span> ⭐⭐⭐⭐⭐</a></p>
                             <p class="text-white text-[16px]"><span class="text-red-600">★ {{$course->course_rating}}/5</span> • {{$course->course_number_of_reviews}}
                                 Learners
@@ -542,7 +542,33 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
             </div>
         </div>
     </section>
-    <section id="videoGrid" class="py-12 px-4 hidden">
+
+    <section class="py-12 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Hear from our
+            learners about their experience
+            </h2>
+            <div class="relative">
+                <!-- Video Grid -->
+                <div id="videoGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
+
+                    <!-- 1 -->
+                     @foreach($videoReview as $vr)
+                    <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
+                        <iframe width="100%" loading="lazy"
+                                src="{{ $vr->link }}"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen="">
+                        </iframe>
+                    </div>
+                    @endforeach 
+                </div>
+            </div>
+        </div>
+    </section>   
+
+    {{-- <section id="videoGrid" class="py-12 px-4 hidden">
         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Hear from our
             learners about their experience</h2>
         <div class="relative max-w-7xl mx-auto">
@@ -563,7 +589,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
             @endforeach    
             </div>
         </div>
-    </section>
+    </section> --}}
     <section class="py-12 px-4">
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mt-2">
             <div class="md:col-span-2">

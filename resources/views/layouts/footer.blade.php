@@ -779,9 +779,9 @@ const swiper17 = new Swiper('.linearswiper', {
     autoplay: {
         delay: 0,
         disableOnInteraction: false,
-        pauseOnMouseEnter: false,
+        pauseOnMouseEnter: true,
     },
-    allowTouchMove: false,
+    allowTouchMove: true,
     grabCursor: false,
     freeMode: true,
     freeModeMomentum: false,
