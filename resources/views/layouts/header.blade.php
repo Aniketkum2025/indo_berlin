@@ -122,7 +122,7 @@
 
                         @foreach ($hhcourses as $hc)
                             <a href="{{ $hc->slug }}"
-                            class="block px-3 py-1 text-[13px] text-gray-700 font-medium hover:text-[#da2028] hover:bg-gray-100 rounded">{{ $hc->course_name }}</a>
+                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">{{ $hc->course_name }}</a>
                         @endforeach
                     </div>
                 </div>
