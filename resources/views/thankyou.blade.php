@@ -7,11 +7,8 @@
             interested in inquiring about.</p>
 
         <!-- Custom Select Dropdown -->
-        <div class="w-full max-w-md mx-auto text-left text-red-600" x-data="dropdown()">
-            <!-- Label -->
+        {{-- <div class="w-full max-w-md mx-auto text-left text-red-600" x-data="dropdown()">
             <label class="block text-[20px] font-medium text-red-700 mb-1">Select Course</label>
-
-            <!-- Custom Select Button -->
             <div class="relative">
                 <button @click="toggle"
                     class="w-full border border-gray-300 bg-white text-black rounded-md px-4 py-3 text-left shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500 flex justify-between items-center">
@@ -20,17 +17,12 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                     </svg>
                 </button>
-
-                <!-- Dropdown Panel -->
                 <div x-show="open" x-transition
                     class="absolute z-10 mt-2 w-full bg-white border border-gray-300 rounded-md shadow-lg">
-                    <!-- Search Box -->
                     <div class="p-2">
                         <input type="text" placeholder="Search..." x-model="search"
                             class="w-full border border-gray-300 px-3 py-2 rounded-md text-sm focus:outline-none focus:ring-1 focus:ring-red-500" />
                     </div>
-
-                    <!-- Option List -->
                     <ul class="max-h-60 overflow-y-auto text-sm">
                         <template x-for="item in filteredCourses" :key="item">
                             <li @click="select(item)" class="px-4 py-2 cursor-pointer hover:bg-red-100" x-text="item"></li>
@@ -39,7 +31,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
     <div class="text-center my-6">
         <a href="https://zoom.us/j/93024133145?pwd=QfibdAB6meQtEtyQlaPaePkXqaDLqG.1"
