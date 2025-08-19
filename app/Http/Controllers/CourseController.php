@@ -376,7 +376,6 @@ class CourseController extends Controller
             
                 return $video_reviews->unique('id')->take(18);
             });
-            
             return view('courses', compact('atualPriceInr', 'matchCourses','jobprofiles', 'newcertificateCourse', 'academy_wise_course', 'affiliation_academy', 'title', 'metas', 'review', 'upcoming_batches', 'academy_name', 'testimonials', 'logos', 'faqs', 'batch', 'process', 'certificate', 'usps', 'course', 'feat', 'affiliations', 'aboutcourse', 'module', 'tools', 'trainers', 'gallery', 'seemore', 'city_flag', 'skills', 'project', 'alumniplaced', 'alumnireview', 'duration', 'result2', 'event', 'placedlearner', 'freecourse','userFeedback','linkdinData', 'videoReview'))->with('i');
         }
     }
