@@ -153,8 +153,8 @@
                                     Business Japanese Course</a></li>
                             <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese for
                                     Work – Hospitality / Nursing / IT</a></li>
-                            <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Rocket
-                                    Japanese</a></li>
+                            {{-- <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Rocket
+                                    Japanese</a></li> --}}
                             <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese for
                                     the Workplace Course</a></li>
                         </ul>

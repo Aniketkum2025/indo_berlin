@@ -14,7 +14,7 @@
         </video> --}}
         <div
             class="relative z-10 flex flex-col justify-center space-y-4 items-center h-full text-center text-white bg-black bg-opacity-30">
-            <h1 class="text-2xl md:text-[48px] tracking-widest mb-8 leading-8 font-[600] md:leading-[60px] leading-[30px]" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">At Kazumi Japanese & Culture School, We Bridge Cultures Through Language an Learning</h1>
+            <h1 class="text-2xl md:text-[48px] tracking-widest mb-8 leading-8 font-[600] md:leading-[60px] leading-[30px]" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">At Kazumi Japanese & Culture School, We Bridge Cultures Through Language and Learning</h1>
             <p class="capitalize text-xl md:text-3xl tracking-widest font-[600]"
                 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">カズミ日本語文化学院では、言語と学びを通じて文化の架け橋となります</p>
             <p class="capitalize text-xl md:text-3xl tracking-widest mt-4 font-[600]"
