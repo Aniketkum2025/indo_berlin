@@ -44,17 +44,11 @@ Route::get('contact-us', function () {
 Route::get('cancellation-&-refund-policy', function () {
     return view('cancellation_&_refund_policy');
 });
-Route::get('privacy-policy', function () {
-    return view('privacy_policy');
-});
-Route::get('refund-policy', function () {
-    return view('refund_policy');
-});
 Route::get('terms-&-conditions', function () {
     return view('terms_&_conditions');
 });
-Route::get('terms-of-use', function () {
-    return view('terms_of_use');
+Route::get('privacy-policy', function () {
+    return view('privacy_policy');
 });
 Route::get('values', function () {
     return view('values');
