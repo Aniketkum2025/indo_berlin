@@ -244,13 +244,13 @@
             </button>
 
             <!-- Courses Main Submenu -->
-            <div id="mobile-submenu-courses" class="hidden ml-4 mt-2 space-y-3">
+            <div id="mobile-submenu-courses" class="hidden mt-2 border-red-600 px-2 border">
 
                 <!-- Japanese Language Courses -->
-                <div>
+                <div class="space-y-2">
                     @foreach ($hhcourses as $hc)
                         <a href="{{ $hc->slug }}"
-                        class="block text-gray-700">{{ $hc->course_name }}</a>
+                        class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600] ">{{ $hc->course_name }}</a>
                     @endforeach
                     {{-- </div> --}}
                 </div>
@@ -269,14 +269,14 @@
                 </svg>
             </button>
 
-            <div id="mobile-submenu-admission" class="hidden mt-2 ml-4 space-y-1">
+            <div id="mobile-submenu-admission" class="hidden mt-2 mt-2 space-y-2 border-red-600 px-2 border">
                 <!-- <a href="why-kazumi" class="block py-1 text-gray-700">Why Kazumi?</a> -->
-                <a href="admission-process" class="block py-1 text-gray-700">Admission Process</a>
-                <a href="https://www.henryharvin.com/pay-fee" class="block py-1 text-gray-700">Online Payment</a>
-                <a href="existing-students" class="block py-1 text-gray-700">Existing Students</a>
-                <a href="https://www.henryharvin.com/request-certificate" class="block py-1 text-gray-700">Request
+                <a href="admission-process" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Admission Process</a>
+                <a href="https://www.henryharvin.com/pay-fee" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Online Payment</a>
+                <a href="existing-students" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Existing Students</a>
+                <a href="https://www.henryharvin.com/request-certificate" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Request
                     Certificate</a>
-                <a href="contact-us" class="block py-1 text-gray-700">Contact Us</a>
+                <a href="contact-us" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Contact Us</a>
             </div>
         </div>
 
@@ -304,15 +304,15 @@
                 </svg>
             </button>
 
-            <div id="mobile-submenu-about" class="hidden mt-2 ml-4 space-y-1">
-                <a href="about-us" class="block py-1 text-gray-700">Knowing Kazumi</a>
-                <a href="values" class="block py-1 text-gray-700">Values</a>
-                <a href="media" class="block py-1 text-gray-700">Media</a>
-                <a href="/our-affiliations" class="block py-1 text-gray-700">Our Affiliations</a>
-                <a href="esteemed-faculty" class="block py-1 text-gray-700">Esteemed Faculty</a>
-                <a href="/careers" class="block py-1 text-gray-700">Careers</a>
-                <a href="/our-customers" class="block py-1 text-gray-700">Our Customers</a>
-                <a href="https://www.henryharvin.com/placed-students-list" class="block py-1 text-gray-700">Placed
+            <div id="mobile-submenu-about" class="hidden mt-2 space-y-2 border-red-600 px-2 border">
+                <a href="about-us" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Knowing Kazumi</a>
+                <a href="values" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Values</a>
+                <a href="media" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Media</a>
+                <a href="/our-affiliations" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Our Affiliations</a>
+                <a href="esteemed-faculty" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Esteemed Faculty</a>
+                <a href="/careers" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Careers</a>
+                <a href="/our-customers" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Our Customers</a>
+                <a href="https://www.henryharvin.com/placed-students-list" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Placed
                     Student List</a>
             </div>
         </div>
