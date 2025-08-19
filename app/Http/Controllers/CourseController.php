@@ -341,7 +341,8 @@ class CourseController extends Controller
                 if ($count < 18) {
                     $remaining = 18 - $count;
             
-                    $academy_course_ids = DB::table('academy_course')
+                    $academy_course_ids = DB::connection('mysql_website')
+                        ->table('academy_course')
                         ->where('academy_id', $course->academy_id)
                         ->where('course_id', '!=', $course->id)
                         ->pluck('course_id');
