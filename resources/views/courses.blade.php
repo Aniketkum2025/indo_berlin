@@ -58,7 +58,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
     </style>
     <section>
         <div class="relative w-full overflow-hidden"
-            style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1753942717banner.webp); background-position: top;">
+            style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1755338858banner1.webp); background-position: top;">
             <!-- Video Background -->
             {{-- <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover">
             <source src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175274277337088-413229662_medium.mp4"
@@ -406,7 +406,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         <div class="shadow-lg grid place-content-center bg-white text-center rounded-lg relative mx-auto max-w-full"
                             id="nsdc-logo-div">
                             <img class="img-nsdc" id="nsdc-logo"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1747289179NSDC_Govt-Logo.png"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755607834nsdc-ministry.webp"
                                 alt="images3">
                         </div>
                     </div>
