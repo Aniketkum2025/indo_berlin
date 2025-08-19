@@ -106,7 +106,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
 
 
                     </div>
-                    <div class="md:w-4/12 w-full ">
+                    <div class="md:w-4/12 w-full md:px-0 px-4 ">
                         <div class="relative bg-white rounded-lg border-2 border-red-600 shadow mb-2">
                             <!-- Modal header -->
                             <div class="flex items-center justify-between px-4 py-2 border-b rounded-t">
@@ -411,7 +411,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         </div>
                     </div>
                 </div>
-                <div class="max-w-7xl swiper linearswiper2 py-6">
+                <div class="max-w-7xl swiper linearswiper2 py-6 px-4">
                     <div class="swiper-wrapper my-4" style="transition-timing-function: linear !important;">
                         <div class="swiper-slide h-24 w-auto px-1 md:px-6 flex items-center justify-center">
                             <img class="max-h-[120px] object-contain mx-auto"
