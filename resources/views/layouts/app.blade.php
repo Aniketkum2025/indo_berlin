@@ -25,7 +25,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753077423favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://d1d5cy0fmpy9m8.cloudfront.net/images/175551018532.png">
     <link rel="icon" type="image/png" sizes="48x48" href="https://d1d5cy0fmpy9m8.cloudfront.net/images/175551022948.png">
-
+     @yield('canonical')
     <!-- Android Chrome -->
     <link rel="icon" type="image/png" sizes="192x192"
         href="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753077667android-chrome-192x192.png">

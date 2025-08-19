@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @section('title', 'About Kazumi Japanese Language School | Powered by Henry Harvin')
 @section('meta_description', 'Kazumi Japanese & Culture School by Henry Harvin® helps students master the Japanese language and culture through immersive instruction by experts.')
+@section('canonical', '')
 @section('content')
 
 <section>

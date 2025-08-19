@@ -14,9 +14,9 @@
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
                         <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto">
                             <iframe loading="lazy"
-  width="100%" 
-  height="100%" 
-  data-src="https://www.youtube.com/embed/HAI_ZAMooLk?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review By Sachet | Best Japanese Course Institute | Henry Harvin®" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                width="100%" 
+                                height="100%" 
+                                data-src="https://www.youtube.com/embed/HAI_ZAMooLk?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra" title="Japanese Language Course Review By Sachet | Best Japanese Course Institute | Henry Harvin®" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
