@@ -543,19 +543,17 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
         </div>
     </section>
 
-    <section class="py-12 bg-gray-100">
+    {{-- <section class="py-12 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4">
             <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Hear from our
             learners about their experience
             </h2>
             <div class="relative">
-                <!-- Video Grid -->
                 <div id="videoGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
 
-                    <!-- 1 -->
                      @foreach($videoReview as $vr)
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
-                        <iframe width="100%" loading="lazy"
+                        <iframe width="100%" loading="lazy" class="lazy-video"
                                 src="{{ $vr->link }}"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -566,7 +564,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                 </div>
             </div>
         </div>
-    </section>   
+    </section>    --}}
 
     {{-- <section id="videoGrid" class="py-12 px-4 hidden">
         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Hear from our
