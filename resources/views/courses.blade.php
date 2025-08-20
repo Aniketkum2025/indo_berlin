@@ -566,9 +566,10 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
         </div>
     </section>    --}}
 
-    {{-- <section id="videoGrid" class="py-12 px-4 hidden">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Hear from our
-            learners about their experience</h2>
+    <section id="videoGrid" class="py-12 px-4">
+         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Hear from our
+            learners about their experience
+        </h2>
         <div class="relative max-w-7xl mx-auto">
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
             @foreach($videoReview as $vr)
@@ -587,7 +588,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
             @endforeach    
             </div>
         </div>
-    </section> --}}
+    </section>
     <section class="py-12 px-4">
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mt-2">
             <div class="md:col-span-2">
