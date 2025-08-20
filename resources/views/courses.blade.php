@@ -543,9 +543,9 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
         </div>
     </section>
 
-    {{-- <section class="py-12 bg-gray-100">
+    <section class="py-12 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Hear from our
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] my-4">Hear from our
             learners about their experience
             </h2>
             <div class="relative">
@@ -564,7 +564,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                 </div>
             </div>
         </div>
-    </section>    --}}
+    </section>   
 
     {{-- <section id="videoGrid" class="py-12 px-4 hidden">
         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Hear from our
