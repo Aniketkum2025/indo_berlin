@@ -537,7 +537,8 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                             alt="slide-1" loading="lazy" />
                     </div>
                     @endforeach
-                    
+
+
                 </div>
             </div>
         </div>
