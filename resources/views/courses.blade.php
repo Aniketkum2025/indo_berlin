@@ -28,6 +28,9 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
         .custome strong {
             color: #4f2d7f;
         }
+         .text-container strong {
+           color: #dc2626 !important;
+         }
 
         .text-container {
             display: -webkit-box;
@@ -621,13 +624,14 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         {{ $course->course_name }}
                     </h2>
                     <div class="custome prose prose-sm mt-4 max-w-none mx-auto 
-                            prose-strong:text-[13px] prose-strong:font-[600]
+                            prose-strong:text-[13px] prose-strong:font-[500]
+                            prose-strong:text-[#da2028] prose-strong:font-[600]
                             prose-h2:text-red-700 prose-h3:text-red-700 prose-h4:text-red-700
-                            prose-h2:text-[16px] prose-h3:text-[16px] prose-h4:text-[16px]
-                            prose-h2:font-[500] prose-h3:font-[500] prose-h4:font-[500]
+                            prose-h2:text-[16px] prose-h3:text-[18px] prose-h4:text-[16px]
+                            prose-h2:font-[600] prose-h3:font-bold prose-h4:font-[600]
                             prose-p:text-white prose-p:font-[500] prose-p:text-[16px]
                             prose-li:text-white prose-li:font-[500] prose-li:text-[16px]
-                            prose-a:text-white prose-a:font-[500] prose-a:text-[16px]  text-container"
+                            prose-a:text-white prose-a:font-[500] prose-a:text-[16px] text-container"
                         id="textContainer">
                         @foreach ($aboutcourse as $index => $ac)
                         <h3>{{$ac->aboutcourse_title}}</h3>
