@@ -91,10 +91,13 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                             </div>
                         </div>
                         <div class="text-red-600 text-[20px] flex flex-col space-y-2">
-                            <p class="font-[600]"><a data-modal-target="authentication-modal"
+                            <p class="font-[600]">
+                                <a class="flex items-center gap-1 text-[14px] md:text-[18px]" data-modal-target="authentication-modal"
                                     data-modal-toggle="authentication-modal" type="button"><span
                                         class="text-white">Forbes</span> featured
-                                    Henry Harvin <span class="text-white font-semibold">4.8 / 5</span> ⭐⭐⭐⭐⭐</a></p>
+                                    Henry Harvin <span class="text-white font-semibold">4.8 / 5</span>
+                                <span class="flex justify-center items-center gap-1"> <img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393394str.webp" alt="ds"><img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393394str.webp" alt="ds"><img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393394str.webp" alt="ds"><img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393394str.webp" alt="ds"><img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393679strh.webp" alt="ds"></span>
+                                </a></p>
                             <p class="text-white text-[16px]"><span class="text-red-600">★ {{$course->course_rating}}/5</span> • {{$course->course_number_of_reviews}}
                                 Learners
                             </p>
@@ -648,7 +651,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         <div class="shadow-md rounded-md py-4">
                             <div class="mx-4">
                                 <span class="flex items-center gap-2 py-[10px] h-14">
-                                    <span class="text-[28px] font-[600]  text-[#50607d]">{{$course->avg_salary_hike}}</span>
+                                    <span class="text-[28px] font-[600]  text-red-600">{{$course->avg_salary_hike}}</span>
                                     <img class="h-4"
                                         src="https://hh-certificates.sgp1.cdn.digitaloceanspaces.com/images/1706523530progressnew.svg"
                                         alt="images38" loading="lazy">
@@ -659,7 +662,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         <div class="shadow-md rounded-md py-4">
                             <div class="mx-8">
                                 <span class="flex items-center gap-2 py-[10px] h-14">
-                                    <span class="text-[28px] font-[600] text-[#50607d]">{{$course->hiring_partners}}</span>
+                                    <span class="text-[28px] font-[600] text-red-600">{{$course->hiring_partners}}</span>
                                 </span>
                                 <p class="text-sm font-semibold mt-2 text-[#51565e]">Access the best jobs in industry</p>
                             </div>
@@ -667,7 +670,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         <div class="shadow-md rounded-md py-4">
                             <div class="mx-8">
                                 <span class="flex items-center gap-2 py-[10px] h-14">
-                                    <span class="text-[28px] font-[600] text-[#50607d]">{{$course->max_salary_hike}}</span>
+                                    <span class="text-[28px] font-[600] text-red-600">{{$course->max_salary_hike}}</span>
                                     <img class="h-6"
                                         src="https://hh-certificates.sgp1.cdn.digitaloceanspaces.com/images/1706523530progressnew.svg"
                                         alt="images39" loading="lazy">
@@ -679,7 +682,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                 </div>
                 
                 <div class="">
-                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">{{ $course->course_name }}Curriculum</h2>
+                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">{{ $course->course_name }} Curriculum</h2>
 
                     <ul class="flex flex-col max-w-5xl mx-auto space-y-3">
 
@@ -1129,7 +1132,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
     @endif
     <section class="py-12 bg-gray-50">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">FAQ</h2>
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Frequently Asked Questions</h2>
             <div class="my-6">
                 <ul class="flex flex-col border-2 shadow-lg" x-data="{ selected: null }">
                     <!-- FAQ Item 1 -->
@@ -1179,7 +1182,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                 </ul>
                 @if($sfq)
             <div class="items-center justify-center flex btn_faq">
-                <button class="py-3 px-8 text-[16px] text-gray-900 font-[600] border border-gray-800 my-6" onclick="toggleFaq()">See {{$sfq}} More Faqs</button>
+                <button class="py-3 px-8 text-[16px] text-gray-900 font-[600] border border-gray-800 my-6" onclick="toggleFaq()">See {{$sfq}} More FAQs</button>
             </div>
             @endif
             </div>
