@@ -1,5 +1,8 @@
 @extends('layouts.app')
 @section('content')
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-957633606/3BDTCLnJ1cIBEMao0cgD'});
+</script>
     <div class="bg-white text-center p-8 rounded-lg shadow-lg max-w-6xl mx-auto w-full border border-red-300 my-8">
         <h2 class="text-4xl font-bold mb-2 text-red-700">Final Step</h2>
         <p class="text-lg font-semibold mb-1">Join Meeting & Talk with a Senior Consultant [LIVE]</p>
