@@ -6,6 +6,8 @@ use App\Http\Controllers\MediaController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PpcController;
 use App\Http\Controllers\ThankyouController;
+use App\Http\Controllers\PlacedstudentshowController;
+
 use App\Models\Course;
 use App\Models\LeadQueue;
 
@@ -83,12 +85,11 @@ Route::get('careers', function () {
 Route::get('our-customers', function () {
     return view('our_customers');
 });
-Route::get('placed-student-list', function () {
-    return view('placed_student_list');
-});
+
 Route::get('thankyou', function () {
     return view('thankyou');
 });
+Route::get('placed-students-list', [PlacedstudentshowController::class, 'index']);
 
 Route::get('ppc', function () {
     return view('ppc');
@@ -103,3 +104,4 @@ Route::get('media', [MediaController::class, 'index'])->name('media.index');
 Route::get('thank-you/{slug}', [ThankyouController::class, 'index'])->name('get.slug');
 Route::resource('admin/lead', LeadController::class);
 Route::get('{slug}', [CourseController::class, 'index'])->name('course.index');
+Route::get('placed-students-list', [PlacedstudentshowController::class, 'index']);

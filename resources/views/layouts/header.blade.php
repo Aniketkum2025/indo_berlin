@@ -189,7 +189,7 @@
                         <a href="/our-customers"
                             class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Our
                             Customers</a>
-                        <a href="https://www.henryharvin.com/placed-students-list"
+                        <a href="placed-students-list"
                             class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Placed
                             Student List</a>
 
@@ -312,7 +312,7 @@
                 <a href="esteemed-faculty" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Esteemed Faculty</a>
                 <a href="/careers" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Careers</a>
                 <a href="/our-customers" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Our Customers</a>
-                <a href="https://www.henryharvin.com/placed-students-list" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Placed
+                <a href="/placed-students-list" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Placed
                     Student List</a>
             </div>
         </div>
