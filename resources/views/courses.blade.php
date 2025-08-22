@@ -600,8 +600,8 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
             <div class="md:col-span-2">
                 @if($feat->count() > 0)
                 <div>
-                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Key Highlights
-                    </h2>
+                    <h3 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Key Highlights
+                    </h3>
                     <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mx-auto gap-2">
                         @foreach($feat as $item)
                             <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -1136,7 +1136,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
     @endif
     <section class="py-12 bg-gray-50">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Frequently Asked Questions</h2>
+            <h3 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Frequently Asked Questions</h3>
             <div class="my-6">
                 <ul class="flex flex-col border-2 shadow-lg" x-data="{ selected: null }">
                     <!-- FAQ Item 1 -->
