@@ -59,6 +59,17 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
             }
         }
     </style>
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "bestRating": "5",
+        "worstRating": "1",
+        "reviewCount": "6700"
+        }
+</script>
+
     <section>
         <div class="relative w-full overflow-hidden"
             style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1755338858banner1.webp); background-position: top;">
