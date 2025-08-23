@@ -75,10 +75,10 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         </h1>
                         <div class="flex space-x-4 mb-8 items-center ">
                             <a data-modal-target="course-modal" data-modal-toggle="course-modal" type="button"
-                                class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600" onclick="openApplyNowModal()">Apply
+                                class="cursor-pointer bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600" onclick="openApplyNowModal()">Apply
                                 Now</a>
                             <a data-modal-target="course-modal" data-modal-toggle="course-modal" type="button"
-                                class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600" onclick="openDownloadBrochureModal()">DOWNLOAD BROCHURE</a>
+                                class="cursor-pointer bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600" onclick="openDownloadBrochureModal()">DOWNLOAD BROCHURE</a>
                         </div>
                         {{-- <div class="">
                             <p class="text-white text-[16px] font-[400] mb-2"> Henry Harvin® Ranks #1 for Language
@@ -95,8 +95,8 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         </div>
                         <div class="text-red-600 text-[20px] flex flex-col space-y-2">
                             <p class="font-[600]">
-                                <a class="flex items-center gap-1 text-[14px] md:text-[18px]" data-modal-target="authentication-modal"
-                                    data-modal-toggle="authentication-modal" type="button"><span
+                                <a href="https://www.forbesindia.com/article/brand-connect/henry-harvin-reviews-485-across-the-web/94745/1" class="cursor-pointer flex items-center gap-1 text-[14px] md:text-[18px]"
+                                    ><span
                                         class="text-white">Forbes</span> featured
                                     Henry Harvin <span class="text-white font-semibold">4.8 / 5</span>
                                 <span class="flex justify-center items-center gap-1"> <img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393394str.webp" alt="ds"><img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393394str.webp" alt="ds"><img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393394str.webp" alt="ds"><img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393394str.webp" alt="ds"><img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393679strh.webp" alt="ds"></span>
