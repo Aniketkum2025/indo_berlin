@@ -108,9 +108,6 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         <div class="font-ad">
                             <p class="text-white text-[15px] font-[600] text-justify">{!!$course->course_description!!}</p>
                         </div>
-
-
-
                     </div>
                     <div class="md:w-4/12 w-full md:px-0 px-4 ">
                         <div class="relative bg-white rounded-lg border-2 border-red-600 shadow mb-2">
