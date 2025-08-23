@@ -45,6 +45,30 @@
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
         rel="stylesheet">
 
+    @if(isset($course) && count($faqs) > 0)
+    <!-- FAQ Schema-->
+    <script  async  type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                @foreach($faqs as $faq) {
+                    "@type": "Question",
+                    "name": "{{$faq->faq_question}}",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "{{strip_tags(str_replace('"
+                        ', "'
+                        ", $faq->faq_answer))}}"
+                    }
+                }
+                @if(!$loop->last), @endif
+                @endforeach
+            ]
+        }
+    </script>
+    @endif
+
     <!-- Google tag (gtag.js) -->
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-957633606"></script>
