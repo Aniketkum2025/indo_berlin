@@ -3,9 +3,17 @@
 <script src="https://cdn.tailwindcss.com"></script>
 
 <head>
+ <title>
+        @if(isset($course))
+            {{ $course->course_meta_title }}
+        @else
+            @yield('title', 'Best Japanese Language Institute – Learn Japanese with Experts | Kazumi')
+        @endif
+    </title>
+
     <meta name="title" content="
         @if(isset($course))
-            {{ $course->course_meta_title }} {{ $tested_slug_city ?? '' }}
+            {{ $course->course_meta_title }}
         @else
             @yield('title', 'Best Japanese Language Institute – Learn Japanese with Experts | Kazumi')
         @endif
