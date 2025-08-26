@@ -30,15 +30,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @yield('schema')
     <meta name="google-site-verification" content="gUS8qh-3S2RnKzni6tbYkW5TQBA2CP3drX_05Id_IZA" />
-    <meta name="description" content="">
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="{{ isset($course) ? $course->og_title : 'Kazumi School - India’s Leading Japanese Language Institute' }}" />
-    <meta property="og:description"
-        content="{{ isset($course) ? $course->og_description : 'Kazumi, India’s leading Japanese language institute, offers expert-led courses from beginner (N5) to advanced (N1) levels. Start learning Japanese today!' }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ url()->current() }}" />
-    <meta property="og:image" content="{{ isset($course) ? $course->og_image : 'https://d1d5cy0fmpy9m8.cloudfront.net/images/1755407733logo.webp' }}" />
-    <meta property="og:site_name" content="Kazumi School" />
+   
+   <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="{{ $course->og_title ?? 'Kazumi School - India’s Leading Japanese Language Institute' }}">
+    <meta property="og:description" content="{{ $course->og_description ?? 'Kazumi, India’s leading Japanese language institute, offers expert-led courses from beginner (N5) to advanced (N1) levels. Start learning Japanese today!' }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:image" content="{{ $course->og_image ?? 'https://d1d5cy0fmpy9m8.cloudfront.net/images/1755407733logo.webp' }}">
+    <meta property="og:site_name" content="Kazumi School">
     <!-- Standard favicon (Google prefers this) -->
    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <!-- PNG favicons -->
