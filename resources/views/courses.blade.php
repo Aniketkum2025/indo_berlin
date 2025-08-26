@@ -1080,9 +1080,9 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
             <div id="default-styled-tab-content">
                 <div class="grid md:grid-cols-2 grid-cols-1 gap-4">
                     <div id="text-spn" class="space-y-2" style="color:red !important;">
-                        <h3 class="md:text-[18px] text-[16px] text-[#212529] font-[500]">What you'll Learn in this course</h3>
+                        <h4 class="md:text-[18px] text-[16px] text-[#212529] font-[500]">What you'll Learn in this course</4>
                         @foreach ($certificate as $certi)
-                        <h3 class="font-[500] text-[16px] text-[#212529]"><i class="fa fa-check text-[10px] text-[#4f2d7f] rounded-full border border-[#4f2d7f] p-0.5 mr-2" aria-hidden="true"></i>{{$certi->certi_title}}</h3>
+                        <h4 class="font-[500] text-[16px] text-[#212529]"><i class="fa fa-check text-[10px] text-[#4f2d7f] rounded-full border border-[#4f2d7f] p-0.5 mr-2" aria-hidden="true"></i>{{$certi->certi_title}}</h4>
                         <p class="font-[400] text-[14px]">{!! $certi->certi_content !!}</p>
                         @endforeach
                     </div>
