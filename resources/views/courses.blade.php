@@ -619,7 +619,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                                             src="{{$item->keyfeatures_image}}"
                                             alt="images">
                                     </div>
-                                    <h3 class="w-9/12 text-[14px] font-medium text-red-700 italic">{{$item->keyfeatures_title}}</h3>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">{{$item->keyfeatures_title}}</h4>
                                 </div>
                             </div>
                         @endforeach
