@@ -137,8 +137,7 @@
                     </a>
                     <div
                         class="absolute top-full -left-2 z-30 w-48 bg-white shadow-lg border rounded-md p-2 space-y-1 submenu">
-                        {{-- <a href="why-kazumi"
-                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Why Kazumi?</a> --}}
+                       
                         <a href="admission-process"
                             class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Admission
                             Process</a>
@@ -270,7 +269,7 @@
             </button>
 
             <div id="mobile-submenu-admission" class="hidden mt-2 mt-2 space-y-2 border-red-600 px-2 border">
-                <!-- <a href="why-kazumi" class="block py-1 text-gray-700">Why Kazumi?</a> -->
+                
                 <a href="admission-process" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Admission Process</a>
                 <a href="https://www.henryharvin.com/pay-fee" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Online Payment</a>
                 <a href="existing-students" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Existing Students</a>
