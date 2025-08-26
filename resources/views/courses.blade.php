@@ -619,7 +619,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                                             src="{{$item->keyfeatures_image}}"
                                             alt="images">
                                     </div>
-                                    <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">{{$item->keyfeatures_title}}</h5>
+                                    <h3 class="w-9/12 text-[14px] font-medium text-red-700 italic">{{$item->keyfeatures_title}}</h3>
                                 </div>
                             </div>
                         @endforeach
@@ -1153,7 +1153,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                     @foreach ($faqs as $index => $faq)
                         @if($index < 5) 
                         <li class="bg-white border-b">
-                            <h2 @click="selected !== {{$faq->id}} ? selected = {{$faq->id}} : selected = null"
+                            <h4 @click="selected !== {{$faq->id}} ? selected = {{$faq->id}} : selected = null"
                                 class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
                                 <span>{{$faq->faq_question}}</span>
                                 <svg :class="selected === {{$faq->id}} ? 'rotate-180' : ''"
@@ -1161,7 +1161,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                                     viewBox="0 0 20 20">
                                     <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                 </svg>
-                            </h2>
+                            </h4>
                             <div x-show="selected === {{$faq->id}}" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
                                 <p class="p-3 text-gray-900">
                                     {!!$faq->faq_answer!!}    
@@ -1172,7 +1172,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         @php ++$sfq; @endphp
                         <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
-                                <h2 @click="selected !== {{$faq->id}} ? selected = {{$faq->id}} : selected = null"
+                                <h4 @click="selected !== {{$faq->id}} ? selected = {{$faq->id}} : selected = null"
                                     class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
                                     <span>{{$faq->faq_question}}</span>
                                     <svg :class="selected === {{$faq->id}} ? 'rotate-180' : ''"
@@ -1180,7 +1180,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                                         viewBox="0 0 20 20">
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
-                                </h2>
+                                </h4>
                                 <div x-show="selected === {{$faq->id}}" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         {!!$faq->faq_answer!!}    

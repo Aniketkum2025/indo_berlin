@@ -3,8 +3,21 @@
 <script src="https://cdn.tailwindcss.com"></script>
 
 <head>
-    <title>@yield('title', 'Best Japanese Language Institute – Learn Japanese with Experts | Kazumi')</title>
-    <meta name="description" content="@yield('meta_description', 'Kazumi is the best Japanese language institute, offering JLPT, Business Japanese, Cross-Cultural Training & Crash Courses. Learn from certified experts!')">
+    <meta name="title" content="
+        @if(isset($course))
+            {{ $course->course_meta_title }} {{ $tested_slug_city ?? '' }}
+        @else
+            @yield('title', 'Best Japanese Language Institute – Learn Japanese with Experts | Kazumi')
+        @endif
+    ">
+
+    <meta name="description" content="
+        @if(isset($course))
+            {{ $course->course_meta_description }}
+        @else
+            @yield('meta_description', 'Kazumi is the best Japanese language institute, offering JLPT, Business Japanese, Cross-Cultural Training & Crash Courses. Learn from certified experts!')
+        @endif
+    ">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @yield('schema')
