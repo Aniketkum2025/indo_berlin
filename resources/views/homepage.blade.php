@@ -132,7 +132,7 @@
                 </div>
             </div>
 
-            
+
             <div class="w-full flex flex-col rounded-xl overflow-hidden">
                 <img class="w-full h-60 object-cover"
                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755328425occupational.webp"
@@ -173,13 +173,14 @@
                         corporate and business sector</p>
                     <div class="mt-4">
                         <ul class="">
-                            <li><a href="/pre-departure-orientation-training-and-placement-course" class="text-red-600 hover:underline text-[14px] font-[600]">Pre Departure
-                                    Orientation Training & Placement Course</a></li>
+                            {{-- <li><a href="/pre-departure-orientation-training-and-placement-course" class="text-red-600 hover:underline text-[14px] font-[600]">Pre Departure
+                                    Orientation Training & Placement Course</a></li> --}}
                             <li><a href="/japanese-management-course" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese
                                     Management Course</a></li>
-                            <li><a href="/cross-cultural-sensitization-for-engineers-businessmen-and-professionals-course"
+                            {{-- <li>
+                                <a href="/cross-cultural-sensitization-for-engineers-businessmen-and-professionals-course"
                                     class="text-red-600 hover:underline text-[14px] font-[600]">Cross-Cultural
-                                    Sensitization for Engineers, Businessmen & Professionals</a></li>
+                                    Sensitization for Engineers, Businessmen & Professionals</a></li> --}}
                         </ul>
                     </div>
                 </div>
