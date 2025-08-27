@@ -131,6 +131,8 @@
                     </div>
                 </div>
             </div>
+
+            
             <div class="w-full flex flex-col rounded-xl overflow-hidden">
                 <img class="w-full h-60 object-cover"
                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755328425occupational.webp"
