@@ -97,34 +97,34 @@
                         (Shūmatsu) batch</p>
                     <div class="mt-2">
                         <ul class="">
-                            <li><a href="https://www.henryharvin.com/japanese-beginners-course"
+                            <li><a href="/japanese-beginners-course"
                                     class="text-red-600 hover:underline text-[14px] font-[600]">Japanese for Beginners
                                     Course</a></li>
-                            <li><a href="https://www.henryharvin.com/japanese-language-course"
+                            <li><a href="/japanese-language-course"
                                     class="text-red-600 hover:underline text-[14px] font-[600]">Japanese Language N5 Level
                                     Course</a></li>
-                            <li><a href="https://www.henryharvin.com/japanese-language-course"
+                            <li><a href="/japanese-language-course"
                                     class="text-red-600 hover:underline text-[14px] font-[600]">Japanese Language N4 Level
                                     Course</a></li>
-                            <li><a href="https://www.henryharvin.com/japanese-language-course"
+                            <li><a href="/japanese-language-course"
                                     class="text-red-600 hover:underline text-[14px] font-[600]">Japanese Language N3 Level
                                     Course</a></li>
-                            <li><a href="https://www.henryharvin.com/japanese-language-course"
+                            <li><a href="/japanese-language-course"
                                     class="text-red-600 hover:underline text-[14px] font-[600]">Japanese Language N3 Level
                                     Course</a></li>
-                            <li><a href="https://www.henryharvin.com/japanese-language-course"
+                            <li><a href="/japanese-language-course"
                                     class="text-red-600 hover:underline text-[14px] font-[600]">Japanese Language N1 Level
                                     Course</a></li>
-                            <li><a href="https://www.henryharvin.com/post-graduate-diploma-in-japanese-language-by-dbs"
+                            <li><a href="/post-graduate-diploma-in-japanese-language-by-dbs"
                                     class="text-red-600 hover:underline text-[14px] font-[600]">Post Graduate Diploma in
                                     Japanese Language by Dunster Business School, Switzerland</a></li>
-                            <li><a href="https://www.henryharvin.com/post-graduate-diploma-professional-in-japanese-language-by-dbs"
+                            <li><a href="/post-graduate-diploma-professional-in-japanese-language-by-dbs"
                                     class="text-red-600 hover:underline text-[14px] font-[600]">Post Graduate Diploma
                                     Professional in Japanese Language by Dunster Business School, Switzerland</a></li>
-                            <li><a href="https://www.henryharvin.com/masters-in-japanese-language"
+                            <li><a href="/masters-in-japanese-language"
                                     class="text-red-600 hover:underline text-[14px] font-[600]">Master’s in Japanese
                                     Language</a></li>
-                            <li><a href="https://www.henryharvin.com/migrate-japan"
+                            <li><a href="/migrate-japan"
                                     class="text-red-600 hover:underline text-[14px] font-[600]">Migrate to Japan Course</a>
                             </li>
                         </ul>
@@ -141,21 +141,21 @@
                         corporate and business sector</p>
                     <div class="mt-4">
                         <ul class="">
-                            <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Business
+                            <li><a href="/business-japanese-course" class="text-red-600 hover:underline text-[14px] font-[600]">Business
                                     Japanese Course</a></li>
-                            <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Corporate
+                            <li><a href="/corporate-business-japanese-course" class="text-red-600 hover:underline text-[14px] font-[600]">Corporate
                                     Business Japanese Course</a></li>
-                            <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Career
+                            <li><a href="/career-japanese-course" class="text-red-600 hover:underline text-[14px] font-[600]">Career
                                     Japanese Course</a></li>
-                            <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Business
+                            <li><a href="/business-japanese-for-beginners-course" class="text-red-600 hover:underline text-[14px] font-[600]">Business
                                     Japanese for Beginners Course</a></li>
-                            <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Intercultural
+                            <li><a href="/intercultural-business-japanese-course" class="text-red-600 hover:underline text-[14px] font-[600]">Intercultural
                                     Business Japanese Course</a></li>
-                            <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese for
+                            <li><a href="/japanese-for-work–hospitality-nursing-it" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese for
                                     Work – Hospitality / Nursing / IT</a></li>
                             {{-- <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Rocket
                                     Japanese</a></li> --}}
-                            <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese for
+                            <li><a href="/japanese-for-the-workplace-course" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese for
                                     the Workplace Course</a></li>
                         </ul>
                     </div>
@@ -171,11 +171,11 @@
                         corporate and business sector</p>
                     <div class="mt-4">
                         <ul class="">
-                            <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Pre Departure
+                            <li><a href="/pre-departure-orientation-training-and-placement-course" class="text-red-600 hover:underline text-[14px] font-[600]">Pre Departure
                                     Orientation Training & Placement Course</a></li>
-                            <li><a href="#" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese
+                            <li><a href="/japanese-management-course" class="text-red-600 hover:underline text-[14px] font-[600]">Japanese
                                     Management Course</a></li>
-                            <li><a href="#"
+                            <li><a href="/cross-cultural-sensitization-for-engineers-businessmen-and-professionals-course"
                                     class="text-red-600 hover:underline text-[14px] font-[600]">Cross-Cultural
                                     Sensitization for Engineers, Businessmen & Professionals</a></li>
                         </ul>
@@ -192,7 +192,7 @@
                         (advance) level, understand important and useful Japanese 伝統（Dentō) and etiquettes</p>
                     <div class="mt-4">
                         <ul class="">
-                            <li><a href="https://www.henryharvin.com/crash-course-for-japanese-language"
+                            <li><a href="/crash-course-for-japanese-language"
                                     class="text-red-600 hover:underline text-[14px] font-[600]">Crash Course for Japanese
                                     Language</a></li>
                         </ul>
