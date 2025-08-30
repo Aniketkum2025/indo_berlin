@@ -4,7 +4,7 @@
         <div>
             <div
                 class="bg-white text-gray-900 max-w-4xl mx-auto mt-8 p-8 rounded-xl shadow-xl space-y-4 border border-red-600">
-                <h3 class="text-2xl font-bold text-red-700">Help our learners get certified & turn into achievers!</h3>
+                <h1 class="text-2xl font-bold text-red-700">Help our learners get certified & turn into achievers!</h1>
 
                 <p><span class="font-semibold text-red-600">Henry Harvin</span>, one of India’s largest edtech companies,
                     with the mission of making <span class="italic">“educated employable”</span>, has on-boarded over <span
