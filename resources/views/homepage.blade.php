@@ -822,8 +822,7 @@
                     </div>
                     <div class="px-2">
                         <h2 class="text-white text-center text-[16px] pb-2">Mr. Kounal Gupta</h2>
-                        <p class="text-white text-[14px] text-center font-[500]">CEO & Founder of Kazumi Japanese & Culture
-                            School</p>
+                        <p class="text-white text-[14px] text-center font-[500]">CEO, Henry Harvin Education</p>
                         {{-- <p class="text-white text-[14px] text-center">Board Advisor</p> --}}
                     </div>
                 </div>
