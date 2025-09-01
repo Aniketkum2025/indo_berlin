@@ -17,7 +17,7 @@
       </div>
 
       <div>
-        <h1 class="text-3xl font-bold mb-2">Mission</h1>
+        <h2 class="text-3xl font-bold mb-2">Mission</h2>
         <p>
           Nurturing and encouraging our learners with immersive 
           <span class="font-semibold">Japanese language training</span>, <span class="font-semibold">fluency</span>, 

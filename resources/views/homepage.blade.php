@@ -829,7 +829,7 @@
                             alt="Toshiyuki Takayasu – Board Advisor">
                     </div>
                     <div class="px-2">
-                        <h2 class="text-white text-center text-[16px] pb-2">Toshiyuki Takayasu</h2>
+                        <h3 class="text-white text-center text-[16px] pb-2">Toshiyuki Takayasu</h3>
                         {{-- <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p> --}}
                         <p class="text-white text-[14px] text-center">Board Advisor</p>
                     </div>
@@ -842,7 +842,7 @@
                             alt="Chinami Yamamoto – Board Advisor">
                     </div>
                     <div class="px-2">
-                        <h2 class="text-white text-center text-[16px] pb-2">Chinami Yamamoto</h2>
+                        <h3 class="text-white text-center text-[16px] pb-2">Chinami Yamamoto</h3>
                         {{-- <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p> --}}
                         <p class="text-white text-[14px] text-center">Board Advisor</p>
                     </div>
@@ -855,7 +855,7 @@
                             alt="Daisuke Yamanaka – Board Advisor">
                     </div>
                     <div class="px-2">
-                        <h2 class="text-white text-center text-[16px] pb-2">Daisuke Yamanaka</h2>
+                        <h3 class="text-white text-center text-[16px] pb-2">Daisuke Yamanaka</h3>
                         {{-- <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p> --}}
                         <p class="text-white text-[14px] text-center">Board Advisor</p>
                     </div>
@@ -868,7 +868,7 @@
                             alt="Seema Rampal – Head of Faculty">
                     </div>
                     <div class="px-2">
-                        <h2 class="text-white text-center text-[16px] pb-2">Mrs. Seema Rampal</h2>
+                        <h3 class="text-white text-center text-[16px] pb-2">Mrs. Seema Rampal</h3>
                         <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p>
                         {{-- <p class="text-white text-[14px] text-center">Board Advisor</p> --}}
                     </div>
@@ -881,7 +881,7 @@
                             alt=" Ishu Jain – Head of Academics">
                     </div>
                     <div class="px-2">
-                        <h2 class="text-white text-center text-[16px] pb-2">Mrs. Ishu Jain</h2>
+                        <h3 class="text-white text-center text-[16px] pb-2">Mrs. Ishu Jain</h3>
                         <p class="text-white text-[14px] text-center font-[500]">Head of Academics</p>
                         {{-- <p class="text-white text-[14px] text-center">Board Advisor</p> --}}
                     </div>
@@ -896,7 +896,7 @@
                             alt="Kounal Gupta – CEO & Founder Kazumi Japanese & Culture School">
                     </div>
                     <div class="px-2">
-                        <h2 class="text-white text-center text-[16px] pb-2">Mr. Kounal Gupta</h2>
+                        <h3 class="text-white text-center text-[16px] pb-2">Mr. Kounal Gupta</h3>
                         <p class="text-white text-[14px] text-center font-[500]">CEO, Henry Harvin Education</p>
                         {{-- <p class="text-white text-[14px] text-center">Board Advisor</p> --}}
                     </div>

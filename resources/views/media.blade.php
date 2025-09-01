@@ -6,8 +6,8 @@
 
     <section class="py-12 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Media Coverage
-            </h2>
+            <h1 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Media Coverage
+            </h1>
             <div class="grid space-y-4">
 
                 <div class="max-w-3xl mx-auto bg-white border rounded-lg shadow-md p-6 flex gap-4">
