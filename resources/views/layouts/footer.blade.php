@@ -45,24 +45,24 @@
                 <p class="text-white text-sm">Phone:  +44 2080 891010</p>
             </div>
         </div>
-        {{-- <div class="max-w-7xl mx-auto px-4 mt-8 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
+        <div class="max-w-7xl mx-auto px-4 mt-8 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
             <ul class="flex flex-wrap justify-center items-center gap-8 ">
                 <li class="flex flex-wrap items-center gap-4 content-between justify-center">
                     <a aria-label="facebook"
                         class=" text-lightBlue-400 text-white bg-[#3b5998] shadow-lg font-normal h-12 w-12 items-center justify-center flex align-center rounded-full outline-none focus:outline-none mr-2"
-                        href="" target="_blank">
+                        href="https://www.facebook.com/HenryHarvinEducation/" target="_blank">
                         <i class="fa fa-facebook text-[24px]" aria-hidden="true"></i>
                     </a>
                     <a aria-label="instagram"
                         class=" text-white bg-[#c629a6] text-lightBlue-400 shadow-lg font-normal h-12 w-12 items-center justify-center flex align-center rounded-full outline-none focus:outline-none mr-2"
-                        href="" target="_blank"
+                        href="https://www.instagram.com/henry_harvin_education/" target="_blank"
                         style="background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);">
                         <i class="fa fa-instagram text-[24px]" aria-hidden="true"></i>
                     </a>
 
                     <a aria-label="twitter"
                         class=" text-lightBlue-400 shadow-lg  text-white bg-[#ffc107]  font-normal h-12 w-12 items-center justify-center flex align-center rounded-full outline-none focus:outline-none mr-2"
-                        href="" target="_blank">
+                        href="https://www.threads.net/@henry_harvin_education" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 448 512">
                             <!--! Font Awesome Free 6.4.2 by @fontawesome  - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                             <path
@@ -73,7 +73,7 @@
 
                     <a aria-label="koapp"
                         class=" text-lightBlue-400 text-white bg-black shadow-lg font-normal border border-white h-12 w-12 items-center justify-center flex align-center rounded-full outline-none focus:outline-none mr-2"
-                        href="" target="_blank">
+                        href="https://www.kooapp.com/profile/henry_harvin" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
                             viewBox="0 0 48 48">
                             <path fill="#ffc107"
@@ -98,19 +98,19 @@
 
                     <a aria-label="linkin"
                         class=" text-lightBlue-400 text-white bg-[#0e76a8] shadow-lg font-normal h-12 w-12 items-center justify-center flex align-center rounded-full outline-none focus:outline-none mr-2"
-                        href="" target="_blank">
+                        href="https://www.linkedin.com/school/henry-harvin-education" target="_blank">
                         <i class="fa fa-linkedin text-[24px]" aria-hidden="true"></i>
                     </a>
 
                     <a aria-label="youtube"
                         class="text-lightBlue-400 shadow-lg font-normal text-white bg-[#c4302b] h-12 w-12 items-center justify-center flex align-center rounded-full outline-none focus:outline-none mr-2"
-                        href="" target="_blank">
+                        href="https://www.youtube.com/channel/UCOhqYf8097V3Wk3exiJGxcw" target="_blank">
                         <i class="fa fa-youtube text-[24px]" aria-hidden="true"></i>
                     </a>
 
                     <a aria-label="twitter"
                         class="shadow-lg text-white bg-black font-normal h-12 w-12 border border-white items-center justify-center flex align-center rounded-full outline-none focus:outline-none mr-2"
-                        href="" target="_blank">
+                        href="https://twitter.com/henry_harvin" target="_blank">
                         <svg fill="white" stroke="red" xmlns="http://www.w3.org/2000/svg" height="24px"
                             viewBox="0 0 512 512">
                             <!--! Font Awesome Free 6.4.2 by @fontawesome  - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -122,12 +122,12 @@
 
                     <a aria-label="wawe"
                         class=" text-lightBlue-400 shadow-lg text-white bg-[#25d366] font-normal h-12 w-12 items-center justify-center flex align-center rounded-full outline-none focus:outline-none mr-2"
-                        href="" target="_blank">
+                        href="https://wa.me/message/2YDWDUFYBSUBA1" target="_blank">
                         <i class="fa fa-whatsapp text-[24px]" aria-hidden="true"></i>
                     </a>
                 </li>
             </ul>
-        </div> --}}
+        </div>
         <div class="max-w-7xl mx-auto px-4 mt-4 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
             <div class="flex justify-center space-x-4 mb-4">
                 <a href="cancellation-&-refund-policy" class="text-red-700 font-[600] text-[14px] font-semibold">Cancellation & Refund Policy</a>
