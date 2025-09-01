@@ -18,7 +18,7 @@
                     <li><a href="https://yuvaintern.com/" class="hover:text-red-500">Internship</a></li>
                     
                     <li><a href="https://www.henryharvin.com/pay-fee" class="hover:text-red-500">Online Payment</a></li>
-                    <li><a href="contact-us" class="hover:text-red-500">Request Certificate</a></li>
+                    <li><a href="https://www.henryharvin.com/request-certificate" class="hover:text-red-500">Request Certificate</a></li>
                 </ul>
             </div>
             <div>
