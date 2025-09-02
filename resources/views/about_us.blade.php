@@ -164,7 +164,7 @@
                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753961762KounalGupta.jpg" alt="Kounal Gupta – CEO & Founder Kazumi Japanese & Culture School">
                 </div>
                 <div class="px-2">
-                    <h2 class="text-white text-center text-[16px] pb-2">Mr. Kounal Gupta</h2>
+                    <h3 class="text-white text-center text-[16px] pb-2">Mr. Kounal Gupta</h3>
                     <p class="text-white text-[14px] text-center font-[500]">CEO & Founder of Kazumi Japanese & Culture School</p>
                     {{-- <p class="text-white text-[14px] text-center">Board Advisor</p> --}}
                 </div>
@@ -175,7 +175,7 @@
                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753961907IshuJain.jpg" alt=" Ishu Jain – Head of Academics">
                 </div>
                 <div class="px-2">
-                    <h2 class="text-white text-center text-[16px] pb-2">Mrs. Ishu Jain</h2>
+                    <h3 class="text-white text-center text-[16px] pb-2">Mrs. Ishu Jain</h3>
                     <p class="text-white text-[14px] text-center font-[500]">Head of Academics</p>
                     {{-- <p class="text-white text-[14px] text-center">Board Advisor</p> --}}
                 </div>
@@ -186,7 +186,7 @@
                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753961856seemarampal.jpg" alt="Seema Rampal – Head of Faculty">
                 </div>
                 <div class="px-2">
-                    <h2 class="text-white text-center text-[16px] pb-2">Mrs. Seema Rampal</h2>
+                    <h3 class="text-white text-center text-[16px] pb-2">Mrs. Seema Rampal</h3>
                     <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p>
                     {{-- <p class="text-white text-[14px] text-center">Board Advisor</p> --}}
                 </div>
@@ -197,7 +197,7 @@
                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1754287214a.jpg" alt="Toshiyuki Takayasu – Board Advisor">
                 </div>
                 <div class="px-2">
-                    <h2 class="text-white text-center text-[16px] pb-2">Toshiyuki Takayasu</h2>
+                    <h3 class="text-white text-center text-[16px] pb-2">Toshiyuki Takayasu</h3>
                     {{-- <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p> --}}
                     <p class="text-white text-[14px] text-center">Board Advisor</p>
                 </div>
@@ -208,7 +208,7 @@
                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1754310784qsd.jpg" alt="Chinami Yamamoto – Board Advisor">
                 </div>
                 <div class="px-2">
-                    <h2 class="text-white text-center text-[16px] pb-2">Chinami Yamamoto</h2>
+                    <h3 class="text-white text-center text-[16px] pb-2">Chinami Yamamoto</h3>
                     {{-- <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p> --}}
                     <p class="text-white text-[14px] text-center">Board Advisor</p>
                 </div>
@@ -219,7 +219,7 @@
                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755152043Daisuke-Yamanaka.webp" alt="Daisuke Yamanaka – Board Advisor">
                 </div>
                 <div class="px-2">
-                    <h2 class="text-white text-center text-[16px] pb-2">Daisuke Yamanaka</h2>
+                    <h3 class="text-white text-center text-[16px] pb-2">Daisuke Yamanaka</h3>
                     {{-- <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p> --}}
                     <p class="text-white text-[14px] text-center">Board Advisor</p>
                 </div>
