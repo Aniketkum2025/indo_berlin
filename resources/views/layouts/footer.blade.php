@@ -427,7 +427,7 @@
         <span class="bg-[#0dc143] w-8 h-8 rounded-full flex items-center text-center justify-center"><i class="fa fa-whatsapp text-white" id="fone" aria-hidden="true"></i></span>
         <img class="w-3 absolute animate-ping right-0 -top-2" src="https://cdn.henryharvin.com/ezgif.com-resize.webp" alt="whatsapp_image" loading="lazy">
     </a>
-    <a class="border-2 border-[#007bff] flex items-center text-center justify-between w-[170px] bg-white relative rounded-full mb-4" href="">
+    <a class="border-2 border-[#007bff] flex items-center text-center justify-between w-[170px] bg-white relative rounded-full mb-4" href="https://zoom.us/j/93024133145?pwd=QfibdAB6meQtEtyQlaPaePkXqaDLqG.1">
         <span class="text-[#007bff] text-[17px] font-[400] ml-3">Talk to Expert</span>
         <span class="bg-[#007bff] w-8 h-8 rounded-full flex items-center text-center justify-center"><i class="fa fa-video-camera text-white" id="fone" aria-hidden="true"></i></span>
         <img class="w-2 absolute animate-ping right-0 -top-2" src="https://cdn.henryharvin.com/images/1701330473red.1.webp" alt="talkto" loading="lazy">
