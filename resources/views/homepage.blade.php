@@ -815,7 +815,7 @@
             </div>
         </div>
     </section>
-   
+
     {{-- esteemed faculty section --}}
     <section class="py-12">
         <div class="max-w-7xl mx-auto">
@@ -900,7 +900,7 @@
             </div>
         </div>
     </section>
-     <section class="py-12">
+    <section class="py-12">
         <div class="max-w-7xl mx-auto">
             <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Kazumi Advisory
                 Board Members</h2>
