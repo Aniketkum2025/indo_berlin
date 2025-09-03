@@ -815,7 +815,92 @@
             </div>
         </div>
     </section>
+   
+    {{-- esteemed faculty section --}}
     <section class="py-12">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Esteemed
+                Faculty
+            </h2>
+
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-2 px-2">
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753875885212w-ezgif.com-resize.webp"
+                                loading="lazy "alt="FEFE">
+                        </div>
+                        <div class="px-2">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Seema
+                            </h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">21+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522620Varsha_Mehroliya.jpg"
+                                loading="lazy "alt="Varsha Mehroliya">
+                        </div>
+                        <div class="px-2">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Varsha Mehroliya
+                            </h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">5+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522683Sonali_Srivastava_(1).jpg"
+                                loading="lazy "alt="Sonali Srivastava">
+                        </div>
+                        <div class="px-2 ">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Sonali Srivastava
+                            </h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532671153rd.webp"
+                                loading="lazy "alt="Claire">
+                        </div>
+                        <div class="px-2 ">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Claire</h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mt-4 flex justify-center items-center">
+                <a href="/esteemed-faculty"
+                    class="bg-red-500 text-white text-[14px] px-6 py-2 rounded hover:bg-red-600">View More</a>
+            </div>
+        </div>
+    </section>
+     <section class="py-12">
         <div class="max-w-7xl mx-auto">
             <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Kazumi Advisory
                 Board Members</h2>
@@ -901,90 +986,6 @@
                         {{-- <p class="text-white text-[14px] text-center">Board Advisor</p> --}}
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    {{-- esteemed faculty section --}}
-    <section class="py-12">
-        <div class="max-w-7xl mx-auto">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Esteemed
-                Faculty
-            </h2>
-
-
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-2 px-2">
-                <div class="">
-                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
-                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                        <div class="rounded-2xl">
-                            <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753875885212w-ezgif.com-resize.webp"
-                                loading="lazy "alt="FEFE">
-                        </div>
-                        <div class="px-2">
-                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Seema
-                            </h2>
-                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">21+ Years
-                                Of Experience</h2>
-                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
-                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                        <div class="rounded-2xl">
-                            <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522620Varsha_Mehroliya.jpg"
-                                loading="lazy "alt="Varsha Mehroliya">
-                        </div>
-                        <div class="px-2">
-                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Varsha Mehroliya
-                            </h2>
-                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">5+ Years
-                                Of Experience</h2>
-                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
-                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                        <div class="rounded-2xl">
-                            <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522683Sonali_Srivastava_(1).jpg"
-                                loading="lazy "alt="Sonali Srivastava">
-                        </div>
-                        <div class="px-2 ">
-                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Sonali Srivastava
-                            </h2>
-                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
-                                Of Experience</h2>
-                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
-                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                        <div class="rounded-2xl">
-                            <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532671153rd.webp"
-                                loading="lazy "alt="Claire">
-                        </div>
-                        <div class="px-2 ">
-                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Claire</h2>
-                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
-                                Of Experience</h2>
-                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="mt-4 flex justify-center items-center">
-                <a href="/esteemed-faculty"
-                    class="bg-red-500 text-white text-[14px] px-6 py-2 rounded hover:bg-red-600">View More</a>
             </div>
         </div>
     </section>
