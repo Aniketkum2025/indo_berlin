@@ -38,6 +38,7 @@
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:image" content="{{ $course->og_image ?? 'https://d1d5cy0fmpy9m8.cloudfront.net/images/1755407733logo.webp' }}">
     <meta property="og:site_name" content="Kazumi School">
+    <link rel="canonical" href="{{ url()->current() }}" />
     <!-- Standard favicon (Google prefers this) -->
    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <!-- PNG favicons -->
