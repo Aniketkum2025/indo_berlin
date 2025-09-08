@@ -6,11 +6,11 @@
         <div class="px-6 py-10 lg:py-16" style="background-color:#000000b0">
             <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
                 <div class="lg:col-span-2 space-y-4">
-                    <h1 class="text-3xl lg:text-4xl font-[600] leading-tight">French Language Certification Course - Job Guarantee Program</h1>
+                    <h1 class="text-3xl lg:text-4xl font-[600] leading-tight">Japanese Language Course - Job Guarantee Program</h1>
                     <ul class="list-disc ml-5 text-lg space-y-2">
-                        <li>66 Hrs Training Includes (40 Hrs Training + 16 Hrs GD + 10 Hrs Exam Prep) at Each Level</li>
-                        <li>Master A1, A2, B1, B2, C1, C2 Levels of the French Language</li>
-                        <li>Ace the DELF and DALF Exam Preparation</li>
+                        <li>160 Hrs (145 Hrs Training+10 Hrs GD+5 Hrs Exam Prep) of Japanese language course</li>
+                        <li>Gain Proficiency in 4 writing systems of the Japanese Language: Kaji, Hiragana, katakana, Romaji</li>
+                        <li>Prepare for the JLPT, a Japanese Proficiency Exams</li>
                     </ul>
                     <div class="mt-6 text-yellow-400 text-[22px] flex flex-col space-y-2">
                         <p class="">
@@ -25,19 +25,33 @@
                 </div>
                 <div>
                     <div class="bg-white text-gray-800 p-6 rounded shadow-md space-y-4">
-                        <h3 class="text-lg font-semibold text-center">Download Course Brochure</h3>
-                        <input type="email" placeholder="Enter email here"
-                            class="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500" />
-                        <div class="flex gap-2">
-                            <select
-                                class="w-1/3 border border-gray-300 px-2 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500">
-                                @include('semippc.component.number')
-                            </select>
-                            <input type="tel" placeholder="Enter phone here" class="w-2/3 border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500" />
-                        </div>
-                        <button class="w-full bg-red-600 hover:bg-red-900 text-white py-3 rounded-md font-semibold">Send Me Brochure »</button>
+                        <form id="brochureForm" action="javascript:void(0);">
+                            <h3 class="text-lg font-semibold text-center">Download Course Brochure</h3>
+                            @if(isset($_GET['utm_campaign']))
+                                <input type="hidden" name="campaign_name" value="<?= $_GET['utm_campaign'] ?>" id="campaign_name">
+                            @endif
+                            @if(isset($_GET['gclid']))
+                                <input type="hidden" name="gclid_field" value="<?= $_GET['gclid'] ?>" id="gclid_field">
+                            @endif
+                            @if(isset($_GET['msclkid']))
+                                <input type="hidden" name="msclkid_field" value="<?= $_GET['msclkid'] ?>" id="msclkid_field">
+                            @endif
+                            <input type="hidden" name="lead_source_page_url" class="textbox" value="{{url()->full()}}" placeholder="" id="" />
+                            <input type="hidden" name="slug" class="textbox" value="japanese-language-course" placeholder="" id="">
+                            <input type="hidden" name="source" class="textbox" value="FORM PPC" placeholder="" id="source">
+                            <input type="hidden" name="course" class="textbox" value="PG-JAPANESE" placeholder="" id="crm_course_id">
+                            <input type="hidden" name="description2" class="textbox" value="Japanese Language Course - Job Guarantee Program PPC" placeholder="" id="description2">
+                            <input type="email" name="email" placeholder="Enter email here" class="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500" />
+                            <div class="flex gap-2">
+                                <select name="country_code" class="w-1/3 border border-gray-300 px-2 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500">
+                                    @include('semippc.component.number')
+                                </select>
+                                <input type="tel" name="number" placeholder="Enter phone here" class="w-2/3 border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500" />
+                            </div>
+                            <button id="form-one-button" class="w-full bg-red-600 hover:bg-red-900 text-white py-3 rounded-md font-semibold">Send Me Brochure »</button>
+                        </form>
                     </div>
-                @include('semippc.component.nsdc-logo')
+                    @include('semippc.component.nsdc-logo')
                 </div>
             </div>
         @include('semippc.component.logo')
@@ -275,13 +289,7 @@
                         <span class="sr-only">Close modal</span>
                     </button>
                 </div>
-                <form class="p-4 md:p-5 space-y-4" action="" method="POST">
-                    @csrf
-                    <div>
-                        <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
-                        <input type="text" name="name" id="name" placeholder="Name" required class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
-                        <span id="name_error3" class="text-red-500 text-xs"></span>
-                    </div>
+                <form class="p-4 md:p-5 space-y-4 brochureForm" id="brochureForm3">
                     <div>
                         <label for="email" class="block text-sm mb-1 font-[600] text-red-600">Email</label>
                         <input type="email" name="email" id="email" placeholder="Email" required class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
@@ -308,4 +316,38 @@
             </div>
         </div>
     </div>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const form = document.getElementById('brochureForm');
+        const btn = document.getElementById('form-one-button')
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+             btn.disabled = true;
+             btn.innerText = 'Processing...';
+            const formData = new FormData(form);
+            fetch('https://www.henryharvin.com/api/kazumi-leadstore', {
+                method: 'POST',
+                body: formData,
+            })
+            .then(res => res.json())
+            .then(data => {
+                if (data.success && data.slug) {
+                    window.location.href = data.slug;
+                } else {
+                    alert('Brochure request submitted, but redirect URL not found.');
+                }
+            })
+            .catch(err => {
+                console.error('Error:', err);
+                alert('Something went wrong.');
+            })
+            .finally(() => {
+                btn.disabled = false;
+                btn.innerText = 'Send Me Brochure »';
+            });
+        });
+    });
+
+</script>
+
 @endsection
