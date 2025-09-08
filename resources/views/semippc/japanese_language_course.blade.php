@@ -201,7 +201,6 @@
             </div>
         </div>
     </section>
-
     @include('semippc.component.feedback', [
         'feedbacks' => [
             [
@@ -243,7 +242,6 @@
             </div>
         </div>
     </section>
-
     <div class="bg-gradient-to-r from-slate-800 via-red-800 to-red-500 text-white p-6">
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
 
