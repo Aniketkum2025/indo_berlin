@@ -2620,7 +2620,7 @@
                 </form>
             </div>
             <div>
-                <img src="https://cdn.henryharvin.com/images/1694671240French%20B1.webp" alt="Certificate" class="rounded-lg shadow-xl w-full max-w-md mx-auto">
+                <img src="https://cdn.henryharvin.com/images/1694674837Japan%20N5.webp" alt="Certificate" class="rounded-lg shadow-xl w-full max-w-md mx-auto">
             </div>
         </div>
     </div>
