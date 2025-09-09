@@ -18,7 +18,7 @@
 
             <!-- CTA Button -->
             <div class="text-center mt-10">
-                <a href="#newform"
+                <a href="#brochureForm"
                     class="inline-flex items-center px-6 py-3 bg-red-600 text-white rounded-md shadow hover:bg-red-800 transition">
                     Get Brochure <i class="fa fa-book ml-2"></i>
                 </a>

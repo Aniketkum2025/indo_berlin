@@ -26,7 +26,7 @@
                 <div>
                     <div class="bg-white text-gray-800 p-6 rounded shadow-md space-y-4">
                         <form class="brochure-form space-y-4" id="brochureForm" action="javascript:void(0);">
-                            <h3 class="text-lg font-semibold text-center">Download Course Brochure</h3>
+                            <h3 class="text-lg font-semibold text-center">Download Course Brochure </h3>
                             @if(isset($_GET['utm_campaign']))
                                 <input type="hidden" name="campaign_name" value="<?= $_GET['utm_campaign'] ?>" id="campaign_name">
                             @endif
@@ -63,28 +63,28 @@
         'cards' => [
             [
                 'title' => 'Native Experienced Trainers',
-                'description' => 'Undertake french language course from the Certified Native French Trainers',
+                'description' => 'Undertake Japanese language course from the Certified Native Japanese Trainers',
                 'bgColor' => '#fca5a5',
                 'textColor' => '#7f1d1d',
                 'imageUrl' => 'https://hh-certificates.sgp1.cdn.digitaloceanspaces.com/images/1689772295in1.webp'
             ],
             [
                 'title' => 'Comprehensive Curriculum',
-                'description' => 'Enhance french learning from a curriculum designed as per CEFR Standards',
+                'description' => 'Enhance Japanese learning from a curriculum designed as per CEFR Standards',
                 'bgColor' => '#a5a2a2',
                 'textColor' => '#220404',
                 'imageUrl' => 'https://hh-certificates.sgp1.cdn.digitaloceanspaces.com/images/1689772412in2.webp'
             ],
             [
                 'title' => 'Modules',
-                'description' => 'Master all French levels in the most Hybrid french learning modules of the french language course',
+                'description' => 'Master all Japanese levels in the most Hybrid Japanese learning modules of the Japanese language course',
                 'bgColor' => '#a8edfc',
                 'textColor' => '#1c4980',
                 'imageUrl' => 'https://hh-certificates.sgp1.cdn.digitaloceanspaces.com/images/1689772479in3.webp'
             ],
             [
                 'title' => '100% Guidance',
-                'description' => '100% Guidance to ace French Language exams such as DLF, DELF, DALF, DCL, & TCF',
+                'description' => '100% Guidance to ace Japanese Language exams such as DLF, DELF, DALF, DCL, & TCF',
                 'bgColor' => '#fef9c3',
                 'textColor' => '#854d0e',
                 'imageUrl' => 'https://hh-certificates.sgp1.cdn.digitaloceanspaces.com/images/1689772546in4.webp'
@@ -98,7 +98,7 @@
             ],
             [
                 'title' => 'Career Guidance',
-                'description' => 'Get a 1 to 1 Career Guidance Post Completing a French Level',
+                'description' => 'Get a 1 to 1 Career Guidance Post Completing a Japanese Level',
                 'bgColor' => '#8cb9cf',
                 'textColor' => '#125b7e',
                 'imageUrl' => 'https://hh-certificates.sgp1.cdn.digitaloceanspaces.com/images/1689772744in7.webp'
