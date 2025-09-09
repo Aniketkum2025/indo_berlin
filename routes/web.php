@@ -96,7 +96,7 @@ Route::get('ppc', function () {
 });
 
 Route::prefix('ppc')->name('ppc.')->controller(PpcController::class)->group(function () {
-    Route::get('japanese-language-course', 'japaneseLanguageCourse')->name('japanese_language_course');
+    Route::get('japanese-language-course-test', 'japaneseLanguageCourse')->name('japanese_language_course');
     
 });
 
