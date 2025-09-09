@@ -28,8 +28,9 @@
       <p>460,000+ Trained | 6,700+ Reviews | 7,000+ Live Classes Every Month</p>
       <p>210+ Corporate Partners | 180+ College Partners | 93% Reported Career Benefits</p>
     </div>
+    
     <div class="flex gap-2">
-      <button class="bg-red-600 text-white md:px-4 px-2 py-2 rounded-md text-[10px] md:text-sm hover:bg-red-800">Book Free Demo</button>
+     <a href="#form3" class="bg-red-600 text-white md:px-4 px-2 py-2 rounded-md text-[10px] md:text-sm hover:bg-red-800">Book Free Demo  </a>
       <button  data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button" class="bg-red-600 md:block hidden text-white px-4 py-2 rounded-md text-sm hover:bg-red-800">Get Quick Call Back</button>
     </div>
   </header>
