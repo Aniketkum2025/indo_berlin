@@ -27,12 +27,26 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        // $hhcourses = Cache::remember('hh_course_slug', 3600, function () {
+        //     return Course::select('id', 'slug', 'course_name')
+        //     ->where('slug', 'like', '%japan%')
+        //     ->where('slug', 'not like', '%free%')
+        //     ->get();
+        // });
+
         $hhcourses = Cache::remember('hh_course_slug', 3600, function () {
             return Course::select('id', 'slug', 'course_name')
-            ->where('slug', 'like', '%japan%')
-            ->where('slug', 'not like', '%free%')
+            ->where('website', 'kazumi')
             ->get();
         });
+
+        $check_slug_website  = Course::select('id', 'slug', 'course_name', 'website')
+            ->where('slug', request()->path())
+            ->where('website', 'kazumi')
+            ->first();
+
+
         View::share('hhcourses', $hhcourses);
+        View::share('check_slug_website', $check_slug_website);
     }
 }

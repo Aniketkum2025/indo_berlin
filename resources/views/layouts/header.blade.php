@@ -202,8 +202,7 @@
                 </div>
                 {{-- <a href="/contact-us" class="text-[#da2028] font-[600] text-[14px] py-6">Contact Us</a> --}}
             </div>
-
-            @if (str_contains(request()->path(), 'japan'))
+            @if ($check_slug_website)
                 <div class="hidden md:flex md:items-center space-x-4">
                     <button data-modal-target="course-modal" data-modal-toggle="course-modal" type="button"
                         class="bg-red-600 text-white px-4 py-2 rounded-md text-sm"
@@ -329,7 +328,7 @@
 
         <a href="/contact-us" class="block px-4 py-2 text-[#da2028] font-[600] hover:bg-gray-100">Contact Us</a>
 
-        @if (str_contains(request()->path(), 'japan'))
+        @if ($check_slug_website)
             <div class="flex space-x-4 px-4 py-2">
                 <button data-modal-target="course-modal" data-modal-toggle="course-modal" type="button"
                     class="bg-red-600 text-white px-4 py-2 rounded-md text-sm"
