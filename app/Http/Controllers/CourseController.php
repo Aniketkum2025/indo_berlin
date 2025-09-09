@@ -22,17 +22,17 @@ class CourseController extends Controller
 {
     public function index(Request $request, $slug) {
 
-        if(!str_contains($slug, 'japan')){
-            return abort(404);
-        }
+        // if(!str_contains($slug, 'japan')){
+        //     return abort(404);
+        // }
 
          $course = Cache::remember('course_slug_' . $slug, 60 * 60, function () use ($slug) {
             return Course::where('slug', '=', $slug)->first();
         });
 
-        // if(!$course || $course->website != 'kazumi'){
-        //     return abort(404);
-        // }
+        if(!$course || $course->website != 'kazumi'){
+            return abort(404);
+        }
 
         
         if ($course) {
