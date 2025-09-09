@@ -1246,27 +1246,19 @@
                             <div class="grid grid-cols-1 md:grid-cols-4 gap-4 ">
                                 <div class="p-2">
                                     <h3 class="text-[20px] text-gray-800">Consulting and Registration</h3>
-                                    <p class="text-gray-500 text-[16px] py-2">Consult with our counselors to check your
-                                        eligibility and the right batch, and then Register for the General MBA by College de
-                                        Paris </p>
+                                    <p class="text-gray-500 text-[16px] py-2">Consult with our counselors to check your eligibility and the right batch, and then Register for the Japanese Language Course</p>
                                 </div>
                                 <div class="p-2">
-                                    <h3 class="text-[20px] text-gray-800">Complete General MBA by College de Paris</h3>
-                                    <p class="text-gray-500 text-[16px] py-2">Attend 1 Year of sessions and get completion
-                                        certification from Henry Harvin® Finance Academy</p>
+                                    <h3 class="text-[20px] text-gray-800">Complete the Training</h3>
+                                    <p class="text-gray-500 text-[16px] py-2">Attend Training for the Japanese Language, and achieve the certification.</p>
                                 </div>
                                 <div class="p-2">
                                     <h3 class="text-[20px] text-gray-800">Deliver Assigned Projects</h3>
-                                    <p class="text-gray-500 text-[16px] py-2">Gather experience with real-world
-                                        assignments and practical projects to upgrade your existing skills. Deliver these
-                                        mini-projects to be eligible for the Henry Harvin® Course.</p>
+                                    <p class="text-gray-500 text-[16px] py-2">Gather experience with real-world assignments and practical projects to upgrade your existing Korean Language skills. Deliver these mini-projects to be eligible for Henry Harvin&reg; Japanese Language Certification</p>
                                 </div>
                                 <div class="p-2">
-                                    <h3 class="text-[20px] text-gray-800">Earn Certification</h3>
-                                    <p class="text-gray-500 text-[16px] py-2">Post-completion of the course, earn Henry
-                                        Harvin® Certificate. You can post it on social media, get it framed &amp; increase
-                                        your
-                                        value in the industry</p>
+                                    <h3 class="text-[20px] text-gray-800">Earn the Certification</h3>
+                                    <p class="text-gray-500 text-[16px] py-2">Post-successful completion of the Program, earn Henry Harvin&reg; Japanese Language Certification. Post it on social media, get it framed, and increase your value in the industry</p>
                                 </div>
                             </div>
                         </div>
