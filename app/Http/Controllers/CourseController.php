@@ -34,6 +34,7 @@ class CourseController extends Controller
             return abort(404);
         }
         
+        
         if ($course) {
             $result = Cache::remember('result_slug_' . $course->crm_course_id, 60 * 60, function () use ($course) {
 
