@@ -63,13 +63,9 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
 
     <section>
         <div class="relative w-full overflow-hidden"
-            style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1755338858banner1.webp); background-position: top;">
-            <!-- Video Background -->
-            {{-- <video autoplay muted loop class="absolute top-0 left-0 w-full h-full object-cover">
-            <source src="https://d1d5cy0fmpy9m8.cloudfront.net/images/175274277337088-413229662_medium.mp4"
-                type="video/mp4">
-            Your browser does not support the video tag.
-        </video> --}}
+            {{-- style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1755338858banner1.webp); background-position: top;">
+            --}}
+            >
             <div class="bg-black bg-opacity-70">
                 <div class="relative z-10 grid md:flex py-2 gap-6 justify-center items-center h-full text-center">
                     <div class="md:w-7/12 w-full bg-[#0e0e0ead] p-4 rounded-md space-y-4 text-left">
