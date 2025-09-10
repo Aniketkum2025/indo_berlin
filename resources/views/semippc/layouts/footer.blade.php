@@ -49,7 +49,7 @@
         </div>
 
         <!-- Footer Text -->
-        <p class="text-center text-sm mt-4 text-red-600 font-medium">© 2013-2025 - Kazumi . All Rights Reserved.</p>
+        <p class="text-center text-sm mt-4 p-8 text-red-600 font-medium">© 2013-2025 - Kazumi . All Rights Reserved.</p>
     </div>
 
 </footer>
