@@ -120,7 +120,7 @@
                 <span>|</span>
                 <a href="contact-us" class="text-red-700 font-[600]">Customer Service</a>
             </div>
-            <p>&copy; 2025, Kazumi Japanese School, All Rights Reserved<br>Global With us is a subsidiary of Henry Harvin® Education.</p>
+            <p>&copy; 2025, Kazumi Japanese & Culture School by Henry Harvin®, All Rights Reserved<br>Global With us is a subsidiary of Henry Harvin® Education.</p>
         </div>
     </div>
 </footer>
