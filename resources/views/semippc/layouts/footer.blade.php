@@ -51,7 +51,7 @@
         <!-- Footer Text -->
 <div class="text-center mt-6 px-4 py-6 border-t border-red-200">
     <p class="text-sm text-red-600 font-medium">
-        © 2013–2025 <span class="font-semibold">Kazumi Japanese & Culture School by Henry Harvin</span>. All Rights Reserved.
+        © 2013–2025 <span class="font-semibold">Kazumi Japanese & Culture School by Henry Harvin®</span>. All Rights Reserved.
     </p>
 </div>
   </div>
