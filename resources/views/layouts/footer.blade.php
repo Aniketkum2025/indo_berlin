@@ -1092,3 +1092,36 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 </script>
+<script async>
+    const courseSwiper = new Swiper(".swiper-course-all", {
+        slidesPerView: 2,
+        loop: true,
+        autoplay: true,
+
+
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+        },
+
+        breakpoints: {
+            340: {
+                slidesPerView: 1,
+                spaceBetween: 20
+            },
+            540: {
+                slidesPerView: 1,
+                spaceBetween: 20
+            },
+            767: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 20
+            }
+        }
+    });
+</script>

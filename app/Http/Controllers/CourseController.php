@@ -258,34 +258,12 @@ class CourseController extends Controller
             
             $userFeedback = [];
                 
-            if($batch){
-                $userFeedback = Cache::remember('userFeedback__'.$batch, 60 * 60, function () use ($batch, $course) {
-                    return DB::connection('mysql2')->table('registration2')
-                        ->join('enrollment', 'enrollment.registration_id', '=', 'registration2.id')
-                        ->join('course', 'course.id', '=', 'enrollment.course_id')
-                        ->where('course.crm_course_id', $course->crm_course_id)
-                        ->whereNotNull('registration2.first_name')
-                        ->where('registration2.first_name', '!=', " ")
-                        ->whereNotNull('registration2.image')
-                        ->where('registration2.image', '!=', " ")
-                        ->whereNotNull('registration2.linkedin_url')
-                        ->where('registration2.linkedin_url', '!=', " ")
-                        ->where('registration2.linkedin_url', 'LIKE', '%linkedin%')
-                        ->get()->map(function ($query) {
-                            return [
-                                'id' => $query->id,
-                                'linkedin_url' => $query->linkedin_url,
-                                'email' => $query->email,
-                                'first_name' => $query->first_name,
-                                'image' => $query->image,
-                            ];
-                        })->unique('email')->take(50);
+            if ($batch) {
+                $userFeedback = Cache::remember('userFeedback__' . $batch, 60 * 60, function () use ($course) {
+                    return $this->getUserFeedback($course->crm_course_id, $course->academy_id);
                 });
 
-                // convert $usedFeedback to a collection
-                $userFeedback = collect($userFeedback)->map(function ($item) {
-                    return (object) $item;
-                });
+                $userFeedback = collect($userFeedback)->map(fn($item) => (object) $item);
             }
 
             $linkdinData= "";
@@ -383,5 +361,66 @@ class CourseController extends Controller
             });
             return view('courses', compact('atualPriceInr', 'matchCourses','jobprofiles', 'newcertificateCourse', 'academy_wise_course', 'affiliation_academy', 'title', 'metas', 'review', 'upcoming_batches', 'academy_name', 'testimonials', 'logos', 'faqs', 'batch', 'process', 'certificate', 'usps', 'course', 'feat', 'affiliations', 'aboutcourse', 'module', 'tools', 'trainers', 'gallery', 'seemore', 'city_flag', 'skills', 'project', 'alumniplaced', 'alumnireview', 'duration', 'result2', 'event', 'placedlearner', 'freecourse','userFeedback','linkdinData', 'videoReview'))->with('i');
         }
+    }
+
+
+    public function getUserFeedback($crmCourseId, $academyId = null, $limit = 50, $minCount = 9)
+    {
+
+        $feedback = $this->fetchFeedbackByCourse($crmCourseId);
+
+        if ($feedback->count() < $minCount && $academyId) {
+            $otherCourses = DB::connection('mysql2')->table('course')
+                ->where('academy_id', $academyId)
+                ->where('crm_course_id', '!=', $crmCourseId)
+                ->pluck('crm_course_id');
+            
+            foreach ($otherCourses as $otherCourseId) {
+                if ($feedback->count() >= $minCount) break;
+
+                $extraFeedback = $this->fetchFeedbackByCourse($otherCourseId);
+                $feedback = $feedback->merge($extraFeedback)->unique('email');
+            }
+        }
+
+        if ($feedback->count() < $minCount) {
+            $randomCourses = DB::connection('mysql2')->table('course')
+                ->inRandomOrder()
+                ->take(5)
+                ->pluck('crm_course_id');
+
+            foreach ($randomCourses as $randomCourseId) {
+                if ($feedback->count() >= $minCount) break;
+
+                $extraFeedback = $this->fetchFeedbackByCourse($randomCourseId);
+                $feedback = $feedback->merge($extraFeedback)->unique('email');
+            }
+        }
+
+        return $feedback->take($limit)->values();
+    }
+
+    private function fetchFeedbackByCourse($crmCourseId)
+    {
+        return DB::connection('mysql2')->table('registration2')
+            ->join('enrollment', 'enrollment.registration_id', '=', 'registration2.id')
+            ->join('course', 'course.id', '=', 'enrollment.course_id')
+            ->where('course.crm_course_id', $crmCourseId)
+            ->whereNotNull('registration2.first_name')
+            ->where('registration2.first_name', '!=', " ")
+            ->whereNotNull('registration2.image')
+            ->whereRaw("TRIM(registration2.image) != ''")
+            ->whereNotNull('registration2.linkedin_url')
+            ->where('registration2.linkedin_url', '!=', " ")
+            ->where('registration2.linkedin_url', 'LIKE', '%linkedin%')
+            ->select(
+                'registration2.id',
+                'registration2.linkedin_url',
+                'registration2.email',
+                'registration2.first_name',
+                'registration2.image'
+            )
+            ->get()
+            ->unique('email');
     }
 }
