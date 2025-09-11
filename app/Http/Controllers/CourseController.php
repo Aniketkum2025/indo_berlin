@@ -255,7 +255,7 @@ class CourseController extends Controller
             }
             
 
-            
+            Cache::forget('userFeedback__' . $batch);
             $userFeedback = [];
                 
             if ($batch) {
