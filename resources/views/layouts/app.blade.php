@@ -64,6 +64,10 @@
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
         rel="stylesheet">
 
+    @if(isset($course) && !empty($course->schema_script) && $course->website == 'kazumi')
+        {!! $course->schema_script !!}
+    @endif
+
     @if(isset($course) && !empty($faqs) && count($faqs) > 0)
     <!-- FAQ Schema-->
     <script  async  type="application/ld+json">
