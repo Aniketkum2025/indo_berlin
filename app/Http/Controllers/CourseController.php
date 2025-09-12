@@ -410,6 +410,7 @@ class CourseController extends Controller
             ->where('registration2.first_name', '!=', " ")
             ->whereNotNull('registration2.image')
             ->whereRaw("TRIM(registration2.image) != ''")
+            ->where('registration2.image', 'NOT LIKE', '%.pdf')
             ->whereNotNull('registration2.linkedin_url')
             ->where('registration2.linkedin_url', '!=', " ")
             ->where('registration2.linkedin_url', 'LIKE', '%linkedin%')
