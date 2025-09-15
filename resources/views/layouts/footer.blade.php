@@ -414,6 +414,18 @@
         <img class="w-2 absolute animate-ping right-0 -top-2" src="https://cdn.henryharvin.com/images/1701330473red.1.webp" alt="talkto" loading="lazy">
     </a>
 </div>
+<div class="fixed z-20 bottom-0 w-full p-2 gap-2 flex items-center justify-between block md:hidden">
+    <a class="border-2 bg-[#d9222b] w-full shadow-xl text-center border-[#d9222b] flex gap-1 items-center justify-center px-1 py-2 relative rounded-lg dynamic_contact_mobile_href" href="tel:+91 989 957 7620">
+        <span class=" rounded-full flex items-center text-center justify-center"><i class="fa fa-phone text-[16px] font-[600] text-white" id="fone" aria-hidden="true"></i></span>
+        <span class="text-white text-[12px] md:[text-14px] font-[500] dynamic_contact">+91 989 957 7620</span>
+
+    </a>
+    <a class="border-2 bg-[#0dc143] w-full ml-2 shadow-xl text-center gap-1 border-[#0dc143] flex items-center justify-center px-2 py-2 relative rounded-lg dynamic_whatsapp_mobile_href" href="https://wa.me/message/2YDWDUFYBSUBA1">
+        <span class=" rounded-full flex items-center text-center justify-center"><i class="fa fa-whatsapp text-[14px] font-[500] text-white" id="fone" aria-hidden="true"></i></span>
+        <span class="text-white text-[12px] md:[text-14px] font-[500]">Need Advice!</span>
+        <!-- <img class="w-3 absolute animate-ping right-0 -top-2" src="https://cdn.henryharvin.com/ezgif.com-resize.webp" alt="whatsapp3" loading="lazy"> -->
+    </a>
+</div>
 <div class="fixed z-20 bottom-[50%] rotate-90 hidden lg:block" style="right: -50px;">
     <a class="border-2 border-[#008000] flex items-center text-center justify-between w-48 bg-white relative rounded-full mb-4 dynamic_contact_href" href="tel: +91 989 957 7620">
         <span class="text-[#008000] text-[17px] font-[400] ml-2 dynamic_contact">+91 989 957 7620</span>
