@@ -8,7 +8,7 @@
             <div>
                 <h2 class="flex items-center gap-2 font-semibold mb-1">
                     <img src="https://cdn.henryharvin.com/images/1690622513usa-flag48.png" alt="USA Flag" class="w-6 h-6">
-                    Henry Harvin America Head Office
+                    Kazumi Japanese School America Head Office
                 </h2>
                 <p>8 The Green, # 19614 Dover,<br>DE 19901, United States</p>
                 <p><a href="tel:+12093823469" class="text-blue-700 underline">Contact +1 209-382-3469</a></p>
@@ -18,7 +18,7 @@
             <div>
                 <h2 class="flex items-center gap-2 font-[600] text-[14px] mb-1">
                     <img src="https://cdn.henryharvin.com/images/1698991947dw2.webp" alt="UK Flag" class="w-6 h-6">
-                    Henry Harvin United Kingdom Head Office
+                    Kazumi Japanese School United Kingdom Head Office
                 </h2>
                 <p class="text-[12px]">Office No: 71–75 Shelton Street Covent Garden<br>London WC2H 9JQ</p>
             </div>
@@ -27,7 +27,7 @@
             <div>
                 <h2 class="flex items-center gap-2 font-[600] text-[14px] mb-1">
                     <img src="https://cdn.henryharvin.com/images/1690622599uae-flaf-48.png" alt="UAE Flag"
-                        class="w-6 h-6"> Henry Harvin Middle East Head Office
+                        class="w-6 h-6"> Kazumi Japanese School Middle East Head Office
                 </h2>
                 <p class="text-[12px]">2703, Blue Matrix, 27th floor The Prime Tower,<br>Business Bay, Dubai, UAE</p>
             </div>
@@ -36,7 +36,7 @@
             <div>
                 <h2 class="flex items-center gap-2 font-[600] text-[14px] mb-1">
                     <img src="https://cdn.henryharvin.com/images/1690622572india-flag-48.png" alt="India Flag"
-                        class="w-6 h-6"> Henry Harvin Asia Pacific Head Office
+                        class="w-6 h-6"> Kazumi Japanese School Asia Pacific Head Office
                 </h2>
                 <p class="text-[12px]">Henry Harvin House,<br>B-12 Sector-6 Noida (UP) - 201301</p>
             </div>

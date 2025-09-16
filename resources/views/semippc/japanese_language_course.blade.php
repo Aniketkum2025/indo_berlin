@@ -6,7 +6,7 @@
         <div class="px-6 py-10 lg:py-16" style="background-color:#000000b0">
             <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
                 <div class="lg:col-span-2 space-y-4">
-                    <h1 class="text-3xl lg:text-4xl font-[600] leading-tight">Japanese Language Course - Job Guarantee Program</h1>
+                    <h1 class="text-3xl lg:text-4xl font-[600] leading-tight">Japanese Japanese Course - Job Guarantee Program</h1>
                     <ul class="list-disc ml-5 text-lg space-y-2">
                         <li>160 Hrs (145 Hrs Training+10 Hrs GD+5 Hrs Exam Prep) of Japanese language course</li>
                         <li>Gain Proficiency in 4 writing systems of the Japanese Language: Kaji, Hiragana, katakana, Romaji</li>
@@ -16,7 +16,7 @@
                         <p class="">
                             <a data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button">
                                 <strong>Forbes</strong> 
-                                features Henry Harvin 
+                                features Kazumi 
                                 <span class="text-white font-semibold">4.8 / 5</span> ⭐⭐⭐⭐⭐
                             </a>
                         </p>
@@ -132,7 +132,7 @@
         <div class="leading-10">
           <h3 class="md:text-[30px] text-[22px] py-2">Japanese Language Course</h3>
 <p>
-  Learn the most fast-paced spoken language of the world in Henry HarvinⓇ. Japanese language course in Henry HarvinⓇ aims to develop the interpersonal skills of the candidates. The course is designed to gain an excellent knowledge of the Japanese language at 5 different levels. The training program is divided into 5 levels:
+  Learn the most fast-paced spoken language of the world in Japanese Language School. Japanese language course in Japanese Language School aims to develop the interpersonal skills of the candidates. The course is designed to gain an excellent knowledge of the Japanese language at 5 different levels. The training program is divided into 5 levels:
 </p>
 
 <ul class="list-disc list-inside space-y-2 mt-3 space-y-1">
@@ -153,7 +153,7 @@
   </li>
 </ul>
 
-<h3 class="text-xl md:text-2xl font-bold mt-6 mb-2">9 in 1 Course</h3>
+<h3 class="text-xl md:text-2xl font-bold mt-6 mb-2">10 in 1 Course</h3>
  <ul>
     <li style="list-style-type:disc"><span style="font-size:10.5pt"><span style="font-family:Arial"><span style="color:#434343"><strong>Training: </strong></span></span></span><span style="font-size:10.5pt"><span style="font-family:Arial"><span style="color:#434343">&nbsp;Two-way Live Online Interactive Session</span></span></span></li>
     </ul>
@@ -164,18 +164,20 @@
     <p><span style="font-size:10.5pt"><span style="font-family:Arial"><span style="color:#434343">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N1: 80 Hours &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span></span></p>
 </ul>
  <ul>
-  <li><strong>Training:</strong> Two-way Live Online Interactive Session</li>
-  <li><strong>Projects:</strong> Facility to undergo projects in Japanese Language, implementation and more</li>
-  <li><strong>Internship:</strong> To gain practical knowledge in Japanese Language</li>
-  <li><strong>Certification:</strong> Govt. of India recognized certification from Henry Harvin®</li>
-  <li><strong>Placement:</strong> 100% Placement Support for one-year post successful completion</li>
-  <li><strong>E-learning:</strong> Access to abundant tools and techniques, video content, assessment, and more</li>
-  <li><strong>Masterclass:</strong> 52+ sessions over the next 12 months</li>
-  <li><strong>Hackathons:</strong> Free access to #AskHenry hackathons and competitions</li>
-  <li><strong>Membership:</strong> 1-year Gold Membership of Henry Harvin® Language Academy</li>
+  <li><strong>Training:</strong> 144 Hours of Two-Way Live Online Interactive Sessions</li>
+  <li><strong>Projects:</strong> Facility to undergo projects along with the course</li>
+  <li><strong>Student Engagement & Events:</strong>Free Access to #AskHenry Hackathons and Competitions & many other facilities from Kazumi Japanese School</li>
+  <li><strong> Masterclass:</strong> Access to 52+ Masterclass Sessions for essential soft スキル (Sukiru) development</li>
+  <li><strong>Membership:</strong> 30 Months Gold Membership of Kazumi Japanese School School of Languages</li>
+  <li><strong>E-Learning Access:</strong> Get free access to the LMS having PPTs, projects, self-paced video-based learning, library, quizzes, question bank, practice tests, final assessments, and a forum, powered by Examopedia LogoExamopedia</li>
+  <li><strong> 特徴 (Tokuchō) Certification + License:</strong> Distinguish your profile with global credentials and showcase expertise with our 特徴 (Tokuchō) Completion certificate with Professional License</li>
+  <li><strong>Internship Support:</strong> Get Internship Support with Kazumi Japanese School and in top MNCs like J.P. Morgan, Accenture & many more via 100X Suite and YUVA LogoYuva Intern</li>
+  <li><strong>Entrepreneurship Mentorship:</strong> Mentorship from Young Successful Entrepreneurs to set up a sustainable & scalable Business from scratch at both Freelance & Entrepreneur level</li>
+  <li><strong>Placement Support:</strong> Get 3 in 1 Placement support through Placement Drives, Premium access to the Job portal & Personalized Job Consulting</li>
+
 </ul>
 
-<h3 class="text-xl md:text-2xl font-bold mt-6 mb-2">Trainers at Henry Harvin®</h3>
+<h3 class="text-xl md:text-2xl font-bold mt-6 mb-2">Trainers at Kazumi Japanese School</h3>
 <ul class="list-disc list-inside space-y-2">
   <li>Most renowned industry trainers with <strong>11+ years of working experience</strong></li>
   <li>Invited for <strong>120+ keynotes</strong> classes</li>
@@ -186,7 +188,7 @@
 <ul class="list-disc list-inside space-y-2">
   <li>1 year Gold Membership with <strong>E-Learning Access</strong></li>
   <li><strong>Masterclass Sessions</strong> for 1 year</li>
-  <li>Prestigious <strong>Henry Harvin® Alumni Status</strong> + Guaranteed Internship</li>
+  <li>Prestigious <strong>Kazumi Japanese School Alumni Status</strong> + Guaranteed Internship</li>
   <li>Weekly <strong>10+ job opportunities</strong></li>
   <li><strong>Industry projects</strong> during the training</li>
 </ul>
@@ -1254,11 +1256,11 @@
                                 </div>
                                 <div class="p-2">
                                     <h3 class="text-[20px] text-gray-800">Deliver Assigned Projects</h3>
-                                    <p class="text-gray-500 text-[16px] py-2">Gather experience with real-world assignments and practical projects to upgrade your existing Korean Language skills. Deliver these mini-projects to be eligible for Henry Harvin&reg; Japanese Language Certification</p>
+                                    <p class="text-gray-500 text-[16px] py-2">Gather experience with real-world assignments and practical projects to upgrade your existing Korean Language skills. Deliver these mini-projects to be eligible for Kazumi&reg; Japanese Language Certification</p>
                                 </div>
                                 <div class="p-2">
                                     <h3 class="text-[20px] text-gray-800">Earn the Certification</h3>
-                                    <p class="text-gray-500 text-[16px] py-2">Post-successful completion of the Program, earn Henry Harvin&reg; Japanese Language Certification. Post it on social media, get it framed, and increase your value in the industry</p>
+                                    <p class="text-gray-500 text-[16px] py-2">Post-successful completion of the Program, earn kazumi&reg; Japanese Language Certification. Post it on social media, get it framed, and increase your value in the industry</p>
                                 </div>
                             </div>
                         </div>
@@ -1289,7 +1291,7 @@
                                 <li class="bg-white my-2 shadow-lg" x-data="{ open: false }">
                                     <h2 @click="open = !open"
                                         class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer">
-                                        <span>What is japanese course from Henry Harvin®?</span>
+                                        <span>What is japanese course from Kazumi Japanese School?</span>
                                         <svg :class="open ? 'rotate-180' : ''"
                                             class="fill-current text-purple-700 h-6 w-6 transition-transform duration-500"
                                             viewBox="0 0 20 20">
@@ -1413,7 +1415,7 @@
     <li class="bg-white my-2 shadow-lg" x-data="{ open: false }">
         <h2 @click="open = !open"
             class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer">
-            <span>Will Henry Harvin's Japanese language course help me in preparing for the JLPT exam?</span>
+            <span>Will Kazumi's Japanese language course help me in preparing for the JLPT exam?</span>
             <svg :class="open ? 'rotate-180' : ''"
                  class="fill-current text-purple-700 h-6 w-6 transition-transform duration-500"
                  viewBox="0 0 20 20">
@@ -1427,7 +1429,7 @@
      <li class="bg-white my-2 shadow-lg" x-data="{ open: false }">
         <h2 @click="open = !open"
             class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer">
-            <span>What is e-Learning for the Henry Harvin Japanese language course?</span>
+            <span>What is e-Learning for the Kazumi Japanese language course?</span>
             <svg :class="open ? 'rotate-180' : ''"
                  class="fill-current text-purple-700 h-6 w-6 transition-transform duration-500"
                  viewBox="0 0 20 20">
@@ -1450,7 +1452,7 @@
     </h2>
     <div x-show="open" class="border-l-2 border-purple-600 overflow-hidden transition-all duration-500" style="display: none;">
         <p class="p-3 text-gray-900">
-          A game Localizer in Japan needs to have at least passed JLPT N2 level. For this, you can choose the N2 level in the Henry Harvin Japanese language course and prepare for the JLPT exam.
+          A game Localizer in Japan needs to have at least passed JLPT N2 level. For this, you can choose the N2 level in the Kazumi Japanese language course and prepare for the JLPT exam.
         </p>
     </div>
   </li>
@@ -1526,7 +1528,7 @@
   <li class="bg-white my-2 shadow-lg" x-data="{ open: false }">
     <h2 @click="open = !open"
         class="flex flex-row justify-between items-center font-semibold p-3 cursor-pointer">
-        <span>What is the qualification of the trainers at Henry Harvin Education?</span>
+        <span>What is the qualification of the trainers at  Kazumi Education?</span>
         <svg :class="open ? 'rotate-180' : ''"
              class="fill-current text-purple-700 h-6 w-6 transition-transform duration-500"
              viewBox="0 0 20 20">
@@ -1535,7 +1537,7 @@
     </h2>
     <div x-show="open" class="border-l-2 border-purple-600 overflow-hidden transition-all duration-500" style="display: none;">
         <p class="p-3 text-gray-900">
-          The organisation uses the most celebrated industry experts with more than 11 years of experience in the field. They have been invited for 120 and more keynote classes for the Japanese language, each having delivered over 155+ lectures, and are now working for Henry Harvin Education.
+          The organisation uses the most celebrated industry experts with more than 11 years of experience in the field. They have been invited for 120 and more keynote classes for the Japanese language, each having delivered over 155+ lectures, and are now working for Kazumi Education.
         </p>
     </div>
   </li>
@@ -1559,7 +1561,7 @@
             </svg>
         </h2>
         <div x-show="open" class="border-l-2 border-purple-600 overflow-hidden transition-all duration-500" style="display: none;">
-            <p class="p-3 text-gray-900">The Japanese language course offered by Henry Harvin® is standardized for Japanese Language Education, making it possible for students to study Japanese easily and comfortably. Students learn four writing systems of the Japanese language: Kanji, Hiragana, Katakana, and Romaji, along with five levels: N5, N4, N3, N2, and N1.</p>
+            <p class="p-3 text-gray-900">The Japanese language course offered by Kazumi Japanese School is standardized for Japanese Language Education, making it possible for students to study Japanese easily and comfortably. Students learn four writing systems of the Japanese language: Kanji, Hiragana, Katakana, and Romaji, along with five levels: N5, N4, N3, N2, and N1.</p>
         </div>
     </li>
 
@@ -1583,7 +1585,7 @@
             </svg>
         </h2>
         <div x-show="open" class="border-l-2 border-purple-600 overflow-hidden transition-all duration-500" style="display: none;">
-            <p class="p-3 text-gray-900">Nothing is impossible. You can enrol in Henry Harvin’s Japanese language course. With our program, you will learn as easily as possible. In this way, you can become fluent in a short amount of time.</p>
+            <p class="p-3 text-gray-900">Nothing is impossible. You can enrol in Kazumi’s Japanese language course. With our program, you will learn as easily as possible. In this way, you can become fluent in a short amount of time.</p>
         </div>
     </li>
     <ul class="space-y-2">
@@ -1681,7 +1683,7 @@
       </svg>
     </h2>
     <div x-show="open" class="border-l-2 border-purple-600 overflow-hidden transition-all duration-500" style="display: none;">
-      <p class="p-3 text-gray-900">Henry Harfin’s Japanese language course in Mahabalipuram, Chennai ranges from INR 19,500 to INR 34,500. This depends on the level of proficiency desired by the learner.</p>
+      <p class="p-3 text-gray-900">Kazumi’s Japanese language course in Mahabalipuram, Chennai ranges from INR 19,500 to INR 34,500. This depends on the level of proficiency desired by the learner.</p>
     </div>
   </li>
   <li class="bg-white my-2 shadow-lg rounded" x-data="{ open: false }">
@@ -1704,7 +1706,7 @@
       </svg>
     </h2>
     <div x-show="open" class="border-l-2 border-purple-600 overflow-hidden transition-all duration-500" style="display: none;">
-      <p class="p-3 text-gray-900">ANS: You can learn Japanese in 3 months, but can only know the primary language skills. If you want to attain a level of proficiency, Henry Harvin provides training for various proficiency levels through strategic and systematic learning through the Japanese language course in Chennai.</p>
+      <p class="p-3 text-gray-900">ANS: You can learn Japanese in 3 months, but can only know the primary language skills. If you want to attain a level of proficiency, Kazumi provides training for various proficiency levels through strategic and systematic learning through the Japanese language course in Chennai.</p>
     </div>
   </li>
 
@@ -1716,19 +1718,19 @@
       </svg>
     </h2>
     <div x-show="open" class="border-l-2 border-purple-600 overflow-hidden transition-all duration-500" style="display: none;">
-      <p class="p-3 text-gray-900">ANS: If you want to learn Japanese and master the language effectively, then you have come to the right place. Henry Harvin is one of the best Institutes that provide a Japanese language course in T.Nagar, Chennai. This course is scientifically designed to aid each learner in mastering the Japanese language easily.</p>
+      <p class="p-3 text-gray-900">ANS: If you want to learn Japanese and master the language effectively, then you have come to the right place. Kazumi is one of the best Institutes that provide a Japanese language course in T.Nagar, Chennai. This course is scientifically designed to aid each learner in mastering the Japanese language easily.</p>
     </div>
   </li>
 
   <li class="bg-white my-2 shadow-lg rounded" x-data="{ open: false }">
     <h2 @click="open = !open" class="flex justify-between items-center font-semibold p-3 cursor-pointer">
-      <span>Is Henry Harvin’s Japanese language course available online near me in Anna Nagar, Chennai?</span>
+      <span>Is Kazumi’s Japanese language course available online near me in Anna Nagar, Chennai?</span>
       <svg :class="open ? 'rotate-180' : ''" class="fill-current text-purple-700 h-6 w-6 transition-transform duration-500" viewBox="0 0 20 20">
         <path d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10"></path>
       </svg>
     </h2>
     <div x-show="open" class="border-l-2 border-purple-600 overflow-hidden transition-all duration-500" style="display: none;">
-      <p class="p-3 text-gray-900">ANS: Yes, Henry Harvin’s Japanese language course is available in Anna Nagar, Chennai. Once you get enrolled in the course, you can choose the batch and start learning.</p>
+      <p class="p-3 text-gray-900">ANS: Yes, Kazumi’s Japanese language course is available in Anna Nagar, Chennai. Once you get enrolled in the course, you can choose the batch and start learning.</p>
     </div>
   </li>
    <li class="bg-white my-2 shadow-lg rounded" x-data="{ open: false }">
@@ -2377,7 +2379,7 @@
 
   <li class="bg-white my-2 shadow-lg rounded" x-data="{ open: false }">
     <h2 @click="open = !open" class="flex justify-between items-center font-semibold p-3 cursor-pointer">
-      <span>What are the various Japanese Learning levels offered by Henry Harvin?</span>
+      <span>What are the various Japanese Learning levels offered by Kazumi?</span>
       <svg :class="open ? 'rotate-180' : ''" class="fill-current text-purple-700 h-6 w-6 transition-transform duration-500" viewBox="0 0 20 20">
         <path d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885"></path>
       </svg>
@@ -2391,7 +2393,7 @@
 
   <li class="bg-white my-2 shadow-lg rounded" x-data="{ open: false }">
     <h2 @click="open = !open" class="flex justify-between items-center font-semibold p-3 cursor-pointer">
-      <span>Does Henry Harvin's Japanese Learning course offer guidance for the JLPT and NAT exams?</span>
+      <span>Does Kazumi's Japanese Learning course offer guidance for the JLPT and NAT exams?</span>
       <svg :class="open ? 'rotate-180' : ''" class="fill-current text-purple-700 h-6 w-6 transition-transform duration-500" viewBox="0 0 20 20">
         <path d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885"></path>
       </svg>
@@ -2405,7 +2407,7 @@
 
   <li class="bg-white my-2 shadow-lg rounded" x-data="{ open: false }">
     <h2 @click="open = !open" class="flex justify-between items-center font-semibold p-3 cursor-pointer">
-      <span>What is the training method of Japanese Learning courses at Henry Harvin?</span>
+      <span>What is the training method of Japanese Learning courses at Kazumi?</span>
       <svg :class="open ? 'rotate-180' : ''" class="fill-current text-purple-700 h-6 w-6 transition-transform duration-500" viewBox="0 0 20 20">
         <path d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885"></path>
       </svg>
@@ -2433,14 +2435,14 @@
  
   <li class="bg-white my-2 shadow-lg rounded" x-data="{ open: false }">
     <h2 @click="open = !open" class="flex justify-between items-center font-semibold p-3 cursor-pointer">
-      <span>In addition to the Japanese Language course, what other languages are offered at Henry Harvin?</span>
+      <span>In addition to the Japanese Language course, what other languages are offered at Kazumi?</span>
       <svg :class="open ? 'rotate-180' : ''" class="fill-current text-purple-700 h-6 w-6 transition-transform duration-500" viewBox="0 0 20 20">
         <path d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885"></path>
       </svg>
     </h2>
     <div x-show="open" class="border-l-2 border-purple-600 overflow-hidden transition-all duration-500" style="display: none;">
       <p class="p-3 text-gray-900">
-        Henry Harvin also offers courses in Korean, German, and Spanish.
+        Kazumi also offers courses in Korean, German, and Spanish.
       </p>
     </div>
   </li>
@@ -2462,7 +2464,7 @@
 
   <li class="bg-white my-2 shadow-lg rounded" x-data="{ open: false }">
     <h2 @click="open = !open" class="flex justify-between items-center font-semibold p-3 cursor-pointer">
-      <span>When may I become a Japanese speaker after taking Henry Harvin's Japanese language course?</span>
+      <span>When may I become a Japanese speaker after taking Kazumi's Japanese language course?</span>
       <svg :class="open ? 'rotate-180' : ''" class="fill-current text-purple-700 h-6 w-6 transition-transform duration-500" viewBox="0 0 20 20">
         <path d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885"></path>
       </svg>
@@ -2476,7 +2478,7 @@
 
   <li class="bg-white my-2 shadow-lg rounded" x-data="{ open: false }">
     <h2 @click="open = !open" class="flex justify-between items-center font-semibold p-3 cursor-pointer">
-      <span>If I participate in a Japanese language course at Henry Harvin, will my rural upbringing stop me from succeeding?</span>
+      <span>If I participate in a Japanese language course at Kazumi, will my rural upbringing stop me from succeeding?</span>
       <svg :class="open ? 'rotate-180' : ''" class="fill-current text-purple-700 h-6 w-6 transition-transform duration-500" viewBox="0 0 20 20">
         <path d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885"></path>
       </svg>
@@ -2525,7 +2527,7 @@
     </h2>
     <div x-show="open" class="border-l-2 border-purple-600 overflow-hidden transition-all duration-500" style="display: none;">
       <p class="p-3 text-gray-900">
-        Top programs include Henry Harvin Education's Japanese Language Course, Nec Japanese Language Academy (NJLA), and NIHONKAI - Japanese Training Institute.
+        Top programs include Kazumi Education's Japanese Language Course, Nec Japanese Language Academy (NJLA), and NIHONKAI - Japanese Training Institute.
       </p>
     </div>
   </li>
@@ -2548,7 +2550,7 @@
         ],
         [
             'name' => 'Jigyasa Kumari',
-            'text' => 'Universally accepted training certification from Henry Harvin® upon course completion. It helped me a lot',
+            'text' => 'Universally accepted training certification from Kazumi Japanese School upon course completion. It helped me a lot',
             'role' => 'Travel Agent',
             'image' => 'https://cdn.henryharvin.com/images/1700910153lkdjg.jpg'
         ],
@@ -2584,7 +2586,7 @@
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
 
             <div class="text-white font-bold md:text-[40px] text-[30px] leading-tight">
-                <p>Henry Harvin® Ranks #1 for Japanese Language Training Institute in India by The Tribune</p>
+                <p>Kazumi Japanese School Ranks #1 for Japanese Language Training Institute in India by The Tribune</p>
             </div>
 
             <div class="bg-white text-black rounded-xl p-6 shadow-md border-2 border-purple-800" id="form3">
