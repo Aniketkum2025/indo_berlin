@@ -8,6 +8,6 @@ class PpcController extends Controller
 {
     public function japaneseLanguageCourse()
     {
-        return view('semippc.japanese_language_course');
+        return view('semippc.japanese_language_course');  
     }
 }
