@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="bg-white text-gray-800 p-6 rounded shadow-md space-y-4">
+                    <div class="bg-white text-gray-800 p-6 rounded shadow-md space-y-4 border border-red-100">
                         <form class="brochure-form space-y-4" id="brochureForm" action="javascript:void(0);">
                             <h3 class="text-lg font-semibold text-center">Download Course Brochure </h3>
                             @if(isset($_GET['utm_campaign']))
@@ -55,51 +55,54 @@
                     @include('semippc.component.nsdc-logo')
                 </div>
             </div>
-        @include('semippc.component.logo')
+        
          </div>
     </section>
 
+    <section class="px-6 py-6 lg:py-8">
+      @include('semippc.component.logo')
+    </section>
     @include('semippc.component.exclusive-course', [
         'cards' => [
             [
                 'title' => 'Native Experienced Trainers',
                 'description' => 'Undertake Japanese language course from the Certified Native Japanese Trainers',
-                'bgColor' => '#fca5a5',
+                'bgColor' => '#ffffff',
                 'textColor' => '#7f1d1d',
                 'imageUrl' => 'https://hh-certificates.sgp1.cdn.digitaloceanspaces.com/images/1689772295in1.webp'
             ],
             [
                 'title' => 'Comprehensive Curriculum',
                 'description' => 'Enhance Japanese learning from a curriculum designed as per CEFR Standards',
-                'bgColor' => '#a5a2a2',
+                'bgColor' => '#ffffff',
                 'textColor' => '#220404',
                 'imageUrl' => 'https://hh-certificates.sgp1.cdn.digitaloceanspaces.com/images/1689772412in2.webp'
             ],
             [
                 'title' => 'Modules',
                 'description' => 'Master all Japanese levels in the most Hybrid Japanese learning modules of the Japanese language course',
-                'bgColor' => '#a8edfc',
+                'bgColor' => '#ffffff',
                 'textColor' => '#1c4980',
                 'imageUrl' => 'https://hh-certificates.sgp1.cdn.digitaloceanspaces.com/images/1689772479in3.webp'
             ],
             [
                 'title' => '100% Guidance',
                 'description' => '100% Guidance to ace Japanese Language exams such as DLF, DELF, DALF, DCL, & TCF',
-                'bgColor' => '#fef9c3',
+                'bgColor' => '#ffffff',
                 'textColor' => '#854d0e',
                 'imageUrl' => 'https://hh-certificates.sgp1.cdn.digitaloceanspaces.com/images/1689772546in4.webp'
             ],
             [
                 'title' => 'Gold Membership',
                 'description' => 'Get a 1-Year Gold Membership of Language Academy',
-                'bgColor' => '#d8b4fe',
+                'bgColor' => '#ffffff',
                 'textColor' => '#581c87',
                 'imageUrl' => 'https://hh-certificates.sgp1.cdn.digitaloceanspaces.com/images/1689772601in5.webp'
             ],
             [
                 'title' => 'Career Guidance',
                 'description' => 'Get a 1 to 1 Career Guidance Post Completing a Japanese Level',
-                'bgColor' => '#8cb9cf',
+                'bgColor' => '#ffffff',
                 'textColor' => '#125b7e',
                 'imageUrl' => 'https://hh-certificates.sgp1.cdn.digitaloceanspaces.com/images/1689772744in7.webp'
             ]
