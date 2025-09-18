@@ -2622,7 +2622,7 @@
                 </form>
             </div>
             <div>
-                <img src="https://cdn.henryharvin.com/images/1694674837Japan%20N5.webp" alt="Certificate" class="rounded-lg shadow-xl w-full max-w-md mx-auto">
+                <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1758172908WhatsApp_Image_2025-09-17_at_5.58.18_PM.jpeg" alt="Certificate" class="rounded-lg shadow-xl w-full max-w-md mx-auto">
             </div>
         </div>
     </div>
