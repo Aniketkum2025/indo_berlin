@@ -4,7 +4,7 @@
             <div class="">
                 <div class="flex justify-center">
                     <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1758714738Logo_Kazumi_Japanese_&_Culture_School_w-02.png"
-                        class="h-[70px] w-auto bg-white" alt="culture">
+                        class="h-[70px] w-auto" alt="culture">
                 </div>
                 <p class="text-gray-300 text-sm mt-4 text-justify">
                    Kazumi Japanese & Culture School by Henry Harvin® promoting Japanese 言語 (gengo) and 文化 (bunka), recognised globally with affiliations like the Japanese Language Proficiency Test (JLPT) framework and Henry Harvin’s prestigious accreditations from ISO, UKAF, MSME, and affiliations with leading global 教育的 (kyōikuteki) platforms.
@@ -120,7 +120,7 @@
                 <span>|</span>
                 <a href="contact-us" class="text-red-700 font-[600]">Customer Service</a>
             </div>
-            <p>&copy; 2025, Kazumi Japanese & Culture School by Henry Harvin®, All Rights Reserved<br>Global With us is a subsidiary of Henry Harvin® Education.</p>
+            <p>&copy; 2025, Kazumi Japanese & Culture School by Henry Harvin®, All Rights Reserved<br>We operate globally as a proud subsidiary of Henry Harvin® Education.</p>
         </div>
     </div>
 </footer>
