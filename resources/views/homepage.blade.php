@@ -976,8 +976,8 @@
                 <div
                     class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
                     <div class="rounded-2xl">
-                        <img class="h-full w-full object-cover rounded-2xl"
-                            src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753961762KounalGupta.jpg"
+                        <img class="h-full w-full object-cover bg-white rounded-2xl"
+                            src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1758794864kounal_gupta-removebg-preview.png"
                             alt="Kounal Gupta – CEO & Founder Kazumi Japanese & Culture School">
                     </div>
                     <div class="px-2">
