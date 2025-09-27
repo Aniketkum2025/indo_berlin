@@ -2,7 +2,7 @@
     $mytime = Carbon\Carbon::now();
     $test = $mytime->toDateTimeString();
 @endphp
-@if ($test <= '2025-08-16 00:00:00')
+@if ($test <= '2025-10-01 00:00:00')
     <section class="bg-[#4f2d7f] top-0 z-50 offer-header" style="background: #FF9800;">
         <style>
             .offer-header {
@@ -34,7 +34,7 @@
         <div class="py-2 sm:flex sm:gap-2 md:gap-4 max-w-full items-center justify-center" bis_skin_checked="1">
             <div class="flex" bis_skin_checked="1">
                 <p class="mx-auto text-[11px] font-[500] px-2 text-white md:text-[14px] text-center sm:font-[600]">
-                    <span class="block">BIG FREEDOM OFFER LIVE: Enroll Now & Unlock Premium Deals</span> <span
+                    <span class="block">Grab Month-end Scholarship + Register with best Offer</span> <span
                         class="ppp"></span>
                 </p>
                 <!-- <span style="">Don’t Miss Out! Save Big with Scholarships Before Fees Revise on 1st Jan 2025!</p> -->
@@ -61,7 +61,7 @@
                         style="background-color: #e50914;">45</strong> <span class="flex text-[12px] font-[600]">S<span
                             class="hidden lg:block"></span></span>
                 </p>
-                {{-- <div class="text-center ml-2" bis_skin_checked="1">
+                <div class="text-center ml-2" bis_skin_checked="1">
                     <button data-modal-target="authentication-modal2" data-modal-toggle="authentication-modal2"
                         type="button"
                         class="hidden md:block text-gray-900 relative text-[11px] font-[600] bg-white px-2 py-1 rounded-md"
@@ -70,7 +70,7 @@
                     <a href="https://api.whatsapp.com/send?phone=919910990543&amp;text=Grab%20Month-End%20Scholarship%20+%20Register%20with%20Best%20Offers"
                         class="text-[#212529] relative w-20 mr-2 text-[10px] font-[500] bg-white px-2 py-1 rounded-md block md:hidden">Check
                         Now</a>
-                </div> --}}
+                </div>
             </div>
         </div>
     </section>

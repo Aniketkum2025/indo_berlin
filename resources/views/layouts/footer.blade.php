@@ -420,7 +420,7 @@
         <span class="bg-[#008000] w-8 h-8 rounded-full flex items-center text-center justify-center"><i class="fa fa-phone text-white" id="fone" aria-hidden="true"></i></span>
     </a>
 </div>
-{{-- <div id="authentication-modal2" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed  right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+<div id="authentication-modal2" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed  right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
     <div class="relative w-md max-w-2xl max-h-full rounded-lg rid h-auto w-10/12 grid-flow-row gap-2 rounded-md shadow-sm md:grid-cols-2 bg-[#fff]">
         <div class="grid h-auto items-center place-items-center grid-flow-row gap-2  md:grid-cols-2">
             <div class="ml-3 rounded-md bg-red-600 px-3 py-5">
@@ -428,7 +428,7 @@
                     <img class="img-chat" src="https://cdn.henryharvin.com/16724655811672465581ezgif.com-gif-maker(80).webp" alt="popup-img-1" loading="lazy" />
                 </div>
                 <div class="flex items-center justify-center mt-4">
-                    <p class="w-[288px] text-center text-[20px] font-[600] text-[#fff]">BIG FREEDOM OFFER LIVE: Enroll Now & Unlock  Premium Deals</p>
+                    <p class="w-[288px] text-center text-[20px] font-[600] text-[#fff]">Grab Month-end Scholarship + Register with best Offer</p>
                     
                 </div>
                 <div id="countdown-timer2" class="mt-4 flex items-center justify-center gap-1 text-[13px] text-white">
@@ -720,7 +720,7 @@
             </div>
         </div>
     </div>
-</div> --}}
+</div>
 <script>
 new Swiper('.mySwiper1', {
     slidesPerView: 2,
@@ -985,12 +985,12 @@ document.addEventListener("DOMContentLoaded", () => {
 }, 1000);
     </script>
     @php $mytime = Carbon\Carbon::now(); $test = $mytime->toDateTimeString(); @endphp
-@if($test <= "2025-08-16 00:00:00" ) <script async>
+@if($test <= "2025-10-01 00:00:00" ) <script async>
     const daysEl1 = document.getElementById('days1');
     const hoursEl1 = document.getElementById('hours1');
     const minsEL1 = document.getElementById('mins1');
     const secondsEL1 = document.getElementById('seconds1');
-    const newYears1 = '16 august 2025';
+    const newYears1 = '01 october 2025';
     function countdown1() {
         const newYearsDate1 = new Date(newYears1);
         const currentDate1 = new Date();
@@ -1011,7 +1011,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const hoursEl = document.getElementById('hours');
         const minsEL = document.getElementById('mins');
         const secondsEL = document.getElementById('seconds');
-        const newYears = '16 august 2025';
+        const newYears = '01 october 2025';
 
         function countdown() {
             const newYearsDate = new Date(newYears);
