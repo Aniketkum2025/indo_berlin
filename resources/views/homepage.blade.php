@@ -377,8 +377,8 @@
     {{-- reviews section --}}
     <section class="py-12 px-4 bg-gray-100">
         <div class="max-w-7xl mx-auto">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">7000+ Reviews
-                with 4.6/5 Avg Rating
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4"> <span class="text-gray-800 text-3xl md:text-4xl font-[700] italic">7000+ </span> Reviews
+                with <span class="text-gray-800 text-3xl md:text-4xl font-[700] italic"> 4.6/5 </span> Average Rating
             </h2>
             <div
                 class="relative max-w-[1200px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 py-4 gap-4 md:gap-8 my-1 rounded-lg">
