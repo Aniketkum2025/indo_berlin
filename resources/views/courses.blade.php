@@ -805,6 +805,12 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                 </div>
                 @endif
 
+                <div class="mt-3 mb-4 mx-auto text-center">
+                    @if($course->why_us && $course->why_us !='' && $course->why_us != 'null')
+                    <a href="{{$course->why_us}}" target="_blank" rel="noopener noreferrer"  class="bg-red-600 block w-fit mx-auto mt-2 hover:bg-white text-white hover:test-red-600 text-sm md:text-lg font-medium text-center border-[1px] border-red-600 py-[12px] px-[45px] rounded-[3px]" style="border: 2px solid red; border-radius: 5px;">Why Henry Harvin?</a>
+                    @endif
+                </div>
+
                 <div class="md:px-4 p-3 border-2 border-red-700 mt-6">
                     <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">About
                         {{ $course->course_name }}
