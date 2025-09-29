@@ -34,7 +34,7 @@
         <div class="py-2 sm:flex sm:gap-2 md:gap-4 max-w-full items-center justify-center" bis_skin_checked="1">
             <div class="flex" bis_skin_checked="1">
                 <p class="mx-auto text-[11px] font-[500] px-2 text-white md:text-[14px] text-center sm:font-[600]">
-                    <span class="block">Grab Month-end Scholarship + Register with best Offer</span> <span
+                    <span class="block">Grab Month-end Scholarship + Register with Best Offers</span> <span
                         class="ppp"></span>
                 </p>
                 <!-- <span style="">Don’t Miss Out! Save Big with Scholarships Before Fees Revise on 1st Jan 2025!</p> -->

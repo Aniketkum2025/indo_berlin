@@ -428,7 +428,7 @@
                     <img class="img-chat" src="https://cdn.henryharvin.com/16724655811672465581ezgif.com-gif-maker(80).webp" alt="popup-img-1" loading="lazy" />
                 </div>
                 <div class="flex items-center justify-center mt-4">
-                    <p class="w-[288px] text-center text-[20px] font-[600] text-[#fff]">Grab Month-end Scholarship + Register with best Offer</p>
+                    <p class="w-[288px] text-center text-[20px] font-[600] text-[#fff]">Grab Month-end Scholarship + Register with Best Offers</p>
                     
                 </div>
                 <div id="countdown-timer2" class="mt-4 flex items-center justify-center gap-1 text-[13px] text-white">
