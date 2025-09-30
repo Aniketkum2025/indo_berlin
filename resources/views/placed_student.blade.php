@@ -243,7 +243,7 @@ section#menu-itemss ul li a {
 </div>
 </div>
 <div class="table-responsive">
-    <form action="" method="GET">
+    {{-- <form action="" method="GET">
         <div class="flex my-6 max-w-6xl flex items-center gap-4">
             <div class="w-full">
               <select name="course_id[]" id="course-select" class="w-2xl p-2" multiple>
@@ -263,7 +263,7 @@ section#menu-itemss ul li a {
                 <a href="/placed-students-list" class="bg-red-600 text-white px-4 py-2 rounded-md text-sm">Reset</a>
             </div>
         </div>
-    </form>
+    </form> --}}
 <table id="example" class="display" style="width:100%">
         <thead>
             <tr>
