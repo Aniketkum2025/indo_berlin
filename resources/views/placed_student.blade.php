@@ -243,6 +243,7 @@ section#menu-itemss ul li a {
 </div>
 </div>
 <div class="table-responsive">
+
     {{-- <form action="" method="GET">
         <div class="flex my-6 max-w-6xl flex items-center gap-4">
             <div class="w-full">
@@ -264,6 +265,7 @@ section#menu-itemss ul li a {
             </div>
         </div>
     </form> --}}
+    
 <table id="example" class="display" style="width:100%">
         <thead>
             <tr>
