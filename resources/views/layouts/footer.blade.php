@@ -942,6 +942,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 </script>
+<script>
+!function(w,d,s,u,k){w._100xHelpdeskKey=k;var js=d.createElement(s),f=d.getElementsByTagName(s)[0];js.async=true;js.src=u;f.parentNode.insertBefore(js,f);}
+(window,document,'script','https://helpdesk.100xsuite.com/build/widget/widget.min.js','pk_CqJcBoMxvxdPn9nYekAjYF2t');
+</script>
 {{-- <script>
     ['submit_ty', 'submit_ty2'].forEach(function(id) {
         document.getElementById(id).addEventListener("click", function () {
@@ -952,7 +956,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 </script> --}}
 
-<script type="text/javascript">
+{{-- <script type="text/javascript">
         var $_Tawk_API = {},
         $_Tawk_LoadStart = new Date();
         (function() {
@@ -983,7 +987,7 @@ document.addEventListener("DOMContentLoaded", () => {
     clearInterval(this);
   }
 }, 1000);
-    </script>
+    </script> --}}
     @php $mytime = Carbon\Carbon::now(); $test = $mytime->toDateTimeString(); @endphp
 @if($test <= "2025-10-01 00:00:00" ) <script async>
     const daysEl1 = document.getElementById('days1');
