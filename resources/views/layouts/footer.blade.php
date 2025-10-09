@@ -121,7 +121,7 @@
                 </li>
             </ul>
         </div>
-        <div class="max-w-7xl mx-auto px-4 mt-4 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
+        <div class="max-w-7xl mx-auto px-4 my-6 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
             <div class="flex justify-center space-x-4 mb-4">
                 <a href="cancellation-&-refund-policy"
                     class="text-red-700 font-[600] text-[14px] font-semibold">Cancellation & Refund Policy</a>
