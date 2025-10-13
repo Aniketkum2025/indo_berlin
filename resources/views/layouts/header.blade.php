@@ -9,7 +9,7 @@
                 position: sticky;
                 top: 0;
             }
-            
+
 
             #stickyy {
                 top: 40px !important;
@@ -30,6 +30,13 @@
                     top: 64px !important;
                 }
             }
+             @media (max-width: 430px) {
+                #stickyy {
+                    top: 90px !important;
+              
+                }
+            }
+            
         </style>
 
         <div class="py-2 sm:flex sm:gap-2 md:gap-4 max-w-full items-center justify-center" bis_skin_checked="1">
