@@ -9,6 +9,7 @@
                 position: sticky;
                 top: 0;
             }
+            
 
             #stickyy {
                 top: 40px !important;
