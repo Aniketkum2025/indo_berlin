@@ -30,9 +30,9 @@
                     top: 64px !important;
                 }
             }
-             @media (max-width: 430px) {
+             @media (max-width: 401px) {
                 #stickyy {
-                    top: 90px !important;
+                    top: 80px !important;
               
                 }
             }
