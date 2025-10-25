@@ -497,7 +497,7 @@
                     <p class="w-[288px] text-center text-[20px] font-[600] text-[#fff]">Grab Month-end Scholarship + Register with best Offer </p>
 
                 </div>
-                <div id="countdown-timer2" class="mt-4 flex items-center justify-center gap-1 text-[13px] text-white">
+                {{-- <div id="countdown-timer2" class="mt-4 flex items-center justify-center gap-1 text-[13px] text-white">
                     <p class="rounded-sm bg-[#fea101] px-1 font-[500]">
                         <strong id="days" class="bold-number font-[500]"></strong> <span
                             class="slim-countdown-text">D<span class="hide-words">ays</span></span>
@@ -514,7 +514,7 @@
                         <strong id="seconds" class="bold-number font-[500]"></strong> <span
                             class="slim-countdown-text">S<span class="hide-words">econds</span></span>
                     </p>
-                </div>
+                </div> --}}
             </div>
             <div class="px-4">
                 <div class="flex items-center justify-between p-4 md:p-2 border-b rounded-t">
@@ -1083,7 +1083,7 @@
   }
 }, 1000);
     </script> --}}
-    
+
 @php
     $mytime = Carbon\Carbon::now();
     $test = $mytime->toDateTimeString();
