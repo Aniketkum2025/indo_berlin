@@ -494,7 +494,7 @@
                         alt="popup-img-1" loading="lazy" />
                 </div>
                 <div class="flex items-center justify-center mt-4">
-                    <p class="w-[288px] text-center text-[20px] font-[600] text-[#fff]">The Great Indian Upskilling Festival – Grab Combo Courses at up to 50% OFF! </p>
+                    <p class="w-[288px] text-center text-[20px] font-[600] text-[#fff]">Grab Month-end Scholarship + Register with best Offer </p>
 
                 </div>
                 <div id="countdown-timer2" class="mt-4 flex items-center justify-center gap-1 text-[13px] text-white">
@@ -1087,13 +1087,13 @@
     $mytime = Carbon\Carbon::now();
     $test = $mytime->toDateTimeString();
 @endphp
-@if ($test <= '2025-10-22 00:00:00')
+@if ($test <= '2025-11-01 00:00:00')
     <script async>
         const daysEl1 = document.getElementById('days1');
         const hoursEl1 = document.getElementById('hours1');
         const minsEL1 = document.getElementById('mins1');
         const secondsEL1 = document.getElementById('seconds1');
-        const newYears1 = '22 october 2025';
+        const newYears1 = '01 november 2025';
 
         function countdown1() {
             const newYearsDate1 = new Date(newYears1);
@@ -1115,7 +1115,7 @@
         const hoursEl = document.getElementById('hours');
         const minsEL = document.getElementById('mins');
         const secondsEL = document.getElementById('seconds');
-        const newYears = '22 october 2025';
+        const newYears = '22 november 2025';
 
         function countdown() {
             const newYearsDate = new Date(newYears);

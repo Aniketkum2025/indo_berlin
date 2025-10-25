@@ -2,7 +2,7 @@
     $mytime = Carbon\Carbon::now();
     $test = $mytime->toDateTimeString();
 @endphp
-@if ($test <= '2025-10-22 00:00:00')
+@if ($test <= '2025-11-01 00:00:00')
     <section class="bg-[#4f2d7f] top-0 z-50 offer-header" style="background: #FF9800;">
         <style>
             .offer-header {
@@ -42,7 +42,7 @@
         <div class="py-2 sm:flex sm:gap-2 md:gap-4 max-w-full items-center justify-center" bis_skin_checked="1">
             <div class="flex" bis_skin_checked="1">
                 <p class="mx-auto text-[11px] font-[500] px-2 text-white md:text-[14px] text-center sm:font-[600]">
-                    <span class="block">The Great Indian Upskilling Festival – Grab Combo Courses at up to 50% OFF! </span> <span
+                    <span class="block">Grab Month-end Scholarship + Register with best Offer</span> <span
                         class="ppp"></span>
                 </p>
                 <!-- <span style="">Don’t Miss Out! Save Big with Scholarships Before Fees Revise on 1st Jan 2025!</p> -->
@@ -75,7 +75,7 @@
                         class="hidden md:block text-gray-900 relative text-[11px] font-[600] bg-white px-2 py-1 rounded-md"
                         style="background: linear-gradient(to right, #E50914 , #FF8A00 ) !important; color: white !important;">Check
                         Now</button>
-                    <a href="https://api.whatsapp.com/send?phone=919910990543&amp;text=The%20Great%20Indian%20Upskilling%20Festival%20–%20Grab%20Combo%20Courses"
+                    <a href="https://api.whatsapp.com/send?phone=919910990543&amp;text=Grab%20Month-end%20Scholarship%20+%20Register%20with%20best%20Offer"
                         class="text-[#212529] relative w-20 mr-2 text-[10px] font-[500] bg-white px-2 py-1 rounded-md block md:hidden">Check
                         Now</a>
                 </div>
