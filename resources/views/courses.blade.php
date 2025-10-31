@@ -781,6 +781,39 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
 
         </div>
     </section>
+    <section>
+         <div class="md:mx-[100px] mx-[1rem]">
+            <div class="mt-2">
+                <p class="md:text-[32px] text-[20px] text-purple md:mx-[2%] mx-[2%] italic py-4 text-center md:leading-[30px] leading-[20px]">Read about the learner experience on WhatsApp</p>
+        
+                <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 md:cols-3 gap-2 mt-6">
+                    @foreach ($reviewLeads as $rl)
+                    <div class="bg-white rounded-xl shadow-xl overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1 group">
+                        <div class="relative">
+                            <img src="{{ $rl->file }}" alt="Offer Letter" class="w-full object-scale-down" style="height:150px;">
+                            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                            <a href="{{ $rl->file }}" target="_blank"  rel="noopener noreferrer" 
+                                class="px-2 py-1 bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-sm font-medium rounded-lg shadow-md hover:from-blue-700 hover:to-indigo-700 transition">
+                                Click to Open Proof
+                            </a>
+                            </div>
+                        </div>
+                        <div class="p-2 text-center border-t-2 border-[#ffc107]">
+                            <h2 class="text-[14px] md:text-[16px] font-[600] text-purple mb-1">{{ $rl->name }}</h2>
+                            {{-- <div class="h-10" style="overflow:auto;">
+                                @if(!empty($rl->course_name))
+                                    @foreach(explode(',', $rl->course_name) as $cName)
+                                        <p class="text-sm text-[#ffc107] font-[600]">{{ trim($cName) }}</p>
+                                    @endforeach
+                                @endif
+                            </div> --}}
+                        </div>
+                    </div>
+                    @endforeach
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="py-12 px-4">
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mt-2">
             <div class="md:col-span-2">

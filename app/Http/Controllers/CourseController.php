@@ -8,6 +8,7 @@ use App\Models\CRMBatch;
 use App\Models\CRMCourse1;
 use App\Models\CrmcourseCourse;
 use App\Models\Faq;
+use App\Models\CRMReviewLead;
 use App\Models\linkedinStories;
 use App\Models\Meta;
 use App\Models\See_more;
@@ -359,7 +360,39 @@ class CourseController extends Controller
             
                 return $video_reviews->unique('id')->take(18);
             });
-            return view('courses', compact('atualPriceInr', 'matchCourses','jobprofiles', 'newcertificateCourse', 'academy_wise_course', 'affiliation_academy', 'title', 'metas', 'review', 'upcoming_batches', 'academy_name', 'testimonials', 'logos', 'faqs', 'batch', 'process', 'certificate', 'usps', 'course', 'feat', 'affiliations', 'aboutcourse', 'module', 'tools', 'trainers', 'gallery', 'seemore', 'city_flag', 'skills', 'project', 'alumniplaced', 'alumnireview', 'duration', 'result2', 'event', 'placedlearner', 'freecourse','userFeedback','linkdinData', 'videoReview'))->with('i');
+
+             $reviewLeads = Cache::remember('review_lead_slug_' . $slug, 60, function () use ($course) {
+                $review_leads = CRMReviewLead::whereRaw("FIND_IN_SET(?, course)", [$course->crm_course_id])->get();
+                foreach ($review_leads as $lead) {
+                    $codes = explode(',', $lead->course);
+                    $courseNames = CRMCourse1::whereIn('crm_course_id', $codes)
+                                    ->pluck('course_name')
+                                    ->toArray();
+                    $lead->course_name = implode(', ', $courseNames);
+                }
+                $count = $review_leads->count();
+                if ($count < 8) {
+                    $extraLeads = CRMReviewLead::whereRaw("NOT FIND_IN_SET(?, course)", [$course->crm_course_id])
+                        ->whereNotIn('id', $review_leads->pluck('id'))
+                        ->limit(8 - $count)
+                        ->get();
+
+                    foreach ($extraLeads as $lead) {
+                        $codes = explode(',', $lead->course);
+                        $courseNames = CRMCourse1::whereIn('crm_course_id', $codes)
+                                        ->pluck('course_name')
+                                        ->toArray();
+                        $lead->course_name = implode(', ', $courseNames);
+                    }
+
+                    $review_leads = $review_leads->merge($extraLeads);
+                }
+                return $review_leads;
+            });
+
+            // return view('tailwind.courses', compact('atualPriceInr', 'matchCourses', 'trainer_courses','jobprofiles', 'newcertificateCourse', 'academy_wise_course', 'affiliation_academy', 'title', 'metas', 'review', 'upcoming_batches', 'academy_name', 'testimonials', 'academy', 'logos', 'faqs', 'batch', 'process', 'certificate', 'usps', 'course', 'feat', 'affiliations', 'aboutcourse', 'module', 'tools', 'trainers', 'gallery', 'seemore', 'tested_slug', 'city_flag', 'address', 'skills', 'project', 'alumniplaced', 'alumnireview', 'duration', 'result2', 'event', 'placedlearner', 'freecourse','userFeedback','linkdinData', 'videoReview', 'reviewLeads'))->with('i');
+
+            return view('courses', compact('atualPriceInr', 'matchCourses','jobprofiles', 'newcertificateCourse', 'academy_wise_course', 'affiliation_academy', 'title', 'metas', 'review', 'upcoming_batches', 'academy_name', 'testimonials', 'logos', 'faqs', 'batch', 'process', 'certificate', 'usps', 'course', 'feat', 'affiliations', 'aboutcourse', 'module', 'tools', 'trainers', 'gallery', 'seemore', 'city_flag', 'skills', 'project', 'alumniplaced', 'alumnireview', 'duration', 'result2', 'event', 'placedlearner', 'freecourse','userFeedback','linkdinData', 'videoReview','reviewLeads'))->with('i');
         }
     }
 
