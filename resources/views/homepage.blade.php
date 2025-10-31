@@ -380,7 +380,7 @@
             <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4"> <span class="text-gray-800 text-3xl md:text-4xl font-[700] italic">7000+ </span> Reviews
                 with <span class="text-gray-800 text-3xl md:text-4xl font-[700] italic"> 4.6/5 </span> Average Rating
             </h2>
-            <div
+            {{-- <div
                 class="relative max-w-[1200px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 py-4 gap-4 md:gap-8 my-1 rounded-lg">
                 <div
                     class="cursor-pointer grid place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
@@ -471,6 +471,107 @@
                     <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/171964550223e23e23.webp"
                         loading="lazy "alt="google4">
                 </div>
+            </div> --}}
+            <div
+                class="relative max-w-[1200px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 py-4 gap-4 md:gap-8 my-1 rounded-lg">
+                <a href="https://www.forbesindia.com/article/brand-connect/henry-harvin-reviews-485-across-the-web/94745/1"
+                    class="cursor-pointer grid block place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                    <div class="flex items-center justify-center">
+                        <p class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.8
+                            <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                                class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                                class="fa fa-star-half text-red-700"></i>
+                        </p>
+                    </div>
+                    <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733730860forbes.webp"
+                        loading="lazy "alt="justdial1" loading="lazy">
+                </a>
+                <a href="https://www.justdial.com/Delhi/Henry-Harvin-India-Education-LLP-Near-Noida-Authority-Noida-Sector-6/011PXX11-XX11-181022173738-G2E3_BZDET/reviews"
+                    class="cursor-pointer grid block place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                    <div class="flex items-center justify-center">
+                        <p class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.5
+                            <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                                class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                                class="fa fa-star-half text-red-700"></i>
+                        </p>
+                    </div>
+                    <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1746770909ezgif.com-resize.png"
+                        loading="lazy "alt="justdial" loading="lazy">
+                </a>
+                <a href="https://reviewsreporter.com/"
+                    class="cursor-pointer grid block place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                    <div class="flex items-center justify-center">
+                        <p class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.9
+                            <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                                class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                                class="fa fa-star text-red-700"></i>
+                        </p>
+                    </div>
+                    <img class="h-16"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1730089884544x180-BR-300x99-1.png"
+                        loading="lazy "alt="mouthshut2" loading="lazy">
+                </a>
+                <a href="https://www.mouthshut.com/product-reviews/henryharvin-reviews-926062756"
+                    class="cursor-pointer grid block place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                    <div class="flex items-center justify-center">
+                        <p class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">5.0
+                            <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                                class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                                class="fa fa-star text-red-700"></i>
+                        </p>
+                    </div>
+                    <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1752832498wwd2e1.png"
+                        loading="lazy "alt="edugorrilla" loading="lazy">
+                </a>
+                <a href="https://www.google.com/search?q=HenryHarvin"
+                    class="cursor-pointer grid block place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                    <div class="flex items-center justify-center">
+                        <p class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">5.0
+                            <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                                class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                                class="fa fa-star text-red-700"></i>
+                        </p>
+                    </div>
+                    <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17196452202d2d (2).webp"
+                        loading="lazy "alt="google" loading="lazy">
+                </a>
+                <a href="https://www.gooverseas.com/organization/henry-harvin-tefl-academy-reviews"
+                    class="cursor-pointer grid block place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                    <div class="flex items-center justify-center">
+                        <p class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.5
+                            <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                                class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                                class="fa fa-star-half text-red-700"></i>
+                        </p>
+                    </div>
+                    <img class="h-16" src="https://cdn.henryharvin.com/gooo1.webp" loading="lazy "alt="google2"
+                        loading="lazy">
+                </a>
+                <a href="https://www.coursereport.com/schools/henry-harvin-education"
+                    class="cursor-pointer grid block place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                    <div class="flex items-center justify-center">
+                        <p class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.6
+                            <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                                class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                                class="fa fa-star-half text-red-700"></i>
+                        </p>
+                    </div>
+                    <img class="h-16" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755412282course-report.webp"
+                        loading="lazy "alt="course report">
+                </a>
+                <a href="https://www.urbanpro.com/noida/henry-harvin-education-sector-18/6237579"
+                    class="cursor-pointer grid block place-content-center gap-4 border-red-100 border p-3 lg:my-0 rounded-xl bg-white">
+                    <div class="flex items-center justify-center">
+                        <p class="bg-[#F6F8FB] px-4 py-3 text-[24px] rounded-md text-gray-800 font-[600]">4.5
+                            <i class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                                class="fa fa-star text-red-700"></i><i class="fa fa-star text-red-700"></i><i
+                                class="fa fa-star-half text-red-700"></i>
+                        </p>
+                    </div>
+                    <img class="h-8 md:h-10"
+                        src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1761911090ezgif.com-webp-maker_(2).webp"
+                        loading="lazy "alt="google4">
+                </a>
             </div>
         </div>
     </section>
