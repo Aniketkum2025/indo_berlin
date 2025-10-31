@@ -32,7 +32,7 @@
             }
              @media (max-width: 401px) {
                 #stickyy {
-                    top: 80px !important;
+                    top: 66px !important;
               
                 }
             }
