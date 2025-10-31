@@ -361,6 +361,8 @@ class CourseController extends Controller
                 return $video_reviews->unique('id')->take(18);
             });
 
+
+            
              $reviewLeads = Cache::remember('review_lead_slug_' . $slug, 60, function () use ($course) {
                 $review_leads = CRMReviewLead::whereRaw("FIND_IN_SET(?, course)", [$course->crm_course_id])->get();
                 foreach ($review_leads as $lead) {
