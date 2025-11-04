@@ -6,6 +6,7 @@ use App\Http\Controllers\MediaController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PpcController;
 use App\Http\Controllers\ThankyouController;
+use App\Http\Controllers\AccountDeleteController;
 use App\Http\Controllers\PlacedstudentshowController;
 
 use App\Models\Course;
@@ -21,6 +22,9 @@ use App\Models\LeadQueue;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('kazumi-app-account-delete', [AccountDeleteController::class, 'index']);
+Route::post('otp-app-account-delete', [AccountDeleteController::class, 'otpVerify'])->name('otp-app-account-delete');
+Route::post('kazumi-app-account-delete', [AccountDeleteController::class, 'store'])->name('otp-app-account-delete.store');
 
 Route::get('test/test', function(){
      $lead = LeadQueue::take(1)->get();
@@ -105,3 +109,4 @@ Route::get('thank-you/{slug}', [ThankyouController::class, 'index'])->name('get.
 Route::resource('admin/lead', LeadController::class);
 Route::get('{slug}', [CourseController::class, 'index'])->name('course.index');
 Route::get('placed-students-list', [PlacedstudentshowController::class, 'index']);
+
