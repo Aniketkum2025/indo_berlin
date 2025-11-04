@@ -9,6 +9,8 @@
 
 </head>
 
+
+
 <body>
         <p>We have received your request to delete <strong>Kazumi Japanese School</strong> account associated with the email address <strong>{{$email}}</strong>.</p>
         <div>
