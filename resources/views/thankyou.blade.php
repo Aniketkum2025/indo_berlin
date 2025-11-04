@@ -420,7 +420,7 @@
                         <img class="mr-2 md:mr-4"
                             src="https://cdn.henryharvin.com/images/1605779019255px-Flag_of_India.svg.png" alt="IN Flag"
                             width="20" height="13" loading="lazy">
-                        +91 8287514699
+                        +91 9266621544
                     </a>
                 </div>
                 <div class="grid grid-cols-2 gap-1 md:gap-7 mt-3" bis_skin_checked="1">
