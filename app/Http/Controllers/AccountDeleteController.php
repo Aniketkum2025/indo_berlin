@@ -18,7 +18,7 @@ class AccountDeleteController extends Controller
             $otp = random_int(100000, 999999);
             session(['otp-fluent' => $otp]);
             
-            Mail::to($request->email)->send(new AppAccDelete($otp,  00));
+            Mail::to($request->email)->send(new AppAccDelete($otp,  $request->email));
 
             return response()->json([
                 'status' => true,
