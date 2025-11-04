@@ -46,7 +46,7 @@ class AccountDeleteController extends Controller
         
         if(session()->get('otp-fluent') == $request->otp){
             session()->forget('otp-fluent');
-            DB::table('app-account-delete')->insert([
+            DB::table('app_account_delete')->insert([
                 'email' => $request->email,
                 'remark' => $request->remark,
                 'delete_app' => 'kazumi',
