@@ -317,7 +317,7 @@
                             alt="Japanese Course Review by Tanisha">
                     </div>
 
-                    <!-- 13 -->
+{{--                     
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/TQM2QkyQ9eE/hqdefault.jpg"
@@ -325,7 +325,7 @@
                             alt="Japanese Course Review by Vivek Saini">
                     </div>
 
-                    <!-- 14 -->
+                    
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/_BMlRAi9dK8/hqdefault.jpg"
@@ -333,7 +333,7 @@
                             alt="Japanese Course Reviews">
                     </div>
 
-                    <!-- 15 -->
+                   
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/pfkbInIwD6Q/hqdefault.jpg"
@@ -341,7 +341,7 @@
                             alt="Japanese Course Reviews">
                     </div>
 
-                    <!-- 16 -->
+                    
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/5rIlYy7SO08/hqdefault.jpg"
@@ -349,7 +349,7 @@
                             alt="Japanese Course Review By Muskan">
                     </div>
 
-                    <!-- 17 -->
+                   
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/O_yLL2aNXTY/hqdefault.jpg"
@@ -357,13 +357,13 @@
                             alt="Japanese Course Reviews">
                     </div>
 
-                    <!-- 18 -->
+                 
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/bsPvt3xJTEc/hqdefault.jpg"
                             data-video="https://www.youtube.com/embed/bsPvt3xJTEc?list=PL28eq_nhJTOfHpe-729IGXSbgju9wG6Ra"
                             alt="Japanese Course Review by Prashub">
-                    </div>
+                    </div> --}}
 
                 </div>
 
