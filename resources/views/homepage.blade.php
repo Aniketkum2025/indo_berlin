@@ -1,8 +1,7 @@
 @extends('layouts.app')
-@section('title', 'Kazumi | India’s Leading Japanese Language Institute | N5 to N1')
+@section('title', 'Japanese Language Institute In India | Kazumi School')
 @section('meta_description',
-    'Kazumi, India’s leading Japanese language institute, offers expert-led courses from
-    beginner (N5) to advanced (N1) levels. Start learning Japanese today!')
+    'Kazumi School is a leading Japanese language institute in India, offers expert-led courses from beginner (N5) to advanced (N1) levels. Start learning Japanese today!')
 @section('schema')
     <script type="application/ld+json">
 {
