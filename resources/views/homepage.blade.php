@@ -24,7 +24,7 @@
 </script>
 @endsection
 @section('content')
-    {{-- welcome setion --}}
+    
     <section>
         <div class="relative w-full h-screen overflow-hidden"
             style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1755338858banner1.webp); background-position: top;">
