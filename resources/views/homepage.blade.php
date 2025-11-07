@@ -221,7 +221,7 @@
                 <!-- Video Grid -->
                 <div id="videoGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
 
-                    <!-- 1 -->
+                   
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755500037review-vedeo1.webp"
@@ -229,7 +229,7 @@
                             alt="Japanese Language Course Review By Sachet">
                     </div>
 
-                    <!-- 2 -->
+                   
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755500240anupam.webp"
@@ -237,7 +237,7 @@
                             alt="Japanese Language Course Review By Anupam">
                     </div>
 
-                    <!-- 3 -->
+                   
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/mZkFP1ZWJv4/hqdefault.jpg"
@@ -245,7 +245,7 @@
                             alt="Japanese Language Course Review">
                     </div>
 
-                    <!-- 4 -->
+                   
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/YqdggC5M90s/hqdefault.jpg"
@@ -253,7 +253,7 @@
                             alt="Japanese Language Course Review by Khushi Goswami">
                     </div>
 
-                    <!-- 5 -->
+                    
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/L9QZCK1P5O0/hqdefault.jpg"
@@ -261,7 +261,7 @@
                             alt="Japanese Language Course Review by Khushi Jain">
                     </div>
 
-                    <!-- 6 -->
+                   
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/JYPNfkyyx08/hqdefault.jpg"
@@ -269,7 +269,7 @@
                             alt="Japanese Language Course Review by Vandana">
                     </div>
 
-                    <!-- 7 -->
+                    
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/BooTihSy8dA/hqdefault.jpg"
@@ -277,7 +277,7 @@
                             alt="Japanese Course Review by Tarni">
                     </div>
 
-                    <!-- 8 -->
+                    
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/h2558oOB2GM/hqdefault.jpg"
@@ -285,7 +285,7 @@
                             alt="Japanese Language Course Review by Rayajiri Kumar">
                     </div>
 
-                    <!-- 9 -->
+                   
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/uggeKrYDD1s/hqdefault.jpg"
@@ -293,7 +293,7 @@
                             alt="Japanese Language Course Review by Mayuresh">
                     </div>
 
-                    <!-- 10 -->
+                   
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/RvJ-DSVFVv4/hqdefault.jpg"
@@ -301,7 +301,7 @@
                             alt="Japanese Course Review by Vasundhara">
                     </div>
 
-                    <!-- 11 -->
+                    
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/2vKgb2MJlzI/hqdefault.jpg"
@@ -309,7 +309,7 @@
                             alt="Japanese Course Review by Pravallika">
                     </div>
 
-                    <!-- 12 -->
+                   
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/LCPhZuc1RqQ/hqdefault.jpg"
