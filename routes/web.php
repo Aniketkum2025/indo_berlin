@@ -91,6 +91,9 @@ Route::get('careers', function () {
 Route::get('our-customers', function () {
     return view('our_customers');
 });
+Route::get('japanese-language-classes', function () {
+    return view('japanese-language-classes');
+});
 
 Route::get('thankyou', function () {
     return view('thankyou');
