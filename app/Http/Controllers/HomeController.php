@@ -13,7 +13,7 @@ class HomeController extends Controller
 {
     public function index(){
 
-    $course = Course::first(); // returns a single model
+    // $course = Course::first(); // returns a single model
 
 
     //  $videoReview = Cache::remember('video_review_list', 60 * 60 * 24, function () {
