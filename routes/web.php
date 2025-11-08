@@ -8,7 +8,7 @@ use App\Http\Controllers\PpcController;
 use App\Http\Controllers\ThankyouController;
 use App\Http\Controllers\AccountDeleteController;
 use App\Http\Controllers\PlacedstudentshowController;
-
+use App\Http\Controllers\HomeController;
 use App\Models\Course;
 use App\Models\LeadQueue;
 
@@ -22,6 +22,8 @@ use App\Models\LeadQueue;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('home', [HomeController::class, 'index']);
+
 Route::get('kazumi-app-account-delete', [AccountDeleteController::class, 'index']);
 Route::post('otp-app-account-delete', [AccountDeleteController::class, 'otpVerify'])->name('otp-app-account-delete');
 Route::post('kazumi-app-account-delete', [AccountDeleteController::class, 'store'])->name('otp-app-account-delete.store');
