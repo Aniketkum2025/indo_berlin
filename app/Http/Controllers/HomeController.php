@@ -52,7 +52,7 @@ class HomeController extends Controller
 
         $userFeedback = collect($userFeedback)->map(fn($item) => (object) $item);
 
- return view('course_review',compact('review', 'linkdin', 'userFeedback'));
+ return view('homepage',compact('review', 'linkdin', 'userFeedback'));
     }
         public function getUserFeedback($limit = 50, $minCount = 9)
     {

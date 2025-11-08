@@ -373,6 +373,161 @@
         </div>
     </section>
 
+     <section class="max-w-[1300px] mx-auto md:px-4 px-2 py-10">
+    <h3 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4]">
+        Read Learner's Experience on WhatsApp
+    </h3>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+        @foreach ($review as $rl)
+            <div
+                class="bg-white rounded-xl shadow-xl overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1 group">
+                <div class="relative">
+                    <img src="{{ $rl->file }}" alt="Review Proof"
+                        class="w-full object-scale-down" style="height:150px;">
+                    <div
+                        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                        <a href="{{ $rl->file }}" target="_blank" rel="noopener noreferrer"
+                            class="px-2 py-1 bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-sm font-medium rounded-lg shadow-md hover:from-blue-700 hover:to-indigo-700 transition">
+                            Click to Open Proof
+                        </a>
+                    </div>
+                </div>
+
+
+
+                    <div class="p-2 text-center border-t-2 border-[#ffc107]">
+                            <h2 class="text-[14px] md:text-[16px] font-[600] text-purple mb-1">
+                        {{ $rl->name }}
+                    </h3>
+                </div>
+            </div>
+        @endforeach
+    </div>
+</section>
+
+<section class="max-w-[1500px] mx-auto  px-2 py-10">
+    {{-- @if($academy_name->academy_url != 'fellowship-courses') --}}
+        <div class="bg-[#dce2e9] pb-6 pt-4" id="reviews">
+            <div class="md:mx-[100px] mx-[1rem]" style="" id="linkedin_review_course_section">
+                <p class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4]">
+                    Checkout Learner's Experiences on LinkedIn
+                    {{-- Check out Henry Harvin® {{ $course->course_name }} alumna on LinkedIn --}}
+                </p>
+                {{-- LinkedIn Reviews Section --}}
+                {{-- @if(isset($linkdinData) && $linkdinData->isNotEmpty())
+                    <div class="max-w-full m-auto border-purple my-2 py-2">
+                        <div class="swiper swiper-slider-linked mt-4">
+                            <div class="swiper-wrapper">
+                                @foreach ($linkdinData as $item)
+                                    <div class="rounded swiper-slide bg-white shadow-2xl">
+                                        <div class="h-30 w-full relative flex items-center justify-center">
+                                            <img style="height: 200px;" class="w-full" src="{{ $item->image }}" alt="LinkedIn Review Image">
+                                            <a aria-label="linkedin" 
+                                               class="absolute bottom-6 right-4 text-white bg-[#0e76a8] shadow-lg font-normal h-10 w-10 flex items-center justify-center rounded-full" 
+                                               href="{{ $item->linkedin_url }}" 
+                                               target="_blank" 
+                                               rel="noopener noreferrer">
+                                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                        <div class="p-2">
+                                            <p class="text-[20px] font-[500] text-center">{{ $item->name }}</p>
+                                        </div>
+                                        <div class="flex p-2 border-t-2 items-center gap-2 justify-center">
+                                            <img class="object-scale-down w-full h-14 p-2 overflow-hidden" src="{{ $item->company_logo }}" alt="Company Logo">
+                                        </div>
+                                    </div>
+                                @endforeach
+                            </div>
+                        </div>
+                    </div>
+                @endif --}}
+
+                {{-- User Feedback Section --}}
+                @if(isset($userFeedback) && $userFeedback->isNotEmpty())
+                    @php
+                        $count = $userFeedback->slice(0, 9)->count();
+                        $chunks = $count > 0 
+                            ? $userFeedback->slice(0, 20)->split(ceil($count / 3)) 
+                            : $userFeedback->slice(0, 20)->split(1);
+                    @endphp
+
+                    @foreach($chunks as $chunk)
+                        <div class="courseSwiper swiper-course-all mx-[1rem] overflow-hidden">
+                            <div class="swiper-wrapper">
+                                @foreach ($chunk as $rev)
+                                    <div class="mt-4 swiper-slide">
+                                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-purple-800">
+                                            <div class="flex justify-between items-center">
+                                                 <div>
+                                                    <img class="h-14 w-14 rounded-full" 
+                                                         src="{{ urldecode($rev->image) }}" 
+                                                         onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' 
+                                                         alt="User Image" 
+                                                         loading="lazy" />
+                                                </div> 
+
+                                                <div>
+                                                    <span>{{ $rev->first_name }}</span><br>
+                                                    <span class="text-[#F5AB40] text-xl">★ ★ ★ ★ ★</span>
+                                                </div>
+                                                <div class="text-blue-500">
+                                                    <a href="{{ $rev->linkedin_url }}" target="_blank" rel="noopener noreferrer">
+                                                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17194808473rrf3rf3f.webp" alt="LinkedIn Icon" width="30px">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                @endforeach
+                            </div>
+                        </div>
+                    @endforeach
+                @else
+                    @php
+                        $count = $review->slice(0, 9)->count();
+                        $divisionResult = $count > 0 ? ceil($count / 3) : 1;
+                        $rowsss = $review->slice(0, 20)->split($divisionResult);
+                    @endphp
+
+                    @foreach($rowsss as $rowss)
+                        <div class="courseSwiper swiper-course-all mx-[1rem] overflow-hidden">
+                            <div class="swiper-wrapper">
+                                @foreach ($rowss as $rev)
+                                    <div class="mt-4 swiper-slide">
+                                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-purple-800">
+                                            <div class="flex justify-between items-center">
+                                                <div>
+                                                    <img class="h-14 w-14 rounded-full" 
+                                                         src="{{ $rev->review_image }}" 
+                                                         onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' 
+                                                         alt="Reviewer Image" 
+                                                         loading="lazy" />
+                                                </div>
+                                                <div>
+                                                    <span>{{ $rev->review_name }}</span><br>
+                                                    <span class="text-[#F5AB40] text-xl">★ ★ ★ ★ ★</span>
+                                                </div>
+                                                <div class="text-blue-500">
+                                                    <a href="{{ $rev->review_link ? $rev->review_link : 'https://www.henryharvin.com/reviews/' }}" 
+                                                       target="_blank" 
+                                                       rel="noopener noreferrer">
+                                                        {{ $rev->review_link ? 'Check Proof' : 'See Proof' }}
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                @endforeach
+                            </div>
+                        </div>
+                    @endforeach
+                @endif
+            </div>
+        </div>
+    {{-- @endif --}}
+</section>
     {{-- reviews section --}}
     <section class="py-12 px-4 bg-gray-100">
         <div class="max-w-7xl mx-auto">
