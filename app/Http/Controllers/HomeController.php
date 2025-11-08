@@ -93,7 +93,7 @@ class HomeController extends Controller
         return $feedback->take($limit)->values();
     }
 
-
+//hii dear
     private function fetchFeedbackByCourse()
     {
         return DB::connection('mysql2')->table('registration2')
