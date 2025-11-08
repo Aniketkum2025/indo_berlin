@@ -30,16 +30,15 @@
             style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1755338858banner1.webp); background-position: top;">
             <div
                 class="relative z-10 flex flex-col justify-center space-y-4 items-center h-full text-center text-white bg-black bg-opacity-30">
-                <h1 class="text-2xl md:text-[48px] tracking-widest mb-10 leading-8 font-[600] md:leading-[60px] leading-[30px]"
-                    style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Welcome to Kazumi Japanese & Culture School learn
-                    With Expert </h1>
-                <p class="capitalize text-xl md:text-3xl tracking-widest font-[600]"
+                <h1 class="text-2xl md:text-[40px] px-4 tracking-widest mb-10 leading-8 font-[600] md:leading-[60px] leading-[30px]"
+                    style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Japanese Language Course In Classroom or at Home </h1>
+                <p class="capitalize px-4 text-xl md:text-3xl tracking-widest font-[600]"
                     style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);"
-                    style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">新しい日本語教育と文化の基準を体験しましょう</p>
-                <p class="capitalize text-xl md:text-3xl tracking-widest mt-4 font-[600]"
+                    style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">With 73+ faculties, 9+ native teachers, 12000+ alumni, Kazumi Japanese & Culture School is the Most Popular Platform to Learn Japanese Language</p>
+                {{-- <p class="capitalize text-xl md:text-3xl tracking-widest mt-4 font-[600]"
                     style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);"
                     style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Discover a new standard of Japanese Education and
-                    Culture</p>
+                    Culture</p> --}}
                 <div class="flex space-x-4 mb-8 items-center justify-center">
                     <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button"
                         class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600 cursor-pointer">Apply
