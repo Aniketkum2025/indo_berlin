@@ -108,6 +108,7 @@ class HomeController extends Controller
             ->whereNotNull('registration2.linkedin_url')
             ->where('registration2.linkedin_url', '!=', " ")
             ->where('registration2.linkedin_url', 'LIKE', '%linkedin%')
+            ->where('registration2.image', 'LIKE', 'http%')
             ->select(
                 'registration2.id',
                 'registration2.linkedin_url',
