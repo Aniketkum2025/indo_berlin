@@ -225,8 +225,7 @@
     {{-- vedio section --}}
     <section class="py-12 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Testimonial
-                Videos
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Checkout Kazumi reviews on Youtube
             </h2>
             <div class="relative">
                 <!-- Video Grid -->
@@ -386,7 +385,7 @@
 
      <section class="max-w-[1300px] mx-auto md:px-4 px-2 py-10">
     <h3 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4]">
-        Read Learner's Experience on WhatsApp
+        Checkout Kazumi reviews on WhatsApp
     </h3>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
@@ -422,7 +421,7 @@
         <div class="bg-[#dce2e9] pb-6 pt-4" id="reviews">
             <div class="md:mx-[100px] mx-[1rem]" style="" id="linkedin_review_course_section">
                 <p class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4]">
-                    Checkout Learner's Experiences on LinkedIn
+Checkout Kazumi alumni on Linkdin
                     {{-- Check out Henry Harvin® {{ $course->course_name }} alumna on LinkedIn --}}
                 </p>
                 {{-- LinkedIn Reviews Section --}}

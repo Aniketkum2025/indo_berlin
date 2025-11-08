@@ -5,7 +5,7 @@
 <section id="video_review_course_section" class="bg-white shadow-lg rounded-3xl p-8 md:p-10 border border-gray-100 mx-8">
     <h2 class="md:text-[32px] text-[20px] text-red-600 md:mx-[2%] mx-[2%] italic py-6 text-center md:leading-[30px] leading-[20px]">
         {{-- View Learner's Experience on YouTube --}}
-        Check out Kazumischool {{ $course->course_name }} alumna on YouTube
+        Checkout Kazumi {{ $course->course_name }} reviews on YouTube
     </h2>
     <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-8">
         @foreach ($videoReview as $vr)
@@ -23,7 +23,7 @@
 <section class="bg-white shadow-lg rounded-3xl p-8 md:p-10 border border-gray-100 my-4 mx-8">
     <h2 class="md:text-[32px] text-[20px] text-red-600 md:mx-[2%] mx-[2%] italic py-6 text-center md:leading-[30px] leading-[20px]">
         {{-- Read Learner's Experience on WhatsApp --}}
-        Check out Kazumischool {{ $course->course_name }} alumna on WhatsApp
+        Checkout Kazumi {{ $course->course_name }} reviews on WhatsApp
     </h2>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
@@ -177,7 +177,7 @@
      @if($userFeedback)
     <div class="bg-[#dce2e9]">
         <div class="md:mx-[100px] mx-[1rem]">
-            <p class="md:text-[32px] text-[20px] text-red-600 md:mx-[2%] mx-[2%] italic py-6 text-center md:leading-[30px] leading-[20px]">Check out Instituto Spanien {{$course->course_name}} School alumna on WhatsApp</p>
+            <p class="md:text-[32px] text-[20px] text-red-600 md:mx-[2%] mx-[2%] italic py-6 text-center md:leading-[30px] leading-[20px]">Checkout Kazumi {{$course->course_name}} alumni on linkdin</p>
             @if(isset($userFeedback) && $userFeedback->isNotEmpty())
             @php
             $count = $userFeedback->slice(0, 9)->count();
