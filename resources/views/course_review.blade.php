@@ -179,14 +179,14 @@
     <!-- Title Section -->
     <div class="text-center mb-10">
         <h1 class="md:text-[24px] text-[20px] text-center text-red font-[600]">
-            <span class="text-purple-700">Kazumischool</span>
-            <span class="text-amber-500"> {{ $course->course_name }} </span>
-            <span class="text-purple-700">Reviews</span>
+            <span class="text-red-600">Kazumischool</span>
+            <span class="text-red-500"> {{ $course->course_name }} </span>
+            <span class="text-red-600">Reviews</span>
         </h1>
-        <div class="flex justify-center">
+        {{-- <div class="flex justify-center">
             <img class="h-4" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1732611036ezgif.com-crop_(3).webp" alt="">
-        </div>
-        <div class="mt-3 mx-auto h-1 w-20 bg-gradient-to-r from-purple-700 via-amber-400 to-purple-700 rounded-full">
+        </div> --}}
+        <div class="mt-3 mx-auto h-1 w-20 bg-gradient-to-r from-red-700 via-amber-400 to-red-700 rounded-full">
         </div>
     </div>
 
