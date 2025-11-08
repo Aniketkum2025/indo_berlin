@@ -18,7 +18,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Http;
-
+use Illuminate\Support\Arr;
 class CourseController extends Controller
 {
     public function index(Request $request, $slug) {
@@ -26,6 +26,11 @@ class CourseController extends Controller
         // if(!str_contains($slug, 'japan')){
         //     return abort(404);
         // }
+        $parts = explode('-', $slug);
+        $lastPart = Arr::last($parts);
+        if ($lastPart == "reviews") array_pop($parts);
+        $slug = implode('-', $parts);
+        $isReview = $lastPart == "reviews";
 
          $course = Cache::remember('course_slug_' . $slug, 60 * 60, function () use ($slug) {
             return Course::where('slug', '=', $slug)->first();
@@ -394,7 +399,8 @@ class CourseController extends Controller
 
             // return view('tailwind.courses', compact('atualPriceInr', 'matchCourses', 'trainer_courses','jobprofiles', 'newcertificateCourse', 'academy_wise_course', 'affiliation_academy', 'title', 'metas', 'review', 'upcoming_batches', 'academy_name', 'testimonials', 'academy', 'logos', 'faqs', 'batch', 'process', 'certificate', 'usps', 'course', 'feat', 'affiliations', 'aboutcourse', 'module', 'tools', 'trainers', 'gallery', 'seemore', 'tested_slug', 'city_flag', 'address', 'skills', 'project', 'alumniplaced', 'alumnireview', 'duration', 'result2', 'event', 'placedlearner', 'freecourse','userFeedback','linkdinData', 'videoReview', 'reviewLeads'))->with('i');
 
-            return view('courses', compact('atualPriceInr', 'matchCourses','jobprofiles', 'newcertificateCourse', 'academy_wise_course', 'affiliation_academy', 'title', 'metas', 'review', 'upcoming_batches', 'academy_name', 'testimonials', 'logos', 'faqs', 'batch', 'process', 'certificate', 'usps', 'course', 'feat', 'affiliations', 'aboutcourse', 'module', 'tools', 'trainers', 'gallery', 'seemore', 'city_flag', 'skills', 'project', 'alumniplaced', 'alumnireview', 'duration', 'result2', 'event', 'placedlearner', 'freecourse','userFeedback','linkdinData', 'videoReview','reviewLeads'))->with('i');
+           return $isReview ? view('course_review', compact('course','videoReview','reviewLeads','linkdinData','academy_name','userFeedback'))  :
+           view('courses', compact('atualPriceInr', 'matchCourses','jobprofiles', 'newcertificateCourse', 'academy_wise_course', 'affiliation_academy', 'title', 'metas', 'review', 'upcoming_batches', 'academy_name', 'testimonials', 'logos', 'faqs', 'batch', 'process', 'certificate', 'usps', 'course', 'feat', 'affiliations', 'aboutcourse', 'module', 'tools', 'trainers', 'gallery', 'seemore', 'city_flag', 'skills', 'project', 'alumniplaced', 'alumnireview', 'duration', 'result2', 'event', 'placedlearner', 'freecourse','userFeedback','linkdinData', 'videoReview','reviewLeads'))->with('i');
         }
     }
 
