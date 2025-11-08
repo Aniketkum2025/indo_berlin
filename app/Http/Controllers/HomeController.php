@@ -46,7 +46,7 @@ class HomeController extends Controller
 
 
         $userFeedback = [];
-        $userFeedback = Cache::remember('userFeedback__', 60 * 60, function () {
+        $userFeedback = Cache::remember('userFeedback___', 60 * 60, function () {
             return $this->getUserFeedback();
         });
 
