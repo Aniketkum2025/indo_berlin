@@ -173,7 +173,50 @@
         </div>
     @endif
 </section> --}}
+<section class="bg-white shadow-lg rounded-3xl p-8 md:p-10 border border-gray-100 my-4 mx-8">
+     @if($userFeedback)
+    <div class="bg-[#dce2e9]">
+        <div class="md:mx-[100px] mx-[1rem]">
+            <p class="md:text-[32px] text-[20px] text-red-600 md:mx-[2%] mx-[2%] italic py-6 text-center md:leading-[30px] leading-[20px]">Check out Instituto Spanien {{$course->course_name}} School alumna on WhatsApp</p>
+            @if(isset($userFeedback) && $userFeedback->isNotEmpty())
+            @php
+            $count = $userFeedback->slice(0, 9)->count();
 
+            // Ensure the count is positive before dividing, otherwise default to 1
+            $chunks = $count > 0 ? $userFeedback->slice(0, 20)->split(ceil($count / 3)) : $userFeedback->slice(0, 20)->split(1);
+            @endphp
+            @foreach($chunks as $chunk)
+            <div class="courseSwiper swiper-course-all mx-[1rem] overflow-hidden">
+                <div class="swiper-wrapper">
+                    @foreach ($chunk as $rev)
+                    <div class="mt-4 swiper-slide">
+                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-red-600">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <img loading="lazy" class="h-14 w-14 rounded-full" src="{{urldecode($rev->image)}}" onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' alt="images78" loading="lazy" />
+                                </div>
+                                <div class="">
+                                    <span>{{$rev->first_name}}</span> <br />
+                                    <span class="text-[#F5AB40] text-xl">★ ★ ★ ★ ★</span>
+                                </div>
+                                <div class="text-blue-500">
+                                    <a href="{{$rev->linkedin_url}}" target="_blank" rel="noopener noreferrer" ><img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17194808473rrf3rf3f.webp" alt="link-img" width="30px"></a>
+                                    {{-- <i class="fa fa-check-square-o" aria-hidden="true"></i> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @endforeach
+                </div>
+            </div>
+            @endforeach
+            @endif
+        </div>
+        <div class="text-center mt-6 py-6">
+        </div>
+    </div>
+    @endif
+</section>
 <section
     class="max-w-5xl mx-auto bg-white my-8 shadow-2xl rounded-3xl border border-gray-100 p-8 md:p-12 hover:shadow-3xl transition duration-300">
     <!-- Title Section -->
