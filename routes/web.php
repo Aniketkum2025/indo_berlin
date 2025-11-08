@@ -22,7 +22,7 @@ use App\Models\LeadQueue;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('home', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'index']);
 
 Route::get('kazumi-app-account-delete', [AccountDeleteController::class, 'index']);
 Route::post('otp-app-account-delete', [AccountDeleteController::class, 'otpVerify'])->name('otp-app-account-delete');
@@ -36,9 +36,9 @@ Route::get('test/test/course', function(){
      $lead = Course::take(1)->get();
      dd($lead);
 });
-Route::get('/', function () {
-    return view('homepage');
-});
+// Route::get('/', function () {
+//     return view('homepage');
+// });
 Route::get('courses', function () {
     return view('courses');
 });
