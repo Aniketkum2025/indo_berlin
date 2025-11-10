@@ -80,30 +80,50 @@
         </div>
     </section>
 
-    <section id="course_section" class="pt-12 pb-4 px-4 max-w-7xl mx-auto">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Japanese Language
+    <section id="course_section" class="pt-6 pb-4 px-4 max-w-7xl mx-auto">
+        <h2 class="text-center text-xl md:text-2xl font-semibold my-4 text-[#da2028] capitalize">Japanese Language
             Institute
         </h2>
-        <p class="text-center text-gray-600 text-[15px] justify-text font-[600] my-2">Kazumi Japanese and Culture School is
-            the leading Japanese Language Institute in India, providing quality education and expert training to help you
-            speak Japanese with confidence and fluency. Numerous Students, working professionals and language enthusiasts
-            pursue top Japanese Language Courses from us. We aim to enhance Japanese Language proficiency, encompassing both
-            written and spoken skills of our students. You can learn Japanese from the elementary level N5 to the advanced
-            level N1.
-            <br>
-            We offer top Japanese Language Courses that are globally recognised and give a wide range of Job Opportunities
-            in Japan and Japanese-speaking countries. We provide a well-qualified Japanese language expert faculty who
-            deliver world-class Japanese Language Training to learners. The training will build confidence to speak and
-            write in the Japanese language. In addition, we also provide Online Japanese Exam Preparation Courses that
-            require proficiency to crack the JLPT Exam (Japanese Language Proficiency Test). Our online sessions provide a
-            professional learning environment just like classroom classes. The students are open to discuss any topic, query
-            or doubt with the trainer.
-            <br>
-            Moreover, the institute provides online learning with flexible timing for your online studies. You can balance
-            your Online Japanese language Training and regular work schedules. The best part of our Online Japanese Language
-            Courses is that, along with the language training, students acquire knowledge and a comprehensive understanding
-            of Japanese culture, business and corporate etiquette observed in Japan and Japanese-speaking Countries.
-        </p>
+
+  <p
+    id="japaneseText"
+    class="text-center text-gray-600 text-[14px] font-[600] my-2 overflow-hidden line-clamp-3 transition-all duration-300"
+  >
+    Kazumi Japanese and Culture School is the leading Japanese Language Institute in India, providing quality education and expert training to help you
+    speak Japanese with confidence and fluency. Numerous Students, working professionals and language enthusiasts pursue top Japanese Language Courses from us.
+    We aim to enhance Japanese Language proficiency, encompassing both written and spoken skills of our students. You can learn Japanese from the elementary level N5 to the advanced level N1.
+    We offer top Japanese Language Courses that are globally recognised and give a wide range of Job Opportunities in Japan and Japanese-speaking countries.
+    We provide a well-qualified Japanese language expert faculty who deliver world-class Japanese Language Training to learners.
+    The training will build confidence to speak and write in the Japanese language. In addition, we also provide Online Japanese Exam Preparation Courses that
+    require proficiency to crack the JLPT Exam (Japanese Language Proficiency Test). Our online sessions provide a professional learning environment just like classroom classes.
+    The students are open to discuss any topic, query or doubt with the trainer. Moreover, the institute provides online learning with flexible timing for your online studies.
+    You can balance your Online Japanese language Training and regular work schedules. The best part of our Online Japanese Language Courses is that, along with the language training,
+    students acquire knowledge and a comprehensive understanding of Japanese culture, business and corporate etiquette observed in Japan and Japanese-speaking Countries.
+  </p>
+
+  <div class="text-center mt-4">
+    <button
+      id="toggleButton"
+      class="text-[#da2028] text-[12px] font-bold hover:underline border-red-600 p-1 border rounded-md">
+      View More
+    </button>
+  </div>
+
+
+<script>
+  const text = document.getElementById("japaneseText");
+  const button = document.getElementById("toggleButton");
+
+  button.addEventListener("click", () => {
+    if (text.classList.contains("line-clamp-3")) {
+      text.classList.remove("line-clamp-3");
+      button.textContent = "View Less";
+    } else {
+      text.classList.add("line-clamp-3");
+      button.textContent = "View More";
+    }
+  });
+</script>
     </section>
 
     {{-- courses section --}}
