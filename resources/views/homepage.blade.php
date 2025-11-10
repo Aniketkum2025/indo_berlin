@@ -89,7 +89,7 @@
     id="japaneseText"
     class="text-center text-gray-600 text-[14px] font-[600] my-2 overflow-hidden line-clamp-3 transition-all duration-300"
   >
-    Kazumi Japanese and Culture School is the leading Japanese Language Institute in India, providing quality education and expert training to help you
+    Kazumi Japanese & Cultural School is the leading Japanese Language Institute in India, providing quality education and expert training to help you
     speak Japanese with confidence and fluency. Numerous Students, working professionals and language enthusiasts pursue top Japanese Language Courses from us.
     We aim to enhance Japanese Language proficiency, encompassing both written and spoken skills of our students. You can learn Japanese from the elementary level N5 to the advanced level N1.
     We offer top Japanese Language Courses that are globally recognised and give a wide range of Job Opportunities in Japan and Japanese-speaking countries.

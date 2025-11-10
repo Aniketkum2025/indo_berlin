@@ -235,13 +235,13 @@
 
     <!-- Content Paragraph -->
     <p class="text-gray-600 text-[15px] leading-relaxed text-justify tracking-wide space-y-6">
-       Kazumischool Education is a leading global EdTech company dedicated to delivering world-class training and certification programs that empower learners with industry-relevant skills. Founded in 2013, Kazumischool has emerged as a trusted name in professional education, transforming over 4,60,000 careers worldwide through its innovative and practical learning approach.
+       Kazumi Japanese & Cultural School is a leading global EdTech company dedicated to delivering world-class training and certification programs that empower learners with industry-relevant skills. Founded in 2013, Kazumi Japanese & Cultural School has emerged as a trusted name in professional education, transforming over 4,60,000 careers worldwide through its innovative and practical learning approach.
     </p>
      <p class="text-gray-600 text-[15px] leading-relaxed text-justify tracking-wide space-y-6 py-4">
-      With a portfolio of 1200+ certification courses, Kazumischool offers programs across diverse domains such as Data Science, Digital Marketing, Finance, Project Management, Teaching, IT, and Healthcare. Each course is designed by industry experts to meet evolving market needs, ensuring learners gain hands-on experience and job-ready skills that drive career growth.
+      With a portfolio of 1200+ certification courses, Kazumi Japanese & Cultural School offers programs across diverse domains such as Data Science, Digital Marketing, Finance, Project Management, Teaching, IT, and Healthcare. Each course is designed by industry experts to meet evolving market needs, ensuring learners gain hands-on experience and job-ready skills that drive career growth.
      </p>
       <p class="text-gray-600 text-[15px] leading-relaxed text-justify tracking-wide space-y-6">
-     Kazumischool’s exclusive Gold Membership provides lifetime access to e-learning resources, bootcamps, internships, and placement support. Collaborating with 900+ corporates and 250+ universities, Kazumischool ensures global exposure and real-world learning opportunities. Recognized among the Top 500 EdTech companies globally and the Top 100 EdTech leaders in India, Kazumischool continues to redefine excellence in education by enabling learners to upskill, earn global certifications, and achieve professional success.
+     Kazumi Japanese & Cultural School’s exclusive Gold Membership provides lifetime access to e-learning resources, bootcamps, internships, and placement support. Collaborating with 900+ corporates and 250+ universities, Kazumi Japanese & Cultural School ensures global exposure and real-world learning opportunities. Recognized among the Top 500 EdTech companies globally and the Top 100 EdTech leaders in India, Kazumi Japanese & Cultural School continues to redefine excellence in education by enabling learners to upskill, earn global certifications, and achieve professional success.
     </p>
 </section>
 
