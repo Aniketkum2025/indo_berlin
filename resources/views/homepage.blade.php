@@ -26,14 +26,14 @@
 @section('content')
 
     <section>
-        <div class="relative w-full h-80 overflow-hidden"
+        <div class="relative w-full h-92 md:h-80 overflow-hidden"
             style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1755338858banner1.webp); background-position: top;">
             <div
                 class="relative z-10 flex flex-col justify-center space-y-4 items-center h-full text-center text-white bg-black bg-opacity-30">
-                <h1 class="text-2xl md:text-[40px] px-4 tracking-widest mb-10 leading-8 font-[600] md:leading-[60px] leading-[30px]"
+                <h1 class="text-xl md:text-[36px] p-4 tracking-widest mb-4 leading-8 font-[600] md:leading-[60px] leading-[30px]"
                     style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Japanese Language Course In Classroom or at Home
                 </h1>
-                <p class="capitalize px-4 text-xl md:text-3xl tracking-widest font-[600]"
+                <p class="capitalize px-4 text-lg md:text-[30px] tracking-widest font-[600] md:leading-[40px] leading-[25px]"
                     style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);"
                     style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">With 73+ faculties, 9+ native teachers, 12000+
                     alumni, Kazumi Japanese & Culture School is the Most Popular Platform to Learn Japanese Language</p>
