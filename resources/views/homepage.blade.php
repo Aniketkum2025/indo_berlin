@@ -26,7 +26,7 @@
 @section('content')
 
     <section>
-        <div class="relative w-full h-screen overflow-hidden"
+        <div class="relative w-full h-80 overflow-hidden"
             style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1755338858banner1.webp); background-position: top;">
             <div
                 class="relative z-10 flex flex-col justify-center space-y-4 items-center h-full text-center text-white bg-black bg-opacity-30">
@@ -50,7 +50,7 @@
                         More</a>
                 </div>
                 <div>
-                    <style>
+                    {{-- <style>
                         @keyframes bounceY {
 
                             0%,
@@ -74,7 +74,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M19 9l-7 7-7-7M19 5l-7 7-7-7" />
                         </svg>
-                    </button>
+                    </button> --}}
                 </div>
             </div>
         </div>
