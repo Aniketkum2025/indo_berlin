@@ -1238,3 +1238,20 @@
         }
     });
 </script>
+
+<script>
+  function playVideo(element) {
+    const container = element.closest(".video-container");
+    const thumbnail = container.querySelector(".video-thumb");
+    const overlay = container.querySelector(".play-overlay");
+    const iframe = container.querySelector("iframe");
+
+    // Set YouTube embed link with autoplay
+    iframe.src = "https://www.youtube.com/embed/lox8dr2cuAk?autoplay=1";
+
+    // Hide thumbnail and overlay, show iframe
+    thumbnail.style.display = "none";
+    overlay.style.display = "none";
+    iframe.classList.remove("hidden");
+  }
+</script>

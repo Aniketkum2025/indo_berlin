@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Japanese Language Institute In India | Kazumi School')
-@section('meta_description',
-    'Kazumi School is a leading Japanese language institute in India, offers expert-led courses from beginner (N5) to advanced (N1) levels. Start learning Japanese today!')
+@section('meta_description', 'Kazumi School is a leading Japanese language institute in India, offers expert-led courses
+    from beginner (N5) to advanced (N1) levels. Start learning Japanese today!')
 @section('schema')
     <script type="application/ld+json">
 {
@@ -24,17 +24,19 @@
 </script>
 @endsection
 @section('content')
-    
+
     <section>
         <div class="relative w-full h-screen overflow-hidden"
             style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1755338858banner1.webp); background-position: top;">
             <div
                 class="relative z-10 flex flex-col justify-center space-y-4 items-center h-full text-center text-white bg-black bg-opacity-30">
                 <h1 class="text-2xl md:text-[40px] px-4 tracking-widest mb-10 leading-8 font-[600] md:leading-[60px] leading-[30px]"
-                    style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Japanese Language Course In Classroom or at Home </h1>
+                    style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Japanese Language Course In Classroom or at Home
+                </h1>
                 <p class="capitalize px-4 text-xl md:text-3xl tracking-widest font-[600]"
                     style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);"
-                    style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">With 73+ faculties, 9+ native teachers, 12000+ alumni, Kazumi Japanese & Culture School is the Most Popular Platform to Learn Japanese Language</p>
+                    style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">With 73+ faculties, 9+ native teachers, 12000+
+                    alumni, Kazumi Japanese & Culture School is the Most Popular Platform to Learn Japanese Language</p>
                 {{-- <p class="capitalize text-xl md:text-3xl tracking-widest mt-4 font-[600]"
                     style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);"
                     style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Discover a new standard of Japanese Education and
@@ -78,24 +80,39 @@
         </div>
     </section>
 
-    <section id="course_section" class="py-12 px-4 max-w-7xl mx-auto">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Japanese Language Institute
+    <section id="course_section" class="pt-12 pb-4 px-4 max-w-7xl mx-auto">
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Japanese Language
+            Institute
         </h2>
-        <p class="text-center text-gray-600 text-[15px] justify-text font-[600] my-2">Kazumi Japanese and Culture School is the leading Japanese Language Institute in India, providing quality education and expert training to help you speak Japanese with confidence and fluency. Numerous Students, working professionals and language enthusiasts pursue top Japanese Language Courses from us. We aim to enhance Japanese Language proficiency, encompassing both written and spoken skills of our students. You can learn Japanese from the elementary level N5 to the advanced level N1.
+        <p class="text-center text-gray-600 text-[15px] justify-text font-[600] my-2">Kazumi Japanese and Culture School is
+            the leading Japanese Language Institute in India, providing quality education and expert training to help you
+            speak Japanese with confidence and fluency. Numerous Students, working professionals and language enthusiasts
+            pursue top Japanese Language Courses from us. We aim to enhance Japanese Language proficiency, encompassing both
+            written and spoken skills of our students. You can learn Japanese from the elementary level N5 to the advanced
+            level N1.
             <br>
-            We offer top Japanese Language Courses that are globally recognised and give a wide range of Job Opportunities in Japan and Japanese-speaking countries. We provide a well-qualified Japanese language expert faculty who deliver world-class Japanese Language Training to learners. The training will build confidence to speak and write in the Japanese language. In addition, we also provide Online Japanese Exam Preparation Courses that require proficiency to crack the JLPT Exam (Japanese Language Proficiency Test).  Our online sessions provide a professional learning environment just like classroom classes. The students are open to discuss any topic, query or doubt with the trainer.
+            We offer top Japanese Language Courses that are globally recognised and give a wide range of Job Opportunities
+            in Japan and Japanese-speaking countries. We provide a well-qualified Japanese language expert faculty who
+            deliver world-class Japanese Language Training to learners. The training will build confidence to speak and
+            write in the Japanese language. In addition, we also provide Online Japanese Exam Preparation Courses that
+            require proficiency to crack the JLPT Exam (Japanese Language Proficiency Test). Our online sessions provide a
+            professional learning environment just like classroom classes. The students are open to discuss any topic, query
+            or doubt with the trainer.
             <br>
-            Moreover, the institute provides online learning with flexible timing for your online studies. You can balance your Online Japanese language Training and regular work schedules. The best part of our Online Japanese Language Courses is that, along with the language training, students acquire knowledge and a comprehensive understanding of Japanese culture, business and corporate etiquette observed in Japan and Japanese-speaking Countries.
+            Moreover, the institute provides online learning with flexible timing for your online studies. You can balance
+            your Online Japanese language Training and regular work schedules. The best part of our Online Japanese Language
+            Courses is that, along with the language training, students acquire knowledge and a comprehensive understanding
+            of Japanese culture, business and corporate etiquette observed in Japan and Japanese-speaking Countries.
         </p>
     </section>
 
     {{-- courses section --}}
-    <section id="course_section" class="py-12 px-4 max-w-7xl mx-auto">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Courses
+    <section id="course_section" class="pt-2 pb-12 px-4 max-w-7xl mx-auto">
+        {{-- <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Courses
         </h2>
         <p class="text-center text-gray-600 text-[16px] font-[600] my-2">Just like the famous Japanese proverb "継続は力なり"
             (Continuity is power), we bring a series of courses starting from Basic (N5) to Super Advanced (N1) level for
-            continuous learning and growth.</p>
+            continuous learning and growth.</p> --}}
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 my-10">
             <div class="w-full flex flex-col rounded-xl overflow-hidden">
                 <img class="w-full h-60 object-cover"
@@ -208,7 +225,7 @@
                     src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755328153japan-book.webp"
                     loading="lazy "alt="Crash Course in Japanese Language , N5 to N1" loading="lazy">
                 <div class=" h-full py-4">
-                    <h3 class="text-[18px] font-[500] text-gray-900">Crash Course in Japanese Language</h3>
+                    <h3 class="text-[18px] font-[500] text-gray-900">Exam Focused Courses </h3>
                     <p class="text-[16px] text-gray-700 mt-2 flex-grow">Cover all the topics from N5 (basic) to N1
                         (advance) level, understand important and useful Japanese 伝統（Dentō) and etiquettes</p>
                     <div class="mt-4">
@@ -225,13 +242,14 @@
     {{-- vedio section --}}
     <section class="py-12 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] my-4">Checkout Kazumi School Reviews on Youtube
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] my-4">Checkout Kazumi School
+                Reviews on Youtube
             </h2>
             <div class="relative">
                 <!-- Video Grid -->
                 <div id="videoGrid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
 
-                   
+
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755500037review-vedeo1.webp"
@@ -239,7 +257,7 @@
                             alt="Japanese Language Course Review By Sachet">
                     </div>
 
-                   
+
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755500240anupam.webp"
@@ -247,7 +265,7 @@
                             alt="Japanese Language Course Review By Anupam">
                     </div>
 
-                   
+
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/mZkFP1ZWJv4/hqdefault.jpg"
@@ -255,7 +273,7 @@
                             alt="Japanese Language Course Review">
                     </div>
 
-                   
+
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/YqdggC5M90s/hqdefault.jpg"
@@ -263,7 +281,7 @@
                             alt="Japanese Language Course Review by Khushi Goswami">
                     </div>
 
-                    
+
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/L9QZCK1P5O0/hqdefault.jpg"
@@ -271,7 +289,7 @@
                             alt="Japanese Language Course Review by Khushi Jain">
                     </div>
 
-                   
+
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/JYPNfkyyx08/hqdefault.jpg"
@@ -279,7 +297,7 @@
                             alt="Japanese Language Course Review by Vandana">
                     </div>
 
-                    
+
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/BooTihSy8dA/hqdefault.jpg"
@@ -287,7 +305,7 @@
                             alt="Japanese Course Review by Tarni">
                     </div>
 
-                    
+
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/h2558oOB2GM/hqdefault.jpg"
@@ -295,7 +313,7 @@
                             alt="Japanese Language Course Review by Rayajiri Kumar">
                     </div>
 
-                   
+
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/uggeKrYDD1s/hqdefault.jpg"
@@ -303,7 +321,7 @@
                             alt="Japanese Language Course Review by Mayuresh">
                     </div>
 
-                   
+
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/RvJ-DSVFVv4/hqdefault.jpg"
@@ -311,7 +329,7 @@
                             alt="Japanese Course Review by Vasundhara">
                     </div>
 
-                    
+
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/2vKgb2MJlzI/hqdefault.jpg"
@@ -319,7 +337,7 @@
                             alt="Japanese Course Review by Pravallika">
                     </div>
 
-                   
+
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/LCPhZuc1RqQ/hqdefault.jpg"
@@ -327,7 +345,7 @@
                             alt="Japanese Course Review by Tanisha">
                     </div>
 
-{{--                     
+                    {{--                     
                     <div class="bg-white rounded-lg shadow-md border overflow-hidden max-w-sm mx-auto relative">
                         <img class="w-full h-auto cursor-pointer lazy-video"
                             data-src="https://img.youtube.com/vi/TQM2QkyQ9eE/hqdefault.jpg"
@@ -383,41 +401,41 @@
         </div>
     </section>
 
-     <section class="max-w-[1300px] mx-auto md:px-4 px-2 py-10">
-    <h3 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] my-4]">
-        Checkout Kazumi School Reviews on WhatsApp
-    </h3>
+    <section class="max-w-[1300px] mx-auto md:px-4 px-2 py-10">
+        <h3 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] my-4]">
+            Checkout Kazumi School Reviews on WhatsApp
+        </h3>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
-        @foreach ($review as $rl)
-            <div
-                class="bg-white rounded-xl shadow-xl overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1 group">
-                <div class="relative">
-                    <img src="{{ $rl->file }}" alt="Review Proof"
-                        class="w-full object-scale-down" style="height:150px;">
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
-                        <a href="{{ $rl->file }}" target="_blank" rel="noopener noreferrer"
-                            class="px-2 py-1 bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-sm font-medium rounded-lg shadow-md hover:from-blue-700 hover:to-indigo-700 transition">
-                            Click to Open Proof
-                        </a>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+            @foreach ($review as $rl)
+                <div
+                    class="bg-white rounded-xl shadow-xl overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1 group">
+                    <div class="relative">
+                        <img src="{{ $rl->file }}" alt="Review Proof" class="w-full object-scale-down"
+                            style="height:150px;">
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                            <a href="{{ $rl->file }}" target="_blank" rel="noopener noreferrer"
+                                class="px-2 py-1 bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-sm font-medium rounded-lg shadow-md hover:from-blue-700 hover:to-indigo-700 transition">
+                                Click to Open Proof
+                            </a>
+                        </div>
                     </div>
-                </div>
 
 
 
                     <div class="p-2 text-center border-t-2 border-[#ffc107]">
-                            <h2 class="text-[14px] md:text-[16px] font-[600] text-purple mb-1">
-                        {{ $rl->name }}
-                    </h3>
+                        <h2 class="text-[14px] md:text-[16px] font-[600] text-purple mb-1">
+                            {{ $rl->name }}
+                            </h3>
+                    </div>
                 </div>
-            </div>
-        @endforeach
-    </div>
-</section>
+            @endforeach
+        </div>
+    </section>
 
-<section class="max-w-[1500px] mx-auto  px-2 py-10">
-    {{-- @if($academy_name->academy_url != 'fellowship-courses') --}}
+    <section class="max-w-[1500px] mx-auto  px-2 py-10">
+        {{-- @if ($academy_name->academy_url != 'fellowship-courses') --}}
         <div class="bg-[#dce2e9] pb-6 pt-4" id="reviews">
             <div class="md:mx-[100px] mx-[1rem]" style="" id="linkedin_review_course_section">
                 <p class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] my-4]">
@@ -425,7 +443,7 @@
                     {{-- Check out Henry Harvin® {{ $course->course_name }} alumna on LinkedIn --}}
                 </p>
                 {{-- LinkedIn Reviews Section --}}
-                {{-- @if(isset($linkdinData) && $linkdinData->isNotEmpty())
+                {{-- @if (isset($linkdinData) && $linkdinData->isNotEmpty())
                     <div class="max-w-full m-auto border-purple my-2 py-2">
                         <div class="swiper swiper-slider-linked mt-4">
                             <div class="swiper-wrapper">
@@ -455,36 +473,38 @@
                 @endif --}}
 
                 {{-- User Feedback Section --}}
-                @if(isset($userFeedback) && $userFeedback->isNotEmpty())
+                @if (isset($userFeedback) && $userFeedback->isNotEmpty())
                     @php
                         $count = $userFeedback->slice(0, 9)->count();
-                        $chunks = $count > 0 
-                            ? $userFeedback->slice(0, 20)->split(ceil($count / 3)) 
-                            : $userFeedback->slice(0, 20)->split(1);
+                        $chunks =
+                            $count > 0
+                                ? $userFeedback->slice(0, 20)->split(ceil($count / 3))
+                                : $userFeedback->slice(0, 20)->split(1);
                     @endphp
 
-                    @foreach($chunks as $chunk)
+                    @foreach ($chunks as $chunk)
                         <div class="courseSwiper swiper-course-all mx-[1rem] overflow-hidden">
                             <div class="swiper-wrapper">
                                 @foreach ($chunk as $rev)
                                     <div class="mt-4 swiper-slide">
-                                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-purple-800">
+                                        <div
+                                            class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-purple-800">
                                             <div class="flex justify-between items-center">
-                                                 <div>
-                                                    <img class="h-14 w-14 rounded-full" 
-                                                         src="{{ urldecode($rev->image) }}" 
-                                                         onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' 
-                                                         alt="User Image" 
-                                                         loading="lazy" />
-                                                </div> 
+                                                <div>
+                                                    <img class="h-14 w-14 rounded-full" src="{{ urldecode($rev->image) }}"
+                                                        onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"'
+                                                        alt="User Image" loading="lazy" />
+                                                </div>
 
                                                 <div>
                                                     <span>{{ $rev->first_name }}</span><br>
                                                     <span class="text-[#F5AB40] text-xl">★ ★ ★ ★ ★</span>
                                                 </div>
                                                 <div class="text-blue-500">
-                                                    <a href="{{ $rev->linkedin_url }}" target="_blank" rel="noopener noreferrer">
-                                                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17194808473rrf3rf3f.webp" alt="LinkedIn Icon" width="30px">
+                                                    <a href="{{ $rev->linkedin_url }}" target="_blank"
+                                                        rel="noopener noreferrer">
+                                                        <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17194808473rrf3rf3f.webp"
+                                                            alt="LinkedIn Icon" width="30px">
                                                     </a>
                                                 </div>
                                             </div>
@@ -501,28 +521,26 @@
                         $rowsss = $review->slice(0, 20)->split($divisionResult);
                     @endphp
 
-                    @foreach($rowsss as $rowss)
+                    @foreach ($rowsss as $rowss)
                         <div class="courseSwiper swiper-course-all mx-[1rem] overflow-hidden">
                             <div class="swiper-wrapper">
                                 @foreach ($rowss as $rev)
                                     <div class="mt-4 swiper-slide">
-                                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-purple-800">
+                                        <div
+                                            class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-purple-800">
                                             <div class="flex justify-between items-center">
                                                 <div>
-                                                    <img class="h-14 w-14 rounded-full" 
-                                                         src="{{ $rev->review_image }}" 
-                                                         onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' 
-                                                         alt="Reviewer Image" 
-                                                         loading="lazy" />
+                                                    <img class="h-14 w-14 rounded-full" src="{{ $rev->review_image }}"
+                                                        onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"'
+                                                        alt="Reviewer Image" loading="lazy" />
                                                 </div>
                                                 <div>
                                                     <span>{{ $rev->review_name }}</span><br>
                                                     <span class="text-[#F5AB40] text-xl">★ ★ ★ ★ ★</span>
                                                 </div>
                                                 <div class="text-blue-500">
-                                                    <a href="{{ $rev->review_link ? $rev->review_link : 'https://www.henryharvin.com/reviews/' }}" 
-                                                       target="_blank" 
-                                                       rel="noopener noreferrer">
+                                                    <a href="{{ $rev->review_link ? $rev->review_link : 'https://www.henryharvin.com/reviews/' }}"
+                                                        target="_blank" rel="noopener noreferrer">
                                                         {{ $rev->review_link ? 'Check Proof' : 'See Proof' }}
                                                     </a>
                                                 </div>
@@ -536,12 +554,69 @@
                 @endif
             </div>
         </div>
-    {{-- @endif --}}
-</section>
+        {{-- @endif --}}
+    </section>
+    <style>
+        .pad-1 {
+            padding: 25%;
+        }
+
+        .pad-2 {
+            padding: 13%;
+        }
+
+        @media (max-width: 640px) {
+            .pad-1 {
+                padding: 25%;
+            }
+
+            .pad-2 {
+                padding: 30%;
+            }
+        }
+    </style>
+    <section>
+        <h2 class="text-center text-2xl md:text-3xl font-semibold text-[#da2028] my-4 px-4">
+            The Inspiring Journey of Japanese Trainer Seema
+        </h2>
+
+        <div class="bg-white rounded-xl p-4 md:p-6 flex justify-center items-center gap-6 relative">
+            <div class="relative w-full max-w-2xl video-container pad-2">
+
+                <!-- Thumbnail (cover) -->
+                <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1762755514WhatsApp_Image_2025-11-10_at_11.42.16_AM.jpeg"
+                    alt="Video Thumbnail"
+                    class="absolute inset-0 w-full max-h-[350px] object-cover cursor-pointer video-thumb"
+                    onclick="playVideo(this)" />
+
+                <!-- Play Overlay -->
+                <div class="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/40 transition duration-300 cursor-pointer play-overlay"
+                    onclick="playVideo(this)">
+                    <div class="w-16 h-16 bg-white/95 rounded-full flex items-center justify-center shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-red-600" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l4.5-2.5a.5.5 0 0 0 0-.814l-4.5-2.5z" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- YouTube Video -->
+                <iframe class="absolute inset-0 w-full h-[240px] md:h-[350px] hidden" src=""
+                    title="The Inspiring Journey of Cardiologist Dr. Abhinav Aggarwal" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+
+
     {{-- reviews section --}}
     <section class="py-12 px-4 bg-gray-100">
         <div class="max-w-7xl mx-auto">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4"> <span class="text-gray-800 text-3xl md:text-4xl font-[700] italic">7000+ </span> Reviews
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4"> <span
+                    class="text-gray-800 text-3xl md:text-4xl font-[700] italic">7000+ </span> Reviews
                 with <span class="text-gray-800 text-3xl md:text-4xl font-[700] italic"> 4.6/5 </span> Average Rating
             </h2>
             {{-- <div
@@ -789,9 +864,8 @@
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789154examsheet.jpg"
                                 loading="lazy "alt="JLPT Intensive Course">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">JLPT Intensive Course</h3>
-                        <p class="text-gray-700 text-[14px] mt-2">Excel in the JLPT with our 専門的な (Senmon-teki na) modules,
-                            mock tests, personalized coaching, and JLPT-focused materials sourced directly from Japan.</p>
+                        <h3 class="text-xl font-[600] text-red-600 mt-4">Exam Focused Training </h3>
+                        <p class="text-gray-700 text-[14px] mt-2">Excel in the JLPT/NAT/JFT with our 専門的な (Senmon-teki na) modules, mock tests, personalized coaching, and JLPT/NAT/JFT-focused materials sourced directly from Japan.</p>
                     </div>
                     <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                         <div class="flex items-center justify-center mb-2">
