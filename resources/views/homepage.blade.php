@@ -814,6 +814,178 @@
             </div>
         </div>
     </section>
+     <section class="py-12">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Esteemed
+                Faculty
+            </h2>
+
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-2 px-2">
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753875885212w-ezgif.com-resize.webp"
+                                loading="lazy "alt="FEFE">
+                        </div>
+                        <div class="px-2">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Seema
+                            </h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">21+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522620Varsha_Mehroliya.jpg"
+                                loading="lazy "alt="Varsha Mehroliya">
+                        </div>
+                        <div class="px-2">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Varsha Mehroliya
+                            </h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">5+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522683Sonali_Srivastava_(1).jpg"
+                                loading="lazy "alt="Sonali Srivastava">
+                        </div>
+                        <div class="px-2 ">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Sonali Srivastava
+                            </h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
+                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
+                        <div class="rounded-2xl">
+                            <img class="h-full w-full object-cover rounded-2xl"
+                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532671153rd.webp"
+                                loading="lazy "alt="Claire">
+                        </div>
+                        <div class="px-2 ">
+                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Claire</h2>
+                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
+                                Of Experience</h2>
+                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mt-4 flex justify-center items-center">
+                <a href="/esteemed-faculty"
+                    class="bg-red-500 text-white text-[14px] px-6 py-2 rounded hover:bg-red-600">View More</a>
+            </div>
+        </div>
+    </section>
+    <section class="py-12">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Kazumi Advisory
+                Board Members</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-2 place-items-center px-2">
+
+                <div
+                    class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="rounded-2xl">
+                        <img class="h-full w-full object-cover rounded-2xl"
+                            src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1754287214a.jpg"
+                            alt="Toshiyuki Takayasu – Board Advisor">
+                    </div>
+                    <div class="px-2">
+                        <h3 class="text-white text-center text-[16px] pb-2">Toshiyuki Takayasu</h3>
+                        {{-- <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p> --}}
+                        <p class="text-white text-[14px] text-center">Board Advisor</p>
+                    </div>
+                </div>
+                <div
+                    class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="rounded-2xl">
+                        <img class="h-full w-full object-cover rounded-2xl"
+                            src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1754310784qsd.jpg"
+                            alt="Chinami Yamamoto – Board Advisor">
+                    </div>
+                    <div class="px-2">
+                        <h3 class="text-white text-center text-[16px] pb-2">Chinami Yamamoto</h3>
+                        {{-- <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p> --}}
+                        <p class="text-white text-[14px] text-center">Board Advisor</p>
+                    </div>
+                </div>
+                <div
+                    class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="rounded-2xl">
+                        <img class="h-full w-full object-cover rounded-2xl"
+                            src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755152043Daisuke-Yamanaka.webp"
+                            alt="Daisuke Yamanaka – Board Advisor">
+                    </div>
+                    <div class="px-2">
+                        <h3 class="text-white text-center text-[16px] pb-2">Daisuke Yamanaka</h3>
+                        {{-- <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p> --}}
+                        <p class="text-white text-[14px] text-center">Board Advisor</p>
+                    </div>
+                </div>
+                <div
+                    class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="rounded-2xl">
+                        <img class="h-full w-full object-cover rounded-2xl"
+                            src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753961856seemarampal.jpg"
+                            alt="Seema Rampal – Head of Faculty">
+                    </div>
+                    <div class="px-2">
+                        <h3 class="text-white text-center text-[16px] pb-2">Mrs. Seema Rampal</h3>
+                        <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p>
+                        {{-- <p class="text-white text-[14px] text-center">Board Advisor</p> --}}
+                    </div>
+                </div>
+                <div
+                    class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="rounded-2xl">
+                        <img class="h-full w-full object-cover rounded-2xl"
+                            src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753961907IshuJain.jpg"
+                            alt=" Ishu Jain – Head of Academics">
+                    </div>
+                    <div class="px-2">
+                        <h3 class="text-white text-center text-[16px] pb-2">Mrs. Ishu Jain</h3>
+                        <p class="text-white text-[14px] text-center font-[500]">Head of Academics</p>
+                        {{-- <p class="text-white text-[14px] text-center">Board Advisor</p> --}}
+                    </div>
+                </div>
+
+                <!-- Mr. Kounal Gupta -->
+                <div
+                    class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="rounded-2xl">
+                        <img class="h-full w-full object-cover bg-white rounded-2xl"
+                            src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1758794864kounal_gupta-removebg-preview.png"
+                            alt="Kounal Gupta – CEO & Founder Kazumi Japanese & Culture School">
+                    </div>
+                    <div class="px-2">
+                        <h3 class="text-white text-center text-[16px] pb-2">Mr. Kounal Gupta</h3>
+                        <p class="text-white text-[14px] text-center font-[500]">CEO, Henry Harvin Education</p>
+                        {{-- <p class="text-white text-[14px] text-center">Board Advisor</p> --}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="stats" class="py-4 bg-red-600 mx-auto px-4">
         <div class="max-w-6xl mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
@@ -1156,178 +1328,7 @@
     </section>
 
     {{-- esteemed faculty section --}}
-    <section class="py-12">
-        <div class="max-w-7xl mx-auto">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Esteemed
-                Faculty
-            </h2>
-
-
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-2 px-2">
-                <div class="">
-                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
-                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                        <div class="rounded-2xl">
-                            <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753875885212w-ezgif.com-resize.webp"
-                                loading="lazy "alt="FEFE">
-                        </div>
-                        <div class="px-2">
-                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Seema
-                            </h2>
-                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">21+ Years
-                                Of Experience</h2>
-                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
-                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                        <div class="rounded-2xl">
-                            <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522620Varsha_Mehroliya.jpg"
-                                loading="lazy "alt="Varsha Mehroliya">
-                        </div>
-                        <div class="px-2">
-                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Varsha Mehroliya
-                            </h2>
-                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">5+ Years
-                                Of Experience</h2>
-                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
-                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                        <div class="rounded-2xl">
-                            <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522683Sonali_Srivastava_(1).jpg"
-                                loading="lazy "alt="Sonali Srivastava">
-                        </div>
-                        <div class="px-2 ">
-                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Sonali Srivastava
-                            </h2>
-                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
-                                Of Experience</h2>
-                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="grid p-2 gap-2 place-items-center rounded-2xl"
-                        style="background: linear-gradient(90deg, #efd5ff 0%, #da2028 100%);">
-                        <div class="rounded-2xl">
-                            <img class="h-full w-full object-cover rounded-2xl"
-                                src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532671153rd.webp"
-                                loading="lazy "alt="Claire">
-                        </div>
-                        <div class="px-2 ">
-                            <h2 class="text-white text-center text-[16px] md:text-[16px] pb-2">Claire</h2>
-                            <h2 class="text-white text-[14px] text-center md:text-[14px] font-[500]">6+ Years
-                                Of Experience</h2>
-                            <p class="text-white text-[14px] text-center md:text-[16px] leading-8">
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="mt-4 flex justify-center items-center">
-                <a href="/esteemed-faculty"
-                    class="bg-red-500 text-white text-[14px] px-6 py-2 rounded hover:bg-red-600">View More</a>
-            </div>
-        </div>
-    </section>
-    <section class="py-12">
-        <div class="max-w-7xl mx-auto">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Kazumi Advisory
-                Board Members</h2>
-            <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-2 place-items-center px-2">
-
-                <div
-                    class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
-                    <div class="rounded-2xl">
-                        <img class="h-full w-full object-cover rounded-2xl"
-                            src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1754287214a.jpg"
-                            alt="Toshiyuki Takayasu – Board Advisor">
-                    </div>
-                    <div class="px-2">
-                        <h3 class="text-white text-center text-[16px] pb-2">Toshiyuki Takayasu</h3>
-                        {{-- <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p> --}}
-                        <p class="text-white text-[14px] text-center">Board Advisor</p>
-                    </div>
-                </div>
-                <div
-                    class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
-                    <div class="rounded-2xl">
-                        <img class="h-full w-full object-cover rounded-2xl"
-                            src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1754310784qsd.jpg"
-                            alt="Chinami Yamamoto – Board Advisor">
-                    </div>
-                    <div class="px-2">
-                        <h3 class="text-white text-center text-[16px] pb-2">Chinami Yamamoto</h3>
-                        {{-- <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p> --}}
-                        <p class="text-white text-[14px] text-center">Board Advisor</p>
-                    </div>
-                </div>
-                <div
-                    class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
-                    <div class="rounded-2xl">
-                        <img class="h-full w-full object-cover rounded-2xl"
-                            src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1755152043Daisuke-Yamanaka.webp"
-                            alt="Daisuke Yamanaka – Board Advisor">
-                    </div>
-                    <div class="px-2">
-                        <h3 class="text-white text-center text-[16px] pb-2">Daisuke Yamanaka</h3>
-                        {{-- <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p> --}}
-                        <p class="text-white text-[14px] text-center">Board Advisor</p>
-                    </div>
-                </div>
-                <div
-                    class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
-                    <div class="rounded-2xl">
-                        <img class="h-full w-full object-cover rounded-2xl"
-                            src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753961856seemarampal.jpg"
-                            alt="Seema Rampal – Head of Faculty">
-                    </div>
-                    <div class="px-2">
-                        <h3 class="text-white text-center text-[16px] pb-2">Mrs. Seema Rampal</h3>
-                        <p class="text-white text-[14px] text-center font-[500]">Head of Faculty</p>
-                        {{-- <p class="text-white text-[14px] text-center">Board Advisor</p> --}}
-                    </div>
-                </div>
-                <div
-                    class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
-                    <div class="rounded-2xl">
-                        <img class="h-full w-full object-cover rounded-2xl"
-                            src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753961907IshuJain.jpg"
-                            alt=" Ishu Jain – Head of Academics">
-                    </div>
-                    <div class="px-2">
-                        <h3 class="text-white text-center text-[16px] pb-2">Mrs. Ishu Jain</h3>
-                        <p class="text-white text-[14px] text-center font-[500]">Head of Academics</p>
-                        {{-- <p class="text-white text-[14px] text-center">Board Advisor</p> --}}
-                    </div>
-                </div>
-
-                <!-- Mr. Kounal Gupta -->
-                <div
-                    class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
-                    <div class="rounded-2xl">
-                        <img class="h-full w-full object-cover bg-white rounded-2xl"
-                            src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1758794864kounal_gupta-removebg-preview.png"
-                            alt="Kounal Gupta – CEO & Founder Kazumi Japanese & Culture School">
-                    </div>
-                    <div class="px-2">
-                        <h3 class="text-white text-center text-[16px] pb-2">Mr. Kounal Gupta</h3>
-                        <p class="text-white text-[14px] text-center font-[500]">CEO, Henry Harvin Education</p>
-                        {{-- <p class="text-white text-[14px] text-center">Board Advisor</p> --}}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 
     {{-- Agota™ Framework section --}}
     <section class="py-12 mx-auto px-4">
