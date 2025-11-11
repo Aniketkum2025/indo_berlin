@@ -222,7 +222,7 @@
     <!-- Title Section -->
     <div class="text-center mb-10">
         <h1 class="md:text-[24px] text-[20px] text-center text-red font-[600]">
-            <span class="text-red-600">Kazumischool</span>
+            <span class="text-red-600">Kazumi Japanese & Cultural School</span>
             <span class="text-red-500"> {{ $course->course_name }} </span>
             <span class="text-red-600">Reviews</span>
         </h1>
