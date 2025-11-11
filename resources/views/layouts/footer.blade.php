@@ -1238,7 +1238,27 @@
         }
     });
 </script>
-
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const bannerSwiper = new Swiper('.myBannerSwiper', {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 0,
+      // Autoplay settings
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: false
+      },
+      // Pagination (dots)
+      pagination: {
+        el: '.myBannerSwiper .swiper-pagination',
+        clickable: true
+      },
+      // No navigation arrows configured
+    });
+  });
+</script>
 <script>
   function playVideo(element) {
     const container = element.closest(".video-container");

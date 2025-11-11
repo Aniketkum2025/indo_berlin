@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Japanese Language Institute In India | Kazumi School')
-@section('meta_description', 'Kazumi School is a leading Japanese language institute in India, offers expert-led courses
+@section('meta_description',
+    'Kazumi School is a leading Japanese language institute in India, offers expert-led courses
     from beginner (N5) to advanced (N1) levels. Start learning Japanese today!')
 @section('schema')
     <script type="application/ld+json">
@@ -24,9 +25,126 @@
 </script>
 @endsection
 @section('content')
+    <style>
+        .myBannerSwiper .swiper-pagination {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 14px;
+            display: flex;
+            justify-content: center;
+            z-index: 20;
+            pointer-events: auto;
+        }
 
-    <section>
-        <div class="relative w-full h-92 overflow-hidden"
+        .myBannerSwiper .swiper-pagination-bullet {
+            width: 10px;
+            height: 10px;
+            margin: 0 6px;
+            opacity: 1;
+            /* ensure visible */
+            background: rgba(245, 129, 129, 0.6);
+            border-radius: 9999px;
+            transition: background .2s, transform .2s;
+        }
+
+        .myBannerSwiper .swiper-pagination-bullet-active {
+            background: #ffffff;
+            transform: scale(1.15);
+        }
+    </style>
+    <style>
+        .swiper-button-prev:after,
+        .swiper-rtl .swiper-button-next:after {
+            font-size: 14px;
+            content: 'prev';
+            font-weight: 900;
+        }
+
+        .swiper-button-next:after,
+        .swiper-rtl .swiper-button-prev:after {
+            content: 'next';
+            font-size: 14px;
+            font-weight: 900;
+        }
+
+        .pad-1 {
+            padding: 25%;
+        }
+
+        .pad-2 {
+            padding: 14%;
+        }
+
+        @media (max-width: 640px) {
+            .pad-1 {
+                padding: 25%;
+            }
+
+            .pad-2 {
+                padding: 30%;
+            }
+        }
+    </style>
+    <section class="">
+        <div class="swiper myBannerSwiper" style="position:relative;">
+            <div class="swiper-wrapper">
+                {{-- <div class="swiper-slide">
+                    <div class="relative w-full max-h-[424px] md:h-[424px] overflow-hidden"
+                        style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1755338858banner1.webp); background-position: top;">
+                        <div
+                            class="relative z-10 flex flex-col justify-center space-y-4 items-center h-full text-center text-white bg-black bg-opacity-30 py-4">
+                            <h1 class="text-xl md:text-[36px] p-4 tracking-widest mb-4 leading-8 font-[600] md:leading-[60px] leading-[30px]"
+                                style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Japanese Language Course In Classroom
+                                or at Home
+                            </h1>
+                            <p class="capitalize px-4 text-lg md:text-[30px] tracking-widest font-[600] md:leading-[40px] leading-[25px]"
+                                style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);"
+                                style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">With 73+ faculties, 9+ native
+                                teachers, 12000+
+                                alumni, Kazumi Japanese & Culture School is the Most Popular Platform to Learn Japanese
+                                Language</p>
+
+                            <div class="flex space-x-4 mb-8 items-center justify-center">
+                                <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal"
+                                    type="button"
+                                    class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600 cursor-pointer">Apply
+                                    Now</button>
+                                <a href="/about-us"
+                                    class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600">
+                                    Learn
+                                    More</a>
+                            </div>
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div> --}}
+
+                <div class="swiper-slide">
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1762846824kazumi_Website_Banner_2_(1).png"
+                        alt="Banner 2" class="w-full md:h-full" style="object-fit:cover; display:block;">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1762846866kazumi_Website_Banner_(1).png"
+                        alt="Banner 1" class="w-full md:h-full" style="object:cover; display:block;">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1762846896kazumi_Website_Banner_4.png"
+                        alt="Banner 3" class="w-full md:h-full" style="object:cover; display:block;">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1762846923kazumi_Website_Banner_3_(1).png"
+                        alt="Banner 4" class="w-full md:h-full" style=" display:block;">
+                </div>
+            </div>
+            <div class="swiper-pagination" aria-hidden="true"></div>
+        </div>
+    </section>
+
+    {{-- <section>
+        <div class="relative w-full overflow-hidden"
             style="background-size: cover; background-repeat: no-repeat; background-image: url(https://d1d5cy0fmpy9m8.cloudfront.net/images/1755338858banner1.webp); background-position: top;">
             <div
                 class="relative z-10 flex flex-col justify-center space-y-4 items-center h-full text-center text-white bg-black bg-opacity-30 py-4">
@@ -37,10 +155,7 @@
                     style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);"
                     style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">With 73+ faculties, 9+ native teachers, 12000+
                     alumni, Kazumi Japanese & Culture School is the Most Popular Platform to Learn Japanese Language</p>
-                {{-- <p class="capitalize text-xl md:text-3xl tracking-widest mt-4 font-[600]"
-                    style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);"
-                    style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);">Discover a new standard of Japanese Education and
-                    Culture</p> --}}
+                
                 <div class="flex space-x-4 mb-8 items-center justify-center">
                     <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button"
                         class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600 cursor-pointer">Apply
@@ -50,80 +165,63 @@
                         More</a>
                 </div>
                 <div>
-                    {{-- <style>
-                        @keyframes bounceY {
-
-                            0%,
-                            100% {
-                                transform: translateY(0);
-                            }
-
-                            50% {
-                                transform: translateY(10px);
-                            }
-                        }
-
-                        .animate-bounceY {
-                            animation: bounceY 1s infinite;
-                        }
-                    </style>
-                    <button class="bg-white bg-opacity-50 text-red-800 p-4 rounded-full hover:bg-opacity-40 shadow-md"
-                        onclick="document.getElementById('course_section').scrollIntoView({ behavior: 'smooth' });">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 animate-bounceY" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M19 9l-7 7-7-7M19 5l-7 7-7-7" />
-                        </svg>
-                    </button> --}}
+                    
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <section id="course_section" class="pt-6 pb-4 px-4 max-w-7xl mx-auto">
         <h2 class="text-center text-xl md:text-2xl font-semibold my-4 text-[#da2028] capitalize">Japanese Language
             Institute
         </h2>
 
-  <p
-    id="japaneseText"
-    class="text-center text-gray-600 text-[14px] font-[600] my-2 overflow-hidden line-clamp-3 transition-all duration-300"
-  >
-    Kazumi Japanese & Cultural School is the leading Japanese Language Institute in India, providing quality education and expert training to help you
-    speak Japanese with confidence and fluency. Numerous Students, working professionals and language enthusiasts pursue top Japanese Language Courses from us.
-    We aim to enhance Japanese Language proficiency, encompassing both written and spoken skills of our students. You can learn Japanese from the elementary level N5 to the advanced level N1.
-    We offer top Japanese Language Courses that are globally recognised and give a wide range of Job Opportunities in Japan and Japanese-speaking countries.
-    We provide a well-qualified Japanese language expert faculty who deliver world-class Japanese Language Training to learners.
-    The training will build confidence to speak and write in the Japanese language. In addition, we also provide Online Japanese Exam Preparation Courses that
-    require proficiency to crack the JLPT Exam (Japanese Language Proficiency Test). Our online sessions provide a professional learning environment just like classroom classes.
-    The students are open to discuss any topic, query or doubt with the trainer. Moreover, the institute provides online learning with flexible timing for your online studies.
-    You can balance your Online Japanese language Training and regular work schedules. The best part of our Online Japanese Language Courses is that, along with the language training,
-    students acquire knowledge and a comprehensive understanding of Japanese culture, business and corporate etiquette observed in Japan and Japanese-speaking Countries.
-  </p>
+        <p id="japaneseText"
+            class="text-center text-gray-600 text-[14px] font-[600] my-2 overflow-hidden line-clamp-3 transition-all duration-300">
+            Kazumi Japanese & Cultural School is the leading Japanese Language Institute in India, providing quality
+            education and expert training to help you
+            speak Japanese with confidence and fluency. Numerous Students, working professionals and language enthusiasts
+            pursue top Japanese Language Courses from us.
+            We aim to enhance Japanese Language proficiency, encompassing both written and spoken skills of our students.
+            You can learn Japanese from the elementary level N5 to the advanced level N1.
+            We offer top Japanese Language Courses that are globally recognised and give a wide range of Job Opportunities
+            in Japan and Japanese-speaking countries.
+            We provide a well-qualified Japanese language expert faculty who deliver world-class Japanese Language Training
+            to learners.
+            The training will build confidence to speak and write in the Japanese language. In addition, we also provide
+            Online Japanese Exam Preparation Courses that
+            require proficiency to crack the JLPT Exam (Japanese Language Proficiency Test). Our online sessions provide a
+            professional learning environment just like classroom classes.
+            The students are open to discuss any topic, query or doubt with the trainer. Moreover, the institute provides
+            online learning with flexible timing for your online studies.
+            You can balance your Online Japanese language Training and regular work schedules. The best part of our Online
+            Japanese Language Courses is that, along with the language training,
+            students acquire knowledge and a comprehensive understanding of Japanese culture, business and corporate
+            etiquette observed in Japan and Japanese-speaking Countries.
+        </p>
 
-  <div class="text-center mt-4">
-    <button
-      id="toggleButton"
-      class="text-[#da2028] text-[12px] font-bold hover:underline border-red-600 p-1 border rounded-md">
-      View More
-    </button>
-  </div>
+        <div class="text-center mt-4">
+            <button id="toggleButton"
+                class="text-[#da2028] text-[12px] font-bold hover:underline border-red-600 p-1 border rounded-md">
+                View More
+            </button>
+        </div>
 
 
-<script>
-  const text = document.getElementById("japaneseText");
-  const button = document.getElementById("toggleButton");
+        <script>
+            const text = document.getElementById("japaneseText");
+            const button = document.getElementById("toggleButton");
 
-  button.addEventListener("click", () => {
-    if (text.classList.contains("line-clamp-3")) {
-      text.classList.remove("line-clamp-3");
-      button.textContent = "View Less";
-    } else {
-      text.classList.add("line-clamp-3");
-      button.textContent = "View More";
-    }
-  });
-</script>
+            button.addEventListener("click", () => {
+                if (text.classList.contains("line-clamp-3")) {
+                    text.classList.remove("line-clamp-3");
+                    button.textContent = "View Less";
+                } else {
+                    text.classList.add("line-clamp-3");
+                    button.textContent = "View More";
+                }
+            });
+        </script>
     </section>
 
     {{-- courses section --}}
@@ -834,7 +932,7 @@
             </div>
         </div>
     </section>
-     <section class="py-12">
+    <section class="py-12">
         <div class="max-w-7xl mx-auto">
             <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Esteemed
                 Faculty
@@ -1057,7 +1155,9 @@
                                 loading="lazy "alt="JLPT Intensive Course">
                         </div>
                         <h3 class="text-xl font-[600] text-red-600 mt-4">Exam Focused Training </h3>
-                        <p class="text-gray-700 text-[14px] mt-2">Excel in the JLPT/NAT/JFT with our 専門的な (Senmon-teki na) modules, mock tests, personalized coaching, and JLPT/NAT/JFT-focused materials sourced directly from Japan.</p>
+                        <p class="text-gray-700 text-[14px] mt-2">Excel in the JLPT/NAT/JFT with our 専門的な (Senmon-teki na)
+                            modules, mock tests, personalized coaching, and JLPT/NAT/JFT-focused materials sourced directly
+                            from Japan.</p>
                     </div>
                     <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                         <div class="flex items-center justify-center mb-2">
@@ -1348,7 +1448,7 @@
     </section>
 
     {{-- esteemed faculty section --}}
-   
+
 
     {{-- Agota™ Framework section --}}
     <section class="py-12 mx-auto px-4">
