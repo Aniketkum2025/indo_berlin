@@ -13,7 +13,7 @@
                     global 教育的 (kyōikuteki) platforms.
                 </p>
             </div>
-            
+
             <div>
                 <h3 class="text-white font-semibold border-b border-gray-600 pb-1 mb-3">USEFUL PAGES</h3>
                 <ul class="space-y-1 text-gray-400 text-sm">
@@ -63,7 +63,7 @@
                 
             </div>
         </div>
-        <div class="max-w-7xl mx-auto px-4 mt-8 border-t border-gray-700 pt-4 md:px-0 grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div class="max-w-7xl mx-auto mt-8 border-t border-gray-700 pt-4 md:px-0 grid grid-cols-1 md:grid-cols-4 gap-4">
             <div>
                 <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1">Henry Harvin® America Head
                     Office</h3>
