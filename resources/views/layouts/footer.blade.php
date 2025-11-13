@@ -13,6 +13,7 @@
                     global 教育的 (kyōikuteki) platforms.
                 </p>
             </div>
+            
             <div>
                 <h3 class="text-white font-semibold border-b border-gray-600 pb-1 mb-3">USEFUL PAGES</h3>
                 <ul class="space-y-1 text-gray-400 text-sm">
