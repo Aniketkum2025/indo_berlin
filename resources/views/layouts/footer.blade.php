@@ -50,12 +50,12 @@
             <div>
                 <h3 class="text-white font-semibold border-b border-gray-600 pb-1 mb-3">Reviews</h3>
                 <ul class="space-y-1 text-gray-400 text-sm">
-                    <li><a href="https://www.justdial.com/Delhi/Henry-Harvin-INDIA-Education-LLP-Noida-Authority-Noida-Sector-6/011PXX11-XX11-181022173738-G2E3_BZDET/reviews" class="hover:text-red-500"></a>Henry Harvin Reviews on Justdial</li>
-                    <li><a href="https://www.mouthshut.com/product-reviews/henryharvin-reviews-926062756" class="hover:text-red-500"></a>Henry Harvin Reviews on Mouthshut</li>
-                    <li><a href="https://reviewsreporter.com/henry-harvin-reviews/" class="hover:text-red-500"></a> Henry Harvin Reviews on Reviews Reporter</li>
-                    <li><a href="https://www.coursereport.com/schools/henry-harvin-education" class="hover:text-red-500"></a> Henry Harvin Reviews on Course Report</li>
-                    <li><a href="https://www.sitejabber.com/reviews/henryharvin.com" class="hover:text-red-500"></a>Henry Harvin Reviews on SiteJabber</li>
-                    <li><a href="https://www.henryharvin.com/reviews-and-complaints" class="hover:text-red-500"></a>Henry Harvin Reviews by Students</li>
+                    <li><a href="https://www.justdial.com/Delhi/Henry-Harvin-INDIA-Education-LLP-Noida-Authority-Noida-Sector-6/011PXX11-XX11-181022173738-G2E3_BZDET/reviews" class="hover:text-red-500">Henry Harvin Reviews on Justdial</a></li>
+                    <li><a href="https://www.mouthshut.com/product-reviews/henryharvin-reviews-926062756" class="hover:text-red-500">Henry Harvin Reviews on Mouthshut</a></li>
+                    <li><a href="https://reviewsreporter.com/henry-harvin-reviews/" class="hover:text-red-500"> Henry Harvin Reviews on Reviews Reporter</a></li>
+                    <li><a href="https://www.coursereport.com/schools/henry-harvin-education" class="hover:text-red-500"> Henry Harvin Reviews on Course Report</a></li>
+                    <li><a href="https://www.sitejabber.com/reviews/henryharvin.com" class="hover:text-red-500">Henry Harvin Reviews on SiteJabber</a></li>
+                    <li><a href="https://www.henryharvin.com/reviews-and-complaints" class="hover:text-red-500">Henry Harvin Reviews by Students</a></li>
                     {{-- <li><a href="" class="hover:text-red-500"></a></li>
                     <li><a href="" class="hover:text-red-500"></a></li>
                     <li><a href="" class="hover:text-red-500"></a></li> --}}
