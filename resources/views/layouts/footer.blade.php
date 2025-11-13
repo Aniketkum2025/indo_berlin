@@ -1,6 +1,6 @@
 <footer class="bg-black py-10">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
             <div class="">
                 <div class="flex justify-center">
                     <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1758714738Logo_Kazumi_Japanese_&_Culture_School_w-02.png"
@@ -15,23 +15,63 @@
             </div>
             <div>
                 <h3 class="text-white font-semibold border-b border-gray-600 pb-1 mb-3">USEFUL PAGES</h3>
-                <ul class="space-y-2 text-gray-400 text-sm">
+                <ul class="space-y-1 text-gray-400 text-sm">
                     <li><a href="/about-us" class="hover:text-red-500">Knowing Kazumi</a></li>
+                    <li><a href="https://kazumischool.com/blog" class="hover:text-red-500">Blog</a></li>
 
                     <li><a href="https://yuvaintern.com/" class="hover:text-red-500">Internship</a></li>
 
                     <li><a href="https://www.henryharvin.com/pay-fee" class="hover:text-red-500">Online Payment</a></li>
                     <li><a href="https://www.henryharvin.com/request-certificate" class="hover:text-red-500">Request
                             Certificate</a></li>
+
+                    <li><a href="/our-customers" class="hover:text-red-500">Our Customers</a></li>
+                    <li><a href="/contact-us" class="hover:text-red-500">Contact Us</a></li>
+                    <li><a href="https://www.henryharvin.com/support/" class="hover:text-red-500">Customer Support</a></li>
+                    <li><a href="/placed-students-list" class="hover:text-red-500">Placed Student list</a></li>
                 </ul>
             </div>
             <div>
-                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mb-3">Henry Harvin® America Head
+                <h3 class="text-white font-semibold border-b border-gray-600 pb-1 mb-3">Popular Blogs</h3>
+                <ul class="space-y-1 text-gray-400 text-sm">
+                    <li><a href="https://kazumischool.com/blog/how-to-choose-the-right-japanese-language-course-for-beginners/" class="hover:text-red-500">Japanese Language Course for Beginners</a></li>
+                    <li><a href="https://kazumischool.com/blog/institutes-offering-japanese-language-courses-in-delhi/" class="hover:text-red-500">Japanese Language Courses in Delhi</a></li>
+                    <li><a href="https://kazumischool.com/blog/best-japanese-language-institute-online-in-india/" class="hover:text-red-500">Best Japanese Language Institute online</a></li>
+                    <li><a href="https://kazumischool.com/blog/how-long-does-it-take-to-learn-japanese/" class="hover:text-red-500">How Long Does It Take to Learn Japanese?</a></li>
+                    <li><a href="https://kazumischool.com/blog/reasons-to-earn-a-japanese-language-certification/" class="hover:text-red-500">Earn a Japanese Language Certification</a></li>
+                    <li><a href="https://kazumischool.com/blog/how-to-learn-japanese-fast-complete-roadmap/" class="hover:text-red-500">How to Learn Japanese Fast?</a></li>
+                    <li><a href="https://kazumischool.com/blog/japanese-language-proficiency-test-jlpt-preparation-tips/" class="hover:text-red-500"></a>Top 10 JLPT Preparation Tips</li>
+                    <li><a href="https://kazumischool.com/blog/benefits-of-learning-japanese-for-career-growth/" class="hover:text-red-500">Top 10 Benefits of Learning Japanese</a></li>
+                    <li><a href="https://kazumischool.com/blog/how-to-write-japanese-in-japanese-a-step-by-step-guide/" class="hover:text-red-500">How to Write Japanese in Japanese</a></li>
+                </ul>
+                
+            </div>
+            <div>
+                <h3 class="text-white font-semibold border-b border-gray-600 pb-1 mb-3">Reviews</h3>
+                <ul class="space-y-1 text-gray-400 text-sm">
+                    <li><a href="https://www.justdial.com/Delhi/Henry-Harvin-INDIA-Education-LLP-Noida-Authority-Noida-Sector-6/011PXX11-XX11-181022173738-G2E3_BZDET/reviews" class="hover:text-red-500"></a>Henry Harvin Reviews on Justdial</li>
+                    <li><a href="https://www.mouthshut.com/product-reviews/henryharvin-reviews-926062756" class="hover:text-red-500"></a>Henry Harvin Reviews on Mouthshut</li>
+                    <li><a href="https://reviewsreporter.com/henry-harvin-reviews/" class="hover:text-red-500"></a> Henry Harvin Reviews on Reviews Reporter</li>
+                    <li><a href="https://www.coursereport.com/schools/henry-harvin-education" class="hover:text-red-500"></a> Henry Harvin Reviews on Course Report</li>
+                    <li><a href="https://www.sitejabber.com/reviews/henryharvin.com" class="hover:text-red-500"></a>Henry Harvin Reviews on SiteJabber</li>
+                    <li><a href="https://www.henryharvin.com/reviews-and-complaints" class="hover:text-red-500"></a>Henry Harvin Reviews by Students</li>
+                    {{-- <li><a href="" class="hover:text-red-500"></a></li>
+                    <li><a href="" class="hover:text-red-500"></a></li>
+                    <li><a href="" class="hover:text-red-500"></a></li> --}}
+                </ul>
+                
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 mt-8 border-t border-gray-700 pt-4 md:px-0 grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div>
+                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1">Henry Harvin® America Head
                     Office</h3>
                 <p class="text-white text-sm mb-2">Henry Harvin® Inc</p>
                 <p class="text-white text-sm">8 The Green, # 19614 Dover, DE 19901, United States.</a></p>
                 <p class="text-white text-sm">Phone: +1 209 382 3469</p>
-                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mt-4 mb-3">Henry Harvin® Asia
+            </div>
+            <div>
+                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1">Henry Harvin® Asia
                     Pacific Office</h3>
                 <p class="text-white text-sm mb-2">Henry Harvin® India Education LLP Henry Harvin® House,
                 </p>
@@ -39,7 +79,7 @@
                 <p class="text-white text-sm">Phone: +91 989 957 7620</p>
             </div>
             <div>
-                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mb-3">Henry Harvin® Middle East
+                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1">Henry Harvin® Middle East
                     Office</h3>
                 <p class="text-white text-sm mb-2">Henry Harvin® Co. L.L.C.</p>
                 <p class="text-white text-sm">2703, Blue Matrix, 27th floor The Prime Tower, Business Bay, Dubai,
@@ -48,8 +88,9 @@
                 <a class="bg-white py-1 px-3 text-[#3d0561] text-[11px] mt-1 flex items-center w-fit block cursor-pointer rounded-lg"
                     href="https://henryharvin.ae/"><i class="fa fa-globe animate-pulse pr-2 text-[16px] text-red-600"
                         aria-hidden="true"></i>Website</a>
-
-                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mt-4 mb-3">Henry Harvin® United
+            </div>
+            <div>
+                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1">Henry Harvin® United
                     Kingdom Office</h3>
                 <p class="text-white text-sm mb-2">Henry Harvin® Limited</p>
                 <p class="text-white text-sm">Office No: 71-75, Shelton Street, Covent Garden, London, WC2H 9JQ</a></p>
@@ -133,7 +174,8 @@
                 <span>|</span>
                 <a href="contact-us" class="text-red-700 font-[600]">Customer Service</a>
             </div>
-            <p class="mb-6">&copy; 2025, Kazumi Japanese & Culture School by Henry Harvin®, All Rights Reserved<br>We operate
+            <p class="mb-6">&copy; 2025, Kazumi Japanese & Culture School by Henry Harvin®, All Rights Reserved<br>We
+                operate
                 globally as a proud subsidiary of Henry Harvin® Education.</p>
         </div>
     </div>
@@ -458,8 +500,8 @@
             href="tel:+91 989 957 7620">
             <span class="w-8 h-8 rounded-full flex items-center text-center justify-center"><i
                     class="fa fa-phone text-[#008000] text-[28px]" id="fone" aria-hidden="true"></i></span>
-            <span
-                class="text-[#008000] text-[18px] font-[500] ml-2 dynamic_contact md:block hidden">+91 989 957 7620</span>
+            <span class="text-[#008000] text-[18px] font-[500] ml-2 dynamic_contact md:block hidden">+91 989 957
+                7620</span>
 
         </a>
     </div>
@@ -494,7 +536,8 @@
                         alt="popup-img-1" loading="lazy" />
                 </div>
                 <div class="flex items-center justify-center mt-4">
-                    <p class="w-[288px] text-center text-[20px] font-[600] text-[#fff]">Grab Month-end Scholarship + Register with best Offer </p>
+                    <p class="w-[288px] text-center text-[20px] font-[600] text-[#fff]">Grab Month-end Scholarship +
+                        Register with best Offer </p>
 
                 </div>
                 {{-- <div id="countdown-timer2" class="mt-4 flex items-center justify-center gap-1 text-[13px] text-white">
@@ -1163,7 +1206,7 @@
                     $('.dynamic_whatsapp_href, .dynamic_whatsapp_coursewise_href, .dynamic_whatsapp_mobile_href, .dynamic_whatsapp_coursewise_mobile_href')
                         .attr('href',
                             'https://api.whatsapp.com/send?phone=12093823469&text=Hello%20Henry%20Harvin%20Education,%20Please%20let%20me%20know%20more%20about%20your%20courses.'
-                            );
+                        );
                     $('#countryPrice').addClass('hidden');
                     $('#NonIndiancountryPrice, #nonUsOtherCities, #nonIndianPlacedLearner').removeClass('hidden');
                 } else if (countryNumber === 'US') {
@@ -1173,7 +1216,7 @@
                     $('.dynamic_whatsapp_href, .dynamic_whatsapp_coursewise_href, .dynamic_whatsapp_mobile_href, .dynamic_whatsapp_coursewise_mobile_href')
                         .attr('href',
                             'https://api.whatsapp.com/send?phone=12093823469&text=Hello%20Henry%20Harvin%20Education,%20Please%20let%20me%20know%20more%20about%20your%20courses.'
-                            );
+                        );
                     $('#countryPrice').addClass('hidden');
                     $('#NonIndiancountryPrice, #nonIndianPlacedLearner, #usOtherCities').removeClass('hidden');
                 } else if (countryNumber === 'GB') {
@@ -1183,7 +1226,7 @@
                     $('.dynamic_whatsapp_href, .dynamic_whatsapp_coursewise_href, .dynamic_whatsapp_mobile_href, .dynamic_whatsapp_coursewise_mobile_href')
                         .attr('href',
                             'https://api.whatsapp.com/send?phone=12093823469&text=Hello%20Henry%20Harvin%20Education,%20Please%20let%20me%20know%20more%20about%20your%20courses.'
-                            );
+                        );
                     $('#countryPrice').addClass('hidden');
                     $('#NonIndiancountryPrice, #nonUsOtherCities, #nonIndianPlacedLearner').removeClass('hidden');
                 } else {
@@ -1193,7 +1236,7 @@
                     $('.dynamic_whatsapp_href, .dynamic_whatsapp_coursewise_href, .dynamic_whatsapp_mobile_href, .dynamic_whatsapp_coursewise_mobile_href')
                         .attr('href',
                             'https://api.whatsapp.com/send?phone=12093823469&text=Hello%20Henry%20Harvin%20Education,%20Please%20let%20me%20know%20more%20about%20your%20courses.'
-                            );
+                        );
                     $('#countryPrice').addClass('hidden');
                     $('#NonIndiancountryPrice, #nonIndianPlacedLearner').removeClass('hidden');
                 }
@@ -1239,39 +1282,39 @@
     });
 </script>
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const bannerSwiper = new Swiper('.myBannerSwiper', {
-      loop: true,
-      slidesPerView: 1,
-      spaceBetween: 0,
-      // Autoplay settings
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
-        pauseOnMouseEnter: false
-      },
-      // Pagination (dots)
-      pagination: {
-        el: '.myBannerSwiper .swiper-pagination',
-        clickable: true
-      },
-      // No navigation arrows configured
+    document.addEventListener('DOMContentLoaded', function() {
+        const bannerSwiper = new Swiper('.myBannerSwiper', {
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 0,
+            // Autoplay settings
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: false
+            },
+            // Pagination (dots)
+            pagination: {
+                el: '.myBannerSwiper .swiper-pagination',
+                clickable: true
+            },
+            // No navigation arrows configured
+        });
     });
-  });
 </script>
 <script>
-  function playVideo(element) {
-    const container = element.closest(".video-container");
-    const thumbnail = container.querySelector(".video-thumb");
-    const overlay = container.querySelector(".play-overlay");
-    const iframe = container.querySelector("iframe");
+    function playVideo(element) {
+        const container = element.closest(".video-container");
+        const thumbnail = container.querySelector(".video-thumb");
+        const overlay = container.querySelector(".play-overlay");
+        const iframe = container.querySelector("iframe");
 
-    // Set YouTube embed link with autoplay
-    iframe.src = "https://www.youtube.com/embed/lox8dr2cuAk?autoplay=1";
+        // Set YouTube embed link with autoplay
+        iframe.src = "https://www.youtube.com/embed/lox8dr2cuAk?autoplay=1";
 
-    // Hide thumbnail and overlay, show iframe
-    thumbnail.style.display = "none";
-    overlay.style.display = "none";
-    iframe.classList.remove("hidden");
-  }
+        // Hide thumbnail and overlay, show iframe
+        thumbnail.style.display = "none";
+        overlay.style.display = "none";
+        iframe.classList.remove("hidden");
+    }
 </script>
