@@ -41,7 +41,7 @@
                     <li><a href="https://kazumischool.com/blog/how-long-does-it-take-to-learn-japanese/" class="hover:text-red-500">How Long Does It Take to Learn Japanese?</a></li>
                     <li><a href="https://kazumischool.com/blog/reasons-to-earn-a-japanese-language-certification/" class="hover:text-red-500">Earn a Japanese Language Certification</a></li>
                     <li><a href="https://kazumischool.com/blog/how-to-learn-japanese-fast-complete-roadmap/" class="hover:text-red-500">How to Learn Japanese Fast?</a></li>
-                    <li><a href="https://kazumischool.com/blog/japanese-language-proficiency-test-jlpt-preparation-tips/" class="hover:text-red-500"></a>Top 10 JLPT Preparation Tips</li>
+                    <li><a href="https://kazumischool.com/blog/japanese-language-proficiency-test-jlpt-preparation-tips/" class="hover:text-red-500">Top 10 JLPT Preparation Tips</a></li>
                     <li><a href="https://kazumischool.com/blog/benefits-of-learning-japanese-for-career-growth/" class="hover:text-red-500">Top 10 Benefits of Learning Japanese</a></li>
                     <li><a href="https://kazumischool.com/blog/how-to-write-japanese-in-japanese-a-step-by-step-guide/" class="hover:text-red-500">How to Write Japanese in Japanese</a></li>
                 </ul>
