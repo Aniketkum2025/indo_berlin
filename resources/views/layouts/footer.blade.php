@@ -50,7 +50,7 @@
             <div>
                 <h3 class="text-white font-semibold border-b border-gray-600 pb-1 mb-3">Reviews</h3>
                 <ul class="space-y-1 text-gray-400 text-sm">
-                    <li><a href="https://kazumischool.com/blog/kazumi-japanese-culture-school-reviews/" class="hover:text-red-500"></a>Kazumi Japanese & Culture School Reviews</li>
+                    <li><a href="https://kazumischool.com/blog/kazumi-japanese-culture-school-reviews/" class="hover:text-red-500">Kazumi Japanese & Culture School Reviews</a></li>
                      <li><a href="https://www.henryharvin.com/reviews-and-complaints" class="hover:text-red-500">Henry Harvin Reviews</a></li>
                     <li><a href="https://www.justdial.com/Delhi/Henry-Harvin-INDIA-Education-LLP-Noida-Authority-Noida-Sector-6/011PXX11-XX11-181022173738-G2E3_BZDET/reviews" class="hover:text-red-500">Henry Harvin Reviews on Justdial</a></li>
                     <li><a href="https://www.mouthshut.com/product-reviews/henryharvin-reviews-926062756" class="hover:text-red-500">Henry Harvin Reviews on Mouthshut</a></li>
