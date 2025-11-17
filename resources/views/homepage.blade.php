@@ -351,6 +351,8 @@
                             <li><a href="/crash-course-for-japanese-language"
                                     class="text-red-600 hover:underline text-[14px] font-[600]">Crash Course for Japanese
                                     Language</a></li>
+                            <li><a href="/jlpt-exam-preparation-course"
+                                    class="text-red-600 hover:underline text-[14px] font-[600]">JLPT/ NAT Exam Preparation Course</a></li>
                         </ul>
                     </div>
                 </div>
