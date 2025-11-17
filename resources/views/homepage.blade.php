@@ -347,6 +347,7 @@
                     <p class="text-[16px] text-gray-700 mt-2 flex-grow">Cover all the topics from N5 (basic) to N1
                         (advance) level, understand important and useful Japanese 伝統（Dentō) and etiquettes</p>
                     <div class="mt-4">
+                        
                         <ul class="">
                             <li><a href="/crash-course-for-japanese-language"
                                     class="text-red-600 hover:underline text-[14px] font-[600]">Crash Course for Japanese
