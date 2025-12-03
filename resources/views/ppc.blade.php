@@ -25,24 +25,24 @@
     </div>
     {{-- <div class="flex items-center gap-2">
       <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733131304School_of_Language_Logo_F_(1).png" alt="Logo" class="h-16">
-      <p class="h-[45px] bg-red-700 w-[1px] p-[1px]"></p>
+      <p class="h-[45px] bg-orange-700 w-[1px] p-[1px]"></p>
       <div class="text-sm text-gray-700">
-        <p class="font-bold text-red-600 text-center text-[20px]">12</p>
-        <p class="text-[16px] text-red-600 font-[500] text-center">Years</p>
+        <p class="font-bold text-orange-600 text-center text-[20px]">12</p>
+        <p class="text-[16px] text-orange-600 font-[500] text-center">Years</p>
       </div>
     </div> --}}
-    <div class="text-red-600 text-sm text-center lg:text-left md:block hidden">
+    <div class="text-orange-600 text-sm text-center lg:text-left md:block hidden">
       <p>460,000+ Trained | 6,700+ Reviews | 7,000+ Live Classes Every Month</p>
       <p>210+ Corporate Partners | 180+ College Partners | 93% Reported Career Benefits</p>
     </div>
     <div class="flex gap-2">
-      <button class="bg-red-600 text-white md:px-4 px-2 py-2 rounded-md text-[10px] md:text-sm hover:bg-red-800">Book Free Demo</button>
-      <button  data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button" class="bg-red-600 md:block hidden text-white px-4 py-2 rounded-md text-sm hover:bg-red-800">Get Quick Call Back</button>
+      <button class="bg-orange-600 text-white md:px-4 px-2 py-2 rounded-md text-[10px] md:text-sm hover:bg-orange-800">Book Free Demo</button>
+      <button  data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button" class="bg-orange-600 md:block hidden text-white px-4 py-2 rounded-md text-sm hover:bg-orange-800">Get Quick Call Back</button>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="bg-gradient-to-r from-red-800 to-red-500 text-white px-6 py-10 lg:py-16">
+  <section class="bg-gradient-to-r from-orange-800 to-orange-500 text-white px-6 py-10 lg:py-16">
     <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
       <!-- Left Content -->
         <div class="lg:col-span-2 space-y-4">
@@ -61,16 +61,16 @@
         <div>
             <div class="bg-white text-gray-800 p-6 rounded shadow-md space-y-4">
                 <h3 class="text-lg font-semibold text-center">Download Course Brochure</h3>
-                <input type="email" placeholder="Enter email here" class="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500" />
+                <input type="email" placeholder="Enter email here" class="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-orange-500" />
                 <div class="flex gap-2">
-                <select class="w-1/3 border border-gray-300 px-2 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500">
+                <select class="w-1/3 border border-gray-300 px-2 py-2 rounded focus:outline-none focus:ring-2 focus:ring-orange-500">
                     <option>India (+91)</option>
                     <option>US (+1)</option>
                     <option>UK (+44)</option>
                 </select>
-                <input type="tel" placeholder="Enter phone here" class="w-2/3 border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500" />
+                <input type="tel" placeholder="Enter phone here" class="w-2/3 border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-orange-500" />
                 </div>
-                <button class="w-full bg-red-600 hover:bg-red-900 text-white py-3 rounded-md font-semibold">Send Me Brochure »</button>
+                <button class="w-full bg-orange-600 hover:bg-orange-900 text-white py-3 rounded-md font-semibold">Send Me Brochure »</button>
             </div>
             <div class="nsdc-logo mt-2" bis_skin_checked="1" style=" background: white;">
                     <img class="img-nsdc lazyloaded" data-src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1738058202msme_new_to.png" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1738058202msme_new_to.png">
@@ -138,14 +138,14 @@
 
   <section class="bg-gray-50 py-12 px-4">
   <div class="max-w-5xl mx-auto">
-    <h2 class="text-center text-3xl font-[600] text-red-600 mb-10">
+    <h2 class="text-center text-3xl font-[600] text-orange-600 mb-10">
       Henry Harvin® Exclusive Course Offerings
     </h2>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       
       <!-- Card 1 -->
-      <div class="relative bg-red-100 text-red-900 p-6 rounded-lg shadow overflow-hidden">
+      <div class="relative bg-orange-100 text-orange-900 p-6 rounded-lg shadow overflow-hidden">
         <h3 class="text-lg font-bold mb-2">Native Experienced Trainers</h3>
         <p class="text-sm pr-12">Undertake french language course from the Certified Native French Trainers</p>
         <div class="absolute bottom-0 right-0 w-20 h-20 bg-no-repeat bg-contain bg-bottom opacity-90"
@@ -204,7 +204,7 @@
 
     <!-- CTA Button -->
     <div class="text-center mt-10">
-      <a href="#newform" class="inline-flex items-center px-6 py-3 bg-red-600 text-white rounded-md shadow hover:bg-red-800 transition">
+      <a href="#newform" class="inline-flex items-center px-6 py-3 bg-orange-600 text-white rounded-md shadow hover:bg-orange-800 transition">
         Get Brochure <i class="fa fa-book ml-2"></i>
       </a>
     </div>
@@ -213,7 +213,7 @@
 
 <section class="py-12 bg-gray-100 mx-auto px-4">
     <div class="max-w-7xl mx-auto">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize mt-4 mb-4"> Why Kazumi Japanese &amp; Culture 文化 School?
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize mt-4 mb-4"> Why Kazumi Japanese &amp; Culture 文化 School?
         </h2>
         <div class="py-8">
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 text-center">
@@ -221,21 +221,21 @@
                      <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789102Trainerteaching.jpg" loading="lazy " alt="wwww">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Native Japanese Trainers</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">Native Japanese Trainers</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Learn from certified, highly 経験豊富 (keiken hōfu) and 情熱的な (jōnetsu-teki na) faculties.</p>
                 </div>
                  <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789154examsheet.jpg" loading="lazy " alt="course">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">JLPT Intensive Course</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">JLPT Intensive Course</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Excel in the JLPT with our 専門的な (Senmon-teki na) modules, mock tests, personalized coaching, and JLPT-focused materials sourced directly from Japan.</p>
                 </div>
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881317elearning.jpg" loading="lazy " alt="access">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Access to E-learning Portal</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">Access to E-learning Portal</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Kazumi partners with <span>
                         <a href="https://examopedia.com/" class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1734598082examopedia_logo.webp" loading="lazy " alt="Examopedia Logo" class="h-4">Examopedia</a></span><a href="https://examopedia.com/" class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"> </a>
                         , a comprehensive E-learning portal that provides future updates, PPTs, projects, quizzes, 模擬試験 (Mogi Shiken), question banks, assessments and interactive forums.</p>
@@ -244,14 +244,14 @@
                     <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789196OccupationalPrograms.jpg" loading="lazy " alt="offer">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Japanese Occupational Courses</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">Japanese Occupational Courses</h3>
                     <p class="text-gray-700 text-[14px] mt-2">At Kazumi, we offer programs that will help you build corporate, business and 職場 (shokuba) skills required to secure good 仕事 (shigoto) internationally.</p>
                 </div>
                  <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774339talking.jpg" loading="lazy " alt="">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Internship for Japanese Language</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">Internship for Japanese Language</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Kazumi provides Internship Support via 
                         <span><a href="https://yuvaintern.com//" class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img src="https://yuvaintern.com/assets/img/logo.png" loading="lazy " alt="Yuva Intern Logo" class="h-4">Yuva Intern</a></span><a href="https://yuvaintern.com//" class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"> </a>
                                             , India’s first バーチャル (bācharu) internship platform where you get to select from the best curated internships that match your skills and interests.</p>
@@ -260,7 +260,7 @@
                      <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881283study.jpg" loading="lazy " alt="study">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Study Abroad &amp; Recruitment Services</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">Study Abroad &amp; Recruitment Services</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Kazumi offers study abroad and 就職支援 (Shūshoku Shien) via 
                         <a href="https://leochase.com/" class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img src="https://leochase.com/wp-content/uploads/2025/04/Logo_Leo-Chase_F.png" loading="lazy " alt="Leo &amp; Chase Logo" class="h-3">Leo &amp; Chase </a>
                         , no. 1 recruitment provider, assisting from visa application to settling abroad.</p>
@@ -269,28 +269,28 @@
                     <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881176agota2.jpg" loading="lazy " alt="Unique">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Unique 10 in 1 Program: Agota™ Framework</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">Unique 10 in 1 Program: Agota™ Framework</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Learn through innovative teaching methods that make learning easy and 実践的 (Jissen-teki). This framework essentially promotes the 能力 (Nōryoku) development and キャリア (Kyaria) development.</p>
                 </div>
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                     <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789015orconnections.jpg" loading="lazy " alt="globle">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Global Presence</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">Global Presence</h3>
                     <p class="text-gray-700 text-[14px] mt-2">With offices in 4+ countries, UK, USA, Middle East, and India, Kazumi is a global brand, offering a global learning 環境 (kankyō), with around 1200+ international 学生 (gakusei).</p>
                 </div>
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774903Network.jpg" loading="lazy " alt="international">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">International Alumni Network</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">International Alumni Network</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Join a diverse コミュニティ(Komyuniti) of learners and professionals from around the world.</p>
                 </div>
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774206culture.jpg" loading="lazy " alt="culture two">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Cultural Training</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">Cultural Training</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Explore 伝統 (Dentō), etiquettes, festivals, and practices used in an authentic environment.</p>
                 </div>
             </div>
@@ -302,10 +302,10 @@
 <!-- About the Course Section -->
 <section class="py-12 bg-gray-100 mx-auto px-4">
     <div class="max-w-7xl mx-auto">
-        <div x-data="{ open: false }" class="bg-red-100 p-4 rounded-md shadow-lg mb-6">
+        <div x-data="{ open: false }" class="bg-orange-100 p-4 rounded-md shadow-lg mb-6">
 
         <!-- Header -->
-        <div @click="open = !open" class="cursor-pointer flex justify-between items-center bg-red-600 text-white px-4 py-3 rounded-md">
+        <div @click="open = !open" class="cursor-pointer flex justify-between items-center bg-orange-600 text-white px-4 py-3 rounded-md">
             <h2 class="text-lg font-semibold">About the Course</h2>
             <span x-text="open ? '-' : '+'"
             class="text-xl font-bold transition duration-200 transform"></span>
@@ -314,19 +314,19 @@
         <!-- Content -->
         <div x-show="open" x-transition class="bg-white p-6 rounded-md mt-4 space-y-5 text-sm leading-relaxed text-gray-800">
             
-            <h3 class="text-red-600 text-xl font-bold">French Language Course</h3>
+            <h3 class="text-orange-600 text-xl font-bold">French Language Course</h3>
             <p>French Language Course designed to comprehend topics and lexis. Moreover, you will learn grammatical concepts to enhance your prowess in the French language. After completion of the course, you will be able to write a variety of texts. Henry Harvin® will assist you in genuinely speaking the French language. Master the French Language and Ace the important French Language Exams such as DILF, DELF, DALF, DCL, & TCF</p>
 
             <div class="space-y-2">
-            <p><strong class="text-red-600">A1: The Beginners Level -</strong> Basic French Vocabulary, Greetings, Grammar (Nouns, Verbs, Adjectives, etc.)</p>
-            <p><strong class="text-red-600">A2: The Upper Beginners Level -</strong> Express decisions, comparisons, grammar: tenses, pronouns, adverbs, etc.</p>
-            <p><strong class="text-red-600">B1: The Intermediate Level -</strong> Writing, reading, listening; structure sentences confidently.</p>
-            <p><strong class="text-red-600">B2: The Upper Intermediate Level -</strong> French dialects, create speeches, explain thoughts fluently.</p>
-            <p><strong class="text-red-600">C1: The Advanced Level -</strong> Understand complex texts, express fluently and spontaneously.</p>
-            <p><strong class="text-red-600">C2: The Proficiency Level -</strong> Master comprehension and summary of spoken/written French.</p>
+            <p><strong class="text-orange-600">A1: The Beginners Level -</strong> Basic French Vocabulary, Greetings, Grammar (Nouns, Verbs, Adjectives, etc.)</p>
+            <p><strong class="text-orange-600">A2: The Upper Beginners Level -</strong> Express decisions, comparisons, grammar: tenses, pronouns, adverbs, etc.</p>
+            <p><strong class="text-orange-600">B1: The Intermediate Level -</strong> Writing, reading, listening; structure sentences confidently.</p>
+            <p><strong class="text-orange-600">B2: The Upper Intermediate Level -</strong> French dialects, create speeches, explain thoughts fluently.</p>
+            <p><strong class="text-orange-600">C1: The Advanced Level -</strong> Understand complex texts, express fluently and spontaneously.</p>
+            <p><strong class="text-orange-600">C2: The Proficiency Level -</strong> Master comprehension and summary of spoken/written French.</p>
             </div>
 
-            <h3 class="text-red-600 text-lg font-semibold mt-6">9 in 1 Course</h3>
+            <h3 class="text-orange-600 text-lg font-semibold mt-6">9 in 1 Course</h3>
             <ul class="list-disc ml-5">
             <li><strong>Training:</strong> Two-way Live Online Interactive Sessions</li>
             <li><strong>Projects:</strong> Real-world French Language Applications</li>
@@ -339,7 +339,7 @@
             <li><strong>Membership:</strong> 1-Year Gold Membership in Language Academy</li>
             </ul>
 
-            <h3 class="text-red-600 text-lg font-semibold mt-6">Trainers at Henry Harvin®</h3>
+            <h3 class="text-orange-600 text-lg font-semibold mt-6">Trainers at Henry Harvin®</h3>
             <ul class="list-disc ml-5">
             <li>15+ years of industry experience</li>
             <li>Recognized by multiple global organizations</li>
@@ -347,7 +347,7 @@
             <li>350+ lectures delivered in French Language</li>
             </ul>
 
-            <h3 class="text-red-600 text-lg font-semibold mt-6">Gold Membership Benefits</h3>
+            <h3 class="text-orange-600 text-lg font-semibold mt-6">Gold Membership Benefits</h3>
             <ul class="list-disc ml-5">
             <li>Access to e-learning tools and videos</li>
             <li>Masterclass sessions included</li>
@@ -355,7 +355,7 @@
             <li>Guaranteed internships & job offers</li>
             </ul>
 
-            <h3 class="text-red-600 text-lg font-semibold mt-6">Learning Benefits</h3>
+            <h3 class="text-orange-600 text-lg font-semibold mt-6">Learning Benefits</h3>
             <ul class="list-disc ml-5">
             <li>Talk about past, present & future events</li>
             <li>Explain habitual actions & memories</li>
@@ -365,14 +365,14 @@
             <li>Master grammar, tenses, doubts, hypotheses</li>
             </ul>
 
-            <h3 class="text-red-600 text-lg font-semibold mt-6">Recognitions</h3>
+            <h3 class="text-orange-600 text-lg font-semibold mt-6">Recognitions</h3>
             <ul class="list-disc ml-5">
             <li>Top Corporate Training Award winner</li>
             <li>Affiliations with PMI, UKCert, ISO, MSME</li>
             <li>3400+ Google reviews, 4.5+ rated</li>
             </ul>
 
-            <h3 class="text-red-600 text-lg font-semibold mt-6">Career Benefits</h3>
+            <h3 class="text-orange-600 text-lg font-semibold mt-6">Career Benefits</h3>
             <ul class="list-disc ml-5">
             <li>Global job opportunities in French Language</li>
             <li>Boosted LinkedIn and Resume profile</li>
@@ -386,58 +386,58 @@
 
 <section class="bg-red-50 py-10">
   <div class="max-w-6xl mx-auto px-4">
-    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize mt-4 mb-4">
+    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize mt-4 mb-4">
       Join Henry Harvin® Community of 4,60,000+ Professionals
     </h2>
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
 
         <!-- Slide 1 -->
-        <div class="swiper-slide bg-white rounded-lg shadow-lg border border-red-200 flex flex-col items-center text-center">
+        <div class="swiper-slide bg-white rounded-lg shadow-lg border border-orange-200 flex flex-col items-center text-center">
           <img src="https://cdn.henryharvin.com/images/170030254116682440271668244027sristi.jpg"
                alt="Asha Dutta"
                class="w-32 h-32 rounded-full object-cover mt-4 shadow-md" />
           <div class="bg-yellow-100 p-4 text-sm text-gray-800">
             I had the best time with Henry Harvin! My trainer was motivating and I feel like my French got a lot better thanks to the ways of teaching. Would recommend it to everyone!
-            <p class="text-red-600 font-medium mt-2">- Asha Dutta</p>
+            <p class="text-orange-600 font-medium mt-2">- Asha Dutta</p>
           </div>
-          <div class="bg-red-700 text-white font-semibold w-full py-2">French Teacher (WLC)</div>
+          <div class="bg-orange-700 text-white font-semibold w-full py-2">French Teacher (WLC)</div>
         </div>
 
         <!-- Slide 2 -->
-        <div class="swiper-slide bg-white rounded-lg shadow-lg border border-red-200 flex flex-col items-center text-center">
+        <div class="swiper-slide bg-white rounded-lg shadow-lg border border-orange-200 flex flex-col items-center text-center">
           <img src="https://cdn.henryharvin.com/images/170030259216682440321668244032sharnam.jpg"
                alt="Sharnam"
                class="w-32 h-32 rounded-full object-cover mt-4 shadow-md" />
           <div class="bg-yellow-100 p-4 text-sm text-gray-800">
             I was looking to learn French online and I am glad that I joined Henry Harvin Education. Trainers here are very helpful and made me understand the basic French language concepts very quickly.
-            <p class="text-red-600 font-medium mt-2">- Sharnam</p>
+            <p class="text-orange-600 font-medium mt-2">- Sharnam</p>
           </div>
-          <div class="bg-red-700 text-white font-semibold w-full py-2">French Tutor</div>
+          <div class="bg-orange-700 text-white font-semibold w-full py-2">French Tutor</div>
         </div>
 
         <!-- Slide 3 -->
-        <div class="swiper-slide bg-white rounded-lg shadow-lg border border-red-200 flex flex-col items-center text-center">
+        <div class="swiper-slide bg-white rounded-lg shadow-lg border border-orange-200 flex flex-col items-center text-center">
           <img src="https://cdn.henryharvin.com/images/170030263316682440371668244037ritika.jpg"
                alt="Ritika Jha"
                class="w-32 h-32 rounded-full object-cover mt-4 shadow-md" />
           <div class="bg-yellow-100 p-4 text-sm text-gray-800">
             It was incredible, I learned a lot of French Language, and had a great time not only in the classes but in the activities offered after class as well.
-            <p class="text-red-600 font-medium mt-2">- Ritika Jha</p>
+            <p class="text-orange-600 font-medium mt-2">- Ritika Jha</p>
           </div>
-          <div class="bg-red-700 text-white font-semibold w-full py-2">French (A1 to B1) Tutor</div>
+          <div class="bg-orange-700 text-white font-semibold w-full py-2">French (A1 to B1) Tutor</div>
         </div>
 
         <!-- Slide 4 -->
-        <div class="swiper-slide bg-white rounded-lg shadow-lg border border-red-200 flex flex-col items-center text-center">
+        <div class="swiper-slide bg-white rounded-lg shadow-lg border border-orange-200 flex flex-col items-center text-center">
           <img src="https://cdn.henryharvin.com/images/170030268416682440421668244042meera.jpg"
                alt="Meera Kapoor"
                class="w-32 h-32 rounded-full object-cover mt-4 shadow-md" />
           <div class="bg-yellow-100 p-4 text-sm text-gray-800">
             Henry Harvin has one of the best learning ecosystems. I was able to speak French confidently within weeks of joining. Highly recommended.
-            <p class="text-red-600 font-medium mt-2">- Meera Kapoor</p>
+            <p class="text-orange-600 font-medium mt-2">- Meera Kapoor</p>
           </div>
-          <div class="bg-red-700 text-white font-semibold w-full py-2">French Trainer</div>
+          <div class="bg-orange-700 text-white font-semibold w-full py-2">French Trainer</div>
         </div>
 
       </div>
@@ -447,7 +447,7 @@
 
 <section class="py-12 mx-auto px-4">
     <div class="max-w-6xl mx-auto" bis_skin_checked="1">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-2 text-[#da2028] capitalize my-4">Agota™ Framework
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-2 text-orange-600 capitalize my-4">Agota™ Framework
         </h2>
         <p class="text-[16px] text-gray-800 font-[600] text-center">AGOTA™ Framework is a trajectory that offers complete growth of an individual incorporating the two most significant focus areas of contemporary learning:<span class="font-bold text-gray-900"> The 能力 (Nōryoku) development and キャリア (Kyaria) development. </span></p>
         <p class="text-[16px] text-gray-800 font-[600] text-center mt-4"><span class="font-bold text-gray-900">能力 (Nōryoku) development </span> is about building capabilities that not only meet current job demands but also anticipates the future needs. It includes:</p>
@@ -456,7 +456,7 @@
                 <ul class="disk mt-2">
                     <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple" bis_skin_checked="1">
-                            <p class="col-span-2 text-red-600">1: Training
+                            <p class="col-span-2 text-orange-600">1: Training
                                 <span class="block text-[12px] text-gray-800 font-[600]">144 Hours of Two-Way Live Online Interactive Sessions</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2 " bis_skin_checked="1">
@@ -471,7 +471,7 @@
                             </div>
                         </div>
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple" bis_skin_checked="1">
-                            <p class="col-span-2 text-red-600">2: Projects
+                            <p class="col-span-2 text-orange-600">2: Projects
                                 <span class="block text-[12px] text-gray-800 font-[600]"> Facility to undergo projects along with the course</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2  " bis_skin_checked="1">
@@ -488,7 +488,7 @@
                     </li>
                     <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple" bis_skin_checked="1">
-                            <p class="col-span-2 text-red-600">3: Student Engagement &amp; Events
+                            <p class="col-span-2 text-orange-600">3: Student Engagement &amp; Events
                                 <span class="block text-[12px] text-gray-800 font-[600]"> Free Access to #AskHenry Hackathons and Competitions &amp; many other facilities from Henry Harvin®</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2 " bis_skin_checked="1">
@@ -503,7 +503,7 @@
                             </div>
                         </div>
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple" bis_skin_checked="1">
-                            <p class="col-span-2 text-red-600">4: Masterclass
+                            <p class="col-span-2 text-orange-600">4: Masterclass
                                 <span class="block text-[12px] text-gray-800 font-[600]">Access to 52+ Masterclass Sessions for essential soft スキル (Sukiru) development</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2  " bis_skin_checked="1">
@@ -520,7 +520,7 @@
                     </li>
                     <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple" bis_skin_checked="1">
-                            <p class="col-span-2 text-red-600">5: Membership
+                            <p class="col-span-2 text-orange-600">5: Membership
                                 <span class="block text-[12px] text-gray-800 font-[600]"> 30 Months Gold Membership of Henry Harvin® School of Languages</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2  " bis_skin_checked="1">
@@ -535,7 +535,7 @@
                             </div>
                         </div>
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple" bis_skin_checked="1">
-                            <p class="col-span-2 text-red-600">6: E-Learning Access
+                            <p class="col-span-2 text-orange-600">6: E-Learning Access
                                 <span class="block text-[12px] text-gray-800 font-[600]">Get free access to the LMS having PPTs, projects, self-paced video-based learning, library, quizzes, question bank, practice tests, final assessments, and a forum, powered by 
                                     <a href="https://examopedia.com/" class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1734598082examopedia_logo.webp" loading="lazy " alt="Examopedia Logo" class="h-3">Examopedia</a></span><a href="https://examopedia.com/" class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"> </a>
 
@@ -558,7 +558,7 @@
                 <ul class="disk">
                     <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple" bis_skin_checked="1">
-                            <p class="col-span-2 text-red-600">7: 特徴 (Tokuchō) Certification + License
+                            <p class="col-span-2 text-orange-600">7: 特徴 (Tokuchō) Certification + License
                                 <span class="block text-[12px] text-gray-800 font-[600]">Distinguish your profile with global credentials and showcase expertise with our 特徴 (Tokuchō) Completion certificate with Professional License</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2  " bis_skin_checked="1">
@@ -573,7 +573,7 @@
                             </div>
                         </div>
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple" bis_skin_checked="1">
-                            <p class="col-span-2 text-red-600">8: Internship Support
+                            <p class="col-span-2 text-orange-600">8: Internship Support
                                 <span class="block text-[12px] text-gray-800 font-[600]">Get Internship Support with Henry Harvin® and in top MNCs like J.P. Morgan, Accenture &amp; many more via 100X Suite and 
                                      <a href="https://yuvaintern.com//" class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img src="https://yuvaintern.com/assets/img/logo.png" loading="lazy " alt="YUVA Logo" class="h-3">Yuva Intern</a></span><a href="https://yuvaintern.com//" class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"> </a>.
                             </p>
@@ -591,7 +591,7 @@
                     </li>
                     <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple" bis_skin_checked="1">
-                            <p class="col-span-2 text-red-600">9: Entrepreneurship Mentorship
+                            <p class="col-span-2 text-orange-600">9: Entrepreneurship Mentorship
                                 <span class="block text-[12px] text-gray-800 font-[600]">Mentorship from Young Successful Entrepreneurs to set up a sustainable &amp; scalable Business from scratch at both Freelance &amp; Entrepreneur level</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2  " bis_skin_checked="1">
@@ -606,7 +606,7 @@
                             </div>
                         </div>
                         <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple" bis_skin_checked="1">
-                            <p class="col-span-2 text-red-600">10: Placement Support
+                            <p class="col-span-2 text-orange-600">10: Placement Support
                                 <span class="block text-[12px] text-gray-800 font-[600]">Get 3 in 1 Placement support through Placement Drives, Premium access to the Job portal &amp; Personalized Job Consulting</span>
                             </p>
                             <div class="relative h-fit mx-auto mb-4 mt-2  " bis_skin_checked="1">
@@ -631,14 +631,14 @@
 </section>
 <section class="py-12 mx-auto px-4">
     <div class="max-w-6xl mx-auto" bis_skin_checked="1">
-<div class="flex items-center justify-center flex-wrap gap-2 text-[30px] font-semibold text-red-700">
+<div class="flex items-center justify-center flex-wrap gap-2 text-[30px] font-semibold text-orange-700">
   <span>Still have questions?</span>
 
   <button
     data-modal-target="authentication-modal"
     data-modal-toggle="authentication-modal"
     type="button"
-    class="bg-red-600 text-white px-5 py-2 rounded-full text-[24px] shadow-md hover:bg-red-700 transition duration-300"
+    class="bg-orange-600 text-white px-5 py-2 rounded-full text-[24px] shadow-md hover:bg-orange-700 transition duration-300"
   >
     Get Quick Call Back
   </button>
@@ -649,7 +649,7 @@
 </section>
 
 
-<div class="bg-gradient-to-r from-slate-800 via-red-800 to-red-500 text-white p-6">
+<div class="bg-gradient-to-r from-slate-800 via-orange-800 to-orange-500 text-white p-6">
   <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
     
     <!-- Left Section -->
@@ -664,10 +664,10 @@
     <!-- Middle Form -->
     <div class="bg-white text-black rounded-xl p-6 shadow-md border-2 border-purple-800">
       <h3 class="text-center font-semibold mb-4">
-        Book A Demo Class, <span class="text-red-600 font-bold">For 99$ Free !</span>
+        Book A Demo Class, <span class="text-orange-600 font-bold">For 99$ Free !</span>
       </h3>
       <form class="space-y-3">
-        <input type="email" placeholder="Email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600" />
+        <input type="email" placeholder="Email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-600" />
         <div class="flex gap-2">
           <select class="w-1/2 px-4 py-2 border border-gray-300 rounded-md">
             <option>India (+91)</option>
@@ -676,7 +676,7 @@
           </select>
           <input type="tel" placeholder="Phone" class="w-1/2 px-4 py-2 border border-gray-300 rounded-md" />
         </div>
-        <button type="submit" class="bg-red-600 text-white w-full py-2 rounded-md shadow hover:bg-red-900 transition">
+        <button type="submit" class="bg-orange-600 text-white w-full py-2 rounded-md shadow hover:bg-orange-900 transition">
           SUBMIT »
         </button>
       </form>
@@ -693,7 +693,7 @@
 {{-- footer section --}}
   <footer>
 <div class="bg-white py-6 px-4">
-  <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-red-700 text-sm font-medium">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-orange-700 text-sm font-medium">
 
     <!-- USA -->
     <div>
@@ -731,12 +731,12 @@
 
   <!-- ISO Badges -->
   <div class="flex flex-wrap justify-center gap-4 mt-6">
-    <span class="bg-red-800 text-white px-4 py-2 rounded-full text-sm shadow">ISO 9001:2015</span>
-    <span class="bg-red-800 text-white px-4 py-2 rounded-full text-sm shadow">ISO/IEC 27001:2013</span>
+    <span class="bg-orange-800 text-white px-4 py-2 rounded-full text-sm shadow">ISO 9001:2015</span>
+    <span class="bg-orange-800 text-white px-4 py-2 rounded-full text-sm shadow">ISO/IEC 27001:2013</span>
   </div>
 
   <!-- Footer Text -->
-  <p class="text-center text-sm mt-4 text-red-600 font-medium">© 2013-2025 - Kazumi . All Rights Reserved.</p>
+  <p class="text-center text-sm mt-4 text-orange-600 font-medium">© 2013-2025 - Kazumi . All Rights Reserved.</p>
 </div>
 
   </footer>
@@ -781,10 +781,10 @@
   <div id="authentication-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
         <div class="relative p-4 w-full max-w-md max-h-full">
             <!-- Modal content -->
-            <div class="relative bg-white rounded-lg border-2 border-red-600 shadow">
+            <div class="relative bg-white rounded-lg border-2 border-orange-600 shadow">
                 <!-- Modal header -->
                 <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
-                    <h3 class="text-[24px] font-[600] text-red-600">
+                    <h3 class="text-[24px] font-[600] text-orange-600">
                         Apply Now
                     </h3>
                     <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center" data-modal-hide="authentication-modal">
@@ -799,21 +799,21 @@
                 <form class="p-4 md:p-5 space-y-4" action="https://www.henryharvin.com/admin/lead" method="POST">
                     @csrf
                     <div>
-                        <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
-                        <input type="text" name="name" id="name" placeholder="Name" required class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
-                        <span id="name_error3" class="text-red-500 text-xs"></span>
+                        <label for="name" class="block text-sm mb-1 font-[600] text-orange-600">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Name" required class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
+                        <span id="name_error3" class="text-orange-500 text-xs"></span>
                     </div>
 
                     <div>
-                        <label for="email" class="block text-sm mb-1 font-[600] text-red-600">Email</label>
-                        <input type="email" name="email" id="email" placeholder="Email" required class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
-                        <span id="email_error3" class="text-red-500 text-xs"></span>
+                        <label for="email" class="block text-sm mb-1 font-[600] text-orange-600">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" required class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
+                        <span id="email_error3" class="text-orange-500 text-xs"></span>
                     </div>
 
                     <div>
-                        <label for="countryCode" class="block text-sm mb-1 font-[600] text-red-600">Country Code</label>
+                        <label for="countryCode" class="block text-sm mb-1 font-[600] text-orange-600">Country Code</label>
                         <div class="flex gap-2">
-                            <select name="countryCode" class="w-4/12 bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-2.5">
+                            <select name="countryCode" class="w-4/12 bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg p-2.5">
                                 <option value="IN" value="+91" selected="">(+91)</option>
                                 <option value="PK" value="+92">Pakistan (+92)</option>
                                 <option value="US" value="+1">USA (+1)</option>
@@ -1043,9 +1043,9 @@
                                     <option value="ZM" value="+260">Zambia (+260)</option>
                                     <option value="ZW" value="+263">Zimbabwe (+263)</option>
                             </select>
-                            <input type="number" name="sendto" placeholder="Mobile no *" class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
+                            <input type="number" name="sendto" placeholder="Mobile no *" class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
                         </div>
-                        <span id="phone_error3" class="text-red-500 text-xs"></span>
+                        <span id="phone_error3" class="text-orange-500 text-xs"></span>
                     </div>
 
                     <!-- Hidden Inputs -->
@@ -1054,7 +1054,7 @@
                     <input type="hidden" name="slug" value="contact-us">
 
                     <div class="flex justify-center pt-3">
-                        <button type="submit" class="bg-red-600 text-white py-2 px-4 text-lg rounded-md">Submit</button>
+                        <button type="submit" class="bg-orange-600 text-white py-2 px-4 text-lg rounded-md">Submit</button>
                     </div>
                 </form>
 

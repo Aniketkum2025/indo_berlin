@@ -3,7 +3,7 @@
 
 
 <section class="py-12 px-4 max-w-7xl mx-auto">
-  <div class="bg-red-600 text-white max-w-4xl mx-auto p-8 rounded-xl shadow-xl space-y-6">
+  <div class="bg-orange-600 text-white max-w-4xl mx-auto p-8 rounded-xl shadow-xl space-y-6">
     <h3 class="text-2xl text-yellow-300 font-semibold">Recognition & Awards</h3>
     <p>
       <span class="font-semibold">Kazumi Japanese & Culture School</span> is a branch of Henry Harvin®, which upholds its legacy while providing exclusively Japanese language courses. Kazumi’s values reflect the harmony between Japanese educational philosophy and international teaching standards.
@@ -14,7 +14,7 @@
 {{-- why kazumi section--}}
 <section class="py-12 bg-gray-100 mx-auto px-4">
     <div class="max-w-7xl mx-auto">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize mt-4 mb-4"> Why Kazumi Japanese & Culture 文化 School?
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize mt-4 mb-4"> Why Kazumi Japanese & Culture 文化 School?
         </h2>
         <div class="py-8">
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 text-center">
@@ -23,21 +23,21 @@
                      <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789102Trainerteaching.jpg"  loading="lazy "alt="wwww">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Native Japanese Trainers</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">Native Japanese Trainers</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Learn from certified, highly 経験豊富 (keiken hōfu) and 情熱的な (jōnetsu-teki na) faculties.</p>
                 </div>
                  <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789154examsheet.jpg"  loading="lazy "alt="course">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">JLPT Intensive Course</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">JLPT Intensive Course</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Excel in the JLPT with our 専門的な (Senmon-teki na) modules, mock tests, personalized coaching, and JLPT-focused materials sourced directly from Japan.</p>
                 </div>
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881317elearning.jpg"  loading="lazy "alt="access">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Access to E-learning Portal</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">Access to E-learning Portal</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Kazumi partners with <span>
                         <a
                                         href="https://examopedia.com/"
@@ -50,14 +50,14 @@
                     <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789196OccupationalPrograms.jpg"  loading="lazy "alt="offer">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Japanese Occupational Courses</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">Japanese Occupational Courses</h3>
                     <p class="text-gray-700 text-[14px] mt-2">At Kazumi, we offer programs that will help you build corporate, business and 職場 (shokuba) skills required to secure good 仕事 (shigoto) internationally.</p>
                 </div>
                  <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774339talking.jpg"  loading="lazy "alt="">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Internship for Japanese Language</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">Internship for Japanese Language</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Kazumi provides Internship Support via 
                         <span><a
                                         href="https://yuvaintern.com//"
@@ -70,7 +70,7 @@
                      <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881283study.jpg"  loading="lazy "alt="study">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Study Abroad & Recruitment Services</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">Study Abroad & Recruitment Services</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Kazumi offers study abroad and 就職支援 (Shūshoku Shien) via 
                         <a href="https://leochase.com/" class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
                                 src="https://leochase.com/wp-content/uploads/2025/04/Logo_Leo-Chase_F.png"
@@ -81,28 +81,28 @@
                     <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881176agota2.jpg"  loading="lazy "alt="Unique">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Unique 10 in 1 Program: Agota™ Framework</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">Unique 10 in 1 Program: Agota™ Framework</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Learn through innovative teaching methods that make learning easy and 実践的 (Jissen-teki). This framework essentially promotes the 能力 (Nōryoku) development and キャリア (Kyaria) development.</p>
                 </div>
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                     <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789015orconnections.jpg"  loading="lazy "alt="globle">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Global Presence</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">Global Presence</h3>
                     <p class="text-gray-700 text-[14px] mt-2">With offices in 4+ countries, UK, USA, Middle East, and India, Kazumi is a global brand, offering a global learning 環境 (kankyō), with around 1200+ international 学生 (gakusei).</p>
                 </div>
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774903Network.jpg"  loading="lazy "alt="international">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">International Alumni Network</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">International Alumni Network</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Join a diverse コミュニティ(Komyuniti) of learners and professionals from around the world.</p>
                 </div>
                 <div class="bg-white shadow-md rounded-lg p-4 flex flex-col items-center">
                      <div class="flex items-center justify-center mb-2">
                         <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774206culture.jpg"  loading="lazy "alt="culture two">
                     </div>
-                    <h3 class="text-xl font-[600] text-red-600 mt-4">Cultural Training</h3>
+                    <h3 class="text-xl font-[600] text-orange-600 mt-4">Cultural Training</h3>
                     <p class="text-gray-700 text-[14px] mt-2">Explore 伝統 (Dentō), etiquettes, festivals, and practices used in an authentic environment.</p>
                 </div>
             </div>
@@ -110,18 +110,18 @@
     </div>
 </section>
 
-<section class="bg-red-600 py-12 px-4">
-  <div class="max-w-4xl mx-auto bg-white text-red-700 p-8 rounded-xl shadow-xl text-center space-y-6">
+<section class="bg-orange-600 py-12 px-4">
+  <div class="max-w-4xl mx-auto bg-white text-orange-700 p-8 rounded-xl shadow-xl text-center space-y-6">
     
     <p class="text-xl md:text-2xl font-semibold">
       Our clientele
     </p>
 
-    <h2 class="text-3xl md:text-4xl font-bold text-red-800 capitalize">
+    <h2 class="text-3xl md:text-4xl font-bold text-orange-800 capitalize">
      Start Your Journey at Kazumi
     </h2>
 
-    <button  data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button" class="bg-red-600 text-white px-4 py-2 rounded-md text-[16px]">Apply</button>
+    <button  data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button" class="bg-orange-600 text-white px-4 py-2 rounded-md text-[16px]">Apply</button>
 
   </div>
 </section>

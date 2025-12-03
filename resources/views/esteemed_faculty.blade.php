@@ -5,11 +5,11 @@
 
 <section class="py-12">
     <div class="max-w-7xl mx-auto px-4 ">
-        <h1 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Esteemed Faculty
+        <h1 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">Esteemed Faculty
         </h1>
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 place-items-center">
                 <div class="">
-                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="group bg-black border border-orange-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-orange-600 hover:shadow-xl">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
                                 src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753875885212w-ezgif.com-resize.webp" alt="Seema">
@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="">
-                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="group bg-black border border-orange-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-orange-600 hover:shadow-xl">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
                                 src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522620Varsha_Mehroliya.jpg" alt="Varsha Mehroliya">
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="">
-                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="group bg-black border border-orange-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-orange-600 hover:shadow-xl">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
                                 src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753786915Apeksha.jpg" alt="Apeksha">
@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div class="">
-                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="group bg-black border border-orange-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-orange-600 hover:shadow-xl">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
                                 src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17532671153rd.webp" alt="Claire">
@@ -68,7 +68,7 @@
                 </div>
 
                  <div class="">
-                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="group bg-black border border-orange-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-orange-600 hover:shadow-xl">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
                                 src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1754396312ezgif.com-resize_(3).webp" alt="Toshiyuki Takayasu">
@@ -84,7 +84,7 @@
                 </div>
 
                 <div class="">
-                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="group bg-black border border-orange-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-orange-600 hover:shadow-xl">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
                                 src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753522683Sonali_Srivastava_(1).jpg" alt="Sonali Srivastava">
@@ -100,7 +100,7 @@
                 </div>
                 
                 <div class="">
-                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="group bg-black border border-orange-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-orange-600 hover:shadow-xl">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
                                 src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523883sucheta_(1).jpg" alt="Sucheta Patil">
@@ -114,7 +114,7 @@
                     </div>
                 </div>
                 <div class="">
-                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="group bg-black border border-orange-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-orange-600 hover:shadow-xl">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
                                 src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753523973Swagata.jpg" alt="Swagata">
@@ -128,7 +128,7 @@
                     </div>
                 </div>
                 <div class="">
-                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="group bg-black border border-orange-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-orange-600 hover:shadow-xl">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
                                 src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524020siddharth.jpg" alt="Siddharth Chopra">
@@ -142,7 +142,7 @@
                     </div>
                 </div>
                 <div class="">
-                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="group bg-black border border-orange-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-orange-600 hover:shadow-xl">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
                                 src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753786854Saniya_Parchure_(1).jpg" alt="Saniya Parchure">
@@ -157,7 +157,7 @@
                 </div>
 
                 <div class="">
-                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="group bg-black border border-orange-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-orange-600 hover:shadow-xl">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
                                 src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1754396507ezgif.com-resize_(4).webp" alt="Chinami Yamamoto">
@@ -172,7 +172,7 @@
                 </div>
 
                 <div class="">
-                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="group bg-black border border-orange-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-orange-600 hover:shadow-xl">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
                                 src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753856360Aditya.jpg" alt="Aditya">
@@ -187,7 +187,7 @@
                 </div>
 
                 <div class="">
-                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="group bg-black border border-orange-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-orange-600 hover:shadow-xl">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
                                 src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753524239Prachi.jpg" alt="Prachi">
@@ -201,7 +201,7 @@
                     </div>
                 </div>
                 <div class="">
-                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="group bg-black border border-orange-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-orange-600 hover:shadow-xl">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
                                 src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753787152Abha.jpg" alt="Abha">
@@ -215,7 +215,7 @@
                     </div>
                 </div>
                 {{-- <div class="">
-                    <div class="group bg-black border border-red-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-red-600 hover:shadow-xl">
+                    <div class="group bg-black border border-orange-500 rounded-2xl shadow-lg p-4 w-full max-w-xs transition duration-300 hover:bg-orange-600 hover:shadow-xl">
                         <div class="rounded-2xl">
                             <img class="h-full w-full object-cover rounded-2xl"
                                 src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753268551malini.webp" alt="">

@@ -797,13 +797,13 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
             </div>
 
             <div class="hidden md:flex md:space-x-6">
-                <a href="/" class="text-[#da2028] font-[600] text-[14px] py-6">家</a>
+                <a href="/" class="text-orange-600 font-[600] text-[14px] py-6">家</a>
 
                 <div x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false"
                     class="relative group">
 
                     <!-- Menu Button -->
-                    <a class="flex items-center text-[#da2028] font-[600] text-[14px] space-x-1 py-6 cursor-pointer">
+                    <a class="flex items-center text-orange-600 font-[600] text-[14px] space-x-1 py-6 cursor-pointer">
                         <span>Courses</span>
                         <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
                             <path
@@ -816,44 +816,44 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         class="absolute top-full left-0 mt-0 w-72 bg-white border rounded-md shadow-lg p-2 z-50 h-[300px] overflow-auto">
 
                                                     <a href="japanese-language-classes"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Japanese Language Classes</a>
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Japanese Language Classes</a>
                                                     <a href="migrate-japan"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Migrate to Japan</a>
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Migrate to Japan</a>
                                                     <a href="post-graduate-diploma-in-japanese-language-by-dbs"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Post Graduate Diploma in Japanese Language by Dunster Business School</a>
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Post Graduate Diploma in Japanese Language by Dunster Business School</a>
                                                     <a href="japanese-beginners-course"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Japanese for Beginners Course</a>
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Japanese for Beginners Course</a>
                                                     <a href="masters-in-japanese-language"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Master&#039;s (MS) in Japanese Course</a>
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Master&#039;s (MS) in Japanese Course</a>
                                                     <a href="crash-course-for-japanese-language"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Crash Course for Japanese Language</a>
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Crash Course for Japanese Language</a>
                                                     <a href="post-graduate-diploma-professional-in-japanese-language-by-dbs"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Post Graduate Diploma Professional in Japanese Language by Dunster Business School</a>
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Post Graduate Diploma Professional in Japanese Language by Dunster Business School</a>
                                                     <a href="business-japanese-course"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Business Japanese Course</a>
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Business Japanese Course</a>
                                                     <a href="corporate-business-japanese-course"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Corporate Business Japanese Course</a>
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Corporate Business Japanese Course</a>
                                                     <a href="career-japanese-course"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Career Japanese Course</a>
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Career Japanese Course</a>
                                                     <a href="business-japanese-for-beginners-course"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Business Japanese for Beginners Course</a>
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Business Japanese for Beginners Course</a>
                                                     <a href="intercultural-business-japanese-course"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Intercultural Business Japanese Course</a>
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Intercultural Business Japanese Course</a>
                                                     <a href="japanese-for-work–hospitality-nursing-it"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Japanese for Work – Hospitality / Nursing / IT</a>
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Japanese for Work – Hospitality / Nursing / IT</a>
                                                     <a href="japanese-for-the-workplace-course"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Japanese for the Workplace Course</a>
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Japanese for the Workplace Course</a>
                                                     <a href="pre-departure-orientation-training-and-placement-course"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Pre Departure Orientation Training &amp; Placement Course</a>
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Pre Departure Orientation Training &amp; Placement Course</a>
                                                     <a href="japanese-management-course"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Japanese Management Course</a>
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Japanese Management Course</a>
                                                     <a href="cross-cultural-sensitization-for-engineers-businessmen-and-professionals-course"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Cross-Cultural Sensitization for Engineers, Businessmen &amp; Professionals Course</a>
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Cross-Cultural Sensitization for Engineers, Businessmen &amp; Professionals Course</a>
                                             </div>
                 </div>
 
                 <div class="group relative">
-                    <a class="flex items-center text-[#da2028] font-[600] text-[14px] space-x-1 py-6">
+                    <a class="flex items-center text-orange-600 font-[600] text-[14px] space-x-1 py-6">
                         <span>Admission</span>
                         <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
                             <path
@@ -864,24 +864,24 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         class="absolute top-full -left-2 z-30 w-48 bg-white shadow-lg border rounded-md p-2 space-y-1 submenu">
                        
                         <a href="admission-process"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Admission
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Admission
                             Process</a>
 
                         <a href="https://www.henryharvin.com/pay-fee"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Online
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Online
                             Payment</a>
                         <a href="existing-students"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Existing
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Existing
                             Students</a>
                         <a href="https://www.henryharvin.com/request-certificate"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Request
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Request
                             Certificate</a>
                     </div>
                 </div>
-                <a href="https://yuvaintern.com/" class="text-[#da2028] font-[600] text-[14px] py-6">Internship</a>
-                <a href="accreditation" class="text-[#da2028] font-[600] text-[14px] py-6">Accreditation</a>
+                <a href="https://yuvaintern.com/" class="text-orange-600 font-[600] text-[14px] py-6">Internship</a>
+                <a href="accreditation" class="text-orange-600 font-[600] text-[14px] py-6">Accreditation</a>
                 <div class="group relative">
-                    <a class="flex items-center text-[#da2028] font-[600] text-[14px] space-x-1 py-6">
+                    <a class="flex items-center text-orange-600 font-[600] text-[14px] space-x-1 py-6">
                         <span>About Us</span>
                         <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
                             <path
@@ -891,34 +891,34 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                     <div
                         class="absolute top-full -left-2 z-30 w-48 bg-white shadow-lg border rounded-md p-2 space-y-1 submenu">
                         <a href="about-us"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Knowing
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Knowing
                             Kazumi</a>
 
                         <a href="values"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Values</a>
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Values</a>
                          <a href="media"
-                                class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Media</a>
+                                class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Media</a>
 
                         <a href="/our-affiliations"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Our
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Our
                             Affiliations</a>
                         
                         <a href="esteemed-faculty"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Esteemed
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Esteemed
                             Faculty</a>
                         <a href="/careers"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Careers
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Careers
                         </a>
                         <a href="/our-customers"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Our
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Our
                             Customers</a>
                         <a href="placed-students-list"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Placed
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Placed
                             Student List</a>
 
                         
                         <a href="contact-us"
-                            class="block text-gray-700 hover:text-[#da2028] text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Contact
+                            class="block text-gray-700 hover:text-orange-600 text-[14px] font-[600] hover:bg-gray-100 px-2 py-1">Contact
                             Us</a>
 
                     </div>
@@ -927,7 +927,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
             </div>
                             <div class="hidden md:flex md:items-center space-x-4">
                     <button data-modal-target="course-modal" data-modal-toggle="course-modal" type="button"
-                        class="bg-red-600 text-white px-4 py-2 rounded-md text-sm"
+                        class="bg-orange-600 text-white px-4 py-2 rounded-md text-sm"
                         onclick="openApplyNowModal()">Apply</button>
                 </div>
             
@@ -944,12 +944,12 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
     </div>
 
     <div id="mobile-menu" class="md:hidden hidden bg-white border-t">
-        <a href="/" class="block px-4 py-2 text-[#da2028] font-[600] hover:bg-gray-100">家</a>
+        <a href="/" class="block px-4 py-2 text-orange-600 font-[600] hover:bg-gray-100">家</a>
 
         <div class="px-4 py-2">
             <!-- Main Courses Toggle -->
             <button onclick="toggleMobileSubmenu('courses')"
-                class="flex items-center justify-between w-full text-[#da2028] font-[600]">
+                class="flex items-center justify-between w-full text-orange-600 font-[600]">
                 <span>Courses</span>
                 <svg id="arrow-courses" class="w-4 h-4 ml-2 transition-transform duration-200" fill="none"
                     stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -958,44 +958,44 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
             </button>
 
             <!-- Courses Main Submenu -->
-            <div id="mobile-submenu-courses" class="hidden mt-2 border-red-600 px-2 border">
+            <div id="mobile-submenu-courses" class="hidden mt-2 border-orange-600 px-2 border">
 
                 <!-- Japanese Language Classess -->
                 <div class="space-y-2">
                                             <a href="japanese-language-classes"
-                        class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600] ">Japanese Language Classes</a>
+                        class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600] ">Japanese Language Classes</a>
                                             <a href="migrate-japan"
-                        class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600] ">Migrate to Japan</a>
+                        class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600] ">Migrate to Japan</a>
                                             <a href="post-graduate-diploma-in-japanese-language-by-dbs"
-                        class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600] ">Post Graduate Diploma in Japanese Language by Dunster Business School</a>
+                        class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600] ">Post Graduate Diploma in Japanese Language by Dunster Business School</a>
                                             <a href="japanese-beginners-course"
-                        class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600] ">Japanese for Beginners Course</a>
+                        class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600] ">Japanese for Beginners Course</a>
                                             <a href="masters-in-japanese-language"
-                        class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600] ">Master&#039;s (MS) in Japanese Course</a>
+                        class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600] ">Master&#039;s (MS) in Japanese Course</a>
                                             <a href="crash-course-for-japanese-language"
-                        class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600] ">Crash Course for Japanese Language</a>
+                        class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600] ">Crash Course for Japanese Language</a>
                                             <a href="post-graduate-diploma-professional-in-japanese-language-by-dbs"
-                        class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600] ">Post Graduate Diploma Professional in Japanese Language by Dunster Business School</a>
+                        class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600] ">Post Graduate Diploma Professional in Japanese Language by Dunster Business School</a>
                                             <a href="business-japanese-course"
-                        class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600] ">Business Japanese Course</a>
+                        class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600] ">Business Japanese Course</a>
                                             <a href="corporate-business-japanese-course"
-                        class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600] ">Corporate Business Japanese Course</a>
+                        class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600] ">Corporate Business Japanese Course</a>
                                             <a href="career-japanese-course"
-                        class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600] ">Career Japanese Course</a>
+                        class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600] ">Career Japanese Course</a>
                                             <a href="business-japanese-for-beginners-course"
-                        class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600] ">Business Japanese for Beginners Course</a>
+                        class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600] ">Business Japanese for Beginners Course</a>
                                             <a href="intercultural-business-japanese-course"
-                        class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600] ">Intercultural Business Japanese Course</a>
+                        class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600] ">Intercultural Business Japanese Course</a>
                                             <a href="japanese-for-work–hospitality-nursing-it"
-                        class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600] ">Japanese for Work – Hospitality / Nursing / IT</a>
+                        class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600] ">Japanese for Work – Hospitality / Nursing / IT</a>
                                             <a href="japanese-for-the-workplace-course"
-                        class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600] ">Japanese for the Workplace Course</a>
+                        class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600] ">Japanese for the Workplace Course</a>
                                             <a href="pre-departure-orientation-training-and-placement-course"
-                        class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600] ">Pre Departure Orientation Training &amp; Placement Course</a>
+                        class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600] ">Pre Departure Orientation Training &amp; Placement Course</a>
                                             <a href="japanese-management-course"
-                        class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600] ">Japanese Management Course</a>
+                        class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600] ">Japanese Management Course</a>
                                             <a href="cross-cultural-sensitization-for-engineers-businessmen-and-professionals-course"
-                        class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600] ">Cross-Cultural Sensitization for Engineers, Businessmen &amp; Professionals Course</a>
+                        class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600] ">Cross-Cultural Sensitization for Engineers, Businessmen &amp; Professionals Course</a>
                                         
                 </div>
             </div>
@@ -1005,7 +1005,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
         <!-- Mobile Admission Menu with Arrow -->
         <div class="px-4 py-2">
             <button onclick="toggleMobileSubmenu('admission')"
-                class="flex items-center justify-between w-full text-[#da2028] font-[600]">
+                class="flex items-center justify-between w-full text-orange-600 font-[600]">
                 <span>Admission</span>
                 <svg id="arrow-admission" class="w-4 h-4 ml-2 transition-transform duration-200" fill="none"
                     stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -1013,14 +1013,14 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                 </svg>
             </button>
 
-            <div id="mobile-submenu-admission" class="hidden mt-2 mt-2 space-y-2 border-red-600 px-2 border">
+            <div id="mobile-submenu-admission" class="hidden mt-2 mt-2 space-y-2 border-orange-600 px-2 border">
                 
-                <a href="admission-process" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Admission Process</a>
-                <a href="https://www.henryharvin.com/pay-fee" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Online Payment</a>
-                <a href="existing-students" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Existing Students</a>
-                <a href="https://www.henryharvin.com/request-certificate" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Request
+                <a href="admission-process" class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600]">Admission Process</a>
+                <a href="https://www.henryharvin.com/pay-fee" class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600]">Online Payment</a>
+                <a href="existing-students" class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600]">Existing Students</a>
+                <a href="https://www.henryharvin.com/request-certificate" class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600]">Request
                     Certificate</a>
-                <a href="contact-us" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Contact Us</a>
+                <a href="contact-us" class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600]">Contact Us</a>
             </div>
         </div>
 
@@ -1034,13 +1034,13 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
         </script>
 
         <a href="https://yuvaintern.com/"
-            class="block px-4 py-2 text-[#da2028] font-[600] hover:bg-gray-100">Internship</a>
-        <a href="accreditation" class="block px-4 py-2 text-[#da2028] font-[600] hover:bg-gray-100">Accreditation</a>
+            class="block px-4 py-2 text-orange-600 font-[600] hover:bg-gray-100">Internship</a>
+        <a href="accreditation" class="block px-4 py-2 text-orange-600 font-[600] hover:bg-gray-100">Accreditation</a>
 
         <!-- Mobile About Us Menu with Arrow -->
         <div class="px-4 py-2">
             <button onclick="toggleMobileSubmenu('about')"
-                class="flex items-center justify-between w-full text-[#da2028] font-[600]">
+                class="flex items-center justify-between w-full text-orange-600 font-[600]">
                 <span>About Us</span>
                 <svg id="arrow-about" class="w-4 h-4 ml-2 transition-transform duration-200" fill="none"
                     stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -1048,15 +1048,15 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                 </svg>
             </button>
 
-            <div id="mobile-submenu-about" class="hidden mt-2 space-y-2 border-red-600 px-2 border">
-                <a href="about-us" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Knowing Kazumi</a>
-                <a href="values" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Values</a>
-                <a href="media" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Media</a>
-                <a href="/our-affiliations" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Our Affiliations</a>
-                <a href="esteemed-faculty" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Esteemed Faculty</a>
-                <a href="/careers" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Careers</a>
-                <a href="/our-customers" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Our Customers</a>
-                <a href="/placed-students-list" class="block text-gray-700 text-[14px] mb-1 text-red-700 font-[600]">Placed
+            <div id="mobile-submenu-about" class="hidden mt-2 space-y-2 border-orange-600 px-2 border">
+                <a href="about-us" class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600]">Knowing Kazumi</a>
+                <a href="values" class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600]">Values</a>
+                <a href="media" class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600]">Media</a>
+                <a href="/our-affiliations" class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600]">Our Affiliations</a>
+                <a href="esteemed-faculty" class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600]">Esteemed Faculty</a>
+                <a href="/careers" class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600]">Careers</a>
+                <a href="/our-customers" class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600]">Our Customers</a>
+                <a href="/placed-students-list" class="block text-gray-700 text-[14px] mb-1 text-orange-700 font-[600]">Placed
                     Student List</a>
             </div>
         </div>
@@ -1072,11 +1072,11 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
         </script>
 
 
-        <a href="/contact-us" class="block px-4 py-2 text-[#da2028] font-[600] hover:bg-gray-100">Contact Us</a>
+        <a href="/contact-us" class="block px-4 py-2 text-orange-600 font-[600] hover:bg-gray-100">Contact Us</a>
 
                     <div class="flex space-x-4 px-4 py-2">
                 <button data-modal-target="course-modal" data-modal-toggle="course-modal" type="button"
-                    class="bg-red-600 text-white px-4 py-2 rounded-md text-sm"
+                    class="bg-orange-600 text-white px-4 py-2 rounded-md text-sm"
                     onclick="openApplyNowModal()">Apply</button>
             </div>
             </div>
@@ -1158,23 +1158,23 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
             <div class="bg-black bg-opacity-70">
                 <div class="relative z-10 grid md:flex py-2 gap-6 justify-center items-center h-full text-center">
                     <div class="md:w-7/12 w-full bg-[#0e0e0ead] p-4 rounded-md space-y-4 text-left">
-                        <h1 class="text-[26px] md:text-[32px] font-[500] text-red-600">Japanese Language Classes
+                        <h1 class="text-[26px] md:text-[32px] font-[500] text-orange-600">Japanese Language Classes
                         </h1>
                         <div class="flex space-x-4 mb-8 items-center ">
                             <a data-modal-target="course-modal" data-modal-toggle="course-modal" type="button"
-                                class="cursor-pointer bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600" onclick="openApplyNowModal()">Apply
+                                class="cursor-pointer bg-orange-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-orange-600" onclick="openApplyNowModal()">Apply
                                 Now</a>
                             <a data-modal-target="course-modal" data-modal-toggle="course-modal" type="button"
-                                class="cursor-pointer bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600" onclick="openDownloadBrochureModal()">DOWNLOAD BROCHURE</a>
+                                class="cursor-pointer bg-orange-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-orange-600" onclick="openDownloadBrochureModal()">DOWNLOAD BROCHURE</a>
                         </div>
                         
                         <div id="countryPrice" class="grid grid-cols-1 mt-4 lg:gap-2 gap-4">
                             <div class="w-full">
-                                <span class="text-[16px] font-[600] text-red-600">Starts In 4 day(s)</span>
-                                <span class="font-[800] text-[16px] mt-1 text-red-600">10 Nov 2025</span>
+                                <span class="text-[16px] font-[600] text-orange-600">Starts In 4 day(s)</span>
+                                <span class="font-[800] text-[16px] mt-1 text-orange-600">10 Nov 2025</span>
                             </div>
                         </div>
-                        <div class="text-red-600 text-[20px] flex flex-col space-y-2">
+                        <div class="text-orange-600 text-[20px] flex flex-col space-y-2">
                             <p class="font-[600]">
                                 <a href="https://www.forbesindia.com/article/brand-connect/henry-harvin-reviews-485-across-the-web/94745/1" class="cursor-pointer flex items-center gap-1 text-[14px] md:text-[18px]"
                                     ><span
@@ -1182,7 +1182,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                     Henry Harvin <span class="text-white font-semibold">4.8 / 5</span>
                                 <span class="flex justify-center items-center gap-1"> <img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393394str.webp" alt="ds"><img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393394str.webp" alt="ds"><img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393394str.webp" alt="ds"><img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393394str.webp" alt="ds"><img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393679strh.webp" alt="ds"></span>
                                 </a></p>
-                            <p class="text-white text-[16px]"><span class="text-red-600">★ 4.8/5</span> • 1173
+                            <p class="text-white text-[16px]"><span class="text-orange-600">★ 4.8/5</span> • 1173
                                 Learners
                             </p>
                         </div>
@@ -1191,10 +1191,10 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         </div>
                     </div>
                     <div class="md:w-4/12 w-full md:px-0 px-4 ">
-                        <div class="relative bg-white rounded-lg border-2 border-red-600 shadow mb-2">
+                        <div class="relative bg-white rounded-lg border-2 border-orange-600 shadow mb-2">
                             <!-- Modal header -->
                             <div class="flex items-center justify-between px-4 py-2 border-b rounded-t">
-                                <h3 class="text-[20px] font-[600] text-red-600 text-center">
+                                <h3 class="text-[20px] font-[600] text-orange-600 text-center">
                                     Book a Live Class
                                 </h3>
 
@@ -1203,24 +1203,24 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                             <!-- Modal body -->
                             <form class="p-2 md:p-2 space-y-2 text-left" action="https://kazumischool.com/admin/lead" method="POST">
                                 <input type="hidden" name="_token" value="ANCwPTXVHuSigEwiFTE3Tzjh0zcCh0voRQsIfHFk">                                <div>
-                                    <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
+                                    <label for="name" class="block text-sm mb-1 font-[600] text-orange-600">Name</label>
                                     <input type="text" name="name" id="name" placeholder="Name" required=""
-                                        class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
-                                    <span id="name_error3" class="text-red-500 text-xs"></span>
+                                        class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                                    <span id="name_error3" class="text-orange-500 text-xs"></span>
                                 </div>
 
                                 <div>
-                                    <label for="email" class="block text-sm mb-1 font-[600] text-red-600">Email</label>
+                                    <label for="email" class="block text-sm mb-1 font-[600] text-orange-600">Email</label>
                                     <input type="email" name="email" id="email" placeholder="Email" required=""
-                                        class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
-                                    <span id="email_error3" class="text-red-500 text-xs"></span>
+                                        class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                                    <span id="email_error3" class="text-orange-500 text-xs"></span>
                                 </div>
 
                                 <div>
-                                    <label for="countryCode" class="block text-sm mb-1 font-[600] text-red-600">Country
+                                    <label for="countryCode" class="block text-sm mb-1 font-[600] text-orange-600">Country
                                         Code</label>
                                     <div class="flex gap-2">
-                                    <select name="countryCode" class="w-4/12 bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-1">
+                                    <select name="countryCode" class="w-4/12 bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg p-1">
                                         <option value="IN" value="+91" selected="">(+91)</option>
                                         <option value="PK" value="+92">Pakistan (+92)</option>
                                         <option value="US" value="+1">USA (+1)</option>
@@ -1451,9 +1451,9 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <option value="ZW" value="+263">Zimbabwe (+263)</option>
                                     </select>
                                         <input type="number" name="sendto" placeholder="Mobile no *"
-                                            class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                                            class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1">
                                     </div>
-                                    <span id="phone_error3" class="text-red-500 text-xs"></span>
+                                    <span id="phone_error3" class="text-orange-500 text-xs"></span>
                                 </div>
 
                                 <input type="hidden" name="description2" class="textbox" value="Japanese Language Classes | 日本語コース" placeholder="" id="">
@@ -1466,7 +1466,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                 
                                 <div class="flex justify-center pt-2">
                                     <button type="submit"
-                                        class="bg-red-600 text-white px-2 py-1 text-lg rounded-md">Submit</button>
+                                        class="bg-orange-600 text-white px-2 py-1 text-lg rounded-md">Submit</button>
                                 </div>
                             </form>
 
@@ -1593,7 +1593,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
     </section>
     <section class="py-12 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Accreditations
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">Accreditations
                 & Affiliations
             </h2>
             <div class="swiper linearswiper">
@@ -1649,7 +1649,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                 <div class="courseSwiper swiper-course-all mx-[1rem] overflow-hidden">
                 <div class="swiper-wrapper">
                                         <div class="mt-4 swiper-slide">
-                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-red-600">
+                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-orange-600">
                             <div class="flex justify-between items-center">
                                 <div>
                                     <img loading="lazy" class="h-14 w-14 rounded-full" src="https://login.henryharvin.com/storage/app/public/images/1679596658profile.jpg" onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' alt="images78" loading="lazy" />
@@ -1666,7 +1666,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         </div>
                     </div>
                                         <div class="mt-4 swiper-slide">
-                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-red-600">
+                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-orange-600">
                             <div class="flex justify-between items-center">
                                 <div>
                                     <img loading="lazy" class="h-14 w-14 rounded-full" src="https://login.henryharvin.com/storage/app/public/images/1690918898profile.jpg" onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' alt="images78" loading="lazy" />
@@ -1683,7 +1683,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         </div>
                     </div>
                                         <div class="mt-4 swiper-slide">
-                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-red-600">
+                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-orange-600">
                             <div class="flex justify-between items-center">
                                 <div>
                                     <img loading="lazy" class="h-14 w-14 rounded-full" src="https://login.henryharvin.com/storage/app/public/images/1665312637profile.jpeg" onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' alt="images78" loading="lazy" />
@@ -1700,7 +1700,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         </div>
                     </div>
                                         <div class="mt-4 swiper-slide">
-                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-red-600">
+                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-orange-600">
                             <div class="flex justify-between items-center">
                                 <div>
                                     <img loading="lazy" class="h-14 w-14 rounded-full" src="https://learner.henryharvin.com/storage/app/public/images/1705744756profile.jpg" onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' alt="images78" loading="lazy" />
@@ -1717,7 +1717,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         </div>
                     </div>
                                         <div class="mt-4 swiper-slide">
-                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-red-600">
+                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-orange-600">
                             <div class="flex justify-between items-center">
                                 <div>
                                     <img loading="lazy" class="h-14 w-14 rounded-full" src="https://login.henryharvin.com/storage/app/public/images/1678512527profile.jpg" onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' alt="images78" loading="lazy" />
@@ -1738,7 +1738,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         <div class="courseSwiper swiper-course-all mx-[1rem] overflow-hidden">
                 <div class="swiper-wrapper">
                                         <div class="mt-4 swiper-slide">
-                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-red-600">
+                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-orange-600">
                             <div class="flex justify-between items-center">
                                 <div>
                                     <img loading="lazy" class="h-14 w-14 rounded-full" src="https://learner.henryharvin.com/storage/app/public/images/1714723399profile.jpeg" onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' alt="images78" loading="lazy" />
@@ -1755,7 +1755,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         </div>
                     </div>
                                         <div class="mt-4 swiper-slide">
-                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-red-600">
+                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-orange-600">
                             <div class="flex justify-between items-center">
                                 <div>
                                     <img loading="lazy" class="h-14 w-14 rounded-full" src="https://login.henryharvin.com/storage/app/public/images/1686967959profile.jpg" onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' alt="images78" loading="lazy" />
@@ -1772,7 +1772,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         </div>
                     </div>
                                         <div class="mt-4 swiper-slide">
-                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-red-600">
+                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-orange-600">
                             <div class="flex justify-between items-center">
                                 <div>
                                     <img loading="lazy" class="h-14 w-14 rounded-full" src="https://learner.henryharvin.com/storage/app/public/images/1714159170profile.jpg" onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' alt="images78" loading="lazy" />
@@ -1789,7 +1789,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         </div>
                     </div>
                                         <div class="mt-4 swiper-slide">
-                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-red-600">
+                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-orange-600">
                             <div class="flex justify-between items-center">
                                 <div>
                                     <img loading="lazy" class="h-14 w-14 rounded-full" src="https://login.henryharvin.com/storage/app/public/images/1678949139profile.jpeg" onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' alt="images78" loading="lazy" />
@@ -1806,7 +1806,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         </div>
                     </div>
                                         <div class="mt-4 swiper-slide">
-                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-red-600">
+                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-orange-600">
                             <div class="flex justify-between items-center">
                                 <div>
                                     <img loading="lazy" class="h-14 w-14 rounded-full" src="https://login.henryharvin.com/storage/app/public/images/1678767179profile.PNG" onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' alt="images78" loading="lazy" />
@@ -1827,7 +1827,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         <div class="courseSwiper swiper-course-all mx-[1rem] overflow-hidden">
                 <div class="swiper-wrapper">
                                         <div class="mt-4 swiper-slide">
-                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-red-600">
+                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-orange-600">
                             <div class="flex justify-between items-center">
                                 <div>
                                     <img loading="lazy" class="h-14 w-14 rounded-full" src="https://login.henryharvin.com/storage/app/public/images/1678560194WhatsAppImage2023-03-12at12.07.54AM.jpeg" onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' alt="images78" loading="lazy" />
@@ -1844,7 +1844,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         </div>
                     </div>
                                         <div class="mt-4 swiper-slide">
-                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-red-600">
+                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-orange-600">
                             <div class="flex justify-between items-center">
                                 <div>
                                     <img loading="lazy" class="h-14 w-14 rounded-full" src="https://login.henryharvin.com/storage/app/public/images/1680370331SNEHAPhoto.jpg" onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' alt="images78" loading="lazy" />
@@ -1861,7 +1861,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         </div>
                     </div>
                                         <div class="mt-4 swiper-slide">
-                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-red-600">
+                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-orange-600">
                             <div class="flex justify-between items-center">
                                 <div>
                                     <img loading="lazy" class="h-14 w-14 rounded-full" src="https://login.henryharvin.com/storage/app/public/images/1679117902profile.jpeg" onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' alt="images78" loading="lazy" />
@@ -1878,7 +1878,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         </div>
                     </div>
                                         <div class="mt-4 swiper-slide">
-                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-red-600">
+                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-orange-600">
                             <div class="flex justify-between items-center">
                                 <div>
                                     <img loading="lazy" class="h-14 w-14 rounded-full" src="https://login.henryharvin.com/storage/app/public/images/1678470785profile.jpeg" onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' alt="images78" loading="lazy" />
@@ -1895,7 +1895,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         </div>
                     </div>
                                         <div class="mt-4 swiper-slide">
-                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-red-600">
+                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-orange-600">
                             <div class="flex justify-between items-center">
                                 <div>
                                     <img loading="lazy" class="h-14 w-14 rounded-full" src="https://login.henryharvin.com/storage/app/public/images/1678189800profile.jpg" onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' alt="images78" loading="lazy" />
@@ -1921,7 +1921,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
     
 
     <section id="videoGrid" class="py-12 px-4">
-         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Hear from our
+         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">Hear from our
             learners about their experience
         </h2>
         <div class="relative max-w-7xl mx-auto">
@@ -2210,7 +2210,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mt-2">
             <div class="md:col-span-2">
                                 <div>
-                    <h3 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Key Highlights
+                    <h3 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize">Key Highlights
                     </h3>
                     <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mx-auto gap-2">
                                                     <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -2220,7 +2220,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1756124585Key_Highlights_icon_100x100_1.png"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">670 Hours of Instructor-Led Sessions</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">670 Hours of Instructor-Led Sessions</h4>
                                 </div>
                             </div>
                                                     <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -2230,7 +2230,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1756124671Key_Highlights_icon_100x100_2.png"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">224 Hours of Live Interactive Doubt Solving Sessions</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">224 Hours of Live Interactive Doubt Solving Sessions</h4>
                                 </div>
                             </div>
                                                     <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -2240,7 +2240,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1756124892Key_Highlights_icon_100x100_12.png"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">112 Hours of Live Master Sessions by Industry Experts</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">112 Hours of Live Master Sessions by Industry Experts</h4>
                                 </div>
                             </div>
                                                     <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -2250,7 +2250,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1756125004Key_Highlights_icon_100x100_19.png"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">576 Hours of Self-Paced Learning</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">576 Hours of Self-Paced Learning</h4>
                                 </div>
                             </div>
                                                     <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -2260,7 +2260,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1756125084Key_Highlights_icon_100x100_11.png"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">Job-Ready Portfolio of 67+ Capstone Projects</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">Job-Ready Portfolio of 67+ Capstone Projects</h4>
                                 </div>
                             </div>
                                                     <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -2270,7 +2270,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1756125289Key_Highlights_icon_100x100_17.png"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">290 Auto-Graded Assessments powered by Examopedia</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">290 Auto-Graded Assessments powered by Examopedia</h4>
                                 </div>
                             </div>
                                                     <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -2280,7 +2280,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1756125332Key_Highlights_icon_100x100_5.png"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">134+ Industry Case Studies</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">134+ Industry Case Studies</h4>
                                 </div>
                             </div>
                                                     <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -2290,7 +2290,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1756125449Key_Highlights_icon_100x100_22.png"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">1005 Guided Hands-On Exercises</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">1005 Guided Hands-On Exercises</h4>
                                 </div>
                             </div>
                                                     <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -2300,7 +2300,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1756125513Key_Highlights_icon_100x100_7.png"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">67+ Assignments and Mini Projects</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">67+ Assignments and Mini Projects</h4>
                                 </div>
                             </div>
                                                     <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -2310,7 +2310,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1756125631Key_Highlights_icon_100x100_18.png"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">2 Mock Interviews and 3 Hackathons</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">2 Mock Interviews and 3 Hackathons</h4>
                                 </div>
                             </div>
                                                     <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -2320,7 +2320,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1756169415Key_Highlights_icon_100x100_21.png"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">Get 36 Months Gold Membership of Kazumi Japanese &amp; Culture School by Henry Harvin®</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">Get 36 Months Gold Membership of Kazumi Japanese &amp; Culture School by Henry Harvin®</h4>
                                 </div>
                             </div>
                                                     <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -2330,7 +2330,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1756169539Key_Highlights_icon_100x100_6.png"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">Get Internship Support in top MNC ’s like J.P Morgan and Accenture via Yuva Intern</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">Get Internship Support in top MNC ’s like J.P Morgan and Accenture via Yuva Intern</h4>
                                 </div>
                             </div>
                                                     <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -2340,7 +2340,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1756169503Key_Highlights_icon_100x100_4.png"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">Get 3 in 1 Placement support through Placement Drives, Premium access to Job portal &amp; Personalized Job Consulting</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">Get 3 in 1 Placement support through Placement Drives, Premium access to Job portal &amp; Personalized Job Consulting</h4>
                                 </div>
                             </div>
                                                     <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -2350,7 +2350,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1756169658Key_Highlights_icon_100x100_16.png"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">15 Hours of Mentorship by Industry Experts</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">15 Hours of Mentorship by Industry Experts</h4>
                                 </div>
                             </div>
                                                     <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -2360,7 +2360,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1756169785Key_Highlights_icon_100x100_9.png"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">Earn Certification of Course from Kazumi Japanese &amp; Culture School by Henry Harvin®, Govt of India recognized &amp; Award-Winning Institute and NSDC Certification</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">Earn Certification of Course from Kazumi Japanese &amp; Culture School by Henry Harvin®, Govt of India recognized &amp; Award-Winning Institute and NSDC Certification</h4>
                                 </div>
                             </div>
                                                     <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -2370,7 +2370,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1756169695Key_Highlights_icon_100x100_20.png"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">Upgradation to globally recognized Swiss Certification from Dunster Business School, Switzerland</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">Upgradation to globally recognized Swiss Certification from Dunster Business School, Switzerland</h4>
                                 </div>
                             </div>
                                                     <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -2380,7 +2380,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1756169851Key_Highlights_icon_100x100_10.png"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">Upgradation to Sector Skill Council Certification</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">Upgradation to Sector Skill Council Certification</h4>
                                 </div>
                             </div>
                                                     <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -2390,24 +2390,24 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                             src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1756170569Key_Highlights_icon_100x100_8.png"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">Upgrade to SAMADHAN Govt. Certifications and earn credits for related jobs</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">Upgrade to SAMADHAN Govt. Certifications and earn credits for related jobs</h4>
                                 </div>
                             </div>
                                             </div>
                 </div>
                 
                 <div class="mt-4 mb-4 mx-auto text-center">
-                                        <a href="https://docs.google.com/document/d/189d46nSOzQGv0wSNNRVOksW5qi8Wuip0g-FwhcJHBLg/edit?usp=drive_link" target="_blank" rel="noopener noreferrer"  class="bg-red-600 block w-fit mx-auto mt-2 hover:bg-white text-white hover:text-red-600 text-sm md:text-lg font-medium text-center border-[1px] border-red-600 py-[12px] px-[45px] rounded-[3px]" style="border: 2px solid red; border-radius: 5px;">Why Henry Harvin?</a>
+                                        <a href="https://docs.google.com/document/d/189d46nSOzQGv0wSNNRVOksW5qi8Wuip0g-FwhcJHBLg/edit?usp=drive_link" target="_blank" rel="noopener noreferrer"  class="bg-orange-600 block w-fit mx-auto mt-2 hover:bg-white text-white hover:text-orange-600 text-sm md:text-lg font-medium text-center border-[1px] border-orange-600 py-[12px] px-[45px] rounded-[3px]" style="border: 2px solid red; border-radius: 5px;">Why Henry Harvin?</a>
                                     </div>
 
-                <div class="md:px-4 p-3 border-2 border-red-700 mt-6">
-                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">About
+                <div class="md:px-4 p-3 border-2 border-orange-700 mt-6">
+                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">About
                         Japanese Language Classes
                     </h2>
                     <div class="custome prose prose-sm mt-4 max-w-none mx-auto 
                             prose-strong:text-[13px] prose-strong:font-[500]
-                            prose-strong:text-[#da2028] prose-strong:font-[600]
-                            prose-h2:text-red-700 prose-h3:text-red-700 prose-h4:text-red-700
+                            prose-strong:text-orange-600 prose-strong:font-[600]
+                            prose-h2:text-orange-700 prose-h3:text-orange-700 prose-h4:text-orange-700
                             prose-h2:text-[16px] prose-h3:text-[18px] prose-h4:text-[16px]
                             prose-h2:font-[600] prose-h3:font-bold prose-h4:font-[600]
                             prose-p:text-white prose-p:font-[500] prose-p:text-[16px]
@@ -2508,7 +2508,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
 </ul>
                                             </div>
                     <button class="relative  mx-auto flex items-center text-white mt-4">
-                        <span class="rounded-md bg-red-700 px-4 py-2" style="width: 142px; padding: 11px 29px 11px 0px;"
+                        <span class="rounded-md bg-orange-700 px-4 py-2" style="width: 142px; padding: 11px 29px 11px 0px;"
                             id="toggleButton" onclick="toggleText()">Show More</span>
                         <span class="mx-auto rounded-md h-full am-am animate-bounceVertical pl-2 absolute right-2 z-20"
                             style="pointer-events: none; right:10px; top:6px;">
@@ -2518,13 +2518,13 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                 </div>
                 
                 <div class="text-center py-10">
-                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Our
+                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">Our
                         Placement Stats </h2>
                     <div class="grid md:grid-cols-3 grid-cols-1 gap-4 mt-4 mb-4">
                         <div class="shadow-md rounded-md py-4">
                             <div class="mx-4">
                                 <span class="flex items-center gap-2 py-[10px] h-14">
-                                    <span class="text-[28px] font-[600]  text-red-600">80%</span>
+                                    <span class="text-[28px] font-[600]  text-orange-600">80%</span>
                                     <img class="h-4"
                                         src="https://hh-certificates.sgp1.cdn.digitaloceanspaces.com/images/1706523530progressnew.svg"
                                         alt="images38" loading="lazy">
@@ -2535,7 +2535,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         <div class="shadow-md rounded-md py-4">
                             <div class="mx-8">
                                 <span class="flex items-center gap-2 py-[10px] h-14">
-                                    <span class="text-[28px] font-[600] text-red-600">2100+</span>
+                                    <span class="text-[28px] font-[600] text-orange-600">2100+</span>
                                 </span>
                                 <p class="text-sm font-semibold mt-2 text-[#51565e]">Access the best jobs in industry</p>
                             </div>
@@ -2543,7 +2543,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         <div class="shadow-md rounded-md py-4">
                             <div class="mx-8">
                                 <span class="flex items-center gap-2 py-[10px] h-14">
-                                    <span class="text-[28px] font-[600] text-red-600">150%</span>
+                                    <span class="text-[28px] font-[600] text-orange-600">150%</span>
                                     <img class="h-6"
                                         src="https://hh-certificates.sgp1.cdn.digitaloceanspaces.com/images/1706523530progressnew.svg"
                                         alt="images39" loading="lazy">
@@ -2555,11 +2555,11 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                 </div>
                 
                 <div class="">
-                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Japanese Language Classes Curriculum</h2>
+                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize">Japanese Language Classes Curriculum</h2>
 
                     <ul class="flex flex-col max-w-5xl mx-auto space-y-3">
 
-                                                    <li class="bg-red-600 shadow-lg rounded" x-data="{ open: false }">
+                                                    <li class="bg-orange-600 shadow-lg rounded" x-data="{ open: false }">
                                 <h3 @click="open = !open"
                                     class="flex text-white justify-between items-center font-semibold px-4 py-4 cursor-pointer">
                                     <div class="flex gap-2 items-center">
@@ -2838,7 +2838,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                     </div>
                                 </div>
                             </li>
-                                                    <li class="bg-red-600 shadow-lg rounded" x-data="{ open: false }">
+                                                    <li class="bg-orange-600 shadow-lg rounded" x-data="{ open: false }">
                                 <h3 @click="open = !open"
                                     class="flex text-white justify-between items-center font-semibold px-4 py-4 cursor-pointer">
                                     <div class="flex gap-2 items-center">
@@ -3727,7 +3727,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                     </div>
                                 </div>
                             </li>
-                                                    <li class="bg-red-600 shadow-lg rounded" x-data="{ open: false }">
+                                                    <li class="bg-orange-600 shadow-lg rounded" x-data="{ open: false }">
                                 <h3 @click="open = !open"
                                     class="flex text-white justify-between items-center font-semibold px-4 py-4 cursor-pointer">
                                     <div class="flex gap-2 items-center">
@@ -4048,7 +4048,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                     </div>
                                 </div>
                             </li>
-                                                    <li class="bg-red-600 shadow-lg rounded" x-data="{ open: false }">
+                                                    <li class="bg-orange-600 shadow-lg rounded" x-data="{ open: false }">
                                 <h3 @click="open = !open"
                                     class="flex text-white justify-between items-center font-semibold px-4 py-4 cursor-pointer">
                                     <div class="flex gap-2 items-center">
@@ -4128,7 +4128,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                     </div>
                                 </div>
                             </li>
-                                                    <li class="bg-red-600 shadow-lg rounded" x-data="{ open: false }">
+                                                    <li class="bg-orange-600 shadow-lg rounded" x-data="{ open: false }">
                                 <h3 @click="open = !open"
                                     class="flex text-white justify-between items-center font-semibold px-4 py-4 cursor-pointer">
                                     <div class="flex gap-2 items-center">
@@ -4199,7 +4199,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                     </div>
                                 </div>
                             </li>
-                                                    <li class="bg-red-600 shadow-lg rounded" x-data="{ open: false }">
+                                                    <li class="bg-orange-600 shadow-lg rounded" x-data="{ open: false }">
                                 <h3 @click="open = !open"
                                     class="flex text-white justify-between items-center font-semibold px-4 py-4 cursor-pointer">
                                     <div class="flex gap-2 items-center">
@@ -4292,10 +4292,10 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
             </div>
             <div class="relative">
                 <div class="lg:w-12/12 sticky top-4 md:top-[70px]">
-                    <div class="relative bg-white rounded-lg border-2 border-red-600 shadow mb-2">
+                    <div class="relative bg-white rounded-lg border-2 border-orange-600 shadow mb-2">
                         <!-- Modal header -->
                         <div class="flex items-center justify-between px-4 py-2 border-b rounded-t">
-                            <h3 class="text-[20px] font-[600] text-red-600 text-center">
+                            <h3 class="text-[20px] font-[600] text-orange-600 text-center">
                                 Book a Live Class
                             </h3>
 
@@ -4304,26 +4304,26 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         <!-- Modal body -->
                         <form class="p-2 md:p-2 space-y-2" action="https://kazumischool.com/admin/lead" method="POST">
                             <input type="hidden" name="_token" value="ANCwPTXVHuSigEwiFTE3Tzjh0zcCh0voRQsIfHFk">                            <div>
-                                <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
+                                <label for="name" class="block text-sm mb-1 font-[600] text-orange-600">Name</label>
                                 <input type="text" name="name" id="name" placeholder="Name"
                                     required=""
-                                    class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
-                                <span id="name_error3" class="text-red-500 text-xs"></span>
+                                    class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                                <span id="name_error3" class="text-orange-500 text-xs"></span>
                             </div>
 
                             <div>
-                                <label for="email" class="block text-sm mb-1 font-[600] text-red-600">Email</label>
+                                <label for="email" class="block text-sm mb-1 font-[600] text-orange-600">Email</label>
                                 <input type="email" name="email" id="email" placeholder="Email"
                                     required=""
-                                    class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
-                                <span id="email_error3" class="text-red-500 text-xs"></span>
+                                    class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                                <span id="email_error3" class="text-orange-500 text-xs"></span>
                             </div>
 
                             <div>
-                                <label for="countryCode" class="block text-sm mb-1 font-[600] text-red-600">Country
+                                <label for="countryCode" class="block text-sm mb-1 font-[600] text-orange-600">Country
                                     Code</label>
                                 <div class="flex gap-2">
-                                    <select name="countryCode" class="w-4/12 bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-1">
+                                    <select name="countryCode" class="w-4/12 bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg p-1">
                                         <option value="IN" value="+91" selected="">(+91)</option>
                                         <option value="PK" value="+92">Pakistan (+92)</option>
                                         <option value="US" value="+1">USA (+1)</option>
@@ -4554,9 +4554,9 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <option value="ZW" value="+263">Zimbabwe (+263)</option>
                                     </select>
                                     <input type="number" name="sendto" placeholder="Mobile no *"
-                                        class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                                        class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1">
                                 </div>
-                                <span id="phone_error3" class="text-red-500 text-xs"></span>
+                                <span id="phone_error3" class="text-orange-500 text-xs"></span>
                             </div>
 
                             <input type="hidden" name="description2" class="textbox" value="Japanese Language Classes | 日本語コース" placeholder="" id="">
@@ -4569,7 +4569,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                     
                             <div class="flex justify-center pt-2">
                                 <button type="submit"
-                                    class="bg-red-600 text-white px-2 py-1 text-lg rounded-md">Submit</button>
+                                    class="bg-orange-600 text-white px-2 py-1 text-lg rounded-md">Submit</button>
                             </div>
                         </form>
 
@@ -4599,7 +4599,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
     </section>
     <section class="py-12">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Certifications</h2>
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize">Certifications</h2>
 
             <h3 class="md:text-[24px] text-[20px] text-[#212529] font-[600] pb-4 mt-2">Get Ahead with Henry Harvin® Japanese Language Classes   Certification </h3>
             <div class="mb-2">
@@ -4658,51 +4658,51 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
     </section>
         <section class="py-12">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Skills Covered</h2>
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize">Skills Covered</h2>
             <div class="grid md:grid-cols-3 gap-4">
                                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Language Techniques</p>
                 </div>
                                <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Communication Skills</p>
                 </div>
                                <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Presentation Skills</p>
                 </div>
                                <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Story-telling</p>
                 </div>
                                <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Active Listening</p>
                 </div>
                                <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Storyboard</p>
                 </div>
                                <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Decision-Making</p>
                 </div>
                                <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Critical thinking and analysis</p>
                 </div>
                                <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Cultural Understanding</p>
                 </div>
                            </div>
@@ -4710,51 +4710,51 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
     </section>
             <section class="py-12">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Job Profiles</h2>
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize">Job Profiles</h2>
             <div class="grid md:grid-cols-3 gap-4">
                                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Translator/Interpreter</p>
                 </div>
                                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Language Teacher</p>
                 </div>
                                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Tour Guide</p>
                 </div>
                                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">International Relations Specialist</p>
                 </div>
                                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">International Business</p>
                 </div>
                                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Localization Specialist</p>
                 </div>
                                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Cultural Liaison Officer</p>
                 </div>
                                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Language Analyst</p>
                 </div>
                                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Diplomatic Services</p>
                 </div>
                             </div>
@@ -4762,7 +4762,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
     </section>
         <section class="py-12 bg-gray-50">
         <div class="max-w-6xl mx-auto px-4">
-            <h3 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Frequently Asked Questions</h3>
+            <h3 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize">Frequently Asked Questions</h3>
             <div class="my-6">
                 <ul class="flex flex-col border-2 shadow-lg" x-data="{ selected: null }">
                     <!-- FAQ Item 1 -->
@@ -4770,7 +4770,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                  
                         <li class="bg-white border-b">
                             <h4 @click="selected !== 2619 ? selected = 2619 : selected = null"
-                                class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                 <span>What Japanese Language Classess are offered by Kazumi Japanese &amp; Culture School by Henry Harvin®?</span>
                                 <svg :class="selected === 2619 ? 'rotate-180' : ''"
                                     class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -4778,7 +4778,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                     <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                 </svg>
                             </h4>
-                            <div x-show="selected === 2619" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                            <div x-show="selected === 2619" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                 <p class="p-3 text-gray-900">
                                     <p>The Japanese Language Classess teach professionals both basic and advanced Japanese. There is a <strong>37-character-long word</strong> composed of <strong>18 syllables</strong>, pronounced as &lsquo;toragahitowokamoutosurutokinounarigoe&rsquo;. This term refers to the growl a tiger makes when it is about to bite someone.</p>
 
@@ -4789,7 +4789,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                      
                         <li class="bg-white border-b">
                             <h4 @click="selected !== 2620 ? selected = 2620 : selected = null"
-                                class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                 <span>Is Kanji difficult?</span>
                                 <svg :class="selected === 2620 ? 'rotate-180' : ''"
                                     class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -4797,7 +4797,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                     <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                 </svg>
                             </h4>
-                            <div x-show="selected === 2620" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                            <div x-show="selected === 2620" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                 <p class="p-3 text-gray-900">
                                     <p><span style="font-size:10.5pt"><span style="font-family:Arial"><span style="color:#434343">Kanji is hard to learn when compared with </span></span></span><span style="font-size:10.5pt"><span style="font-family:Arial"><span style="color:#434343"><strong>kana</strong></span></span></span><span style="font-size:10.5pt"><span style="font-family:Arial"><span style="color:#434343"> since it is more complex and the number of characters in this set is more numerous than</span></span></span><span style="font-size:10.5pt"><span style="font-family:Arial"><span style="color:#434343"><strong> hiragana and katakana</strong></span></span></span><span style="font-size:10.5pt"><span style="font-family:Arial"><span style="color:#434343">. However this doesn&rsquo;t mean it&rsquo;s hard to read. Also kanji are very efficient in communication.</span></span></span></p>
 
@@ -4808,7 +4808,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                      
                         <li class="bg-white border-b">
                             <h4 @click="selected !== 2621 ? selected = 2621 : selected = null"
-                                class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                 <span>What are the job opportunities after completing a courses in Japanese language?</span>
                                 <svg :class="selected === 2621 ? 'rotate-180' : ''"
                                     class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -4816,7 +4816,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                     <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                 </svg>
                             </h4>
-                            <div x-show="selected === 2621" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                            <div x-show="selected === 2621" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                 <p class="p-3 text-gray-900">
                                     <ul>
 	<li style="list-style-type:disc"><span style="font-size:10.5pt"><span style="font-family:Arial"><span style="color:#434343">Translator</span></span></span></li>
@@ -4837,7 +4837,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                      
                         <li class="bg-white border-b">
                             <h4 @click="selected !== 2623 ? selected = 2623 : selected = null"
-                                class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                 <span>Which language is closest to Japanese?</span>
                                 <svg :class="selected === 2623 ? 'rotate-180' : ''"
                                     class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -4845,7 +4845,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                     <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                 </svg>
                             </h4>
-                            <div x-show="selected === 2623" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                            <div x-show="selected === 2623" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                 <p class="p-3 text-gray-900">
                                     <p><span style="font-size:10.5pt"><span style="font-family:Arial"><span style="color:#434343"><strong>Ryukyuan and Ainu</strong></span></span></span><span style="font-size:10.5pt"><span style="font-family:Arial"><span style="color:#434343"> are the languages closely related to Japanese along with Korean. Less related are other Atlantic languages which are Turkic, Tungusic, Mongolic.</span></span></span></p>
 
@@ -4856,7 +4856,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                      
                         <li class="bg-white border-b">
                             <h4 @click="selected !== 2624 ? selected = 2624 : selected = null"
-                                class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                 <span>What is the language of Japan called?</span>
                                 <svg :class="selected === 2624 ? 'rotate-180' : ''"
                                     class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -4864,7 +4864,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                     <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                 </svg>
                             </h4>
-                            <div x-show="selected === 2624" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                            <div x-show="selected === 2624" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                 <p class="p-3 text-gray-900">
                                     <p><span style="font-size:10.5pt"><span style="font-family:Arial"><span style="color:#434343">The Japanese language is known as Nihongo (</span></span></span><span style="font-size:10.5pt"><span style="font-family:Arial"><span style="color:#202122"><span style="background-color:#ffffff">日本語 ).&nbsp; Chinese documents record the existence of Japanese words as early as the 3rd century and texts clearly appear during the 8th century.&nbsp; &nbsp; </span></span></span></span></p>
 
@@ -4875,7 +4875,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 3196 ? selected = 3196 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Will Kazumi Japanese &amp; Language School by Henry Harvin®&#039;s courses in Japanese language help me in preparing for the JLPT exam?</span>
                                     <svg :class="selected === 3196 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -4883,7 +4883,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 3196" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 3196" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="font-size:11pt"><span style="font-family:Arial"><span style="color:#000000">Yes,&nbsp;courses in Japanese language&nbsp;are designed to assist you in preparing for the JLPT exam for the level of your choice. For example, if you are preparing for the elementary level JLPT N5 exam, you can choose the N5 level Japanese Language Classes and so on.</span></span></span></p>
 
@@ -4895,7 +4895,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 3197 ? selected = 3197 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>What is e-Learning for the Kazumi Japanese &amp; Culture School by  Henry Harvin courses in Japanese language?</span>
                                     <svg :class="selected === 3197 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -4903,7 +4903,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 3197" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 3197" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="font-size:11pt"><span style="font-family:Arial"><span style="color:#000000">The LMS or the Learning Management System helps you to access the recorded video sessions of the training in addition to the various tools and techniques available. This will help you to revise and practice the topics plus attend any session that you missed.</span></span></span></p>
 
@@ -4915,7 +4915,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 3198 ? selected = 3198 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Can I work as a freelance translator after doing  courses in Japanese language from Kazumi Japanese &amp; Language School by Henry Harvin®.</span>
                                     <svg :class="selected === 3198 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -4923,7 +4923,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 3198" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 3198" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="font-size:11pt"><span style="font-family:Arial"><span style="color:#000000">Yes, you can opt to become a freelance translator after doing courses in the Japanese language. Japanese translators are in high demand and involve decent payment.</span></span></span></p>
 
@@ -4935,7 +4935,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 3199 ? selected = 3199 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Which level should I choose to become a Japanese Game Localizer?</span>
                                     <svg :class="selected === 3199 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -4943,7 +4943,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 3199" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 3199" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="font-size:11pt"><span style="font-family:Arial"><span style="color:#000000">A game Localizer in japan needs to have at least passed JLPT N2 level. For this, you can choose the N2&nbsp; level in the Henry Harvin Japanese Language Classes and prepare for the JLPT exam.</span></span></span></p>
 
@@ -4955,7 +4955,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 3200 ? selected = 3200 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>What language is used in Manga and Anime?</span>
                                     <svg :class="selected === 3200 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -4963,7 +4963,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 3200" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 3200" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="font-size:11pt"><span style="font-family:Arial"><span style="color:#000000">The casual Japanese Kanji contribute to the language used in Anime and Manga. It is slightly different from the formal Japanese language that is taught on a professional level. But our&nbsp;courses in Japanese language will help you understand anime and manga.</span></span></span></p>
 
@@ -4975,7 +4975,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 4989 ? selected = 4989 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>What is the cost of your services?</span>
                                     <svg :class="selected === 4989 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -4983,7 +4983,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 4989" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 4989" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p>We are a freemium service provider. Your Profile Evaluation, University Recommendation, SOP/LOR Resume Review and Application Assistance is completely free. You can get the help of our Preminum Counseling Experts in University/course Recommendation refinement, SOP storylining and editing support for a service free. Request a call back to know more.</p>
 
@@ -4995,7 +4995,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 13994 ? selected = 13994 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Why should I take  courses in Japanese language? </span>
                                     <svg :class="selected === 13994 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5003,7 +5003,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 13994" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 13994" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Japanese helps broaden your understanding of the moral principles, ethical standards, and aesthetics that Japan shares with other Asian countries.</span></span></span></p>
 
@@ -5015,7 +5015,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 13995 ? selected = 13995 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Why should I choose  courses in Japanese language in India?</span>
                                     <svg :class="selected === 13995 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5023,7 +5023,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 13995" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 13995" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Taking courses in Japanese language expands job opportunities in the Indian labour market. There are greater career chances for Indian people who can speak Japanese because Japanese corporations including Honda, Yamaha, Sony, and Toyota have production plants in India.</span></span></span></p>
 
@@ -5035,7 +5035,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 13996 ? selected = 13996 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>What aspect of learning Japanese is most crucial while learning courses in Japanese language?</span>
                                     <svg :class="selected === 13996 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5043,7 +5043,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 13996" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 13996" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Kanji is one of the most crucial components of learning Japanese because it is used in almost everything. When using a textbook, a beginner will spend a lot of time looking for kanji and terminology.</span></span></span></p>
 
@@ -5055,7 +5055,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 13997 ? selected = 13997 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Which three Japanese languages are there?</span>
                                     <svg :class="selected === 13997 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5063,7 +5063,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 13997" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 13997" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Hiragana, katakana, and kanji are the three languages. Hiragana and katakana are simple to learn and easy to use if you plan to visit Japan or want to master the fundamentals of the language. Kanji is a bit more difficult.&nbsp;</span></span></span></p>
 
@@ -5076,7 +5076,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 13998 ? selected = 13998 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>How reliable is the JLPT?</span>
                                     <svg :class="selected === 13998 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5084,7 +5084,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 13998" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 13998" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">The JLPT score has the advantage of never expiring. Tests are administered once a year on the first Sunday in December. You can only administer a test for one level each year. JLPT is accessible to everyone with no age limitations. Occasionally, some businesses might assess employees&#39; proficiency.</span></span></span></p>    
                                     </p>
@@ -5094,7 +5094,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 13999 ? selected = 13999 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>I don&#039;t know Japanese, can I still study there?</span>
                                     <svg :class="selected === 13999 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5102,7 +5102,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 13999" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 13999" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Yes, it is possible to study in Japan without knowing Japanese, although it is quite challenging. It is advised to become conversant with basic Japanese.</span></span></span></p>
 
@@ -5114,7 +5114,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14000 ? selected = 14000 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>How much does an online Japanese education cost?</span>
                                     <svg :class="selected === 14000 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5122,7 +5122,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14000" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14000" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">It depends on the institution and the course. Some organizations provide cost-effective or free online Japanese lessons.</span></span></span></p>
 
@@ -5137,7 +5137,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14001 ? selected = 14001 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>What is the duration of the Japanese Language Classes?</span>
                                     <svg :class="selected === 14001 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5145,7 +5145,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14001" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14001" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">It depends on how advanced the Japanese course is and how much time you invest. Basic Japanese language instruction lasts for around six months.</span></span></span></p>
 
@@ -5160,7 +5160,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14002 ? selected = 14002 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Define JLPT. Is it applicable everywhere?</span>
                                     <svg :class="selected === 14002 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5168,7 +5168,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14002" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14002" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">The Japanese Language Proficiency Test is known as JLPT. The certificate, which is accepted worldwide, attests to your proficiency in Japanese.</span></span></span></p>
 
@@ -5183,7 +5183,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14003 ? selected = 14003 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Are JLPT levels different from one another?</span>
                                     <svg :class="selected === 14003 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5191,7 +5191,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14003" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14003" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">The JLPT is divided into five levels: N1, N2, N3, N4, and N5. Each focuses on various speaking, writing, and listening steps of the Japanese language learning process.</span></span></span></p>
 
@@ -5203,7 +5203,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14004 ? selected = 14004 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>What in Japan is the most significant exam?</span>
                                     <svg :class="selected === 14004 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5211,7 +5211,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14004" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14004" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">The EJU test results are required for admission to 61% of public universities and 98% of Japan&#39;s national institutions. On the other hand, they are necessary at 52% of private universities in Japan.</span></span></span></p>
 
@@ -5223,7 +5223,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14005 ? selected = 14005 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Is the Japanese Language Classes appropriate for kids under 10?</span>
                                     <svg :class="selected === 14005 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5231,7 +5231,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14005" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14005" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Our suggestion is to start learning Japanese after the age of 13 or 14.</span></span></span></p>
 
@@ -5243,7 +5243,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14007 ? selected = 14007 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>To advance to the next level of the JLPT, must each level be passed?</span>
                                     <svg :class="selected === 14007 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5251,7 +5251,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14007" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14007" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">No. It is not mandatory.&nbsp;</span></span></span></p>
 
@@ -5263,7 +5263,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14009 ? selected = 14009 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Can I study  JLPT N4 LEVEL directly or can I study JLPT N5 and  N4 at the same time?</span>
                                     <svg :class="selected === 14009 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5271,7 +5271,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14009" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14009" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">No. JLPT N5 is the first test to be studied, followed by JLPT N4 in that order. It cannot be studied at the same time.</span></span></span></p>
 
@@ -5283,7 +5283,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14011 ? selected = 14011 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>How can I learn Japanese vocabulary?</span>
                                     <svg :class="selected === 14011 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5291,7 +5291,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14011" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14011" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">You can memorize the Japanese language&#39;s vocabulary by:</span></span></span></p>
 
@@ -5309,7 +5309,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14013 ? selected = 14013 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>What is the cost of an Indian student visa to Japan?</span>
                                     <svg :class="selected === 14013 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5317,7 +5317,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14013" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14013" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">The following fees apply to Japanese visas: 3,000 Yen for a single-entry visa. 6,000 Yen for a visa with two or more entries.</span></span></span></p>
 
@@ -5329,7 +5329,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14016 ? selected = 14016 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>What are the few expressions of the Japanese Language Classes?</span>
                                     <svg :class="selected === 14016 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5337,7 +5337,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14016" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14016" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Basic Expressions&nbsp;</span></span></span></p>
 
@@ -5364,7 +5364,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14018 ? selected = 14018 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>What is the simplest form of Japanese writing?</span>
                                     <svg :class="selected === 14018 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5372,7 +5372,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14018" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14018" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">The Hiragana alphabet is the most fundamental of the three because it serves as the basis for the written Japanese language. When learning a new language, it is the first set of characteristics that youngsters and beginners learn.</span></span></span></p>
 
@@ -5384,7 +5384,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14021 ? selected = 14021 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Is Korean harder than Japanese? </span>
                                     <svg :class="selected === 14021 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5392,7 +5392,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14021" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14021" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Korean isn&#39;t tonal, in discrepancy with other East Asian languages. This indicates that anyhow of your accentuation, the word&#39;s meaning remains unchanged. Therefore, Korean is simpler than Japanese.</span></span></span></p>
 
@@ -5404,7 +5404,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14037 ? selected = 14037 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>How frequently will the JLPT be given?</span>
                                     <svg :class="selected === 14037 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5412,7 +5412,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14037" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14037" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Twice a year, in December and July. The test may only be administered outside of Japan in certain cities in July or December.</span></span></span></p>
 
@@ -5424,7 +5424,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14043 ? selected = 14043 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Who administers the JLPT? </span>
                                     <svg :class="selected === 14043 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5432,7 +5432,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14043" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14043" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">The test is administered by Japan Educational Exchanges and Services in Japan. The Japan Foundation administers it with indigenous host institutions. Together with the Japan- Taiwan Exchange Association, the JLPT is co-hosted in Taiwan.</span></span></span></p>
 
@@ -5444,7 +5444,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14068 ? selected = 14068 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Do all students take the same exam, with levels being determined by the results?</span>
                                     <svg :class="selected === 14068 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5452,7 +5452,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14068" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14068" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">No. test questions vary based on difficulty. To test the examinees&#39; proficiency in Japanese as accurately as feasible, many questions are offered. When taking the test, please select a level that is appropriate.</span></span></span></p>
 
@@ -5464,7 +5464,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14081 ? selected = 14081 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Are all JLPT responses scored using computers? </span>
                                     <svg :class="selected === 14081 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5472,7 +5472,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14081" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14081" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Yes, a multiple-choice computer-scored answer distance is used for the JLPT. The questions contain four options, although certain&quot; harkening&quot; questions only have three.</span></span></span></p>
 
@@ -5487,7 +5487,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14083 ? selected = 14083 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Are there questions on the JLPT which ask for understanding Japanese culture?</span>
                                     <svg :class="selected === 14083 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5495,7 +5495,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14083" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14083" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Japan-related cultural knowledge is not particularly tested in any questions. Despite the fact that some questions may make reference to cultural elements, any question can be answered without regard to culture.</span></span></span></p>
 
@@ -5507,7 +5507,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14086 ? selected = 14086 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>What features does the Online JLPT Mock Test Series - 2025 offer?</span>
                                     <svg :class="selected === 14086 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5515,7 +5515,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14086" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14086" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">The features are :</span></span></span></p>
 
@@ -5533,7 +5533,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14090 ? selected = 14090 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Why is Japanese different from other languages?</span>
                                     <svg :class="selected === 14090 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5541,7 +5541,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14090" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14090" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Yes, the Japanese language is unique as every word ends with a vowel. So, it is a vowel-salient language. Each word is made up of sound syllables that finish in vowels, the &quot;n&quot;-ending sounds are the exception.</span></span></span></p>
 
@@ -5553,7 +5553,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14091 ? selected = 14091 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>How much does a Japanese teacher earn in India?</span>
                                     <svg :class="selected === 14091 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5561,7 +5561,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14091" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14091" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">A Japanese language trainer&#39;s monthly salary in India ranges from 0.5 lakhs to 10.8 lakhs, . Based on 25 salaries from Japanese Language Trainers, estimated salaries have been calculated.</span></span></span></p>
 
@@ -5576,7 +5576,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14098 ? selected = 14098 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>After learning Japanese, am I able to join the Indian Embassy in Japan?</span>
                                     <svg :class="selected === 14098 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5584,7 +5584,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14098" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14098" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Since it is a government position, you must pass the UPSC exams in order to be considered. Being able to speak Japanese will put you ahead of the competition.</span></span></span></p>
 
@@ -5599,7 +5599,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14102 ? selected = 14102 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>What drawbacks are there to studying Japanese?</span>
                                     <svg :class="selected === 14102 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5607,7 +5607,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14102" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14102" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">In any case, learning always benefits the person. The commitment and effort is only needed to learn Japanese. It is not a simple language to learn, and individuals must give it their time and attention.</span></span></span></p>
 
@@ -5622,7 +5622,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14105 ? selected = 14105 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>If I enrol in a Japanese Language Classes, will it be simple for me to relocate to Japan?</span>
                                     <svg :class="selected === 14105 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5630,7 +5630,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14105" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14105" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Although each country has its own immigration regulations, learning Japanese will undoubtedly benefit you.</span></span></span></p>
 
@@ -5642,7 +5642,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14109 ? selected = 14109 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>What local name does the Japanese have in Japan?</span>
                                     <svg :class="selected === 14109 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5650,7 +5650,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14109" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14109" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">However, native speakers actually refer to it as &quot;Nihongo&quot; even if most people outside of Japan refer to it as &quot;Japanese.&quot; The name &quot;Japan&quot; is the same whether it is called &quot;Nihon&quot; or &quot;Nippon&quot; in the regional tongue.</span></span></span></p>
 
@@ -5662,7 +5662,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14114 ? selected = 14114 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>How can learning Japanese more quickly benefit from listening to an actual speech?</span>
                                     <svg :class="selected === 14114 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5670,7 +5670,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14114" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14114" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">The Japanese language does not have tones. However, it does have a certain rhythm and cadence to its words and sentences, much like all other languages. Listening to real conversation is the approach to learning Japanese.</span></span></span></p>
 
@@ -5682,7 +5682,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14123 ? selected = 14123 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>How many levels are needed to work as a professional in Japanese?</span>
                                     <svg :class="selected === 14123 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5690,7 +5690,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14123" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14123" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">It relies on the industry a professional wants to enter. Level N3 or N4 might be adequate for a professional in India. However, some Japanese businesses require level N2, as the interaction and operation are in a completely Japanese environment. However, IT experts like programmers or at a similar level can get by with level N4.</span></span></span></p>
 
@@ -5702,7 +5702,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14126 ? selected = 14126 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>How much more must we pay in order to sign up for the JLPT exam?</span>
                                     <svg :class="selected === 14126 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5710,7 +5710,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14126" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14126" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">With the application, the JLPT examination cost must be paid directly to the Japan Foundation. The price ranges from INR 500 to INR 800 based on the training level.&nbsp;</span></span></span></p>
 
@@ -5722,7 +5722,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14130 ? selected = 14130 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Is it true that the Japanese language has more opportunities in the IT industry? </span>
                                     <svg :class="selected === 14130 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5730,7 +5730,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14130" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14130" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">The IT industry is home to Japanese and Indian multinational corporations. Tokyo is home to about 6000 Indian workers, mostly employed in the IT industry. Other industries including infrastructure, biotechnology, pharmaceuticals, are also expanding.&nbsp;</span></span></span></p>
 
@@ -5742,7 +5742,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14133 ? selected = 14133 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Are there certain software requirements for Japanese scripts?</span>
                                     <svg :class="selected === 14133 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5750,7 +5750,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14133" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14133" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">English OS makes it easy to read and write in Japanese script. You might need to use the Microsoft Windows installation CD to install the Japanese font. With software like NJ Star, it is possible to type in Japanese.</span></span></span></p>
 
@@ -5762,7 +5762,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14136 ? selected = 14136 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>What will I be capable of doing once I&#039;ve completed the Japanese Language Classes?</span>
                                     <svg :class="selected === 14136 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5770,7 +5770,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14136" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14136" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">You will be able to read, write, and communicate in Japanese by the end of the course. (commensurate to the JLPT level you take). You could also receive a JLPT certification by passing the tests provided by the Japan Foundation for Levels N5 to N1.</span></span></span></p>
 
@@ -5782,7 +5782,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14143 ? selected = 14143 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>What are the various Japanese Learning levels offered by Kazumi Japanese &amp; Language School by Henry Harvin®?</span>
                                     <svg :class="selected === 14143 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5790,7 +5790,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14143" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14143" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">The course attempts to teach Japanese at five levels: N5, N4, N3, N2, and N1, as well as competency in four different Japanese writing systems: Romaji, Katakana, Hiragana, and Kaji.&nbsp;</span></span></span></p>
 
@@ -5802,7 +5802,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14150 ? selected = 14150 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Does Henry Harvin&#039;s Japanese Learning course offer guidance for the JLPT and NAT exams?</span>
                                     <svg :class="selected === 14150 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5810,7 +5810,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14150" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14150" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Yes, you receive 100% assistance with the Japanese Language Proficiency Test (JLPT, Nihongo Noryoku Shiken), as well as the five levels of tests (N5, N4, N3, N2, and N1) for an overall assessment of one&#39;s proficiency in the Japanese language.</span></span></span></p>
 
@@ -5822,7 +5822,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14157 ? selected = 14157 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>What is the training method of Japanese Learning courses at Kazumi Japanese &amp; Culture School by Henry Harvin®?</span>
                                     <svg :class="selected === 14157 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5830,7 +5830,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14157" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14157" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">The training includes two-way Live Online Interactive Sessions for 160 minutes each for all five modules.&nbsp;</span></span></span></p>
 
@@ -5842,7 +5842,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14162 ? selected = 14162 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>What qualifications are required to study Japanese?</span>
                                     <svg :class="selected === 14162 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5850,7 +5850,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14162" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14162" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">The minimum requirement for learning Japanese is a 10+2, diploma with a 40% average.</span></span></span></p>    
                                     </p>
@@ -5860,7 +5860,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14169 ? selected = 14169 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>In addition to the Japanese Language Classes, what other languages are offered at Kazumi Japanese &amp; Culture School by Henry Harvin®?</span>
                                     <svg :class="selected === 14169 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5868,7 +5868,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14169" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14169" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Aside from the ones mentioned above, </span></span></span><span style="font-size:12pt"><span style="font-family:Arial,sans-serif"><span style="color:#000000">Kazumi Japanese &amp; Culture School by Henry Harvin&reg;</span></span></span><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt"> also offers courses in Korean, German, and Spanish.</span></span></span></p>
 
@@ -5881,7 +5881,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14171 ? selected = 14171 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Are working professionals able to enrol in the Japanese Language Classes?</span>
                                     <svg :class="selected === 14171 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5889,7 +5889,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14171" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14171" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Yes, the course is available to work professionals as well, giving them an international competitive edge and upgrading their profile.</span></span></span></p>
 
@@ -5902,7 +5902,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14190 ? selected = 14190 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>When may I become a Japanese speaker after taking Kazumi Japanese &amp; Culture School by Henry Harvin®&#039;s Japanese Language Classes?</span>
                                     <svg :class="selected === 14190 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5910,7 +5910,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14190" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14190" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">The course contains five levels, numbered N5, N4, N3, N2, and N1, in decreasing order. When you reach level N3, you will be a native speaker of Japanese.</span></span></span></p>    
                                     </p>
@@ -5920,7 +5920,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14191 ? selected = 14191 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>If I participate in a Japanese Language Classes at Kazumi Japanese &amp; Culture School by Henry Harvin®, will my rural upbringing stop me from succeeding?</span>
                                     <svg :class="selected === 14191 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5928,7 +5928,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14191" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14191" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Japanese and our mother tongue, Indian have many things in common, unlike English. We are still able to learn Japanese quickly as a result. Students from rural backgrounds too should take up this course with confidence.</span></span></span></p>    
                                     </p>
@@ -5938,7 +5938,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14193 ? selected = 14193 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Do Japanese institutes hire a native Japanese instructor for the Japanese Language Classes?</span>
                                     <svg :class="selected === 14193 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5946,7 +5946,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14193" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14193" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Sure, they do. The experience suggests that hiring a native Japanese instructor when learning the language can be beneficial.</span></span></span></p>
 
@@ -5959,7 +5959,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14196 ? selected = 14196 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>Is studying Japanese beneficial to your brain?</span>
                                     <svg :class="selected === 14196 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5967,7 +5967,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14196" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14196" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">According to studies, learning Japanese requires more brain activity than other languages. Memory retention and mental clarity improve as a result. Being bilingual makes you smarter, more focused, and handles multiple tasks.</span></span></span></p>    
                                     </p>
@@ -5977,7 +5977,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                                                                                                     <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== 14200 ? selected = 14200 : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>What are a few of the best Japanese language programmes offered in India?</span>
                                     <svg :class="selected === 14200 ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -5985,7 +5985,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === 14200" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === 14200" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         <p><span style="color:#000000"><span style="font-family:Arial,Helvetica,sans-serif"><span style="font-size:11pt">Japanese Language Classes by Henry Harvin Education, Nec Japanese Language Academy (NJLA), NIHONKAI - Japanese Training Institute. These are some of the top Japanese learning institutions in India.&nbsp;</span></span></span></p>
 
@@ -6006,10 +6006,10 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
 <div id="course-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
     <div class="relative p-4 w-full max-w-md max-h-full">
         <!-- Modal content -->
-        <div class="relative bg-white rounded-lg border-2 border-red-600 shadow">
+        <div class="relative bg-white rounded-lg border-2 border-orange-600 shadow">
             <!-- Modal header -->
             <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
-                <h5 class="text-[24px] font-[600] text-red-600" id="change-modal-text"></h5>
+                <h5 class="text-[24px] font-[600] text-orange-600" id="change-modal-text"></h5>
                 <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center" data-modal-hide="course-modal">
                     <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1l12 12M1 13L13 1"/>
@@ -6021,21 +6021,21 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
             <!-- Modal body -->
             <form class="p-4 md:p-5 space-y-4" action="https://kazumischool.com/admin/lead" method="POST">
                 <input type="hidden" name="_token" value="ANCwPTXVHuSigEwiFTE3Tzjh0zcCh0voRQsIfHFk">                <div>
-                    <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
-                    <input type="text" name="name" id="name" placeholder="Name" required class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
-                    <span id="name_error3" class="text-red-500 text-xs"></span>
+                    <label for="name" class="block text-sm mb-1 font-[600] text-orange-600">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Name" required class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
+                    <span id="name_error3" class="text-orange-500 text-xs"></span>
                 </div>
 
                 <div>
-                    <label for="email" class="block text-sm mb-1 font-[600] text-red-600">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Email" required class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
-                    <span id="email_error3" class="text-red-500 text-xs"></span>
+                    <label for="email" class="block text-sm mb-1 font-[600] text-orange-600">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
+                    <span id="email_error3" class="text-orange-500 text-xs"></span>
                 </div>
 
                 <div>
-                    <label for="countryCode" class="block text-sm mb-1 font-[600] text-red-600">Country Code</label>
+                    <label for="countryCode" class="block text-sm mb-1 font-[600] text-orange-600">Country Code</label>
                     <div class="flex gap-2">
-                        <select name="countryCode" class="w-4/12 bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-2.5">
+                        <select name="countryCode" class="w-4/12 bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg p-2.5">
                             <option value="IN" value="+91" selected="">(+91)</option>
                             <option value="PK" value="+92">Pakistan (+92)</option>
                             <option value="US" value="+1">USA (+1)</option>
@@ -6265,9 +6265,9 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                 <option value="ZM" value="+260">Zambia (+260)</option>
                                 <option value="ZW" value="+263">Zimbabwe (+263)</option>
                         </select>
-                        <input type="number" name="sendto" placeholder="Mobile no *" class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
+                        <input type="number" name="sendto" placeholder="Mobile no *" class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
                     </div>
-                    <span id="phone_error3" class="text-red-500 text-xs"></span>
+                    <span id="phone_error3" class="text-orange-500 text-xs"></span>
                 </div>
 
                 <!-- Hidden Inputs -->
@@ -6280,7 +6280,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                 <input type="hidden" name="course_name" class="textbox" value="Japanese Language Classes" placeholder="" id="">
                                                 
                 <div class="flex justify-center pt-3">
-                    <button type="submit" class="bg-red-600 text-white py-2 px-4 text-lg rounded-md">Submit</button>
+                    <button type="submit" class="bg-orange-600 text-white py-2 px-4 text-lg rounded-md">Submit</button>
                 </div>
             </form>
 
@@ -6305,7 +6305,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
     </section>
     <section class="py-12 mx-auto px-4">
         <div class="max-w-6xl mx-auto" bis_skin_checked="1">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-2 text-[#da2028] capitalize my-4">Agota™
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-2 text-orange-600 capitalize my-4">Agota™
                 Framework
             </h2>
             <p class="text-[16px] text-gray-800 font-[600] text-center">AGOTA™ Framework is a trajectory that offers
@@ -6321,7 +6321,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">1: Training
+                                <p class="col-span-2 text-orange-600">1: Training
                                     <span class="block text-[12px] text-gray-800 font-[600]">144 Hours of Two-Way Live
                                         Online Interactive Sessions</span>
                                 </p>
@@ -6346,7 +6346,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">2: Projects
+                                <p class="col-span-2 text-orange-600">2: Projects
                                     <span class="block text-[12px] text-gray-800 font-[600]"> Facility to undergo projects
                                         along with the course</span>
                                 </p>
@@ -6373,7 +6373,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">3: Student Engagement &amp; Events
+                                <p class="col-span-2 text-orange-600">3: Student Engagement &amp; Events
                                     <span class="block text-[12px] text-gray-800 font-[600]"> Free Access to #AskHenry
                                         Hackathons and Competitions &amp; many other facilities from Henry Harvin®</span>
                                 </p>
@@ -6398,7 +6398,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">4: Masterclass
+                                <p class="col-span-2 text-orange-600">4: Masterclass
                                     <span class="block text-[12px] text-gray-800 font-[600]">Access to 52+ Masterclass
                                         Sessions for essential soft スキル (Sukiru) development</span>
                                 </p>
@@ -6425,7 +6425,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">5: Membership
+                                <p class="col-span-2 text-orange-600">5: Membership
                                     <span class="block text-[12px] text-gray-800 font-[600]"> 30 Months Gold Membership of
                                         Henry Harvin® School of Languages</span>
                                 </p>
@@ -6447,7 +6447,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">6: E-Learning Access
+                                <p class="col-span-2 text-orange-600">6: E-Learning Access
                                     <span class="block text-[12px] text-gray-800 font-[600]">Get free access to the LMS
                                         having PPTs, projects, self-paced video-based learning, library, quizzes, question
                                         bank, practice tests, final assessments, and a forum, powered by
@@ -6485,7 +6485,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">7: 特徴 (Tokuchō) Certification + License
+                                <p class="col-span-2 text-orange-600">7: 特徴 (Tokuchō) Certification + License
                                     <span class="block text-[12px] text-gray-800 font-[600]">Distinguish your profile with
                                         global credentials and showcase expertise with our 特徴 (Tokuchō) Completion
                                         certificate with Professional License</span>
@@ -6511,7 +6511,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">8: Internship Support
+                                <p class="col-span-2 text-orange-600">8: Internship Support
                                     <span class="block text-[12px] text-gray-800 font-[600]">Get Internship Support with
                                         Henry Harvin® and in top MNCs like J.P. Morgan, Accenture &amp; many more via 100X
                                         Suite and
@@ -6543,7 +6543,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">9: Entrepreneurship Mentorship
+                                <p class="col-span-2 text-orange-600">9: Entrepreneurship Mentorship
                                     <span class="block text-[12px] text-gray-800 font-[600]">Mentorship from Young
                                         Successful Entrepreneurs to set up a sustainable &amp; scalable Business from
                                         scratch at both Freelance &amp; Entrepreneur level</span>
@@ -6567,7 +6567,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">10: Placement Support
+                                <p class="col-span-2 text-orange-600">10: Placement Support
                                     <span class="block text-[12px] text-gray-800 font-[600]">Get 3 in 1 Placement support
                                         through Placement Drives, Premium access to the Job portal &amp; Personalized Job
                                         Consulting</span>
@@ -6601,7 +6601,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
     </section>
     <section class="py-12 bg-gray-100 mx-auto px-4">
         <div class="max-w-7xl mx-auto">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize mt-4 mb-4"> Why
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize mt-4 mb-4"> Why
                 Kazumi Japanese &amp; Culture 文化 School?
             </h2>
             <div class="py-8">
@@ -6612,7 +6612,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789102Trainerteaching.jpg"
                                 loading="lazy " alt="wwww">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Native Japanese Trainers</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Native Japanese Trainers</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Learn from certified, highly 経験豊富 (keiken hōfu) and 情熱的な
                             (jōnetsu-teki na) faculties.</p>
                     </div>
@@ -6621,7 +6621,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789154examsheet.jpg"
                                 loading="lazy " alt="course">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">JLPT Intensive Course</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">JLPT Intensive Course</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Excel in the JLPT with our 専門的な (Senmon-teki na)
                             modules, mock tests, personalized coaching, and JLPT-focused materials sourced directly from
                             Japan.</p>
@@ -6631,7 +6631,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881317elearning.jpg"
                                 loading="lazy " alt="access">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Access to E-learning Portal</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Access to E-learning Portal</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Kazumi partners with <span>
                                 <a href="https://examopedia.com/"
                                     class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
@@ -6647,7 +6647,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789196OccupationalPrograms.jpg"
                                 loading="lazy " alt="offer">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Japanese Occupational Courses</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Japanese Occupational Courses</h3>
                         <p class="text-gray-700 text-[14px] mt-2">At Kazumi, we offer programs that will help you build
                             corporate, business and 職場 (shokuba) skills required to secure good 仕事 (shigoto)
                             internationally.</p>
@@ -6657,7 +6657,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774339talking.jpg"
                                 loading="lazy " alt="">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Internship for Japanese Language</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Internship for Japanese Language</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Kazumi provides Internship Support via
                             <span><a href="https://yuvaintern.com//"
                                     class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
@@ -6674,7 +6674,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881283study.jpg" loading="lazy "
                                 alt="study">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Study Abroad &amp; Recruitment Services</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Study Abroad &amp; Recruitment Services</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Kazumi offers study abroad and 就職支援 (Shūshoku Shien) via
                             <a href="https://leochase.com/"
                                 class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
@@ -6688,7 +6688,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881176agota2.jpg" loading="lazy "
                                 alt="Unique">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Unique 10 in 1 Program: Agota™ Framework</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Unique 10 in 1 Program: Agota™ Framework</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Learn through innovative teaching methods that make
                             learning easy and 実践的 (Jissen-teki). This framework essentially promotes the 能力 (Nōryoku)
                             development and キャリア (Kyaria) development.</p>
@@ -6698,7 +6698,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789015orconnections.jpg"
                                 loading="lazy " alt="globle">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Global Presence</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Global Presence</h3>
                         <p class="text-gray-700 text-[14px] mt-2">With offices in 4+ countries, UK, USA, Middle East, and
                             India, Kazumi is a global brand, offering a global learning 環境 (kankyō), with around 1200+
                             international 学生 (gakusei).</p>
@@ -6708,7 +6708,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774903Network.jpg"
                                 loading="lazy " alt="international">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">International Alumni Network</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">International Alumni Network</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Join a diverse コミュニティ(Komyuniti) of learners and
                             professionals from around the world.</p>
                     </div>
@@ -6717,7 +6717,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774206culture.jpg"
                                 loading="lazy " alt="culture two">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Cultural Training</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Cultural Training</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Explore 伝統 (Dentō), etiquettes, festivals, and practices
                             used in an authentic environment.</p>
                     </div>
@@ -6777,22 +6777,22 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
             <div>
                 <h3 class="text-white font-semibold border-b border-gray-600 pb-1 mb-3">USEFUL PAGES</h3>
                 <ul class="space-y-2 text-gray-400 text-sm">
-                    <li><a href="/about-us" class="hover:text-red-500">Knowing Kazumi</a></li>
+                    <li><a href="/about-us" class="hover:text-orange-500">Knowing Kazumi</a></li>
 
-                    <li><a href="https://yuvaintern.com/" class="hover:text-red-500">Internship</a></li>
+                    <li><a href="https://yuvaintern.com/" class="hover:text-orange-500">Internship</a></li>
 
-                    <li><a href="https://www.henryharvin.com/pay-fee" class="hover:text-red-500">Online Payment</a></li>
-                    <li><a href="https://www.henryharvin.com/request-certificate" class="hover:text-red-500">Request
+                    <li><a href="https://www.henryharvin.com/pay-fee" class="hover:text-orange-500">Online Payment</a></li>
+                    <li><a href="https://www.henryharvin.com/request-certificate" class="hover:text-orange-500">Request
                             Certificate</a></li>
                 </ul>
             </div>
             <div>
-                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mb-3">Henry Harvin® America Head
+                <h3 class="text-orange-600 font-semibold border-b border-gray-600 pb-1 mb-3">Henry Harvin® America Head
                     Office</h3>
                 <p class="text-white text-sm mb-2">Henry Harvin® Inc</p>
                 <p class="text-white text-sm">8 The Green, # 19614 Dover, DE 19901, United States.</a></p>
                 <p class="text-white text-sm">Phone: +1 209 382 3469</p>
-                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mt-4 mb-3">Henry Harvin® Asia
+                <h3 class="text-orange-600 font-semibold border-b border-gray-600 pb-1 mt-4 mb-3">Henry Harvin® Asia
                     Pacific Office</h3>
                 <p class="text-white text-sm mb-2">Henry Harvin® India Education LLP Henry Harvin® House,
                 </p>
@@ -6800,17 +6800,17 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                 <p class="text-white text-sm">Phone: +91 989 957 7620</p>
             </div>
             <div>
-                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mb-3">Henry Harvin® Middle East
+                <h3 class="text-orange-600 font-semibold border-b border-gray-600 pb-1 mb-3">Henry Harvin® Middle East
                     Office</h3>
                 <p class="text-white text-sm mb-2">Henry Harvin® Co. L.L.C.</p>
                 <p class="text-white text-sm">2703, Blue Matrix, 27th floor The Prime Tower, Business Bay, Dubai,
                     UAE</a></p>
                 <p class="text-white text-sm">Phone: +971 566 697 936</p>
                 <a class="bg-white py-1 px-3 text-[#3d0561] text-[11px] mt-1 flex items-center w-fit block cursor-pointer rounded-lg"
-                    href="https://henryharvin.ae/"><i class="fa fa-globe animate-pulse pr-2 text-[16px] text-red-600"
+                    href="https://henryharvin.ae/"><i class="fa fa-globe animate-pulse pr-2 text-[16px] text-orange-600"
                         aria-hidden="true"></i>Website</a>
 
-                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1 mt-4 mb-3">Henry Harvin® United
+                <h3 class="text-orange-600 font-semibold border-b border-gray-600 pb-1 mt-4 mb-3">Henry Harvin® United
                     Kingdom Office</h3>
                 <p class="text-white text-sm mb-2">Henry Harvin® Limited</p>
                 <p class="text-white text-sm">Office No: 71-75, Shelton Street, Covent Garden, London, WC2H 9JQ</a></p>
@@ -6885,14 +6885,14 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
         <div class="max-w-7xl mx-auto px-4 mt-4 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
             <div class="flex justify-center space-x-4 mb-4">
                 <a href="cancellation-&-refund-policy"
-                    class="text-red-700 font-[600] text-[14px] font-semibold">Cancellation & Refund Policy</a>
+                    class="text-orange-700 font-[600] text-[14px] font-semibold">Cancellation & Refund Policy</a>
                 <span>|</span>
-                <a href="terms-&-conditions" class="text-red-700 font-[600] text-[14px] font-semibold">Terms &
+                <a href="terms-&-conditions" class="text-orange-700 font-[600] text-[14px] font-semibold">Terms &
                     Conditions</a>
                 <span>|</span>
-                <a href="privacy-policy" class="text-red-700 font-[600]">Privacy Policy</a>
+                <a href="privacy-policy" class="text-orange-700 font-[600]">Privacy Policy</a>
                 <span>|</span>
-                <a href="contact-us" class="text-red-700 font-[600]">Customer Service</a>
+                <a href="contact-us" class="text-orange-700 font-[600]">Customer Service</a>
             </div>
             <p class="mb-6">&copy; 2025, Kazumi Japanese & Culture School by Henry Harvin®, All Rights Reserved<br>We operate
                 globally as a proud subsidiary of Henry Harvin® Education.</p>
@@ -6902,9 +6902,9 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
 <div id="authentication-modal" tabindex="-1" aria-hidden="true"
     class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
     <div class="relative p-4 w-full max-w-md max-h-full">
-        <div class="relative bg-white rounded-lg border-2 border-red-600 shadow">
+        <div class="relative bg-white rounded-lg border-2 border-orange-600 shadow">
             <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
-                <h3 class="text-[24px] font-[600] text-red-600">
+                <h3 class="text-[24px] font-[600] text-orange-600">
                     Apply Now
                 </h3>
                 <button type="button"
@@ -6920,24 +6920,24 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
             </div>
             <form class="p-4 md:p-5 space-y-4" action="https://kazumischool.com/admin/lead" method="POST">
                 <input type="hidden" name="_token" value="ANCwPTXVHuSigEwiFTE3Tzjh0zcCh0voRQsIfHFk">                <div>
-                    <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
+                    <label for="name" class="block text-sm mb-1 font-[600] text-orange-600">Name</label>
                     <input type="text" name="name" id="name" placeholder="Name" required
-                        class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
-                    <span id="name_error3" class="text-red-500 text-xs"></span>
+                        class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
+                    <span id="name_error3" class="text-orange-500 text-xs"></span>
                 </div>
 
                 <div>
-                    <label for="email" class="block text-sm mb-1 font-[600] text-red-600">Email</label>
+                    <label for="email" class="block text-sm mb-1 font-[600] text-orange-600">Email</label>
                     <input type="email" name="email" id="email" placeholder="Email" required
-                        class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
-                    <span id="email_error3" class="text-red-500 text-xs"></span>
+                        class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
+                    <span id="email_error3" class="text-orange-500 text-xs"></span>
                 </div>
 
                 <div>
-                    <label for="countryCode" class="block text-sm mb-1 font-[600] text-red-600">Country Code</label>
+                    <label for="countryCode" class="block text-sm mb-1 font-[600] text-orange-600">Country Code</label>
                     <div class="flex gap-2">
                         <select name="countryCode"
-                            class="w-4/12 bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-2.5">
+                            class="w-4/12 bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg p-2.5">
                             <option value="IN" value="+91" selected="">(+91)</option>
                             <option value="PK" value="+92">Pakistan (+92)</option>
                             <option value="US" value="+1">USA (+1)</option>
@@ -7169,9 +7169,9 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                             <option value="ZW" value="+263">Zimbabwe (+263)</option>
                         </select>
                         <input type="number" name="sendto" placeholder="Mobile no *"
-                            class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
+                            class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
                     </div>
-                    <span id="phone_error3" class="text-red-500 text-xs"></span>
+                    <span id="phone_error3" class="text-orange-500 text-xs"></span>
                 </div>
                 <input type="hidden" name="source" class="textbox" value="KAZUMI WEBSITE" placeholder="" />
                 <input type="hidden" name="lead_source_page_url" class="textbox" value="https://kazumischool.com/japanese-language-classes"
@@ -7179,7 +7179,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                 <input type="hidden" name="slug" value="contact-us">
                 <div class="flex justify-center pt-3">
                     <button type="submit" id="submit_ty"
-                        class="bg-red-600 text-white py-2 px-4 text-lg rounded-md">Submit</button>
+                        class="bg-orange-600 text-white py-2 px-4 text-lg rounded-md">Submit</button>
                 </div>
             </form>
         </div>
@@ -7230,7 +7230,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
     <div
         class="relative w-md max-w-2xl max-h-full rounded-lg rid h-auto w-10/12 grid-flow-row gap-2 rounded-md shadow-sm md:grid-cols-2 bg-[#fff]">
         <div class="grid h-auto items-center place-items-center grid-flow-row gap-2  md:grid-cols-2">
-            <div class="ml-3 rounded-md bg-red-600 px-3 py-5">
+            <div class="ml-3 rounded-md bg-orange-600 px-3 py-5">
                 <div class="flex items-center justify-center">
                     <img class="img-chat"
                         src="https://cdn.henryharvin.com/16724655811672465581ezgif.com-gif-maker(80).webp"
@@ -7244,7 +7244,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
             </div>
             <div class="px-4">
                 <div class="flex items-center justify-between p-4 md:p-2 border-b rounded-t">
-                    <h3 class="text-[20px] font-[600] text-red-600">
+                    <h3 class="text-[20px] font-[600] text-orange-600">
                         Apply Now
                     </h3>
                     <button type="button"
@@ -7260,25 +7260,25 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                 </div>
                 <form class="p-4 md:p-2 space-y-1" action="https://kazumischool.com/admin/lead" method="POST">
                     <input type="hidden" name="_token" value="ANCwPTXVHuSigEwiFTE3Tzjh0zcCh0voRQsIfHFk">                    <div>
-                        <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
+                        <label for="name" class="block text-sm mb-1 font-[600] text-orange-600">Name</label>
                         <input type="text" name="name" id="name" placeholder="Name" required
-                            class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1.5">
-                        <span id="name_error3" class="text-red-500 text-xs"></span>
+                            class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1.5">
+                        <span id="name_error3" class="text-orange-500 text-xs"></span>
                     </div>
 
                     <div>
-                        <label for="email" class="block text-sm mb-1 font-[600] text-red-600">Email</label>
+                        <label for="email" class="block text-sm mb-1 font-[600] text-orange-600">Email</label>
                         <input type="email" name="email" id="email" placeholder="Email" required
-                            class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1.5">
-                        <span id="email_error3" class="text-red-500 text-xs"></span>
+                            class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1.5">
+                        <span id="email_error3" class="text-orange-500 text-xs"></span>
                     </div>
 
                     <div>
-                        <label for="countryCode" class="block text-sm mb-1 font-[600] text-red-600">Country
+                        <label for="countryCode" class="block text-sm mb-1 font-[600] text-orange-600">Country
                             Code</label>
                         <div class="flex gap-2">
                             <select name="countryCode"
-                                class="w-4/12 bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-1.5">
+                                class="w-4/12 bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg p-1.5">
                                 <option value="IN" value="+91" selected="">(+91)</option>
                                 <option value="PK" value="+92">Pakistan (+92)</option>
                                 <option value="US" value="+1">USA (+1)</option>
@@ -7511,9 +7511,9 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
                                 <option value="ZW" value="+263">Zimbabwe (+263)</option>
                             </select>
                             <input type="number" name="sendto" placeholder="Mobile no *"
-                                class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1.5">
+                                class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1.5">
                         </div>
-                        <span id="phone_error3" class="text-red-500 text-xs"></span>
+                        <span id="phone_error3" class="text-orange-500 text-xs"></span>
                     </div>
                     <input type="hidden" name="source" class="textbox" value="KAZUMI WEBSITE"
                         placeholder="" />
@@ -7523,7 +7523,7 @@ Take JLPT to practise exams based on actual exam formats.&amp;nbsp;
 
                     <div class="flex justify-center pt-2">
                         <button type="submit" id="submit_ty2"
-                            class="bg-red-600 text-white py-1 px-4 text-lg rounded-md">Submit</button>
+                            class="bg-orange-600 text-white py-1 px-4 text-lg rounded-md">Submit</button>
                     </div>
                 </form>
             </div>

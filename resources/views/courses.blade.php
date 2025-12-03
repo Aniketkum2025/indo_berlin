@@ -69,14 +69,14 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
             <div class="bg-black bg-opacity-70">
                 <div class="relative z-10 grid md:flex py-2 gap-6 justify-center items-center h-full text-center">
                     <div class="md:w-7/12 w-full bg-[#0e0e0ead] p-4 rounded-md space-y-4 text-left">
-                        <h1 class="text-[26px] md:text-[32px] font-[500] text-red-600">{{ $course->course_name }}
+                        <h1 class="text-[26px] md:text-[32px] font-[500] text-orange-600">{{ $course->course_name }}
                         </h1>
                         <div class="flex space-x-4 mb-8 items-center ">
                             <a data-modal-target="course-modal" data-modal-toggle="course-modal" type="button"
-                                class="cursor-pointer bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600" onclick="openApplyNowModal()">Apply
+                                class="cursor-pointer bg-orange-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-orange-600" onclick="openApplyNowModal()">Apply
                                 Now</a>
                             <a data-modal-target="course-modal" data-modal-toggle="course-modal" type="button"
-                                class="cursor-pointer bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600" onclick="openDownloadBrochureModal()">DOWNLOAD BROCHURE</a>
+                                class="cursor-pointer bg-orange-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-orange-600" onclick="openDownloadBrochureModal()">DOWNLOAD BROCHURE</a>
                         </div>
                         {{-- <div class="">
                             <p class="text-white text-[16px] font-[400] mb-2"> Henry Harvin® Ranks #1 for Language
@@ -87,11 +87,11 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         </div> --}}
                         <div id="countryPrice" class="grid grid-cols-1 mt-4 lg:gap-2 gap-4">
                             <div class="w-full">
-                                <span class="text-[16px] font-[600] text-red-600">Starts In {{$batchDay}} day(s)</span>
-                                <span class="font-[800] text-[16px] mt-1 text-red-600">{{$batchDate}}</span>
+                                <span class="text-[16px] font-[600] text-orange-600">Starts In {{$batchDay}} day(s)</span>
+                                <span class="font-[800] text-[16px] mt-1 text-orange-600">{{$batchDate}}</span>
                             </div>
                         </div>
-                        <div class="text-red-600 text-[20px] flex flex-col space-y-2">
+                        <div class="text-orange-600 text-[20px] flex flex-col space-y-2">
                             <p class="font-[600]">
                                 <a href="https://www.forbesindia.com/article/brand-connect/henry-harvin-reviews-485-across-the-web/94745/1" class="cursor-pointer flex items-center gap-1 text-[14px] md:text-[18px]"
                                     ><span
@@ -99,7 +99,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                                     Henry Harvin <span class="text-white font-semibold">4.8 / 5</span>
                                 <span class="flex justify-center items-center gap-1"> <img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393394str.webp" alt="ds"><img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393394str.webp" alt="ds"><img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393394str.webp" alt="ds"><img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393394str.webp" alt="ds"><img class="md:h-4 h-3" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1733393679strh.webp" alt="ds"></span>
                                 </a></p>
-                            <p class="text-white text-[16px]"><span class="text-red-600">★ {{$course->course_rating}}/5</span> • {{$course->course_number_of_reviews}}
+                            <p class="text-white text-[16px]"><span class="text-orange-600">★ {{$course->course_rating}}/5</span> • {{$course->course_number_of_reviews}}
                                 Learners
                             </p>
                         </div>
@@ -108,10 +108,10 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         </div>
                     </div>
                     <div class="md:w-4/12 w-full md:px-0 px-4 ">
-                        <div class="relative bg-white rounded-lg border-2 border-red-600 shadow mb-2">
+                        <div class="relative bg-white rounded-lg border-2 border-orange-600 shadow mb-2">
                             <!-- Modal header -->
                             <div class="flex items-center justify-between px-4 py-2 border-b rounded-t">
-                                <h3 class="text-[20px] font-[600] text-red-600 text-center">
+                                <h3 class="text-[20px] font-[600] text-orange-600 text-center">
                                     Book a Live Class
                                 </h3>
 
@@ -121,24 +121,24 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                             <form class="p-2 md:p-2 space-y-2 text-left" action="{{ route('lead.store') }}" method="POST">
                                 @csrf
                                 <div>
-                                    <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
+                                    <label for="name" class="block text-sm mb-1 font-[600] text-orange-600">Name</label>
                                     <input type="text" name="name" id="name" placeholder="Name" required=""
-                                        class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
-                                    <span id="name_error3" class="text-red-500 text-xs"></span>
+                                        class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                                    <span id="name_error3" class="text-orange-500 text-xs"></span>
                                 </div>
 
                                 <div>
-                                    <label for="email" class="block text-sm mb-1 font-[600] text-red-600">Email</label>
+                                    <label for="email" class="block text-sm mb-1 font-[600] text-orange-600">Email</label>
                                     <input type="email" name="email" id="email" placeholder="Email" required=""
-                                        class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
-                                    <span id="email_error3" class="text-red-500 text-xs"></span>
+                                        class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                                    <span id="email_error3" class="text-orange-500 text-xs"></span>
                                 </div>
 
                                 <div>
-                                    <label for="countryCode" class="block text-sm mb-1 font-[600] text-red-600">Country
+                                    <label for="countryCode" class="block text-sm mb-1 font-[600] text-orange-600">Country
                                         Code</label>
                                     <div class="flex gap-2">
-                                    <select name="countryCode" class="w-4/12 bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-1">
+                                    <select name="countryCode" class="w-4/12 bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg p-1">
                                         <option value="IN" value="+91" selected="">(+91)</option>
                                         <option value="PK" value="+92">Pakistan (+92)</option>
                                         <option value="US" value="+1">USA (+1)</option>
@@ -369,9 +369,9 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                                         <option value="ZW" value="+263">Zimbabwe (+263)</option>
                                     </select>
                                         <input type="number" name="sendto" placeholder="Mobile no *"
-                                            class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                                            class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1">
                                     </div>
-                                    <span id="phone_error3" class="text-red-500 text-xs"></span>
+                                    <span id="phone_error3" class="text-orange-500 text-xs"></span>
                                 </div>
 
                                 <input type="hidden" name="description2" class="textbox" value="{{$course->course_title}}" placeholder="" id="">
@@ -399,7 +399,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
 
                                 <div class="flex justify-center pt-2">
                                     <button type="submit"
-                                        class="bg-red-600 text-white px-2 py-1 text-lg rounded-md">Submit</button>
+                                        class="bg-orange-600 text-white px-2 py-1 text-lg rounded-md">Submit</button>
                                 </div>
                             </form>
 
@@ -526,7 +526,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
     </section>
     <section class="py-12 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Accreditations
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">Accreditations
                 & Affiliations
             </h2>
             <div class="swiper linearswiper">
@@ -559,7 +559,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                 <div class="swiper-wrapper">
                     @foreach ($chunk as $rev)
                     <div class="mt-4 swiper-slide">
-                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-red-600">
+                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-orange-600">
                             <div class="flex justify-between items-center">
                                 <div>
                                     <img loading="lazy" class="h-14 w-14 rounded-full" src="{{urldecode($rev->image)}}" onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' alt="images78" loading="lazy" />
@@ -588,7 +588,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
 
     {{-- <section class="py-12 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Hear from our
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">Hear from our
             learners about their experience
             </h2>
             <div class="relative">
@@ -610,7 +610,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
     </section>    --}}
 
     <section id="videoGrid" class="py-12 px-4">
-         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Hear from our
+         <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">Hear from our
             learners about their experience
         </h2>
         <div class="relative max-w-7xl mx-auto">
@@ -819,7 +819,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
             <div class="md:col-span-2">
                 @if($feat->count() > 0)
                 <div>
-                    <h3 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Key Highlights
+                    <h3 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize">Key Highlights
                     </h3>
                     <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mx-auto gap-2">
                         @foreach($feat as $item)
@@ -830,7 +830,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                                             src="{{$item->keyfeatures_image}}"
                                             alt="images">
                                     </div>
-                                    <h4 class="w-9/12 text-[14px] font-medium text-red-700 italic">{{$item->keyfeatures_title}}</h4>
+                                    <h4 class="w-9/12 text-[14px] font-medium text-orange-700 italic">{{$item->keyfeatures_title}}</h4>
                                 </div>
                             </div>
                         @endforeach
@@ -840,18 +840,18 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
 
                 <div class="mt-4 mb-4 mx-auto text-center">
                     @if($course->why_us && $course->why_us !='' && $course->why_us != 'null')
-                    <a href="{{$course->why_us}}" target="_blank" rel="noopener noreferrer"  class="bg-red-600 block w-fit mx-auto mt-2 hover:bg-white text-white hover:text-red-600 text-sm md:text-lg font-medium text-center border-[1px] border-red-600 py-[12px] px-[45px] rounded-[3px]" style="border: 2px solid red; border-radius: 5px;">Why Henry Harvin?</a>
+                    <a href="{{$course->why_us}}" target="_blank" rel="noopener noreferrer"  class="bg-orange-600 block w-fit mx-auto mt-2 hover:bg-white text-white hover:text-orange-600 text-sm md:text-lg font-medium text-center border-[1px] border-orange-600 py-[12px] px-[45px] rounded-[3px]" style="border: 2px solid red; border-radius: 5px;">Why Henry Harvin?</a>
                     @endif
                 </div>
 
-                <div class="md:px-4 p-3 border-2 border-red-700 mt-6">
-                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">About
+                <div class="md:px-4 p-3 border-2 border-orange-700 mt-6">
+                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">About
                         {{ $course->course_name }}
                     </h2>
                     <div class="custome prose prose-sm mt-4 max-w-none mx-auto 
                             prose-strong:text-[13px] prose-strong:font-[500]
-                            prose-strong:text-[#da2028] prose-strong:font-[600]
-                            prose-h2:text-red-700 prose-h3:text-red-700 prose-h4:text-red-700
+                            prose-strong:text-orange-600 prose-strong:font-[600]
+                            prose-h2:text-orange-700 prose-h3:text-orange-700 prose-h4:text-orange-700
                             prose-h2:text-[16px] prose-h3:text-[18px] prose-h4:text-[16px]
                             prose-h2:font-[600] prose-h3:font-bold prose-h4:font-[600]
                             prose-p:text-white prose-p:font-[500] prose-p:text-[16px]
@@ -864,7 +864,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         @endforeach
                     </div>
                     <button class="relative  mx-auto flex items-center text-white mt-4">
-                        <span class="rounded-md bg-red-700 px-4 py-2" style="width: 142px; padding: 11px 29px 11px 0px;"
+                        <span class="rounded-md bg-orange-700 px-4 py-2" style="width: 142px; padding: 11px 29px 11px 0px;"
                             id="toggleButton" onclick="toggleText()">Show More</span>
                         <span class="mx-auto rounded-md h-full am-am animate-bounceVertical pl-2 absolute right-2 z-20"
                             style="pointer-events: none; right:10px; top:6px;">
@@ -874,13 +874,13 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                 </div>
                 
                 <div class="text-center py-10">
-                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Our
+                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">Our
                         Placement Stats </h2>
                     <div class="grid md:grid-cols-3 grid-cols-1 gap-4 mt-4 mb-4">
                         <div class="shadow-md rounded-md py-4">
                             <div class="mx-4">
                                 <span class="flex items-center gap-2 py-[10px] h-14">
-                                    <span class="text-[28px] font-[600]  text-red-600">{{$course->avg_salary_hike}}</span>
+                                    <span class="text-[28px] font-[600]  text-orange-600">{{$course->avg_salary_hike}}</span>
                                     <img class="h-4"
                                         src="https://hh-certificates.sgp1.cdn.digitaloceanspaces.com/images/1706523530progressnew.svg"
                                         alt="images38" loading="lazy">
@@ -891,7 +891,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         <div class="shadow-md rounded-md py-4">
                             <div class="mx-8">
                                 <span class="flex items-center gap-2 py-[10px] h-14">
-                                    <span class="text-[28px] font-[600] text-red-600">{{$course->hiring_partners}}</span>
+                                    <span class="text-[28px] font-[600] text-orange-600">{{$course->hiring_partners}}</span>
                                 </span>
                                 <p class="text-sm font-semibold mt-2 text-[#51565e]">Access the best jobs in industry</p>
                             </div>
@@ -899,7 +899,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         <div class="shadow-md rounded-md py-4">
                             <div class="mx-8">
                                 <span class="flex items-center gap-2 py-[10px] h-14">
-                                    <span class="text-[28px] font-[600] text-red-600">{{$course->max_salary_hike}}</span>
+                                    <span class="text-[28px] font-[600] text-orange-600">{{$course->max_salary_hike}}</span>
                                     <img class="h-6"
                                         src="https://hh-certificates.sgp1.cdn.digitaloceanspaces.com/images/1706523530progressnew.svg"
                                         alt="images39" loading="lazy">
@@ -911,12 +911,12 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                 </div>
                 
                 <div class="">
-                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">{{ $course->course_name }} Curriculum</h2>
+                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize">{{ $course->course_name }} Curriculum</h2>
 
                     <ul class="flex flex-col max-w-5xl mx-auto space-y-3">
 
                         @foreach ($module as $mod)
-                            <li class="bg-red-600 shadow-lg rounded" x-data="{ open: false }">
+                            <li class="bg-orange-600 shadow-lg rounded" x-data="{ open: false }">
                                 <h3 @click="open = !open"
                                     class="flex text-white justify-between items-center font-semibold px-4 py-4 cursor-pointer">
                                     <div class="flex gap-2 items-center">
@@ -950,10 +950,10 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
             </div>
             <div class="relative">
                 <div class="lg:w-12/12 sticky top-4 md:top-[70px]">
-                    <div class="relative bg-white rounded-lg border-2 border-red-600 shadow mb-2">
+                    <div class="relative bg-white rounded-lg border-2 border-orange-600 shadow mb-2">
                         <!-- Modal header -->
                         <div class="flex items-center justify-between px-4 py-2 border-b rounded-t">
-                            <h3 class="text-[20px] font-[600] text-red-600 text-center">
+                            <h3 class="text-[20px] font-[600] text-orange-600 text-center">
                                 Book a Live Class
                             </h3>
 
@@ -963,26 +963,26 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         <form class="p-2 md:p-2 space-y-2" action="{{ route('lead.store') }}" method="POST">
                             @csrf
                             <div>
-                                <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
+                                <label for="name" class="block text-sm mb-1 font-[600] text-orange-600">Name</label>
                                 <input type="text" name="name" id="name" placeholder="Name"
                                     required=""
-                                    class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
-                                <span id="name_error3" class="text-red-500 text-xs"></span>
+                                    class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                                <span id="name_error3" class="text-orange-500 text-xs"></span>
                             </div>
 
                             <div>
-                                <label for="email" class="block text-sm mb-1 font-[600] text-red-600">Email</label>
+                                <label for="email" class="block text-sm mb-1 font-[600] text-orange-600">Email</label>
                                 <input type="email" name="email" id="email" placeholder="Email"
                                     required=""
-                                    class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
-                                <span id="email_error3" class="text-red-500 text-xs"></span>
+                                    class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                                <span id="email_error3" class="text-orange-500 text-xs"></span>
                             </div>
 
                             <div>
-                                <label for="countryCode" class="block text-sm mb-1 font-[600] text-red-600">Country
+                                <label for="countryCode" class="block text-sm mb-1 font-[600] text-orange-600">Country
                                     Code</label>
                                 <div class="flex gap-2">
-                                    <select name="countryCode" class="w-4/12 bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-1">
+                                    <select name="countryCode" class="w-4/12 bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg p-1">
                                         <option value="IN" value="+91" selected="">(+91)</option>
                                         <option value="PK" value="+92">Pakistan (+92)</option>
                                         <option value="US" value="+1">USA (+1)</option>
@@ -1213,9 +1213,9 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                                         <option value="ZW" value="+263">Zimbabwe (+263)</option>
                                     </select>
                                     <input type="number" name="sendto" placeholder="Mobile no *"
-                                        class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                                        class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1">
                                 </div>
-                                <span id="phone_error3" class="text-red-500 text-xs"></span>
+                                <span id="phone_error3" class="text-orange-500 text-xs"></span>
                             </div>
 
                             <input type="hidden" name="description2" class="textbox" value="{{$course->course_title}}" placeholder="" id="">
@@ -1243,7 +1243,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
 
                             <div class="flex justify-center pt-2">
                                 <button type="submit"
-                                    class="bg-red-600 text-white px-2 py-1 text-lg rounded-md">Submit</button>
+                                    class="bg-orange-600 text-white px-2 py-1 text-lg rounded-md">Submit</button>
                             </div>
                         </form>
 
@@ -1273,7 +1273,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
     </section>
     <section class="py-12">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Certifications</h2>
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize">Certifications</h2>
 
             <h3 class="md:text-[24px] text-[20px] text-[#212529] font-[600] pb-4 mt-2">Get Ahead with Henry Harvin® {{$course->course_name}} {{ $tested_slug_city ?? '' }} @if($course->slug =='lean-six-sigma-green-belt-certification' || $course->slug =='lean-six-sigma-black-belt-certification') Training @else Certification @endif</h3>
             <div class="mb-2">
@@ -1330,12 +1330,12 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
     @if($skills->count() > 0)
     <section class="py-12">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Skills Covered</h2>
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize">Skills Covered</h2>
             <div class="grid md:grid-cols-3 gap-4">
                 @foreach ($skills as $sk)
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">{{$sk->skill}}</p>
                 </div>
                @endforeach
@@ -1346,12 +1346,12 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
     @if(isset($jobprofiles) && $jobprofiles->count() > 0)
     <section class="py-12">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Job Profiles</h2>
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize">Job Profiles</h2>
             <div class="grid md:grid-cols-3 gap-4">
                 @foreach ($jobprofiles as $jp)
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">{{$jp->jobprofile}}</p>
                 </div>
                 @endforeach
@@ -1361,7 +1361,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
     @endif
     <section class="py-12 bg-gray-50">
         <div class="max-w-6xl mx-auto px-4">
-            <h3 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Frequently Asked Questions</h3>
+            <h3 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize">Frequently Asked Questions</h3>
             <div class="my-6">
                 <ul class="flex flex-col border-2 shadow-lg" x-data="{ selected: null }">
                     <!-- FAQ Item 1 -->
@@ -1371,7 +1371,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         @if($index < 5) 
                         <li class="bg-white border-b">
                             <h4 @click="selected !== {{$faq->id}} ? selected = {{$faq->id}} : selected = null"
-                                class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                 <span>{{$faq->faq_question}}</span>
                                 <svg :class="selected === {{$faq->id}} ? 'rotate-180' : ''"
                                     class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -1379,7 +1379,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                                     <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                 </svg>
                             </h4>
-                            <div x-show="selected === {{$faq->id}}" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                            <div x-show="selected === {{$faq->id}}" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                 <p class="p-3 text-gray-900">
                                     {!!$faq->faq_answer!!}    
                                 </p>
@@ -1390,7 +1390,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         <div class="hidden collapseFaq">
                             <li class="bg-white border-b">
                                 <h4 @click="selected !== {{$faq->id}} ? selected = {{$faq->id}} : selected = null"
-                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                                    class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                                     <span>{{$faq->faq_question}}</span>
                                     <svg :class="selected === {{$faq->id}} ? 'rotate-180' : ''"
                                         class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -1398,7 +1398,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                                         <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                                     </svg>
                                 </h4>
-                                <div x-show="selected === {{$faq->id}}" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                                <div x-show="selected === {{$faq->id}}" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                                     <p class="p-3 text-gray-900">
                                         {!!$faq->faq_answer!!}    
                                     </p>
@@ -1420,10 +1420,10 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
 <div id="course-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
     <div class="relative p-4 w-full max-w-md max-h-full">
         <!-- Modal content -->
-        <div class="relative bg-white rounded-lg border-2 border-red-600 shadow">
+        <div class="relative bg-white rounded-lg border-2 border-orange-600 shadow">
             <!-- Modal header -->
             <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
-                <h5 class="text-[24px] font-[600] text-red-600" id="change-modal-text"></h5>
+                <h5 class="text-[24px] font-[600] text-orange-600" id="change-modal-text"></h5>
                 <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center" data-modal-hide="course-modal">
                     <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1l12 12M1 13L13 1"/>
@@ -1436,21 +1436,21 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
             <form class="p-4 md:p-5 space-y-4" action="{{ route('lead.store') }}" method="POST">
                 @csrf
                 <div>
-                    <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
-                    <input type="text" name="name" id="name" placeholder="Name" required class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
-                    <span id="name_error3" class="text-red-500 text-xs"></span>
+                    <label for="name" class="block text-sm mb-1 font-[600] text-orange-600">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Name" required class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
+                    <span id="name_error3" class="text-orange-500 text-xs"></span>
                 </div>
 
                 <div>
-                    <label for="email" class="block text-sm mb-1 font-[600] text-red-600">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Email" required class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
-                    <span id="email_error3" class="text-red-500 text-xs"></span>
+                    <label for="email" class="block text-sm mb-1 font-[600] text-orange-600">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
+                    <span id="email_error3" class="text-orange-500 text-xs"></span>
                 </div>
 
                 <div>
-                    <label for="countryCode" class="block text-sm mb-1 font-[600] text-red-600">Country Code</label>
+                    <label for="countryCode" class="block text-sm mb-1 font-[600] text-orange-600">Country Code</label>
                     <div class="flex gap-2">
-                        <select name="countryCode" class="w-4/12 bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-2.5">
+                        <select name="countryCode" class="w-4/12 bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg p-2.5">
                             <option value="IN" value="+91" selected="">(+91)</option>
                             <option value="PK" value="+92">Pakistan (+92)</option>
                             <option value="US" value="+1">USA (+1)</option>
@@ -1680,9 +1680,9 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                                 <option value="ZM" value="+260">Zambia (+260)</option>
                                 <option value="ZW" value="+263">Zimbabwe (+263)</option>
                         </select>
-                        <input type="number" name="sendto" placeholder="Mobile no *" class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
+                        <input type="number" name="sendto" placeholder="Mobile no *" class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
                     </div>
-                    <span id="phone_error3" class="text-red-500 text-xs"></span>
+                    <span id="phone_error3" class="text-orange-500 text-xs"></span>
                 </div>
 
                 <!-- Hidden Inputs -->
@@ -1710,7 +1710,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                 @endif
 
                 <div class="flex justify-center pt-3">
-                    <button type="submit" class="bg-red-600 text-white py-2 px-4 text-lg rounded-md">Submit</button>
+                    <button type="submit" class="bg-orange-600 text-white py-2 px-4 text-lg rounded-md">Submit</button>
                 </div>
             </form>
 
@@ -1735,7 +1735,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
     </section>
     <section class="py-12 mx-auto px-4">
         <div class="max-w-6xl mx-auto" bis_skin_checked="1">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-2 text-[#da2028] capitalize my-4">Agota™
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-2 text-orange-600 capitalize my-4">Agota™
                 Framework
             </h2>
             <p class="text-[16px] text-gray-800 font-[600] text-center">AGOTA™ Framework is a trajectory that offers
@@ -1751,7 +1751,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">1: Training
+                                <p class="col-span-2 text-orange-600">1: Training
                                     <span class="block text-[12px] text-gray-800 font-[600]">144 Hours of Two-Way Live
                                         Online Interactive Sessions</span>
                                 </p>
@@ -1776,7 +1776,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">2: Projects
+                                <p class="col-span-2 text-orange-600">2: Projects
                                     <span class="block text-[12px] text-gray-800 font-[600]"> Facility to undergo projects
                                         along with the course</span>
                                 </p>
@@ -1803,7 +1803,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">3: Student Engagement &amp; Events
+                                <p class="col-span-2 text-orange-600">3: Student Engagement &amp; Events
                                     <span class="block text-[12px] text-gray-800 font-[600]"> Free Access to #AskHenry
                                         Hackathons and Competitions &amp; many other facilities from Henry Harvin®</span>
                                 </p>
@@ -1828,7 +1828,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">4: Masterclass
+                                <p class="col-span-2 text-orange-600">4: Masterclass
                                     <span class="block text-[12px] text-gray-800 font-[600]">Access to 52+ Masterclass
                                         Sessions for essential soft スキル (Sukiru) development</span>
                                 </p>
@@ -1855,7 +1855,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">5: Membership
+                                <p class="col-span-2 text-orange-600">5: Membership
                                     <span class="block text-[12px] text-gray-800 font-[600]"> 30 Months Gold Membership of
                                         Henry Harvin® School of Languages</span>
                                 </p>
@@ -1877,7 +1877,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">6: E-Learning Access
+                                <p class="col-span-2 text-orange-600">6: E-Learning Access
                                     <span class="block text-[12px] text-gray-800 font-[600]">Get free access to the LMS
                                         having PPTs, projects, self-paced video-based learning, library, quizzes, question
                                         bank, practice tests, final assessments, and a forum, powered by
@@ -1915,7 +1915,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">7: 特徴 (Tokuchō) Certification + License
+                                <p class="col-span-2 text-orange-600">7: 特徴 (Tokuchō) Certification + License
                                     <span class="block text-[12px] text-gray-800 font-[600]">Distinguish your profile with
                                         global credentials and showcase expertise with our 特徴 (Tokuchō) Completion
                                         certificate with Professional License</span>
@@ -1941,7 +1941,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">8: Internship Support
+                                <p class="col-span-2 text-orange-600">8: Internship Support
                                     <span class="block text-[12px] text-gray-800 font-[600]">Get Internship Support with
                                         Henry Harvin® and in top MNCs like J.P. Morgan, Accenture &amp; many more via 100X
                                         Suite and
@@ -1973,7 +1973,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">9: Entrepreneurship Mentorship
+                                <p class="col-span-2 text-orange-600">9: Entrepreneurship Mentorship
                                     <span class="block text-[12px] text-gray-800 font-[600]">Mentorship from Young
                                         Successful Entrepreneurs to set up a sustainable &amp; scalable Business from
                                         scratch at both Freelance &amp; Entrepreneur level</span>
@@ -1997,7 +1997,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">10: Placement Support
+                                <p class="col-span-2 text-orange-600">10: Placement Support
                                     <span class="block text-[12px] text-gray-800 font-[600]">Get 3 in 1 Placement support
                                         through Placement Drives, Premium access to the Job portal &amp; Personalized Job
                                         Consulting</span>
@@ -2031,7 +2031,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
     </section>
     <section class="py-12 bg-gray-100 mx-auto px-4">
         <div class="max-w-7xl mx-auto">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize mt-4 mb-4"> Why
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize mt-4 mb-4"> Why
                 Kazumi Japanese &amp; Culture 文化 School?
             </h2>
             <div class="py-8">
@@ -2042,7 +2042,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789102Trainerteaching.jpg"
                                 loading="lazy " alt="wwww">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Native Japanese Trainers</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Native Japanese Trainers</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Learn from certified, highly 経験豊富 (keiken hōfu) and 情熱的な
                             (jōnetsu-teki na) faculties.</p>
                     </div>
@@ -2051,7 +2051,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789154examsheet.jpg"
                                 loading="lazy " alt="course">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">JLPT Intensive Course</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">JLPT Intensive Course</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Excel in the JLPT with our 専門的な (Senmon-teki na)
                             modules, mock tests, personalized coaching, and JLPT-focused materials sourced directly from
                             Japan.</p>
@@ -2061,7 +2061,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881317elearning.jpg"
                                 loading="lazy " alt="access">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Access to E-learning Portal</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Access to E-learning Portal</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Kazumi partners with <span>
                                 <a href="https://examopedia.com/"
                                     class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
@@ -2077,7 +2077,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789196OccupationalPrograms.jpg"
                                 loading="lazy " alt="offer">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Japanese Occupational Courses</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Japanese Occupational Courses</h3>
                         <p class="text-gray-700 text-[14px] mt-2">At Kazumi, we offer programs that will help you build
                             corporate, business and 職場 (shokuba) skills required to secure good 仕事 (shigoto)
                             internationally.</p>
@@ -2087,7 +2087,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774339talking.jpg"
                                 loading="lazy " alt="">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Internship for Japanese Language</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Internship for Japanese Language</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Kazumi provides Internship Support via
                             <span><a href="https://yuvaintern.com//"
                                     class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
@@ -2104,7 +2104,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881283study.jpg" loading="lazy "
                                 alt="study">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Study Abroad &amp; Recruitment Services</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Study Abroad &amp; Recruitment Services</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Kazumi offers study abroad and 就職支援 (Shūshoku Shien) via
                             <a href="https://leochase.com/"
                                 class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
@@ -2118,7 +2118,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881176agota2.jpg" loading="lazy "
                                 alt="Unique">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Unique 10 in 1 Program: Agota™ Framework</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Unique 10 in 1 Program: Agota™ Framework</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Learn through innovative teaching methods that make
                             learning easy and 実践的 (Jissen-teki). This framework essentially promotes the 能力 (Nōryoku)
                             development and キャリア (Kyaria) development.</p>
@@ -2128,7 +2128,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789015orconnections.jpg"
                                 loading="lazy " alt="globle">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Global Presence</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Global Presence</h3>
                         <p class="text-gray-700 text-[14px] mt-2">With offices in 4+ countries, UK, USA, Middle East, and
                             India, Kazumi is a global brand, offering a global learning 環境 (kankyō), with around 1200+
                             international 学生 (gakusei).</p>
@@ -2138,7 +2138,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774903Network.jpg"
                                 loading="lazy " alt="international">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">International Alumni Network</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">International Alumni Network</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Join a diverse コミュニティ(Komyuniti) of learners and
                             professionals from around the world.</p>
                     </div>
@@ -2147,7 +2147,7 @@ $batchDate = \Carbon\Carbon::parse($course->batchDate)->format('d M Y');
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774206culture.jpg"
                                 loading="lazy " alt="culture two">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Cultural Training</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Cultural Training</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Explore 伝統 (Dentō), etiquettes, festivals, and practices
                             used in an authentic environment.</p>
                     </div>

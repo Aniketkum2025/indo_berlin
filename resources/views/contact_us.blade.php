@@ -5,7 +5,7 @@
     <section class="py-12 bg-gray-100 mx-auto px-4">
         <div class="max-w-7xl mx-auto">
             <h1 style="place-self: center;"
-                class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">
+                class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">
                 Henry Harvin® Course Inquiry
             </h1>
             <div class=" w-full" bis_skin_checked="1">
@@ -57,7 +57,7 @@
             </div>
 
             <h2 style="place-self: center;"
-                class="mt-2 text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">
+                class="mt-2 text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">
                 Henry Harvin® Customer Support
             </h2>
             <div class="w-full" bis_skin_checked="1">
@@ -110,34 +110,34 @@
     </section>
     <section class="py-12 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Our Presence
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">Our Presence
             </h2>
             <div class="grid lg:grid-cols-2 gap-5">
                 <div class="border bg-white lg:order-1 order-2 grid gap-6">
-                    <p class="bg-red-600 text-center text-white py-2 text-lg">Asia Pacific Offices</p>
+                    <p class="bg-orange-600 text-center text-white py-2 text-lg">Asia Pacific Offices</p>
                     <div class="md:grid-cols-2 shadow-xl grid grid-cols-1 gap-2 place-content-justify py-2">
                         <div class="w-full">
                             <div class="mt-2">
-                                <p class="ml-4 mb-1 font-[600] text-red-600 text-[14px]">Henry Harvin Asia Pacific Head
+                                <p class="ml-4 mb-1 font-[600] text-orange-600 text-[14px]">Henry Harvin Asia Pacific Head
                                     Office
                                 </p>
                                 <span class="flex mx-4 gap-4 mb-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Address:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Address:</p>
                                     <p class="text-[12px]">Henry Harvin House B-12 Sector-6 Noida (UP)- 201301</p>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Contact:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Contact:</p>
                                     <a href="tel: {{ config('app.inquiry.ind') }}"
                                         class="underline text-[12px] font-[600] text-[#007bff]">{{ config('app.inquiry.ind') }}</a>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Courses Offered:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Courses Offered:</p>
                                     <a href="https://www.henryharvin.com/our-courses"
                                         class="underline text-[12px] font-[600] text-[#007bff]">Click Here</a>
                                 </span>
                                 <a href="https://www.youtube.com/watch?v=NPYG6SVonek" target="_blank"
                                     rel="noopener noreferrer"
-                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-red-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
+                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-orange-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
                                     style="border:  1px solid #dadada;">
                                     <i class="fa fa-youtube-play text-[20px] text-[#4f2d7f]" style="color:#ce0909;"></i>
 
@@ -164,26 +164,26 @@
                     <div class="md:grid-cols-2 shadow-xl grid grid-cols-1 gap-2 place-content-justify py-2">
                         <div class="w-full">
                             <div class="">
-                                <p class="ml-4 mb-1 font-[600] text-red-600 text-[14px]">Henry Harvin Bangalore Regional
+                                <p class="ml-4 mb-1 font-[600] text-orange-600 text-[14px]">Henry Harvin Bangalore Regional
                                     Office</p>
                                 <span class="flex mx-4 gap-4 mb-2">
-                                    <p class="text-red-600 font-[400] text-[12px] ">Address:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px] ">Address:</p>
                                     <p class="text-[12px]">One.co work 2/3, 2nd floor, 80 feet Road, Sony world Junction,
                                         Koramangal, Above KFC, Bangalore 560095</p>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Contact:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Contact:</p>
                                     <a href="tel: {{ config('app.inquiry.ind') }}"
                                         class="underline text-[12px] font-[600] text-[#007bff]">{{ config('app.inquiry.ind') }}</a>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Courses Offered:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Courses Offered:</p>
                                     <a href="https://www.henryharvin.com/our-courses"
                                         class="underline text-[12px] font-[600] text-[#007bff]">Click Here</a>
                                 </span>
                                 <a href="https://www.youtube.com/shorts/us9oQ_d8WmE" target="_blank"
                                     rel="noopener noreferrer"
-                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-red-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
+                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-orange-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
                                     style="border:  1px solid #dadada;">
                                     <i class="fa fa-youtube-play text-[20px] text-[#4f2d7f]" style="color:#ce0909;"></i>
 
@@ -209,28 +209,28 @@
                     <div class="md:grid-cols-2 shadow-xl grid grid-cols-1 gap-2 place-content-justify py-2">
                         <div class="w-full">
                             <div class="">
-                                <p class="ml-4 mb-1 font-[600] text-red-600 text-[14px]">Henry Harvin Chennai Regional
+                                <p class="ml-4 mb-1 font-[600] text-orange-600 text-[14px]">Henry Harvin Chennai Regional
                                     Office
                                 </p>
                                 <span class="flex mx-4 gap-4 mb-2">
-                                    <p class="text-red-600 font-[400] text-[12px] ">Address:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px] ">Address:</p>
                                     <p class="text-[12px]">Prestige Palladium Bayan 129, 140, Greams Rd, Thousand Lights
                                         West,
                                         Thousand Lights, Chennai, Tamil Nadu 600006</p>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Contact:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Contact:</p>
                                     <a href="tel: {{ config('app.inquiry.ind') }}"
                                         class="underline text-[12px] font-[600] text-[#007bff]">{{ config('app.inquiry.ind') }}</a>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Courses Offered:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Courses Offered:</p>
                                     <a href="https://www.henryharvin.com/our-courses"
                                         class="underline text-[12px] font-[600] text-[#007bff]">Click Here</a>
                                 </span>
                                 <a href="https://www.youtube.com/shorts/NZwl4A7iHc0" target="_blank"
                                     rel="noopener noreferrer"
-                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-red-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
+                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-orange-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
                                     style="border:  1px solid #dadada;">
                                     <i class="fa fa-youtube-play text-[20px] text-[#4f2d7f]" style="color:#ce0909;"></i>
 
@@ -254,26 +254,26 @@
                     <div class="md:grid-cols-2 shadow-xl grid grid-cols-1 gap-2 place-content-justify py-2">
                         <div class="w-full">
                             <div class="">
-                                <p class="ml-4 mb-1 font-[600] text-red-600 text-[14px]">Henry Harvin Hyderabad Regional
+                                <p class="ml-4 mb-1 font-[600] text-orange-600 text-[14px]">Henry Harvin Hyderabad Regional
                                     Office</p>
                                 <span class="flex mx-4 gap-4 mb-2">
-                                    <p class="text-red-600 font-[400] text-[12px] ">Address:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px] ">Address:</p>
                                     <p class="text-[12px]">Hitech City N Heights, Level 6, N Heights, Plot No 38, Phase 2,
                                         Siddiq Nagar, HITEC City, Hyderabad, Telangana 500081</p>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Contact:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Contact:</p>
                                     <a href="tel: {{ config('app.inquiry.ind') }}"
                                         class="underline text-[12px] font-[600] text-[#007bff]">{{ config('app.inquiry.ind') }}</a>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Courses Offered:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Courses Offered:</p>
                                     <a href="https://www.henryharvin.com/our-courses"
                                         class="underline text-[12px] font-[600] text-[#007bff]">Click Here</a>
                                 </span>
                                 <a href="https://www.youtube.com/watch?v=nEAM0I-0H1Q" target="_blank"
                                     rel="noopener noreferrer"
-                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-red-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
+                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-orange-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
                                     style="border:  1px solid #dadada;">
                                     <i class="fa fa-youtube-play text-[20px] text-[#4f2d7f]" style="color:#ce0909;"></i>
 
@@ -299,27 +299,27 @@
                     <div class="md:grid-cols-2 shadow-xl grid grid-cols-1 gap-2 place-content-justify py-2">
                         <div class="w-full">
                             <div class="">
-                                <p class="ml-4 mb-1 font-[600] text-red-600 text-[14px]">Henry Harvin Pune Regional
+                                <p class="ml-4 mb-1 font-[600] text-orange-600 text-[14px]">Henry Harvin Pune Regional
                                     Office</p>
                                 <span class="flex mx-4 gap-4 mb-2">
-                                    <p class="text-red-600 font-[400] text-[12px] ">Address:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px] ">Address:</p>
                                     <p class="text-[12px]">32 INSIGNIA, Pan card club road, Near Westport Building, Baner,
                                         Pune-
                                         411045</p>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Contact:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Contact:</p>
                                     <a href="tel: {{ config('app.inquiry.ind') }}"
                                         class="underline text-[12px] font-[600] text-[#007bff]">{{ config('app.inquiry.ind') }}</a>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Courses Offered:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Courses Offered:</p>
                                     <a href="https://www.henryharvin.com/our-courses"
                                         class="underline text-[12px] font-[600] text-[#007bff]">Click Here</a>
                                 </span>
                                 <a href="https://www.youtube.com/shorts/LgTZu8m0ZX4" target="_blank"
                                     rel="noopener noreferrer"
-                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-red-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
+                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-orange-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
                                     style="border:  1px solid #dadada;">
                                     <i class="fa fa-youtube-play text-[20px] text-[#4f2d7f]" style="color:#ce0909;"></i>
 
@@ -344,27 +344,27 @@
                     <div class="md:grid-cols-2 shadow-xl grid grid-cols-1 gap-2 place-content-justify py-2">
                         <div class="w-full">
                             <div class="">
-                                <p class="ml-4 mb-1 font-[600] text-red-600 text-[14px]">Henry Harvin Chandigarh Regional
+                                <p class="ml-4 mb-1 font-[600] text-orange-600 text-[14px]">Henry Harvin Chandigarh Regional
                                     Office</p>
                                 <span class="flex mx-4 gap-4 mb-2">
-                                    <p class="text-red-600 font-[400] text-[12px] ">Address:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px] ">Address:</p>
                                     {{-- <p class="text-[12px]">Next 57, Sector 17 Sco 170-1-2 Sector 17-C, near Yes Bank, Chandigarh 160017</p> --}}
                                     <p class="text-[12px]">ST Square Building Plot No C 167, GF, Office No. 007, Phase 8B,
                                         Industrial Area, Sector 74, Sahibzada Ajit Singh Nagar, Punjab 140308</p>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Contact:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Contact:</p>
                                     <a href="tel: {{ config('app.inquiry.ind') }}"
                                         class="underline text-[12px] font-[600] text-[#007bff]">{{ config('app.inquiry.ind') }}</a>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Courses Offered:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Courses Offered:</p>
                                     <a href="https://www.henryharvin.com/our-courses"
                                         class="underline text-[12px] font-[600] text-[#007bff]">Click Here</a>
                                 </span>
                                 <a href="https://www.youtube.com/shorts/TesIUN5cLsg?feature=share" target="_blank"
                                     rel="noopener noreferrer"
-                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-red-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
+                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-orange-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
                                     style="border:  1px solid #dadada;">
                                     <i class="fa fa-youtube-play text-[20px] text-[#4f2d7f]" style="color:#ce0909;"></i>
 
@@ -390,28 +390,28 @@
                     <div class="md:grid-cols-2 shadow-xl grid grid-cols-1 gap-2 place-content-justify py-2">
                         <div class="w-full">
                             <div class="">
-                                <p class="ml-4 mb-1 font-[600] text-red-600 text-[14px]">Henry Harvin Mumbai Regional
+                                <p class="ml-4 mb-1 font-[600] text-orange-600 text-[14px]">Henry Harvin Mumbai Regional
                                     Office
                                 </p>
                                 <span class="flex mx-4 gap-4 mb-2">
-                                    <p class="text-red-600 font-[400] text-[12px] ">Address:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px] ">Address:</p>
                                     <p class="text-[12px]">Technopolis Knowledge Park, 5th floor, Hanuman Nagar, Andheri
                                         East,
                                         Mumbai, Maharashtra 400093</p>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Contact:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Contact:</p>
                                     <a href="tel: {{ config('app.inquiry.ind') }}"
                                         class="underline text-[12px] font-[600] text-[#007bff]">{{ config('app.inquiry.ind') }}</a>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Courses Offered:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Courses Offered:</p>
                                     <a href="https://www.henryharvin.com/our-courses"
                                         class="underline text-[12px] font-[600] text-[#007bff]">Click Here</a>
                                 </span>
                                 <a href="https://www.youtube.com/watch?v=n4fyfzxCD4s&feature=youtu.be" target="_blank"
                                     rel="noopener noreferrer"
-                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-red-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
+                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-orange-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
                                     style="border:  1px solid #dadada;">
                                     <i class="fa fa-youtube-play text-[20px] text-[#4f2d7f]" style="color:#ce0909;"></i>
 
@@ -436,27 +436,27 @@
                     <div class="md:grid-cols-2 shadow-xl grid grid-cols-1 gap-2 place-content-justify py-2">
                         <div class="w-full">
                             <div class="">
-                                <p class="ml-4 mb-1 font-[600] text-red-600 text-[14px]">Henry Harvin Kolkata Regional
+                                <p class="ml-4 mb-1 font-[600] text-orange-600 text-[14px]">Henry Harvin Kolkata Regional
                                     Office
                                 </p>
                                 <span class="flex mx-4 gap-4 mb-2">
-                                    <p class="text-red-600 font-[400] text-[12px] ">Address:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px] ">Address:</p>
                                     <p class="text-[12px]">11th Floor Technopolis Building, Salt lake, BP Block, Sector V,
                                         Bidhannagar, Kolkata, West Bengal 700091</p>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Contact:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Contact:</p>
                                     <a href="tel: {{ config('app.inquiry.ind') }}"
                                         class="underline text-[12px] font-[600] text-[#007bff]">{{ config('app.inquiry.ind') }}</a>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Courses Offered:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Courses Offered:</p>
                                     <a href="https://www.henryharvin.com/our-courses"
                                         class="underline text-[12px] font-[600] text-[#007bff]">Click Here</a>
                                 </span>
                                 <a href="https://www.youtube.com/shorts/aqwXyFs-Brc" target="_blank"
                                     rel="noopener noreferrer"
-                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-red-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
+                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-orange-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
                                     style="border:  1px solid #dadada;">
                                     <i class="fa fa-youtube-play text-[20px] text-[#4f2d7f]" style="color:#ce0909;"></i>
 
@@ -481,25 +481,25 @@
                     <div class="md:grid-cols-2 shadow-xl grid grid-cols-1 gap-2 place-content-justify py-2">
                         <div class="w-full">
                             <div class="">
-                                <p class="ml-4 mb-1 font-[600] text-red-600 text-[14px]">Henry Harvin Delhi (North East)
+                                <p class="ml-4 mb-1 font-[600] text-orange-600 text-[14px]">Henry Harvin Delhi (North East)
                                     Office</p>
                                 <span class="flex mx-4 gap-4 mb-2">
-                                    <p class="text-red-600 font-[400] text-[12px] ">Address:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px] ">Address:</p>
                                     <p class="text-[12px]">B-46/6, Wazirabad Road, near ICICI Bank, Bhajanpura, Delhi
                                         110053</p>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Contact:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Contact:</p>
                                     <a href="tel: {{ config('app.inquiry.ind') }}"
                                         class="underline text-[12px] font-[600] text-[#007bff]">{{ config('app.inquiry.ind') }}</a>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Courses Offered:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Courses Offered:</p>
                                     <a href="https://www.henryharvin.com/our-courses"
                                         class="underline text-[12px] font-[600] text-[#007bff]">Click Here</a>
                                 </span>
                                 <a href="/" target="_blank" rel="noopener noreferrer"
-                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-red-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
+                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-orange-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
                                     style="border:  1px solid #dadada;">
                                     <i class="fa fa-youtube-play text-[20px] text-[#4f2d7f]" style="color:#ce0909;"></i>
 
@@ -524,28 +524,28 @@
                     <div class="md:grid-cols-2 mt-6 pb-6 shadow-xl grid grid-cols-1 gap-2 place-content-justify">
                         <div class="w-full">
                             <div class="">
-                                <p class="ml-4 mb-1 font-[600] text-red-600 text-[14px]">Henry Harvin Ahmedabad Regional
+                                <p class="ml-4 mb-1 font-[600] text-orange-600 text-[14px]">Henry Harvin Ahmedabad Regional
                                     Office</p>
                                 <span class="flex mx-4 gap-4 mb-2">
-                                    <p class="text-red-600 font-[400] text-[12px] ">Address:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px] ">Address:</p>
                                     <p class="text-[12px]">Phoenix Complex Building., Opposite to the Commerce 6th road
                                         metro
                                         station., Near Vijay Cha Rasta. Navrangpura. Pincode - 380009
                                         Ahmedabad (Gujarat)</p>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Contact:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Contact:</p>
                                     <a href="tel: {{ config('app.inquiry.ind') }}"
                                         class="underline text-[12px] font-[600] text-[#007bff]">{{ config('app.inquiry.ind') }}</a>
                                 </span>
                                 <span class="flex items-center mx-4 gap-2">
-                                    <p class="text-red-600 font-[400] text-[12px]">Courses Offered:</p>
+                                    <p class="text-orange-600 font-[400] text-[12px]">Courses Offered:</p>
                                     <a href="https://www.henryharvin.com/our-courses"
                                         class="underline text-[12px] font-[600] text-[#007bff]">Click Here</a>
                                 </span>
                                 <a href="https://www.youtube.com/shorts/RHf2WoiwLNk?feature=share" target="_blank"
                                     rel="noopener noreferrer"
-                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-red-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
+                                    class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-orange-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
                                     style="border: 1px solid #dadada;">
                                     <i class="fa fa-youtube-play text-[20px] text-[#4f2d7f]" style="color:#ce0909;"></i>
 
@@ -571,32 +571,32 @@
                 </div>
                 <div class="order-1 lg:order-2">
                     <div class="border mt-4 md:mt-0 bg-white">
-                        <p class="bg-red-600 text-center text-white py-2 text-lg">Middle East Office(s)</p>
+                        <p class="bg-orange-600 text-center text-white py-2 text-lg">Middle East Office(s)</p>
                         <div class="md:grid-cols-2 shadow-xl grid grid-cols-1 gap-2 place-content-justify py-2">
                             <div class="w-full">
                                 <p class="mx-4 mt-4">Henry Harvin Co. L.L.C.</p>
                                 <div class="mt-2">
-                                    <p class="ml-4 mb-1 font-[600] text-red-600 text-[14px]">Henry Harvin Middle East
+                                    <p class="ml-4 mb-1 font-[600] text-orange-600 text-[14px]">Henry Harvin Middle East
                                         Head
                                         Office</p>
                                     <span class="flex mx-4 gap-4 mb-2">
-                                        <p class="text-red-600 font-[400] text-[12px] ">Address:</p>
+                                        <p class="text-orange-600 font-[400] text-[12px] ">Address:</p>
                                         <p class="text-[12px]">Office No: 2703, Blue Matrix, 27th floor The Prime Tower,
                                             Business Bay, Dubai, UAE</p>
                                     </span>
                                     <span class="flex items-center mx-4 gap-2">
-                                        <p class="text-red-600 font-[400] text-[12px]">Contact:</p>
+                                        <p class="text-orange-600 font-[400] text-[12px]">Contact:</p>
                                         <a href="tel:{{ config('app.customer.uae') }}"
                                             class="underline text-[12px] font-[600] text-[#007bff]">{{ config('app.customer.uae') }}</a>
                                     </span>
                                     <span class="flex items-center mx-4 gap-2">
-                                        <p class="text-red-600 font-[400] text-[12px]">Courses Offered:</p>
+                                        <p class="text-orange-600 font-[400] text-[12px]">Courses Offered:</p>
                                         <a href="https://www.henryharvin.com/our-courses"
                                             class="underline text-[12px] font-[600] text-[#007bff]">Click Here</a>
                                     </span>
                                     <a href="https://www.youtube.com/watch?v=IEJ-m_ZZE90" target="_blank"
                                         rel="noopener noreferrer"
-                                        class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-red-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
+                                        class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-orange-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
                                         style="border:  1px solid #dadada;">
                                         <i class="fa fa-youtube-play text-[20px] text-[#4f2d7f]"
                                             style="color:#ce0909;"></i>
@@ -622,31 +622,31 @@
                         </div>
                     </div>
                     <div class="border bg-white">
-                        <p class="bg-red-600 text-center text-white py-2 text-lg">Americas Office(s)</p>
+                        <p class="bg-orange-600 text-center text-white py-2 text-lg">Americas Office(s)</p>
                         <div
                             class="md:grid-cols-2 pb-4 mt-6 shadow-xl grid grid-cols-1 gap-2 place-content-justify place-items-center">
                             <div class="w-full">
                                 <p class="mx-4 mt-4">Henry Harvin Inc</p>
                                 <div class="mt-2">
-                                    <p class="ml-4 mb-1 font-[600] text-red-600 text-[14px]">Henry Harvin America Head
+                                    <p class="ml-4 mb-1 font-[600] text-orange-600 text-[14px]">Henry Harvin America Head
                                         Office
                                     </p>
                                     <span class="flex mx-4 gap-4 mb-2">
-                                        <p class="text-red-600 font-[400] text-[12px] ">Address:</p>
+                                        <p class="text-orange-600 font-[400] text-[12px] ">Address:</p>
                                         <p class="text-[12px]">8 The Green, # 19614, Dover, DE 19901, United States</p>
                                     </span>
                                     <span class="flex items-center mx-4 gap-2">
-                                        <p class="text-red-600 font-[400] text-[12px]">Contact:</p>
+                                        <p class="text-orange-600 font-[400] text-[12px]">Contact:</p>
                                         <a href="tel:{{ config('app.customer.usa') }}"
                                             class="underline text-[12px] font-[600] text-[#007bff]">{{ config('app.customer.usa') }}</a>
                                     </span>
                                     <span class="flex items-center mx-4 gap-2">
-                                        <p class="text-red-600 font-[400] text-[12px]">Courses Offered:</p>
+                                        <p class="text-orange-600 font-[400] text-[12px]">Courses Offered:</p>
                                         <a href="https://www.henryharvin.com/our-courses"
                                             class="underline text-[12px] font-[600] text-[#007bff]">Click Here</a>
                                     </span>
                                     <a href="/" target="_blank" rel="noopener noreferrer"
-                                        class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-red-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
+                                        class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-orange-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
                                         style="border:  1px solid #dadada;">
                                         <i class="fa fa-youtube-play text-[20px] text-[#4f2d7f]"
                                             style="color:#ce0909;"></i>
@@ -672,31 +672,31 @@
                         </div>
                     </div>
                     <div class="border mt-4 bg-white">
-                        <p class="bg-red-600 text-center text-white py-2 text-lg">United Kingdom Office(s)</p>
+                        <p class="bg-orange-600 text-center text-white py-2 text-lg">United Kingdom Office(s)</p>
                         <div class="md:grid-cols-2 shadow-xl grid grid-cols-1 gap-2 place-content-justify py-2">
                             <div class="w-full">
                                 <p class="mx-4 mt-4">Henry Harvin Limited</p>
                                 <div class="mt-2">
-                                    <p class="ml-4 mb-1 font-[600] text-red-600 text-[14px]">Henry Harvin United Kingdom
+                                    <p class="ml-4 mb-1 font-[600] text-orange-600 text-[14px]">Henry Harvin United Kingdom
                                         Head
                                         Office</p>
                                     <span class="flex mx-4 gap-4 mb-2">
-                                        <p class="text-red-600 font-[400] text-[12px] ">Address:</p>
+                                        <p class="text-orange-600 font-[400] text-[12px] ">Address:</p>
                                         <p class="text-[12px]">Office No: 71–75 Shelton Street Covent Garden London WC2H
                                             9JQ</p>
                                     </span>
                                     <span class="flex items-center mx-4 gap-2">
-                                        <p class="text-red-600 font-[400] text-[12px]">Contact:</p>
+                                        <p class="text-orange-600 font-[400] text-[12px]">Contact:</p>
                                         <a href="tel:{{ config('app.inquiry.uk') }}"
                                             class="underline text-[12px] font-[600] text-[#007bff]">{{ config('app.inquiry.uk') }}</a>
                                     </span>
                                     <span class="flex items-center mx-4 gap-2">
-                                        <p class="text-red-600 font-[400] text-[12px]">Courses Offered:</p>
+                                        <p class="text-orange-600 font-[400] text-[12px]">Courses Offered:</p>
                                         <a href="https://www.henryharvin.com/our-courses"
                                             class="underline text-[12px] font-[600] text-[#007bff]">Click Here</a>
                                     </span>
                                     <a href="/" target="_blank" rel="noopener noreferrer"
-                                        class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-red-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
+                                        class="inline-flex items-center ml-4 mt-2 gap-2 px-2 py-1 bg-white hover:bg-orange-600 shadow-xl border border-[#4f2d7f] font-semibold text-[12px] rounded-full shadow transition duration-300 group"
                                         style="border:  1px solid #dadada;">
                                         <i class="fa fa-youtube-play text-[20px] text-[#4f2d7f]"
                                             style="color:#ce0909;"></i>

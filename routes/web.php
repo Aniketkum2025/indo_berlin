@@ -64,6 +64,9 @@ Route::get('values', function () {
 Route::get('esteemed-faculty', function () {
     return view('esteemed_faculty');
 });
+Route::get('quality-assurance', function () {
+    return view('quality_assurance');
+});
 
 Route::get('admission-process', function () {
     return view('admission_process');

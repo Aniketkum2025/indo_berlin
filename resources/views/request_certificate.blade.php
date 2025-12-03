@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-full h-full text-[14px] rounded-md px-4 py-2 bg-red-600 hover:bg-[#fbad18] focus:ring-2 focus:ring-purple ">
+        <div class="w-full h-full text-[14px] rounded-md px-4 py-2 bg-orange-600 hover:bg-[#fbad18] focus:ring-2 focus:ring-purple ">
             <button onclick="certificateForm('hard-copy')"
                 class="text-[13px] text-center text-white">Apply
                 for Physical Certificate in Leather Folder via Courier (Recommended) + Soft Copy
@@ -40,7 +40,7 @@
                 </div>
             </div>
         </div>
-        <div class="relative group w-full h-full text-[14px] rounded-md px-4 py-2 bg-red-600 hover:bg-[#fbad18] focus:ring-2 focus:ring-purple ">
+        <div class="relative group w-full h-full text-[14px] rounded-md px-4 py-2 bg-orange-600 hover:bg-[#fbad18] focus:ring-2 focus:ring-purple ">
             <button onclick="certificateForm('soft-copy')"
                 class="text-[13px] text-center text-white">
                 Apply for Certificate Soft Copy via Email
@@ -414,13 +414,13 @@
                 </div>
                 <div class="flex items-center justify-center my-4 btn-hard-copy hidden">
                     <button type="submit" id="razorpayBtn" v-if="form.certificate != 'project'"
-                        v-on:click="form.buy_certificate = true" class="px-4 py-2 bg-red-600 text-white">Apply for
+                        v-on:click="form.buy_certificate = true" class="px-4 py-2 bg-orange-600 text-white">Apply for
                         Soft
                         Copy + Hard Copy</button>
                 </div>
                 <div class="flex items-center justify-center my-4 btn-soft-copy hidden">
                     <button type="submit" :disabled="processing" name="add_issue"
-                        v-on:click="form.buy_certificate = false" class="px-4 py-2 bg-red-600 text-white">Apply for
+                        v-on:click="form.buy_certificate = false" class="px-4 py-2 bg-orange-600 text-white">Apply for
                         Soft Copy</button>
                 </div>
                 <!--  end section project -->

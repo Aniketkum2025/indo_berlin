@@ -5,7 +5,7 @@
 {{-- vedio section --}}
 <section class="py-12 bg-gray-100">
     <div class="max-w-7xl mx-auto px-4">
-        <h1 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Testimonial
+        <h1 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">Testimonial
             Videos
         </h1>
         <div class="relative">

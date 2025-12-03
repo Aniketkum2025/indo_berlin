@@ -4,7 +4,7 @@
 @section('content')
 <section class="py-12 px-4 max-w-7xl mx-auto">
   <div>
-    <div class="bg-red-600 text-white max-w-4xl mx-auto p-8 rounded-xl shadow-xl space-y-4">
+    <div class="bg-orange-600 text-white max-w-4xl mx-auto p-8 rounded-xl shadow-xl space-y-4">
       <h1 class="text-3xl font-bold mb-2">Admissions <span class="text-yellow-300">Overview</span></h1>
 
       <p>
@@ -20,7 +20,7 @@
 
 <section class="py-12 px-4 max-w-7xl mx-auto">
   <div class="max-w-4xl mx-auto space-y-6">
-    <h2 class="text-3xl font-bold text-red-600">Admission <span class="text-yellow-500">Requirements</span></h2>
+    <h2 class="text-3xl font-bold text-orange-600">Admission <span class="text-yellow-500">Requirements</span></h2>
 
     <p>
       Carefully review the following documents before you submit them for the program you are applying for:
@@ -44,7 +44,7 @@
 </section>
 <section class="py-6 px-4 max-w-4xl mx-auto hidden">
   <div class="bg-white shadow-2xl rounded-xl p-8 space-y-6 border border-gray-200">
-    <h2 class="text-3xl font-bold text-red-600">Apply for <span class="text-yellow-500">Admission</span></h2>
+    <h2 class="text-3xl font-bold text-orange-600">Apply for <span class="text-yellow-500">Admission</span></h2>
     <p class="text-gray-600">Please fill out the form below to begin your application process for Kazumi Japanese & Culture School by Henry Harvin®.</p>
 
     <form action="#" method="POST" class="space-y-6">
@@ -53,28 +53,28 @@
       <div>
         <label class="block text-gray-700 font-semibold mb-1" for="name">Full Name</label>
         <input type="text" id="name" name="name" placeholder="e.g. Aisha Tanaka"
-          class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-400">
+          class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-400">
       </div>
 
       <!-- Email -->
       <div>
         <label class="block text-gray-700 font-semibold mb-1" for="email">Email Address</label>
         <input type="email" id="email" name="email" placeholder="e.g. yourname@example.com"
-          class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-400">
+          class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-400">
       </div>
 
       <!-- Phone Number -->
       <div>
         <label class="block text-gray-700 font-semibold mb-1" for="phone">Phone Number</label>
         <input type="tel" id="phone" name="phone" placeholder="e.g. +91 9876543210"
-          class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-400">
+          class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-400">
       </div>
 
       <!-- Select Course -->
       <div>
         <label class="block text-gray-700 font-semibold mb-1" for="course">Select Course</label>
         <select id="course" name="course"
-          class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-400">
+          class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-400">
           <option value="">-- Choose your course --</option>
           <option value="basic">Japanese Language - N5 (Beginner)</option>
           <option value="intermediate">Japanese Language - N4/N3 (Intermediate)</option>
@@ -86,20 +86,20 @@
       <div>
         <label class="block text-gray-700 font-semibold mb-1" for="documents">Upload Required Documents (ZIP or PDF)</label>
         <input type="file" id="documents" name="documents"
-          class="w-full px-4 py-2 border border-gray-300 rounded-md file:bg-red-600 file:text-white file:px-4 file:py-2 file:rounded-md file:border-0 file:cursor-pointer hover:file:bg-red-700">
+          class="w-full px-4 py-2 border border-gray-300 rounded-md file:bg-orange-600 file:text-white file:px-4 file:py-2 file:rounded-md file:border-0 file:cursor-pointer hover:file:bg-orange-700">
       </div>
 
       <!-- Message -->
       <div>
         <label class="block text-gray-700 font-semibold mb-1" for="message">Your Message (Optional)</label>
         <textarea id="message" name="message" rows="4" placeholder="Let us know why you're applying..."
-          class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-400"></textarea>
+          class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-400"></textarea>
       </div>
 
       <!-- Submit Button -->
       <div class="pt-4">
         <button type="submit"
-          class="bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition duration-300">
+          class="bg-orange-600 hover:bg-orange-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition duration-300">
           Submit Application
         </button>
       </div>
@@ -108,7 +108,7 @@
 </section>
 <section class="py-16 px-4 max-w-7xl mx-auto">
   <div class="text-center mb-12">
-    <h2 class="text-4xl font-bold text-red-600 mb-4">Admissions <span class="text-yellow-500">Process</span></h2>
+    <h2 class="text-4xl font-bold text-orange-600 mb-4">Admissions <span class="text-yellow-500">Process</span></h2>
     <p class="text-gray-600 text-lg">Follow these easy steps to complete your application to Kazumi Japanese & Culture School by Henry Harvin®.</p>
   </div>
 
@@ -116,7 +116,7 @@
     
     <!-- Step 1 -->
     <div class="flex flex-col items-center space-y-4 p-6 border rounded-lg shadow-md">
-      <div class="text-red-600">
+      <div class="text-orange-600">
         <img class="h-24" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17539630871111.png" alt="">
       </div>
       <h3 class="text-xl font-semibold">Step 1</h3>
@@ -125,7 +125,7 @@
 
     <!-- Step 2 -->
     <div class="flex flex-col items-center space-y-4 p-6 border rounded-lg shadow-md">
-      <div class="text-red-600">
+      <div class="text-orange-600">
         <img class="h-24" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753963105shopping-list_6572247.png" alt="">
       </div>
       <h3 class="text-xl font-semibold">Step 2</h3>
@@ -134,7 +134,7 @@
 
     <!-- Step 3 -->
     <div class="flex flex-col items-center space-y-4 p-6 border rounded-lg shadow-md">
-      <div class="text-red-600">
+      <div class="text-orange-600">
          <img class="h-24" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/17539631233333.png" alt="">
       </div>
       <h3 class="text-xl font-semibold">Step 3</h3>
@@ -143,7 +143,7 @@
 
     <!-- Step 4 -->
     <div class="flex flex-col items-center space-y-4 p-6 border rounded-lg shadow-md">
-      <div class="text-red-600">
+      <div class="text-orange-600">
         <img class="h-24" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753963197444.png" alt="">
       </div>
       <h3 class="text-xl font-semibold">Step 4</h3>
@@ -152,7 +152,7 @@
 
     <!-- Step 5 -->
     {{-- <div class="flex flex-col items-center space-y-4 p-6 border rounded-lg shadow-md">
-      <div class="text-red-600">
+      <div class="text-orange-600">
          <img src="" alt="">
       </div>
       <h3 class="text-xl font-semibold">Step 5</h3>
@@ -161,7 +161,7 @@
 
     <!-- Step 6 -->
     <div class="flex flex-col items-center space-y-4 p-6 border rounded-lg shadow-md">
-      <div class="text-red-600">
+      <div class="text-orange-600">
          <img class="h-24" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753963225555.png" alt="">
       </div>
       <h3 class="text-xl font-semibold">Step 5</h3>
@@ -171,7 +171,7 @@
   </div>
 
   <div class="mt-12 text-center text-[16px] text-gray-600 text-bold">
-    <p>The entire process should take approximately <span class="font-semibold text-red-600">10 minutes</span>. After submission, our team may take up to <span class="font-semibold text-yellow-500">48 hours</span> to review your application.</p>
+    <p>The entire process should take approximately <span class="font-semibold text-orange-600">10 minutes</span>. After submission, our team may take up to <span class="font-semibold text-yellow-500">48 hours</span> to review your application.</p>
   </div>
 </section>
 

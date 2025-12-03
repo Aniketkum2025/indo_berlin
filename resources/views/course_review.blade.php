@@ -3,7 +3,7 @@
 
 <!-- Video Reviews Section hweee -->
 <section id="video_review_course_section" class="bg-white shadow-lg rounded-3xl p-8 md:p-10 border border-gray-100 mx-8">
-    <h2 class="md:text-[32px] text-[20px] text-red-600 md:mx-[2%] mx-[2%] italic py-6 text-center md:leading-[30px] leading-[20px]">
+    <h2 class="md:text-[32px] text-[20px] text-orange-600 md:mx-[2%] mx-[2%] italic py-6 text-center md:leading-[30px] leading-[20px]">
         {{-- View Learner's Experience on YouTube --}}
         Checkout Kazumi School {{ $course->course_name }} Reviews on YouTube
     </h2>
@@ -21,7 +21,7 @@
 </section>
 <!-- WhatsApp Reviews Section -->
 <section class="bg-white shadow-lg rounded-3xl p-8 md:p-10 border border-gray-100 my-4 mx-8">
-    <h2 class="md:text-[32px] text-[20px] text-red-600 md:mx-[2%] mx-[2%] italic py-6 text-center md:leading-[30px] leading-[20px]">
+    <h2 class="md:text-[32px] text-[20px] text-orange-600 md:mx-[2%] mx-[2%] italic py-6 text-center md:leading-[30px] leading-[20px]">
         {{-- Read Learner's Experience on WhatsApp --}}
         Checkout Kazumi School {{ $course->course_name }} Reviews on WhatsApp
     </h2>
@@ -177,7 +177,7 @@
      @if($userFeedback)
     <div class="bg-[#dce2e9]">
         <div class="md:mx-[100px] mx-[1rem]">
-            <p class="md:text-[32px] text-[20px] text-red-600 md:mx-[2%] mx-[2%] italic py-6 text-center md:leading-[30px] leading-[20px]">Checkout Kazumi School {{$course->course_name}} Alumni on Linkdin</p>
+            <p class="md:text-[32px] text-[20px] text-orange-600 md:mx-[2%] mx-[2%] italic py-6 text-center md:leading-[30px] leading-[20px]">Checkout Kazumi School {{$course->course_name}} Alumni on Linkdin</p>
             @if(isset($userFeedback) && $userFeedback->isNotEmpty())
             @php
             $count = $userFeedback->slice(0, 9)->count();
@@ -190,7 +190,7 @@
                 <div class="swiper-wrapper">
                     @foreach ($chunk as $rev)
                     <div class="mt-4 swiper-slide">
-                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-red-600">
+                        <div class="shadow-lg bg-white py-2 px-2 md:px-4 rounded-md border-b-2 border-b-orange-600">
                             <div class="flex justify-between items-center">
                                 <div>
                                     <img loading="lazy" class="h-14 w-14 rounded-full" src="{{urldecode($rev->image)}}" onerror='this.src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719480745ded3d.webp"' alt="images78" loading="lazy" />
@@ -222,12 +222,12 @@
    
     <div class="text-center mb-10">
         <h1 class="md:text-[24px] text-[20px] text-center text-red font-[600]">
-            <span class="text-red-600">Kazumi Japanese & Cultural School</span>
-            <span class="text-red-500"> {{ $course->course_name }} </span>
-            <span class="text-red-600">Reviews</span>
+            <span class="text-orange-600">Kazumi Japanese & Cultural School</span>
+            <span class="text-orange-500"> {{ $course->course_name }} </span>
+            <span class="text-orange-600">Reviews</span>
         </h1>
        
-        <div class="mt-3 mx-auto h-1 w-20 bg-gradient-to-r from-red-700 via-amber-400 to-red-700 rounded-full">
+        <div class="mt-3 mx-auto h-1 w-20 bg-gradient-to-r from-orange-700 via-amber-400 to-orange-700 rounded-full">
         </div>
     </div>
 
@@ -246,7 +246,7 @@
     {{-- @if($academy_name->academy_url != 'fellowship-courses') --}}
         {{-- <div class="bg-[#dce2e9] pb-6 pt-4" id="reviews">
             <div class="md:mx-[100px] mx-[1rem]" style="" id="linkedin_review_course_section">
-                <p class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4]">
+                <p class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4]">
                     Checkout Learner's Experiences on LinkedIn --}}
                     {{-- Check out Kazumischool {{ $course->course_name }} alumna on LinkedIn --}}
                 {{-- </p> --}}

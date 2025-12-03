@@ -1,71 +1,148 @@
 @extends('layouts.app')
 @section('content')
 <section class="py-12 px-4 max-w-7xl mx-auto">
-  <div>
-    <div class="bg-red-600 text-white max-w-4xl mx-auto p-8 rounded-xl shadow-xl space-y-5">
-      <h2 class="text-3xl font-bold mb-2">Privacy <span class="text-yellow-300">Policy</span></h2>
+    <div>
+        <div class="bg-orange-600 text-white max-w-4xl mx-auto p-8 rounded-xl shadow-xl space-y-6">
 
-      <p>
-        We take your privacy seriously and are committed to protecting your rights as a user of our website. This policy outlines what information is collected, how it is used, and what choices you have regarding your data.
-      </p>
+            <h2 class="text-3xl font-bold mb-2">
+                Our <span class="text-yellow-300">Privacy Policy</span>
+            </h2>
 
-      <h3 class="text-2xl text-yellow-300 font-semibold mt-4">About Us and the Website</h3>
-      <p>
-        <span class="font-semibold">Kazumi Japanese & Culture School by Henry Harvin®</span> strives to ensure all website content is accurate, although changes may occur. We are not liable for any damages from using the information provided. All downloadable content is virus-checked, but we cannot guarantee against all infections.
-      </p>
+            <p>
+                We take your privacy seriously and are committed to protect your right to privacy as a user of our
+                website. We have made every effort to ensure your information is secure. This privacy policy information
+                covers what information is collected, what we do with it, and what you can do about it. You can use this
+                information to make your decisions about your privacy.
+            </p>
 
-      <h3 class="text-2xl text-yellow-300 font-semibold mt-4">Information Collected</h3>
-      <ul class="list-disc ml-6 space-y-2">
-        <li>You are in full control of your information.</li>
-        <li>We do not sell, share, or disclose your data to third parties for marketing.</li>
-        <li>You can choose whether to receive offers or communication from us.</li>
-      </ul>
+            <h3 class="text-3xl text-yellow-300 font-semibold mt-4 text-center">
+                About Indo Berlin Language & Culture School by Henry Harvin®
+            </h3>
 
-      <h3 class="text-2xl text-yellow-300 font-semibold mt-4">Browsing & Registration</h3>
-      <p>
-        You may browse our website without registering. To access free tests or forums, we may collect voluntarily submitted data. This information is not shared or sourced from external databases or organizations.
-      </p>
+            <h3 class="text-2xl text-yellow-300 font-semibold mt-4">
+                Indo Berlin Language & Culture School by Henry Harvin® Information Practices
+            </h3>
 
-      <h3 class="text-2xl text-yellow-300 font-semibold mt-4">Communication & Contact</h3>
-      <p>
-        We may contact you for feedback, updates, or support. You can opt-out at any time by clicking the unsubscribe link in our emails.
-      </p>
+            <p>
+                Every effort has been taken to ensure the accuracy of the information on the website; the content is
+                naturally subject to change. We are not responsible for any damages arising out of the use of the
+                information held on this server.
+            </p>
+            <p>
+                We assure that all our downloadable training content is virus free. However, Indo Berlin Language &
+                Culture School by Henry Harvin® can accept no liability for damages resulting from virus infection.
+                Information collected by Indo Berlin Language & Culture School by Henry Harvin®.
 
-      <h3 class="text-2xl text-yellow-300 font-semibold mt-4">Payment Information</h3>
-      <p>
-        When purchasing products or enrolling in courses, you’ll be required to share details like name, email, phone, address, and card information. While we store contact info in our systems, payment details (like card numbers) are processed securely by payment gateways using SSL encryption — and never stored on our servers.
-      </p>
+            </p>
 
-      <h3 class="text-2xl text-yellow-300 font-semibold mt-4">Cookies & E-commerce Tracking</h3>
-      <p>
-        We use cookies to improve your browsing experience. Cookies may temporarily store your name or email for the shopping cart. No credit card data is ever stored in cookies.
-      </p>
+            <h3 class="text-2xl text-yellow-300 font-semibold mt-4">
+                You have total control on the privacy of your information
+            </h3>
+            <p>
+                Your information will never be sold, exchanged or disclosed to any third party for marketing purposes
+                You can decide whether you want to opt-in to receive offers from us.
+            </p>
 
-      <h3 class="text-2xl text-yellow-300 font-semibold mt-4">External Links</h3>
-      <p>
-        Our website may include third-party links. We are not responsible for their privacy policies. Please review their terms and policies separately.
-      </p>
+            <h3 class="text-2xl text-yellow-300 font-semibold mt-4">
+                You can browse our website without registration
+            </h3>
+            <p>
+                We may collect and store the information that you voluntarily disclose to us, in order to access our
+                free tests and discussion forum. We do not share your personal information with any third party. We do
+                not collect information about our visitors from email databases, private/ public organizations or
+                bodies.
+            </p>
 
-      <h3 class="text-2xl text-yellow-300 font-semibold mt-4">Course Content</h3>
-      <p>
-        All course content (online or blended) is provided for educational use. Content is subject to change without notice. We reserve the right to update training materials as needed.
-      </p>
+            <p>
+                We may use your information to contact you: When we have to contact you via email or telephone,
+                typically to get feedback, to inform you about new products or provide support on your issues, we are
+                liable to your information. If you do not want us to contact you via email, you can unsubscribe at any
+                time with one click.
+            </p>
 
-      <h3 class="text-2xl text-yellow-300 font-semibold mt-4">Copyright Notice</h3>
-      <p>
-        You may print or save website content for personal use only. All materials are copyrighted unless stated otherwise. Written permission is required for any other usage.
-      </p>
+            <p>
+                When you purchase our online products or register for classroom training, you need to make the payment
+                online, thus you will be required to share your personal information such as name, e-mail address,
+                telephone number, address(s), credit card number, expiration, and CVV number, with us. During this
+                program, we store your contact information in our registration and order-entry systems. Your credit card
+                information is never stored in our system as it is processed by our payment gateway which uses Secure
+                Encryption Technology (SSL).
+            </p>
 
-      <h3 class="text-2xl text-yellow-300 font-semibold mt-4">Images & Video Capture</h3>
-      <p>
-        Any images taken during Kazumi events or classes, including student or staff appearances, may be used for promotional purposes. Please do not misuse any visuals from our platforms.
-      </p>
+            <h3 class="text-2xl text-yellow-300 font-semibold mt-4">
+                Cookie Information & Ecommerce Tracking
+            </h3>
 
-      <h3 class="text-2xl text-yellow-300 font-semibold mt-4">Fraud Awareness</h3>
-      <p>
-        Beware of fake overseas job offers, unauthorized institutes, or forged certificates. To verify authenticity or certificates issued by Kazumi Japanese & Culture School by Henry Harvin®, please call <a href="tel:9899577620" class="underline text-yellow-300">9899577620</a> or email <a href="mailto:finance@henryharvin.com" class="underline text-yellow-300">finance@henryharvin.com</a>. You can also click here to verify certifications and view the official public notice.
-      </p>
+            <p>
+                In order to enhance your online experience and track website performance, our website uses cookies. It's
+                a small text file which gets placed in your computer hard drive and can be retrieved later. Cookies do
+                not tell us who you are.<br>
+                To provide superior online shopping experience, our shopping cart may use cookies to temporarily store
+                name and email address. Cookies will never store credit card information as they're processed using
+                Secure SSL using payment gateways.
+            </p>
+
+            <h3 class="text-2xl text-yellow-300 font-semibold mt-4">
+                External Links
+            </h3>
+
+            <p>
+                Our website may have links to other sites which include third party websites or resources. We are not
+                responsible for the privacy policies and information practices of third party websites. Please read
+                privacy policies of third party websites as every website has different terms of use and privacy
+                policies.
+            </p>
+
+            <h3 class="text-2xl text-yellow-300 font-semibold mt-4">
+                Course Content
+            </h3>
+
+            <p>
+                Course content for all the study programs both online and blended programs, it is provided for the
+                purpose of education and guidance only. The course content is regularly reviewed and is subjected to
+                change without notice. Indo Berlin Language & Culture School by Henry Harvin® reserves the right to
+                modify training content without notice.
+            </p>
+
+            <h3 class="text-2xl text-yellow-300 font-semibold mt-4">
+                Copyright Information
+            </h3>
+
+            <p>
+                You can electronically copy or take print of the website pages, if it is being used for personal use
+                only. Indo Berlin Language & Culture School by Henry Harvin® holds the copyright to all the material on
+                this website, unless otherwise indicated. A written permission of the copyright holder must be obtained
+                for any use of this material other than for purposes permitted by law.
+            </p>
+
+            <h3 class="text-2xl text-yellow-300 font-semibold mt-4">
+                Personal Information Policy Image and Video Capture
+            </h3>
+
+            <p>
+                Any images captured during events organized and hosted by Indo Berlin Language & Culture School by Henry
+                Harvin® should not be misused. That includes pictures of Indo Berlin Language & Culture School by Henry
+                Harvin® staff and training participants. If you enroll in an Indo Berlin Language & Culture School by
+                Henry Harvin® course your picture may also be featured in photos or videos of the Indo Berlin Language &
+                Culture School by Henry Harvin® classes.
+            </p>
+
+            <h3 class="text-2xl text-yellow-300 font-semibold mt-4">
+                Warning! Beware of Fraud Overseas Job Providers!
+            </h3>
+
+            <p>
+                Fraud Institutes and Fake Certificates issued by them. To ensure the authenticity of the institute and
+                Indo Berlin Language & Culture School by Henry Harvin® certificate please contact Indo Berlin Language &
+                Culture School by Henry Harvin® at
+                <a href="tel:9899577620" class="underline text-yellow-300">9899577620</a>
+                or
+                <a href="mailto:finance@henryharvin.com" class="underline text-yellow-300">finance@henryharvin.com</a>.
+                OR Click Here to verify the certificate and view public notice issued.
+            </p>
+
+        </div>
     </div>
-  </div>
 </section>
+
 @endsection

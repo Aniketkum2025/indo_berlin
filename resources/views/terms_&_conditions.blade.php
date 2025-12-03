@@ -1,50 +1,79 @@
 @extends('layouts.app')
 @section('content')
 
-<section class="py-12 px-4 max-w-7xl mx-auto">
-  <div>
-    <div class="bg-red-600 text-white max-w-4xl mx-auto p-8 rounded-xl shadow-xl space-y-4">
-      <h2 class="text-3xl font-bold mb-2">Terms & <span class="text-yellow-300">Conditions</span></h2>
+<section class="py-12 px-4 max-w-5xl mx-auto">
+    <div class="bg-orange-600 text-white p-8 rounded-xl shadow-xl space-y-6">
+        <!-- Heading -->
+        <h2 class="text-3xl md:text-4xl font-bold mb-2">
+            Terms & <span class="text-yellow-300">Conditions</span>
+        </h2>
 
-      <p>
-        <span class="font-semibold">Kazumi Japanese & Culture School by Henry Harvin</span> is governed by a set of rules and terms which all participants must agree to. Upon initial registration and annually thereafter, learners agree to abide by these Terms and Conditions for the duration of their program.
-      </p>
+        <!-- Intro Paragraphs -->
+        <p class="text-base md:text-lg leading-relaxed">
+            <span class="font-semibold">Indo Berlin Language & Culture School by Henry Harvin®</span> is governed by a
+            set of rules, regulations, and terms you must abide by. When you register for your German Language
+            programme, and every year after that, you agree to be governed by these Terms and Conditions.
+        </p>
 
-      <p>
-        Below are the key highlights of the agreement. These are essential to understand your rights and obligations as a learner:
-      </p>
+        <p class="text-base md:text-lg leading-relaxed">
+            We have outlined essential points of our agreement below. These topics are all addressed in the Terms and
+            Conditions.
+        </p>
 
-      <h3 class="text-2xl font-semibold mt-4 text-yellow-300">Key Terms You Need to Know:</h3>
-      <ul class="list-disc ml-6 space-y-1">
-        <li>
-          <span class="font-semibold">Registration Fee:</span> Required at the time of enrollment. For some programs, it's included in the course/module fee as mentioned on our website. Continuing students may have to pay registration fees yearly.
-        </li>
-        <li>
-          <span class="font-semibold">Non-Refundable Fees:</span> Certain fees (e.g., application fees, prior learning assessment) are non-refundable. These will be clearly mentioned on the website.
-        </li>
-        <li>
-          <span class="font-semibold">Examination Center Costs:</span> Exams are held online across time zones with dedicated teams. External examination bodies determine these fees, and they must be paid directly to them. These costs are not included in our course prices.
-        </li>
-        <li>
-          <span class="font-semibold">Examination Centers:</span> Each examination board sets its own sitting fee. Please consult with your assigned exam team for current rates.
-        </li>
-        <li>
-          <span class="font-semibold">External Tuition Providers:</span> If learners choose or are required to study with a third party, extra tuition or support fees must be borne by the learner.
-        </li>
-        <li>
-          <span class="font-semibold">Hardcopy Degree Certificates:</span> Physical (hard copy) certificates are available upon request with an additional courier charge.
-        </li>
-        <li>
-          <span class="font-semibold">Batch Swap:</span> Learners can request a batch swap before specific deadlines by paying an additional fee.
-        </li>
-        <li>
-          <span class="font-semibold">Late Fee Penalty:</span> A 2% monthly penalty on total course fee will apply for delayed payments.
-        </li>
-      </ul>
+        <!-- Subheading -->
+        <h3 class="text-2xl md:text-3xl font-semibold mt-4 text-yellow-300">
+            Key terms you need to know:
+        </h3>
 
+        <!-- Key terms list -->
+        <ul class="list-disc ml-6 space-y-2 text-base md:text-lg leading-relaxed">
+            <li>Payment of a Registration Price is required.</li>
+            <li>This may be included in a module/course cost for some programmes, as mentioned on our website.</li>
+            <li>To advance in your studies, you may need to pay ongoing registration fees for consecutive years.</li>
+            <li>Some costs are non-refundable; if this is the case, we will make it explicit on our website.</li>
+            <li>The application cost and fees levied to consider past learning recognition are two examples.</li>
+        </ul>
+
+        <!-- Detailed terms -->
+        <div class="space-y-4 text-white text-base md:text-lg leading-relaxed">
+            <div>
+                <span class="font-semibold text-yellow-400">Examination center costs:</span>
+                A separate price must be paid to take an examination at your designated location. Although everything
+                will be in online mode for students worldwide, external examination teams decide these fees, which are
+                paid directly to them. These charges are not included in our website’s prices.
+            </div>
+
+            <div>
+                <span class="font-semibold text-yellow-400">Examination centers:</span>
+                Each Indo Berlin Language & Culture School examination team has a defined fee for exam sitting. Exam
+                teams can provide the most up-to-date prices.
+            </div>
+
+            <div>
+                <span class="font-semibold text-yellow-400">Fees for additional tuition:</span>
+                When you are obliged or prefer to study with other organizations, you must pay separate fees.
+            </div>
+
+            <div>
+                <span class="font-semibold text-yellow-400">Hardcopy Degree Certificates:</span>
+                Students wishing to receive a physical (hard) copy of their certificates may request the same by paying
+                additional courier charges.
+            </div>
+
+            <div>
+                <span class="font-semibold text-yellow-400">Batch Swap:</span>
+                Batch swap enrollment is subject to deadlines and additional fee payment. Students may request a batch
+                swap by incurring additional charges.
+            </div>
+
+            <div>
+                <span class="font-semibold text-yellow-400">Penalty for Late Fees Submission:</span>
+                Students are subject to a late fee penalty amounting to 2% of the total fees per month.
+            </div>
+        </div>
     </div>
-  </div>
 </section>
+
 
 
 @endsection

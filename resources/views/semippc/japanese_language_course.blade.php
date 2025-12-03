@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div>
-                    <div class="bg-white text-gray-800 p-6 rounded shadow-md space-y-4 border border-red-100">
+                    <div class="bg-white text-gray-800 p-6 rounded shadow-md space-y-4 border border-orange-100">
                         <form class="brochure-form space-y-4" id="brochureForm" action="javascript:void(0);">
                             <h3 class="text-lg font-semibold text-center">Download Course Brochure </h3>
                             @if(isset($_GET['utm_campaign']))
@@ -42,14 +42,14 @@
                             <input type="hidden" name="course" class="textbox" value="PG-JAPANESE" placeholder="" id="crm_course_id">
                             <input type="hidden" name="description2" class="textbox" value="Japanese Language Course - Job Guarantee Program PPC" placeholder="" id="description2">
                          
-                            <input type="email" name="email" placeholder="Enter email here" class="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500" />
+                            <input type="email" name="email" placeholder="Enter email here" class="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-orange-500" />
                             <div class="flex gap-2">
-                                <select name="country_code" class="w-1/3 border border-gray-300 px-2 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500">
+                                <select name="country_code" class="w-1/3 border border-gray-300 px-2 py-2 rounded focus:outline-none focus:ring-2 focus:ring-orange-500">
                                     @include('semippc.component.number')
                                 </select>
-                                <input type="tel" name="number" placeholder="Enter phone here" class="w-2/3 border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-red-500" />
+                                <input type="tel" name="number" placeholder="Enter phone here" class="w-2/3 border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-orange-500" />
                             </div>
-                            <button id="form-one-button" class="w-full bg-red-600 hover:bg-red-900 text-white py-3 rounded-md font-semibold submit-btn">Send Me Brochure »</button>
+                            <button id="form-one-button" class="w-full bg-orange-600 hover:bg-orange-900 text-white py-3 rounded-md font-semibold submit-btn">Send Me Brochure »</button>
                         </form>
                     </div>
                     @include('semippc.component.nsdc-logo')
@@ -2575,17 +2575,17 @@
     @include('semippc.component.agota-frame')
     <section class="py-12 mx-auto px-4">
         <div class="max-w-6xl mx-auto" bis_skin_checked="1">
-            <div class="flex items-center justify-center flex-wrap gap-2 text-[30px] font-semibold text-red-700">
+            <div class="flex items-center justify-center flex-wrap gap-2 text-[30px] font-semibold text-orange-700">
                 <span>Still have questions?</span>
                 <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button"
-                    class="bg-red-600 text-white px-5 py-2 rounded-full text-[24px] shadow-md hover:bg-red-700 transition duration-300">
+                    class="bg-orange-600 text-white px-5 py-2 rounded-full text-[24px] shadow-md hover:bg-orange-700 transition duration-300">
                     Get Quick Call Back
                 </button>
                 <span>for answers</span>
             </div>
         </div>
     </section>
-    <div class="bg-gradient-to-r from-slate-800 via-red-800 to-red-500 text-white p-6">
+    <div class="bg-gradient-to-r from-slate-800 via-orange-800 to-orange-500 text-white p-6">
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
 
             <div class="text-white font-bold md:text-[40px] text-[30px] leading-tight">
@@ -2594,7 +2594,7 @@
 
             <div class="bg-white text-black rounded-xl p-6 shadow-md border-2 border-purple-800" id="form3">
                 <h3 class="text-center font-semibold mb-4">
-                    Book A Demo Class, <span class="text-red-600 font-bold">For 99$ Free !</span>
+                    Book A Demo Class, <span class="text-orange-600 font-bold">For 99$ Free !</span>
                 </h3>
                 <form class="space-y-3 brochure-form">
                     @if(isset($_GET['utm_campaign']))
@@ -2612,14 +2612,14 @@
                     <input type="hidden" name="course" class="textbox" value="PG-JAPANESE" placeholder="" id="crm_course_id">
                     <input type="hidden" name="description2" class="textbox" value="Japanese Language Course - Job Guarantee Program PPC" placeholder="" id="description2">
 
-                    <input type="email" name="email" id="email" placeholder="Email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600" />
+                    <input type="email" name="email" id="email" placeholder="Email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-600" />
                     <div class="flex gap-2">
                         <select name = "country_code" class="w-1/2 px-4 py-2 border border-gray-300 rounded-md">
                             @include('semippc.component.number')
                         </select>
                         <input type="number" name="number"placeholder="Phone"class="w-1/2 px-4 py-2 border border-gray-300 rounded-md" />
                     </div>
-                    <button type="submit" class="bg-red-600 text-white w-full py-2 rounded-md shadow hover:bg-red-900 transition submit-btn">
+                    <button type="submit" class="bg-orange-600 text-white w-full py-2 rounded-md shadow hover:bg-orange-900 transition submit-btn">
                         SUBMIT »
                     </button>
                 </form>
@@ -2633,9 +2633,9 @@
     <div id="authentication-modal" tabindex="-1" aria-hidden="true"
         class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
         <div class="relative p-4 w-full max-w-md max-h-full">
-            <div class="relative bg-white rounded-lg border-2 border-red-600 shadow">
+            <div class="relative bg-white rounded-lg border-2 border-orange-600 shadow">
                 <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
-                    <h3 class="text-[24px] font-[600] text-red-600">
+                    <h3 class="text-[24px] font-[600] text-orange-600">
                         Apply Now
                     </h3>
                     <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center" data-modal-hide="authentication-modal">
@@ -2662,26 +2662,26 @@
                             <input type="hidden" name="course" class="textbox" value="PG-JAPANESE" placeholder="" id="crm_course_id">
                             <input type="hidden" name="description2" class="textbox" value="Japanese Language Course - Job Guarantee Program PPC" placeholder="" id="description2">
                             <div>
-                                <label for="email" class="block text-sm mb-1 font-[600] text-red-600">Email</label>
-                                <input type="email" name="email" id="email" placeholder="Email" required class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
-                                <span id="email_error3" class="text-red-500 text-xs"></span>
+                                <label for="email" class="block text-sm mb-1 font-[600] text-orange-600">Email</label>
+                                <input type="email" name="email" id="email" placeholder="Email" required class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
+                                <span id="email_error3" class="text-orange-500 text-xs"></span>
                             </div>
                     <div>
-                        <label for="countryCode" class="block text-sm mb-1 font-[600] text-red-600">Country Code</label>
+                        <label for="countryCode" class="block text-sm mb-1 font-[600] text-orange-600">Country Code</label>
                         <div class="flex gap-2">
-                            <select name="country_code"class="w-4/12 bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-2.5">
+                            <select name="country_code"class="w-4/12 bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg p-2.5">
                                 @include('semippc.component.number')
                             </select>
-                            <input type="number" name="number" placeholder="Mobile no *"class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
+                            <input type="number" name="number" placeholder="Mobile no *"class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
                         </div>
-                        <span id="phone_error3" class="text-red-500 text-xs"></span>
+                        <span id="phone_error3" class="text-orange-500 text-xs"></span>
                     </div>
                     <!-- Hidden Inputs -->
                     {{-- <input type="hidden" name="source" class="textbox" value="KAZUMI WEBSITE" placeholder="" /> --}}
                     {{-- <input type="hidden" name="lead_source_page_url" class="textbox" value="{{ url()->full() }}" placeholder="" id=""> --}}
                     {{-- <input type="hidden" name="slug" value="contact-us"> --}}
                     <div class="flex justify-center pt-3">
-                        <button type="submit" class="bg-red-600 text-white py-2 px-4 text-lg rounded-md submit-btn">Submit</button>
+                        <button type="submit" class="bg-orange-600 text-white py-2 px-4 text-lg rounded-md submit-btn">Submit</button>
                     </div>
                 </form>
             </div>

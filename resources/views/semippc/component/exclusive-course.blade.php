@@ -1,6 +1,6 @@
     <section class="bg-gray-50 py-12 px-4">
         <div class="max-w-5xl mx-auto">
-            <h2 class="text-center text-3xl font-[600] text-red-600 mb-10">
+            <h2 class="text-center text-3xl font-[600] text-orange-600 mb-10">
                 Kazumi Japanese School Exclusive Course Offerings
             </h2>
 
@@ -19,7 +19,7 @@
             <!-- CTA Button -->
             <div class="text-center mt-10">
                 <a href="#brochureForm"
-                    class="inline-flex items-center px-6 py-3 bg-red-600 text-white rounded-md shadow hover:bg-red-800 transition">
+                    class="inline-flex items-center px-6 py-3 bg-orange-600 text-white rounded-md shadow hover:bg-orange-800 transition">
                     Get Brochure <i class="fa fa-book ml-2"></i>
                 </a>
             </div>

@@ -17,64 +17,64 @@
             <div>
                 <h3 class="text-white font-semibold border-b border-gray-600 pb-1 mb-3">USEFUL PAGES</h3>
                 <ul class="space-y-1 text-gray-400 text-sm">
-                    <li><a href="/about-us" class="hover:text-red-500">Knowing Kazumi</a></li>
-                    <li><a href="https://kazumischool.com/blog" class="hover:text-red-500">Blog</a></li>
+                    <li><a href="/about-us" class="hover:text-orange-500">Knowing Kazumi</a></li>
+                    <li><a href="https://kazumischool.com/blog" class="hover:text-orange-500">Blog</a></li>
 
-                    <li><a href="https://yuvaintern.com/" class="hover:text-red-500">Internship</a></li>
+                    <li><a href="https://yuvaintern.com/" class="hover:text-orange-500">Internship</a></li>
 
-                    <li><a href="https://www.henryharvin.com/pay-fee" class="hover:text-red-500">Online Payment</a></li>
-                    <li><a href="https://www.henryharvin.com/request-certificate" class="hover:text-red-500">Request
+                    <li><a href="https://www.henryharvin.com/pay-fee" class="hover:text-orange-500">Online Payment</a></li>
+                    <li><a href="https://www.henryharvin.com/request-certificate" class="hover:text-orange-500">Request
                             Certificate</a></li>
 
-                    <li><a href="/our-customers" class="hover:text-red-500">Our Customers</a></li>
-                    <li><a href="/contact-us" class="hover:text-red-500">Contact Us</a></li>
-                    <li><a href="https://www.henryharvin.com/support/" class="hover:text-red-500">Customer Support</a></li>
-                    <li><a href="/placed-students-list" class="hover:text-red-500">Placed Student list</a></li>
+                    <li><a href="/our-customers" class="hover:text-orange-500">Our Customers</a></li>
+                    <li><a href="/contact-us" class="hover:text-orange-500">Contact Us</a></li>
+                    <li><a href="https://www.henryharvin.com/support/" class="hover:text-orange-500">Customer Support</a></li>
+                    <li><a href="/placed-students-list" class="hover:text-orange-500">Placed Student list</a></li>
                 </ul>
             </div>
             <div>
                 <h3 class="text-white font-semibold border-b border-gray-600 pb-1 mb-3">Popular Blogs</h3>
                 <ul class="space-y-1 text-gray-400 text-sm">
-                    <li><a href="https://kazumischool.com/blog/how-to-choose-the-right-japanese-language-course-for-beginners/" class="hover:text-red-500">Japanese Language Course for Beginners</a></li>
-                    <li><a href="https://kazumischool.com/blog/institutes-offering-japanese-language-courses-in-delhi/" class="hover:text-red-500">Japanese Language Courses in Delhi</a></li>
-                    <li><a href="https://kazumischool.com/blog/best-japanese-language-institute-online-in-india/" class="hover:text-red-500">Best Japanese Language Institute online</a></li>
-                    <li><a href="https://kazumischool.com/blog/how-long-does-it-take-to-learn-japanese/" class="hover:text-red-500">How Long Does It Take to Learn Japanese?</a></li>
-                    <li><a href="https://kazumischool.com/blog/reasons-to-earn-a-japanese-language-certification/" class="hover:text-red-500">Earn a Japanese Language Certification</a></li>
-                    <li><a href="https://kazumischool.com/blog/how-to-learn-japanese-fast-complete-roadmap/" class="hover:text-red-500">How to Learn Japanese Fast?</a></li>
-                    <li><a href="https://kazumischool.com/blog/japanese-language-proficiency-test-jlpt-preparation-tips/" class="hover:text-red-500">Top 10 JLPT Preparation Tips</a></li>
-                    <li><a href="https://kazumischool.com/blog/benefits-of-learning-japanese-for-career-growth/" class="hover:text-red-500">Top 10 Benefits of Learning Japanese</a></li>
-                    <li><a href="https://kazumischool.com/blog/how-to-write-japanese-in-japanese-a-step-by-step-guide/" class="hover:text-red-500">How to Write Japanese in Japanese</a></li>
+                    <li><a href="https://kazumischool.com/blog/how-to-choose-the-right-japanese-language-course-for-beginners/" class="hover:text-orange-500">Japanese Language Course for Beginners</a></li>
+                    <li><a href="https://kazumischool.com/blog/institutes-offering-japanese-language-courses-in-delhi/" class="hover:text-orange-500">Japanese Language Courses in Delhi</a></li>
+                    <li><a href="https://kazumischool.com/blog/best-japanese-language-institute-online-in-india/" class="hover:text-orange-500">Best Japanese Language Institute online</a></li>
+                    <li><a href="https://kazumischool.com/blog/how-long-does-it-take-to-learn-japanese/" class="hover:text-orange-500">How Long Does It Take to Learn Japanese?</a></li>
+                    <li><a href="https://kazumischool.com/blog/reasons-to-earn-a-japanese-language-certification/" class="hover:text-orange-500">Earn a Japanese Language Certification</a></li>
+                    <li><a href="https://kazumischool.com/blog/how-to-learn-japanese-fast-complete-roadmap/" class="hover:text-orange-500">How to Learn Japanese Fast?</a></li>
+                    <li><a href="https://kazumischool.com/blog/japanese-language-proficiency-test-jlpt-preparation-tips/" class="hover:text-orange-500">Top 10 JLPT Preparation Tips</a></li>
+                    <li><a href="https://kazumischool.com/blog/benefits-of-learning-japanese-for-career-growth/" class="hover:text-orange-500">Top 10 Benefits of Learning Japanese</a></li>
+                    <li><a href="https://kazumischool.com/blog/how-to-write-japanese-in-japanese-a-step-by-step-guide/" class="hover:text-orange-500">How to Write Japanese in Japanese</a></li>
                 </ul>
                 
             </div>
             <div>
                 <h3 class="text-white font-semibold border-b border-gray-600 pb-1 mb-3">Reviews</h3>
                 <ul class="space-y-1 text-gray-400 text-sm">
-                    <li><a href="https://kazumischool.com/blog/kazumi-japanese-culture-school-reviews/" class="hover:text-red-500">Kazumi Japanese & Culture School Reviews</a></li>
-                     <li><a href="https://www.henryharvin.com/reviews-and-complaints" class="hover:text-red-500">Henry Harvin Reviews</a></li>
-                    <li><a href="https://www.justdial.com/Delhi/Henry-Harvin-INDIA-Education-LLP-Noida-Authority-Noida-Sector-6/011PXX11-XX11-181022173738-G2E3_BZDET/reviews" class="hover:text-red-500">Henry Harvin Reviews on Justdial</a></li>
-                    <li><a href="https://www.mouthshut.com/product-reviews/henryharvin-reviews-926062756" class="hover:text-red-500">Henry Harvin Reviews on Mouthshut</a></li>
-                    <li><a href="https://reviewsreporter.com/henry-harvin-reviews/" class="hover:text-red-500"> Henry Harvin Reviews on Reviews Reporter</a></li>
-                    <li><a href="https://www.coursereport.com/schools/henry-harvin-education" class="hover:text-red-500"> Henry Harvin Reviews on Course Report</a></li>
-                    <li><a href="https://www.sitejabber.com/reviews/henryharvin.com" class="hover:text-red-500">Henry Harvin Reviews on SiteJabber</a></li>
+                    <li><a href="https://kazumischool.com/blog/kazumi-japanese-culture-school-reviews/" class="hover:text-orange-500">Kazumi Japanese & Culture School Reviews</a></li>
+                     <li><a href="https://www.henryharvin.com/reviews-and-complaints" class="hover:text-orange-500">Henry Harvin Reviews</a></li>
+                    <li><a href="https://www.justdial.com/Delhi/Henry-Harvin-INDIA-Education-LLP-Noida-Authority-Noida-Sector-6/011PXX11-XX11-181022173738-G2E3_BZDET/reviews" class="hover:text-orange-500">Henry Harvin Reviews on Justdial</a></li>
+                    <li><a href="https://www.mouthshut.com/product-reviews/henryharvin-reviews-926062756" class="hover:text-orange-500">Henry Harvin Reviews on Mouthshut</a></li>
+                    <li><a href="https://reviewsreporter.com/henry-harvin-reviews/" class="hover:text-orange-500"> Henry Harvin Reviews on Reviews Reporter</a></li>
+                    <li><a href="https://www.coursereport.com/schools/henry-harvin-education" class="hover:text-orange-500"> Henry Harvin Reviews on Course Report</a></li>
+                    <li><a href="https://www.sitejabber.com/reviews/henryharvin.com" class="hover:text-orange-500">Henry Harvin Reviews on SiteJabber</a></li>
                    
-                    {{-- <li><a href="" class="hover:text-red-500"></a></li>
-                    <li><a href="" class="hover:text-red-500"></a></li>
-                    <li><a href="" class="hover:text-red-500"></a></li> --}}
+                    {{-- <li><a href="" class="hover:text-orange-500"></a></li>
+                    <li><a href="" class="hover:text-orange-500"></a></li>
+                    <li><a href="" class="hover:text-orange-500"></a></li> --}}
                 </ul>
                 
             </div>
         </div>
         <div class="max-w-7xl mx-auto mt-8 border-t border-gray-700 pt-4 md:px-0 grid grid-cols-1 md:grid-cols-4 gap-4">
             <div>
-                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1">Henry Harvin® America Head
+                <h3 class="text-orange-600 font-semibold border-b border-gray-600 pb-1">Henry Harvin® America Head
                     Office</h3>
                 <p class="text-white text-sm mb-2">Henry Harvin® Inc</p>
                 <p class="text-white text-sm">8 The Green, # 19614 Dover, DE 19901, United States.</a></p>
                 <p class="text-white text-sm">Phone: +1 209 382 3469</p>
             </div>
             <div>
-                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1">Henry Harvin® Asia
+                <h3 class="text-orange-600 font-semibold border-b border-gray-600 pb-1">Henry Harvin® Asia
                     Pacific Office</h3>
                 <p class="text-white text-sm mb-2">Henry Harvin® India Education LLP Henry Harvin® House,
                 </p>
@@ -82,18 +82,18 @@
                 <p class="text-white text-sm">Phone: +91 989 957 7620</p>
             </div>
             <div>
-                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1">Henry Harvin® Middle East
+                <h3 class="text-orange-600 font-semibold border-b border-gray-600 pb-1">Henry Harvin® Middle East
                     Office</h3>
                 <p class="text-white text-sm mb-2">Henry Harvin® Co. L.L.C.</p>
                 <p class="text-white text-sm">2703, Blue Matrix, 27th floor The Prime Tower, Business Bay, Dubai,
                     UAE</a></p>
                 <p class="text-white text-sm">Phone: +971 566 697 936</p>
                 <a class="bg-white py-1 px-3 text-[#3d0561] text-[11px] mt-1 flex items-center w-fit block cursor-pointer rounded-lg"
-                    href="https://henryharvin.ae/"><i class="fa fa-globe animate-pulse pr-2 text-[16px] text-red-600"
+                    href="https://henryharvin.ae/"><i class="fa fa-globe animate-pulse pr-2 text-[16px] text-orange-600"
                         aria-hidden="true"></i>Website</a>
             </div>
             <div>
-                <h3 class="text-red-600 font-semibold border-b border-gray-600 pb-1">Henry Harvin® United
+                <h3 class="text-orange-600 font-semibold border-b border-gray-600 pb-1">Henry Harvin® United
                     Kingdom Office</h3>
                 <p class="text-white text-sm mb-2">Henry Harvin® Limited</p>
                 <p class="text-white text-sm">Office No: 71-75, Shelton Street, Covent Garden, London, WC2H 9JQ</a></p>
@@ -168,14 +168,14 @@
         <div class="max-w-7xl mx-auto px-4 mt-4 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
             <div class="flex justify-center space-x-4 mb-4">
                 <a href="cancellation-&-refund-policy"
-                    class="text-red-700 font-[600] text-[14px] font-semibold">Cancellation & Refund Policy</a>
+                    class="text-orange-700 font-[600] text-[14px] font-semibold">Cancellation & Refund Policy</a>
                 <span>|</span>
-                <a href="terms-&-conditions" class="text-red-700 font-[600] text-[14px] font-semibold">Terms &
+                <a href="terms-&-conditions" class="text-orange-700 font-[600] text-[14px] font-semibold">Terms &
                     Conditions</a>
                 <span>|</span>
-                <a href="privacy-policy" class="text-red-700 font-[600]">Privacy Policy</a>
+                <a href="privacy-policy" class="text-orange-700 font-[600]">Privacy Policy</a>
                 <span>|</span>
-                <a href="contact-us" class="text-red-700 font-[600]">Customer Service</a>
+                <a href="contact-us" class="text-orange-700 font-[600]">Customer Service</a>
             </div>
             <p class="mb-6">&copy; 2025, Kazumi Japanese & Culture School by Henry Harvin®, All Rights Reserved<br>We
                 operate
@@ -186,9 +186,9 @@
 <div id="authentication-modal" tabindex="-1" aria-hidden="true"
     class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
     <div class="relative p-4 w-full max-w-md max-h-full">
-        <div class="relative bg-white rounded-lg border-2 border-red-600 shadow">
+        <div class="relative bg-white rounded-lg border-2 border-orange-600 shadow">
             <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
-                <h3 class="text-[24px] font-[600] text-red-600">
+                <h3 class="text-[24px] font-[600] text-orange-600">
                     Apply Now
                 </h3>
                 <button type="button"
@@ -205,24 +205,24 @@
             <form class="p-4 md:p-5 space-y-4" action="{{ route('lead.store') }}" method="POST">
                 @csrf
                 <div>
-                    <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
+                    <label for="name" class="block text-sm mb-1 font-[600] text-orange-600">Name</label>
                     <input type="text" name="name" id="name" placeholder="Name" required
-                        class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
-                    <span id="name_error3" class="text-red-500 text-xs"></span>
+                        class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
+                    <span id="name_error3" class="text-orange-500 text-xs"></span>
                 </div>
 
                 <div>
-                    <label for="email" class="block text-sm mb-1 font-[600] text-red-600">Email</label>
+                    <label for="email" class="block text-sm mb-1 font-[600] text-orange-600">Email</label>
                     <input type="email" name="email" id="email" placeholder="Email" required
-                        class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
-                    <span id="email_error3" class="text-red-500 text-xs"></span>
+                        class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
+                    <span id="email_error3" class="text-orange-500 text-xs"></span>
                 </div>
 
                 <div>
-                    <label for="countryCode" class="block text-sm mb-1 font-[600] text-red-600">Country Code</label>
+                    <label for="countryCode" class="block text-sm mb-1 font-[600] text-orange-600">Country Code</label>
                     <div class="flex gap-2">
                         <select name="countryCode"
-                            class="w-4/12 bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-2.5">
+                            class="w-4/12 bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg p-2.5">
                             <option value="IN" value="+91" selected="">(+91)</option>
                             <option value="PK" value="+92">Pakistan (+92)</option>
                             <option value="US" value="+1">USA (+1)</option>
@@ -454,9 +454,9 @@
                             <option value="ZW" value="+263">Zimbabwe (+263)</option>
                         </select>
                         <input type="number" name="sendto" placeholder="Mobile no *"
-                            class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
+                            class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-2.5">
                     </div>
-                    <span id="phone_error3" class="text-red-500 text-xs"></span>
+                    <span id="phone_error3" class="text-orange-500 text-xs"></span>
                 </div>
                 <input type="hidden" name="source" class="textbox" value="KAZUMI WEBSITE" placeholder="" />
                 <input type="hidden" name="lead_source_page_url" class="textbox" value="{{ url()->full() }}"
@@ -464,7 +464,7 @@
                 <input type="hidden" name="slug" value="contact-us">
                 <div class="flex justify-center pt-3">
                     <button type="submit" id="submit_ty"
-                        class="bg-red-600 text-white py-2 px-4 text-lg rounded-md">Submit</button>
+                        class="bg-orange-600 text-white py-2 px-4 text-lg rounded-md">Submit</button>
                 </div>
             </form>
         </div>
@@ -532,7 +532,7 @@
     <div
         class="relative w-md max-w-2xl max-h-full rounded-lg rid h-auto w-10/12 grid-flow-row gap-2 rounded-md shadow-sm md:grid-cols-2 bg-[#fff]">
         <div class="grid h-auto items-center place-items-center grid-flow-row gap-2  md:grid-cols-2">
-            <div class="ml-3 rounded-md bg-red-600 px-3 py-5">
+            <div class="ml-3 rounded-md bg-orange-600 px-3 py-5">
                 <div class="flex items-center justify-center">
                     <img class="img-chat"
                         src="https://cdn.henryharvin.com/16724655811672465581ezgif.com-gif-maker(80).webp"
@@ -564,7 +564,7 @@
             </div>
             <div class="px-4">
                 <div class="flex items-center justify-between p-4 md:p-2 border-b rounded-t">
-                    <h3 class="text-[20px] font-[600] text-red-600">
+                    <h3 class="text-[20px] font-[600] text-orange-600">
                         Apply Now
                     </h3>
                     <button type="button"
@@ -581,25 +581,25 @@
                 <form class="p-4 md:p-2 space-y-1" action="{{ route('lead.store') }}" method="POST">
                     @csrf
                     <div>
-                        <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
+                        <label for="name" class="block text-sm mb-1 font-[600] text-orange-600">Name</label>
                         <input type="text" name="name" id="name" placeholder="Name" required
-                            class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1.5">
-                        <span id="name_error3" class="text-red-500 text-xs"></span>
+                            class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1.5">
+                        <span id="name_error3" class="text-orange-500 text-xs"></span>
                     </div>
 
                     <div>
-                        <label for="email" class="block text-sm mb-1 font-[600] text-red-600">Email</label>
+                        <label for="email" class="block text-sm mb-1 font-[600] text-orange-600">Email</label>
                         <input type="email" name="email" id="email" placeholder="Email" required
-                            class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1.5">
-                        <span id="email_error3" class="text-red-500 text-xs"></span>
+                            class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1.5">
+                        <span id="email_error3" class="text-orange-500 text-xs"></span>
                     </div>
 
                     <div>
-                        <label for="countryCode" class="block text-sm mb-1 font-[600] text-red-600">Country
+                        <label for="countryCode" class="block text-sm mb-1 font-[600] text-orange-600">Country
                             Code</label>
                         <div class="flex gap-2">
                             <select name="countryCode"
-                                class="w-4/12 bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-1.5">
+                                class="w-4/12 bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg p-1.5">
                                 <option value="IN" value="+91" selected="">(+91)</option>
                                 <option value="PK" value="+92">Pakistan (+92)</option>
                                 <option value="US" value="+1">USA (+1)</option>
@@ -832,9 +832,9 @@
                                 <option value="ZW" value="+263">Zimbabwe (+263)</option>
                             </select>
                             <input type="number" name="sendto" placeholder="Mobile no *"
-                                class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1.5">
+                                class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1.5">
                         </div>
-                        <span id="phone_error3" class="text-red-500 text-xs"></span>
+                        <span id="phone_error3" class="text-orange-500 text-xs"></span>
                     </div>
                     <input type="hidden" name="source" class="textbox" value="KAZUMI WEBSITE"
                         placeholder="" />
@@ -844,7 +844,7 @@
 
                     <div class="flex justify-center pt-2">
                         <button type="submit" id="submit_ty2"
-                            class="bg-red-600 text-white py-1 px-4 text-lg rounded-md">Submit</button>
+                            class="bg-orange-600 text-white py-1 px-4 text-lg rounded-md">Submit</button>
                     </div>
                 </form>
             </div>

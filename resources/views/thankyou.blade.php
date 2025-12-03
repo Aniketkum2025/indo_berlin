@@ -3,18 +3,18 @@
 <script>
   gtag('event', 'conversion', {'send_to': 'AW-957633606/3BDTCLnJ1cIBEMao0cgD'});
 </script>
-    <div class="bg-white text-center p-8 rounded-lg shadow-lg max-w-6xl mx-auto w-full border border-red-300 my-8">
-        <h2 class="text-4xl font-bold mb-2 text-red-700">Final Step</h2>
+    <div class="bg-white text-center p-8 rounded-lg shadow-lg max-w-6xl mx-auto w-full border border-orange-300 my-8">
+        <h2 class="text-4xl font-bold mb-2 text-orange-700">Final Step</h2>
         <p class="text-lg font-semibold mb-1">Join Meeting & Talk with a Senior Consultant [LIVE]</p>
         <p class="mb-6 text-gray-600">To connect with a dedicated expert counselor, please let us know which course you are
             interested in inquiring about.</p>
 
         <!-- Custom Select Dropdown -->
-        {{-- <div class="w-full max-w-md mx-auto text-left text-red-600" x-data="dropdown()">
-            <label class="block text-[20px] font-medium text-red-700 mb-1">Select Course</label>
+        {{-- <div class="w-full max-w-md mx-auto text-left text-orange-600" x-data="dropdown()">
+            <label class="block text-[20px] font-medium text-orange-700 mb-1">Select Course</label>
             <div class="relative">
                 <button @click="toggle"
-                    class="w-full border border-gray-300 bg-white text-black rounded-md px-4 py-3 text-left shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500 flex justify-between items-center">
+                    class="w-full border border-gray-300 bg-white text-black rounded-md px-4 py-3 text-left shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500 flex justify-between items-center">
                     <span x-text="selected || 'Please Select Course'"></span>
                     <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -24,11 +24,11 @@
                     class="absolute z-10 mt-2 w-full bg-white border border-gray-300 rounded-md shadow-lg">
                     <div class="p-2">
                         <input type="text" placeholder="Search..." x-model="search"
-                            class="w-full border border-gray-300 px-3 py-2 rounded-md text-sm focus:outline-none focus:ring-1 focus:ring-red-500" />
+                            class="w-full border border-gray-300 px-3 py-2 rounded-md text-sm focus:outline-none focus:ring-1 focus:ring-orange-500" />
                     </div>
                     <ul class="max-h-60 overflow-y-auto text-sm">
                         <template x-for="item in filteredCourses" :key="item">
-                            <li @click="select(item)" class="px-4 py-2 cursor-pointer hover:bg-red-100" x-text="item"></li>
+                            <li @click="select(item)" class="px-4 py-2 cursor-pointer hover:bg-orange-100" x-text="item"></li>
                         </template>
                         <li x-show="filteredCourses.length === 0" class="px-4 py-2 text-gray-400">No matches found.</li>
                     </ul>
@@ -38,7 +38,7 @@
     </div>
     <div class="text-center my-6">
         <a href="https://zoom.us/j/93024133145?pwd=QfibdAB6meQtEtyQlaPaePkXqaDLqG.1"
-            class="bg-red-600 py-2 px-6 text-white text-xl rounded-3xl border border-white">
+            class="bg-orange-600 py-2 px-6 text-white text-xl rounded-3xl border border-white">
             JOIN NOW <i class="fa fa-video-camera text-white text-xl ml-2" aria-hidden="true" id="zoom-call-1"></i>
         </a>
     </div>
@@ -49,7 +49,7 @@
         @if($course->slug != 'contact-us' && $course_brochure !='null')
         <div class="text-center my-6">
             <a href="{{$course_brochure}}" target="_blank"
-                class="bg-red-600 py-2 px-6 text-white text-xl rounded-3xl border border-white">
+                class="bg-orange-600 py-2 px-6 text-white text-xl rounded-3xl border border-white">
                 DOWNLOAD BROCHURE
             </a>
         </div>
@@ -58,7 +58,7 @@
     {{-- Agota™ Framework section --}}
     <section class="py-12 mx-auto px-4">
         <div class="max-w-6xl mx-auto" bis_skin_checked="1">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-2 text-[#da2028] capitalize my-4">Agota™ Framework
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-2 text-orange-600 capitalize my-4">Agota™ Framework
             </h2>
             <p class="text-[16px] text-gray-800 font-[600] text-center">AGOTA™ Framework is a trajectory that offers
                 complete growth of an individual incorporating the two most significant focus areas of contemporary
@@ -73,7 +73,7 @@
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">1: Training
+                                <p class="col-span-2 text-orange-600">1: Training
                                     <span class="block text-[12px] text-gray-800 font-[600]">144 Hours of Two-Way Live
                                         Online Interactive Sessions</span>
                                 </p>
@@ -98,7 +98,7 @@
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">2: Projects
+                                <p class="col-span-2 text-orange-600">2: Projects
                                     <span class="block text-[12px] text-gray-800 font-[600]"> Facility to undergo projects
                                         along with the course</span>
                                 </p>
@@ -125,7 +125,7 @@
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">3: Student Engagement &amp; Events
+                                <p class="col-span-2 text-orange-600">3: Student Engagement &amp; Events
                                     <span class="block text-[12px] text-gray-800 font-[600]"> Free Access to #AskHenry
                                         Hackathons and Competitions & many other facilities from Henry Harvin®</span>
                                 </p>
@@ -150,7 +150,7 @@
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">4: Masterclass
+                                <p class="col-span-2 text-orange-600">4: Masterclass
                                     <span class="block text-[12px] text-gray-800 font-[600]">Access to 52+ Masterclass
                                         Sessions for essential soft スキル (Sukiru) development</span>
                                 </p>
@@ -177,7 +177,7 @@
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">5: Membership
+                                <p class="col-span-2 text-orange-600">5: Membership
                                     <span class="block text-[12px] text-gray-800 font-[600]"> 30 Months Gold Membership of
                                         Henry Harvin® School of Languages</span>
                                 </p>
@@ -199,7 +199,7 @@
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">6: E-Learning Access
+                                <p class="col-span-2 text-orange-600">6: E-Learning Access
                                     <span class="block text-[12px] text-gray-800 font-[600]">Get free access to the LMS
                                         having PPTs, projects, self-paced video-based learning, library, quizzes, question
                                         bank, practice tests, final assessments, and a forum, powered by
@@ -235,7 +235,7 @@
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">7: 特徴 (Tokuchō) Certification + License
+                                <p class="col-span-2 text-orange-600">7: 特徴 (Tokuchō) Certification + License
                                     <span class="block text-[12px] text-gray-800 font-[600]">Distinguish your profile with
                                         global credentials and showcase expertise with our 特徴 (Tokuchō) Completion
                                         certificate with Professional License</span>
@@ -261,7 +261,7 @@
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">8: Internship Support
+                                <p class="col-span-2 text-orange-600">8: Internship Support
                                     <span class="block text-[12px] text-gray-800 font-[600]">Get Internship Support with
                                         Henry Harvin® and in top MNCs like J.P. Morgan, Accenture & many more via 100X Suite
                                         and
@@ -291,7 +291,7 @@
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">9: Entrepreneurship Mentorship
+                                <p class="col-span-2 text-orange-600">9: Entrepreneurship Mentorship
                                     <span class="block text-[12px] text-gray-800 font-[600]">Mentorship from Young
                                         Successful Entrepreneurs to set up a sustainable & scalable Business from scratch at
                                         both Freelance & Entrepreneur level</span>
@@ -315,7 +315,7 @@
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">10: Placement Support
+                                <p class="col-span-2 text-orange-600">10: Placement Support
                                     <span class="block text-[12px] text-gray-800 font-[600]">Get 3 in 1 Placement support
                                         through Placement Drives, Premium access to the Job portal & Personalized Job
                                         Consulting</span>
@@ -350,7 +350,7 @@
     <section class="py-12 bg-gray-100 mx-auto px-4">
         <div class="max-w-7xl mx-auto">
             <h2 style="place-self: center;"
-                class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">
+                class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">
                 Henry Harvin® Course Inquiry
             </h2>
             <div class=" w-full" bis_skin_checked="1">
@@ -402,7 +402,7 @@
             </div>
 
             <h2 style="place-self: center;"
-                class="mt-2 text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">
+                class="mt-2 text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">
                 Henry Harvin® Customer Support
             </h2>
             <div class="w-full" bis_skin_checked="1">

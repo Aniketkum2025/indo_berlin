@@ -48,14 +48,14 @@
             <div class="bg-black bg-opacity-70">
                 <div class="relative z-10 grid md:flex py-2 gap-6 justify-center items-center h-full text-center">
                     <div class="md:w-7/12 w-full bg-[#0000003b] p-4 rounded-md space-y-4 text-left">
-                        <h1 class="text-[26px] md:text-[32px] font-[500] text-red-600">Japanese Language Course | 日本語コース
+                        <h1 class="text-[26px] md:text-[32px] font-[500] text-orange-600">Japanese Language Course | 日本語コース
                         </h1>
                         <div class="flex space-x-4 mb-8 items-center ">
                             <a data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" type="button"
-                                class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600">Apply
+                                class="bg-orange-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-orange-600">Apply
                                 Now</a>
                             <a href="/about-us"
-                                class="bg-red-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-red-600"> Learn
+                                class="bg-orange-500 text-white px-4 py-2 text-sm md:text-base rounded hover:bg-orange-600"> Learn
                                 More</a>
                         </div>
                         {{-- <div class="">
@@ -67,16 +67,16 @@
                         </div> --}}
                         <div id="countryPrice" class="grid grid-cols-1 mt-4 lg:gap-2 gap-4">
                             <div class="w-full">
-                                <span class="text-[16px] font-[600] text-red-600">Starts In 3 day</span>
-                                <span class="font-[800] text-[16px] mt-1 text-red-600">04 Aug 2025</span>
+                                <span class="text-[16px] font-[600] text-orange-600">Starts In 3 day</span>
+                                <span class="font-[800] text-[16px] mt-1 text-orange-600">04 Aug 2025</span>
                             </div>
                         </div>
-                        <div class="text-red-600 text-[20px] flex flex-col space-y-2">
+                        <div class="text-orange-600 text-[20px] flex flex-col space-y-2">
                             <p class="font-[600]"><a data-modal-target="authentication-modal"
                                     data-modal-toggle="authentication-modal" type="button"><span
                                         class="text-white">Forbes</span> features
                                     Henry Harvin <span class="text-white font-semibold">4.8 / 5</span> ⭐⭐⭐⭐⭐</a></p>
-                            <p class="text-white text-[16px]"><span class="text-red-600">★ 4.9</span> (1583 Ratings) • 2129
+                            <p class="text-white text-[16px]"><span class="text-orange-600">★ 4.9</span> (1583 Ratings) • 2129
                                 Learners
                             </p>
                         </div>
@@ -93,10 +93,10 @@
 
                     </div>
                     <div class="md:w-4/12 w-full ">
-                        <div class="relative bg-white rounded-lg border-2 border-red-600 shadow mb-2">
+                        <div class="relative bg-white rounded-lg border-2 border-orange-600 shadow mb-2">
                             <!-- Modal header -->
                             <div class="flex items-center justify-between px-4 py-2 border-b rounded-t">
-                                <h3 class="text-[20px] font-[600] text-red-600 text-center">
+                                <h3 class="text-[20px] font-[600] text-orange-600 text-center">
                                     Book a Live Class
                                 </h3>
 
@@ -105,33 +105,33 @@
                             <!-- Modal body -->
                             <form class="p-2 md:p-2 space-y-2 text-left">
                                 <div>
-                                    <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
+                                    <label for="name" class="block text-sm mb-1 font-[600] text-orange-600">Name</label>
                                     <input type="text" name="name" id="name" placeholder="Name" required=""
-                                        class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
-                                    <span id="name_error3" class="text-red-500 text-xs"></span>
+                                        class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                                    <span id="name_error3" class="text-orange-500 text-xs"></span>
                                 </div>
 
                                 <div>
-                                    <label for="email" class="block text-sm mb-1 font-[600] text-red-600">Email</label>
+                                    <label for="email" class="block text-sm mb-1 font-[600] text-orange-600">Email</label>
                                     <input type="email" name="email" id="email" placeholder="Email" required=""
-                                        class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
-                                    <span id="email_error3" class="text-red-500 text-xs"></span>
+                                        class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                                    <span id="email_error3" class="text-orange-500 text-xs"></span>
                                 </div>
 
                                 <div>
-                                    <label for="countryCode" class="block text-sm mb-1 font-[600] text-red-600">Country
+                                    <label for="countryCode" class="block text-sm mb-1 font-[600] text-orange-600">Country
                                         Code</label>
                                     <div class="flex gap-2">
                                         <select name="countryCode"
-                                            class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-1">
+                                            class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg p-1">
                                             <option value="(+971)" selected="">UAE (+971)</option>
                                             <option value="(+91)">India (+91)</option>
                                             <option value="(+1)">USA (+1)</option>
                                         </select>
                                         <input type="number" name="phone" placeholder="Mobile no *"
-                                            class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                                            class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1">
                                     </div>
-                                    <span id="phone_error3" class="text-red-500 text-xs"></span>
+                                    <span id="phone_error3" class="text-orange-500 text-xs"></span>
                                 </div>
 
                                 <!-- Hidden Inputs -->
@@ -146,7 +146,7 @@
 
                                 <div class="flex justify-center pt-2">
                                     <button type="submit"
-                                        class="bg-red-600 text-white px-2 py-1 text-lg rounded-md">Submit</button>
+                                        class="bg-orange-600 text-white px-2 py-1 text-lg rounded-md">Submit</button>
                                 </div>
                             </form>
 
@@ -273,7 +273,7 @@
     </section>
     <section class="py-12 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Accreditations
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">Accreditations
                 & Affiliations
             </h2>
             <div class="swiper linearswiper">
@@ -346,7 +346,7 @@
         </div>
     </section>
     <section id="videoGrid" class="py-12 px-4 hidden">
-        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Hear from our
+        <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">Hear from our
             learners about their experience</h2>
         <div class="relative max-w-7xl mx-auto">
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
@@ -569,7 +569,7 @@
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mt-2">
             <div class="md:col-span-2">
                 <div>
-                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Key Highlights
+                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize">Key Highlights
                     </h2>
                     <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 mx-auto gap-2">
                         <div class="shadow box-border relative mt-2 rounded-md bg-white py-2 px-2">
@@ -579,7 +579,7 @@
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1711777063icon (1).png"
                                         alt="images">
                                 </div>
-                                <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">670 Hours of Instructor-Led
+                                <h5 class="w-9/12 text-[14px] font-medium text-orange-700 italic">670 Hours of Instructor-Led
                                     Sessions</h5>
                             </div>
                         </div>
@@ -591,7 +591,7 @@
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1711779552Doubt%20solving%20session.png"
                                         alt="images">
                                 </div>
-                                <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">224 Hours of Live
+                                <h5 class="w-9/12 text-[14px] font-medium text-orange-700 italic">224 Hours of Live
                                     Interactive Doubt Solving Sessions</h5>
                             </div>
                         </div>
@@ -603,7 +603,7 @@
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1711779671Industry%20expert%20sessions.png"
                                         alt="images">
                                 </div>
-                                <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">112 Hours of Live Master
+                                <h5 class="w-9/12 text-[14px] font-medium text-orange-700 italic">112 Hours of Live Master
                                     Sessions by Industry Experts</h5>
                             </div>
                         </div>
@@ -615,7 +615,7 @@
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1711779837Self paced.png"
                                         alt="images">
                                 </div>
-                                <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">576 Hours of Self-Paced
+                                <h5 class="w-9/12 text-[14px] font-medium text-orange-700 italic">576 Hours of Self-Paced
                                     Learning</h5>
                             </div>
                         </div>
@@ -627,7 +627,7 @@
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1711780067Capstone.png"
                                         alt="images">
                                 </div>
-                                <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">Job-Ready Portfolio of 67+
+                                <h5 class="w-9/12 text-[14px] font-medium text-orange-700 italic">Job-Ready Portfolio of 67+
                                     Capstone Projects</h5>
                             </div>
                         </div>
@@ -639,7 +639,7 @@
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1711780133assesments.png"
                                         alt="images">
                                 </div>
-                                <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">290 Auto-Graded Assessments
+                                <h5 class="w-9/12 text-[14px] font-medium text-orange-700 italic">290 Auto-Graded Assessments
                                     powered by Examopedia</h5>
                             </div>
                         </div>
@@ -651,7 +651,7 @@
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1713174360icon-1.png"
                                         alt="images">
                                 </div>
-                                <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">134+ Industry Case Studies
+                                <h5 class="w-9/12 text-[14px] font-medium text-orange-700 italic">134+ Industry Case Studies
                                 </h5>
                             </div>
                         </div>
@@ -663,7 +663,7 @@
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1712051679hands on excercise (2).png"
                                         alt="images">
                                 </div>
-                                <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">1005 Guided Hands-On
+                                <h5 class="w-9/12 text-[14px] font-medium text-orange-700 italic">1005 Guided Hands-On
                                     Exercises</h5>
                             </div>
                         </div>
@@ -675,7 +675,7 @@
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1711780980Assignments.png"
                                         alt="images">
                                 </div>
-                                <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">67+ Assignments and Mini
+                                <h5 class="w-9/12 text-[14px] font-medium text-orange-700 italic">67+ Assignments and Mini
                                     Projects</h5>
                             </div>
                         </div>
@@ -687,7 +687,7 @@
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1711781074Hackathons.png"
                                         alt="images">
                                 </div>
-                                <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">2 Mock Interviews and 3
+                                <h5 class="w-9/12 text-[14px] font-medium text-orange-700 italic">2 Mock Interviews and 3
                                     Hackathons</h5>
                             </div>
                         </div>
@@ -699,7 +699,7 @@
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1711781459Mentorship.png"
                                         alt="images">
                                 </div>
-                                <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">15 Hours of Mentorship by
+                                <h5 class="w-9/12 text-[14px] font-medium text-orange-700 italic">15 Hours of Mentorship by
                                     Industry Experts</h5>
                             </div>
                         </div>
@@ -711,7 +711,7 @@
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1739631998icon_2.png"
                                         alt="images">
                                 </div>
-                                <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">Upgradation to Sector Skill
+                                <h5 class="w-9/12 text-[14px] font-medium text-orange-700 italic">Upgradation to Sector Skill
                                     Council Certification</h5>
                             </div>
                         </div>
@@ -723,7 +723,7 @@
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1712569767GM-Logo (1).png"
                                         alt="images">
                                 </div>
-                                <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">Get 36 Months Gold
+                                <h5 class="w-9/12 text-[14px] font-medium text-orange-700 italic">Get 36 Months Gold
                                     Membership of Henry Harvin® School of Languages</h5>
                             </div>
                         </div>
@@ -735,7 +735,7 @@
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1711781357Internship.png"
                                         alt="images">
                                 </div>
-                                <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">Get a guaranteed Internship
+                                <h5 class="w-9/12 text-[14px] font-medium text-orange-700 italic">Get a guaranteed Internship
                                     with Henry Harvin® and in top MNCs like J.P. Morgan, Accenture & many more via Forage
                                 </h5>
                             </div>
@@ -748,7 +748,7 @@
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1711781409Placements.png"
                                         alt="images">
                                 </div>
-                                <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">Get 3 in 1 Placement support
+                                <h5 class="w-9/12 text-[14px] font-medium text-orange-700 italic">Get 3 in 1 Placement support
                                     through Placement Drives, Premium access to Job portal & Personalized Job Consulting
                                 </h5>
                             </div>
@@ -761,7 +761,7 @@
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1711781642Hallmark%20certification.png"
                                         alt="images">
                                 </div>
-                                <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">Earn Certification of Course
+                                <h5 class="w-9/12 text-[14px] font-medium text-orange-700 italic">Earn Certification of Course
                                     from Henry Harvin®, Govt of India recognized & Award-Winning Institute and NSDC
                                     Certification</h5>
                             </div>
@@ -774,7 +774,7 @@
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1737087801dbs.png"
                                         alt="images">
                                 </div>
-                                <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">Upgradation to globally
+                                <h5 class="w-9/12 text-[14px] font-medium text-orange-700 italic">Upgradation to globally
                                     recognized Swiss Certification from Dunster Business School, Switzerland</h5>
                             </div>
                         </div>
@@ -786,19 +786,19 @@
                                         src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1739632069icon_3.png"
                                         alt="images">
                                 </div>
-                                <h5 class="w-9/12 text-[14px] font-medium text-red-700 italic">Upgrade to SAMADHAN Govt.
+                                <h5 class="w-9/12 text-[14px] font-medium text-orange-700 italic">Upgrade to SAMADHAN Govt.
                                     Certifications and earn credits for related jobs</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="md:px-4 p-3 border-2 border-red-700 mt-6">
-                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">About
+                <div class="md:px-4 p-3 border-2 border-orange-700 mt-6">
+                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">About
                         Japanese Language Course
                     </h2>
                     <div class="custome prose prose-sm mt-4 max-w-none mx-auto 
                             prose-strong:text-[13px] prose-strong:font-[600]
-                            prose-h2:text-red-700 prose-h3:text-red-700 prose-h4:text-red-700
+                            prose-h2:text-orange-700 prose-h3:text-orange-700 prose-h4:text-orange-700
                             prose-h2:text-[16px] prose-h3:text-[16px] prose-h4:text-[16px]
                             prose-h2:font-[500] prose-h3:font-[500] prose-h4:font-[500]
                             prose-p:text-white prose-p:font-[500] prose-p:text-[16px]
@@ -1220,7 +1220,7 @@
                         </ul>
                     </div>
                     <button class="relative  mx-auto flex items-center text-white mt-4">
-                        <span class="rounded-md bg-red-700 px-4 py-2" style="width: 142px; padding: 11px 29px 11px 0px;"
+                        <span class="rounded-md bg-orange-700 px-4 py-2" style="width: 142px; padding: 11px 29px 11px 0px;"
                             id="toggleButton" onclick="toggleText()">Show More</span>
                         <span class="mx-auto rounded-md h-full am-am animate-bounceVertical pl-2 absolute right-2 z-20"
                             style="pointer-events: none; right:10px; top:6px;">
@@ -1229,11 +1229,11 @@
                     </button>
                 </div>
                 {{-- <div class="text-center py-10">
-                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">COURSE
+                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">COURSE
                         FEATURES </h2>
 
                     <div
-                        class="bg-red-700 text-white mt-6 px-6 py-6 rounded-lg flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0 sm:space-x-8 max-w-6xl mx-auto">
+                        class="bg-orange-700 text-white mt-6 px-6 py-6 rounded-lg flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0 sm:space-x-8 max-w-6xl mx-auto">
 
                         <!-- Duration -->
                         <div class="flex items-center space-x-2">
@@ -1269,7 +1269,7 @@
                     </div>
                 </div> --}}
                 <div class="text-center py-10">
-                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Our
+                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">Our
                         Placement Stats </h2>
                     <div class="grid md:grid-cols-3 grid-cols-1 gap-4 mt-4 mb-4">
                         <div class="shadow-md rounded-md py-4">
@@ -1305,7 +1305,7 @@
                     </div>
                 </div>
                 {{-- <div class="text-center py-10">
-                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize my-4">Access
+                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize my-4">Access
                         the best jobs in the industry </h2>
                     <div class="my-3 md:block hidden">
                         <img class="w-full" src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1719478413q23ew.webp"
@@ -1317,7 +1317,7 @@
                     </div>
                 </div> --}}
                 <div class="">
-                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Japanese
+                    <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize">Japanese
                         Language
                         Course
                         Curriculum</h2>
@@ -1326,7 +1326,7 @@
 
                         <!-- Module 1 -->
                         <!-- Module: N5 Level -->
-                        <li class="bg-red-600 shadow-lg rounded" x-data="{ open: false }">
+                        <li class="bg-orange-600 shadow-lg rounded" x-data="{ open: false }">
                             <h3 @click="open = !open"
                                 class="flex text-white justify-between items-center font-semibold px-4 py-4 cursor-pointer">
                                 <div class="flex gap-2 items-center">
@@ -1343,7 +1343,7 @@
                             <div x-show="open" x-transition class="bg-white text-black p-4 text-sm space-y-4">
                                 <div class="mx-6 pl-6">
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 1:
+                                                    style="color:#000000"><strong class="text-orange-600">Module 1:
                                                         Introduction</strong></span></span></span></p>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
@@ -1364,7 +1364,7 @@
                                     </ul>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 2:
+                                                    style="color:#000000"><strong class="text-orange-600">Module 2:
                                                         Hiragana
                                                         Syllabary</strong></span></span></span></p>
 
@@ -1405,7 +1405,7 @@
                                     </ul>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 3:
+                                                    style="color:#000000"><strong class="text-orange-600">Module 3:
                                                         Katakana
                                                         Syllabary</strong></span></span></span></p>
 
@@ -1438,7 +1438,7 @@
                                     </ul>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 4:
+                                                    style="color:#000000"><strong class="text-orange-600">Module 4:
                                                         Greetings/Expressions</strong></span></span></span></p>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
@@ -1455,7 +1455,7 @@
                                     </ul>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 5:
+                                                    style="color:#000000"><strong class="text-orange-600">Module 5:
                                                         Beginners
                                                         Terminologies</strong></span></span></span></p>
 
@@ -1481,7 +1481,7 @@
                                     </ul>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 6:
+                                                    style="color:#000000"><strong class="text-orange-600">Module 6:
                                                         Verbs</strong></span></span></span></p>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
@@ -1511,7 +1511,7 @@
                                     </ul>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 7: Counter
+                                                    style="color:#000000"><strong class="text-orange-600">Module 7: Counter
                                                         Suffixes</strong></span></span></span></p>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
@@ -1526,7 +1526,7 @@
                                     </ul>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 8:
+                                                    style="color:#000000"><strong class="text-orange-600">Module 8:
                                                         Introduction to
                                                         Particles</strong></span></span></span></p>
 
@@ -1550,7 +1550,7 @@
                                     </ul>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 9:
+                                                    style="color:#000000"><strong class="text-orange-600">Module 9:
                                                         Introduction to
                                                         Adverbs</strong></span></span></span></p>
 
@@ -1565,7 +1565,7 @@
                                     </ul>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 10:
+                                                    style="color:#000000"><strong class="text-orange-600">Module 10:
                                                         Introduction to
                                                         Adjectives</strong></span></span></span></p>
 
@@ -1585,7 +1585,7 @@
                                     </ul>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 11:
+                                                    style="color:#000000"><strong class="text-orange-600">Module 11:
                                                         Introduction to
                                                         Kanjis</strong></span></span></span></p>
 
@@ -1608,7 +1608,7 @@
                                     </ul>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 12:
+                                                    style="color:#000000"><strong class="text-orange-600">Module 12:
                                                         Conversation
                                                         Ethics</strong></span></span></span></p>
 
@@ -1628,7 +1628,7 @@
                                                         Questions- どうして、どれ、どの、どこ</span></span></span></li>
                                     </ul>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module 13: Introduction
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module 13: Introduction
                                                 to N5
                                                 Advance</strong></span></p>
 
@@ -1641,7 +1641,7 @@
                                         <li><span style="font-size:14px">Readings and Stroke order- 漢字意味及び読み書き</span></li>
                                     </ul>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module 14:
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module 14:
                                                 Verbs</strong></span></p>
 
                                     <p><span style="font-size:14px">Enhance your knowledge by usage of Verbs</span></p>
@@ -1655,7 +1655,7 @@
                                         <li><span style="font-size:14px">文章翻訳及び意味わかり- 読み書き練習</span></li>
                                     </ul>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module 15:
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module 15:
                                                 Phrases</strong></span></p>
 
                                     <p><span style="font-size:14px">Learn Can Do, And / And Etc Phrase, Toka/Toka
@@ -1667,7 +1667,7 @@
                                         <li><span style="font-size:14px">とか　とか　Ｖ</span></li>
                                     </ul>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module 16: Conversation
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module 16: Conversation
                                                 Cont</strong></span>
                                     </p>
 
@@ -1680,7 +1680,7 @@
                                         <li><span style="font-size:14px">嫌いです- 文章作り方</span></li>
                                     </ul>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module 17: Special
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module 17: Special
                                                 Adjectives</strong></span>
                                     </p>
 
@@ -1691,7 +1691,7 @@
                                         <li><span style="font-size:14px">が　欲しい　です- 得意形容詞</span></li>
                                     </ul>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module 18: Telling
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module 18: Telling
                                                 Time</strong></span></p>
 
                                     <p><span style="font-size:14px">Learn using Japanese style of telling time, Sentence
@@ -1703,7 +1703,7 @@
                                         <li><span style="font-size:14px">Comprehensions solving- 読解問題</span></li>
                                     </ul>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module 19: Verbs
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module 19: Verbs
                                                 Cont..</strong></span></p>
 
                                     <p><span style="font-size:14px">Learn plain Forms of the verbs and phrases using Plain
@@ -1714,7 +1714,7 @@
                                         <li><span style="font-size:14px">たりたりする, たけいあとで, 辞書形前に</span></li>
                                     </ul>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module 20: Kanjis
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module 20: Kanjis
                                                 Cont..</strong></span></p>
 
                                     <p><span style="font-size:14px">Learn 20 More kanjis Including Adjectives, Practice
@@ -1727,7 +1727,7 @@
                                         <li><span style="font-size:14px">復習</span></li>
                                     </ul>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module 21: Adverbs
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module 21: Adverbs
                                                 Cont..&nbsp;</strong></span></p>
 
                                     <p><span style="font-size:14px">Understand adverbs sensitivity</span></p>
@@ -1737,7 +1737,7 @@
                                                 意味付き文章作り方</span></li>
                                     </ul>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module 22: Adjectives
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module 22: Adjectives
                                                 Cont..</strong></span>
                                     </p>
 
@@ -1749,7 +1749,7 @@
                                         <li><span style="font-size:14px">素敵ですね, へたです, 上手です, 嫌いです, ほしいです</span></li>
                                     </ul>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module 23: Verbs Forms
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module 23: Verbs Forms
                                                 Cont..</strong></span>
                                     </p>
 
@@ -1763,7 +1763,7 @@
                                         <li><span style="font-size:14px">置いておいてください。</span></li>
                                     </ul>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module 24: Listening
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module 24: Listening
                                                 Practice
                                                 Cont..</strong></span></p>
 
@@ -1774,7 +1774,7 @@
                                         <li><span style="font-size:14px">聴解会話</span></li>
                                     </ul>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module 25: JLPT Paper
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module 25: JLPT Paper
                                                 Practice</strong></span>
                                     </p>
 
@@ -1788,7 +1788,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="bg-red-600 shadow-lg rounded" x-data="{ open: false }">
+                        <li class="bg-orange-600 shadow-lg rounded" x-data="{ open: false }">
                             <h3 @click="open = !open"
                                 class="flex text-white justify-between items-center font-semibold px-4 py-4 cursor-pointer">
                                 <div class="flex gap-2 items-center">
@@ -1805,7 +1805,7 @@
                             <div x-show="open" x-transition class="bg-white text-black p-4 text-sm space-y-4">
                                 <div class="mx-6 pl-6">
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         1:&nbsp;</strong></span></span></span></p>
 
                                     <ul>
@@ -1837,7 +1837,7 @@
                                     </ul>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         2:&nbsp;</strong></span></span></span></p>
 
                                     <ul>
@@ -1897,7 +1897,7 @@
                                                     style="color:#000000">-読み練習</span></span></span></p>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         3:&nbsp;</strong></span></span></span></p>
 
                                     <ul>
@@ -1978,7 +1978,7 @@
                                                     読み練習</span></span></span></p>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         4:&nbsp;</strong></span></span></span></p>
 
                                     <ul>
@@ -2034,7 +2034,7 @@
                                                     style="color:#000000">-読み練習</span></span></span></p>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         5:&nbsp;</strong></span></span></span></p>
 
                                     <ul>
@@ -2085,7 +2085,7 @@
                                                     読み練習</span></span></span></p>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         6:&nbsp;</strong></span></span></span></p>
 
                                     <ul>
@@ -2126,7 +2126,7 @@
                                                     読み練習</span></span></span></p>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         7:&nbsp;</strong></span></span></span></p>
 
                                     <ul>
@@ -2170,13 +2170,13 @@
                                                     style="color:#000000">-読み練習</span></span></span></p>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         8:&nbsp;</strong></span></span></span></p>
 
                                     <ul>
                                         <li style="list-style-type:disc"><span style="font-size:14px"><span
                                                     style="font-family:Arial"><span style="color:#000000">Grammar<strong
-                                                            class="text-red-600">-</strong>Verb forms &amp; ending verb
+                                                            class="text-orange-600">-</strong>Verb forms &amp; ending verb
                                                         forms</span></span></span></li>
                                     </ul>
 
@@ -2235,7 +2235,7 @@
                                                     style="color:#000000">-総読</span></span></span></p>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         9:&nbsp;</strong></span></span></span></p>
 
                                     <ul>
@@ -2309,7 +2309,7 @@
                                                     style="color:#000000">-駅、ホテル、空港での会話</span></span></span></p>
 
                                     <p><span style="font-size:14px"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         10:&nbsp;</strong></span></span></span></p>
 
                                     <ul>
@@ -2365,7 +2365,7 @@
                                                 style="font-family:Arial"><span style="color:#000000">-
                                                     読解翻訳および説明</span></span></span></p>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module
                                                 11:&nbsp;</strong></span></p>
 
                                     <ul>
@@ -2395,7 +2395,7 @@
 
                                     <p><span style="font-size:14px">- 練習</span></p>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module
                                                 12:&nbsp;</strong></span></p>
 
                                     <ul>
@@ -2420,7 +2420,7 @@
 
                                     <p><span style="font-size:14px">- 読み方及び接続</span></p>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module
                                                 13:&nbsp;</strong></span></p>
 
                                     <ul>
@@ -2449,7 +2449,7 @@
 
                                     <p><span style="font-size:14px">- 読み練習</span></p>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module
                                                 14:&nbsp;</strong></span></p>
 
                                     <ul>
@@ -2479,7 +2479,7 @@
 
                                     <p><span style="font-size:14px">- 読み練習</span></p>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module
                                                 15:&nbsp;</strong></span></p>
 
                                     <ul>
@@ -2507,7 +2507,7 @@
 
                                     <p><span style="font-size:14px">- 読み練習</span></p>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module
                                                 16:&nbsp;</strong></span></p>
 
                                     <ul>
@@ -2540,7 +2540,7 @@
 
                                     <p><span style="font-size:14px">- 読み練習</span></p>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module
                                                 17:&nbsp;</strong></span></p>
 
                                     <ul>
@@ -2563,7 +2563,7 @@
 
                                     <p><span style="font-size:14px">- 読み練習</span></p>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module
                                                 18:&nbsp;</strong></span></p>
 
                                     <ul>
@@ -2596,7 +2596,7 @@
 
                                     <p><span style="font-size:14px">-総読</span></p>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module
                                                 19:&nbsp;</strong></span></p>
 
                                     <ul>
@@ -2630,7 +2630,7 @@
 
                                     <p><span style="font-size:14px">-注文、面接</span></p>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module
                                                 20:&nbsp;</strong></span></p>
 
                                     <ul>
@@ -2662,7 +2662,7 @@
 
                                     <p><span style="font-size:14px">-読解翻訳および説明</span></p>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module
                                                 21:&nbsp;</strong></span></p>
 
                                     <ul>
@@ -2705,7 +2705,7 @@
                                     <p><span style="font-size:14px">-読解翻訳および説明</span></p>
 
                                     <p><br>
-                                        <span style="font-size:14px"><strong class="text-red-600">Module
+                                        <span style="font-size:14px"><strong class="text-orange-600">Module
                                                 22:&nbsp;</strong></span>
                                     </p>
 
@@ -2735,7 +2735,7 @@
 
                                     <p><span style="font-size:14px">-読解翻訳および説明</span></p>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module
                                                 23:&nbsp;</strong></span></p>
 
                                     <ul>
@@ -2765,7 +2765,7 @@
 
                                     <p><span style="font-size:14px">-読解翻訳および説明</span></p>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module
                                                 24:&nbsp;</strong></span></p>
 
                                     <ul>
@@ -2797,7 +2797,7 @@
 
                                     <p><span style="font-size:14px">- 読解翻訳および説明</span></p>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module
                                                 25:&nbsp;</strong></span></p>
 
                                     <ul>
@@ -2827,7 +2827,7 @@
 
                                     <p><span style="font-size:14px">-読解翻訳および説明</span></p>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module
                                                 26:&nbsp;</strong></span></p>
 
                                     <ul>
@@ -2861,7 +2861,7 @@
 
                                     <p><span style="font-size:14px">-読解翻訳および説明</span></p>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module
                                                 27:&nbsp;</strong></span></p>
 
                                     <ul>
@@ -2889,7 +2889,7 @@
 
                                     <p><span style="font-size:14px">- 読解翻訳および説明</span></p>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module
                                                 28:&nbsp;</strong></span></p>
 
                                     <ul>
@@ -2923,7 +2923,7 @@
 
                                     <p><span style="font-size:14px">-読解翻訳および説明</span></p>
 
-                                    <p><span style="font-size:14px"><strong class="text-red-600">Module
+                                    <p><span style="font-size:14px"><strong class="text-orange-600">Module
                                                 29:&nbsp;</strong></span></p>
 
                                     <ul>
@@ -2954,7 +2954,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="bg-red-600 shadow-lg rounded" x-data="{ open: false }">
+                        <li class="bg-orange-600 shadow-lg rounded" x-data="{ open: false }">
                             <h3 @click="open = !open"
                                 class="flex text-white justify-between items-center font-semibold px-4 py-4 cursor-pointer">
                                 <div class="flex gap-2 items-center">
@@ -2971,7 +2971,7 @@
                             <div x-show="open" x-transition class="bg-white text-black p-4 text-sm space-y-4">
                                 <div class="mx-6 pl-6">
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         1:</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -2994,7 +2994,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         2:</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3017,7 +3017,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         3:&nbsp;</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3044,7 +3044,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         4:</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3071,7 +3071,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         5:&nbsp;</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3097,7 +3097,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         6:</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3121,7 +3121,7 @@
                                         &nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         7:</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3148,7 +3148,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         8:&nbsp;</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3175,7 +3175,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         9:&nbsp;</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3203,7 +3203,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         10:&nbsp;</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3230,7 +3230,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         11:</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3257,7 +3257,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         12:</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3282,7 +3282,7 @@
                                     </ul>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         13:</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3305,7 +3305,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         14:</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3328,7 +3328,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         15:</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3353,7 +3353,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         16:&nbsp;</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3379,7 +3379,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         17:</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3405,7 +3405,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         18:</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3431,7 +3431,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         19:</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3458,7 +3458,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         20:</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3485,7 +3485,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         21:</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3511,7 +3511,7 @@
                                     </ul>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         22:</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3537,7 +3537,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         23:</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3563,7 +3563,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         24:</strong></span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
@@ -3585,7 +3585,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="bg-red-600 shadow-lg rounded" x-data="{ open: false }">
+                        <li class="bg-orange-600 shadow-lg rounded" x-data="{ open: false }">
                             <h3 @click="open = !open"
                                 class="flex text-white justify-between items-center font-semibold px-4 py-4 cursor-pointer">
                                 <div class="flex gap-2 items-center">
@@ -3602,7 +3602,7 @@
                             <div x-show="open" x-transition class="bg-white text-black p-4 text-sm space-y-4">
                                 <div class="mx-6 pl-6">
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 1: 文字
+                                                    style="color:#000000"><strong class="text-orange-600">Module 1: 文字
                                                         語彙</strong></span></span></span></p>
 
                                     <ul>
@@ -3640,7 +3640,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 2: 文法
+                                                    style="color:#000000"><strong class="text-orange-600">Module 2: 文法
                                                         読解</strong></span></span></span></p>
 
                                     <ul>
@@ -3668,7 +3668,7 @@
                                     <p>&nbsp;</p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 3:
+                                                    style="color:#000000"><strong class="text-orange-600">Module 3:
                                                         日本文化</strong></span></span></span></p>
 
                                     <ul>
@@ -3709,7 +3709,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="bg-red-600 shadow-lg rounded" x-data="{ open: false }">
+                        <li class="bg-orange-600 shadow-lg rounded" x-data="{ open: false }">
                             <h3 @click="open = !open"
                                 class="flex text-white justify-between items-center font-semibold px-4 py-4 cursor-pointer">
                                 <div class="flex gap-2 items-center">
@@ -3726,7 +3726,7 @@
                             <div x-show="open" x-transition class="bg-white text-black p-4 text-sm space-y-4">
                                 <div class="mx-6 pl-6">
                                     <p><span style="font-size:11pt"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         1:</strong></span></span></span></p>
 
                                     <ul>
@@ -3759,7 +3759,7 @@
                                                     words- 100 kanjis</span></span></span></p>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         2:</strong></span></span></span></p>
 
                                     <ul>
@@ -3788,7 +3788,7 @@
                                     </ol>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module
+                                                    style="color:#000000"><strong class="text-orange-600">Module
                                                         3:&nbsp;</strong></span></span></span></p>
 
                                     <ul>
@@ -3830,7 +3830,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="bg-red-600 shadow-lg rounded" x-data="{ open: false }">
+                        <li class="bg-orange-600 shadow-lg rounded" x-data="{ open: false }">
                             <h3 @click="open = !open"
                                 class="flex text-white justify-between items-center font-semibold px-4 py-4 cursor-pointer">
                                 <div class="flex gap-2 items-center">
@@ -3867,7 +3867,7 @@
                                     </ul>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 2: Tips
+                                                    style="color:#000000"><strong class="text-orange-600">Module 2: Tips
                                                         &amp; Tricks of the JLPT/ NAT/ JFT
                                                         Exam</strong></span></span></span></p>
 
@@ -3883,7 +3883,7 @@
                                     </ul>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 3: Sample
+                                                    style="color:#000000"><strong class="text-orange-600">Module 3: Sample
                                                         Papers</strong></span></span></span></p>
 
                                     <ul>
@@ -3902,7 +3902,7 @@
                                     </ul>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 4:
+                                                    style="color:#000000"><strong class="text-orange-600">Module 4:
                                                         Important Questions of the Exam</strong></span></span></span></p>
 
                                     <ul>
@@ -3924,7 +3924,7 @@
                                     </ul>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 5: Doubt
+                                                    style="color:#000000"><strong class="text-orange-600">Module 5: Doubt
                                                         Solving</strong></span></span></span></p>
 
                                     <ul>
@@ -3950,7 +3950,7 @@
                                     </ul>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 6: Mock Q
+                                                    style="color:#000000"><strong class="text-orange-600">Module 6: Mock Q
                                                         &amp; A</strong></span></span></span></p>
 
                                     <ul>
@@ -3967,7 +3967,7 @@
                                     </ul>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 7:
+                                                    style="color:#000000"><strong class="text-orange-600">Module 7:
                                                         Revision I</strong></span></span></span></p>
 
                                     <ul>
@@ -3985,7 +3985,7 @@
                                     </ul>
 
                                     <p><span style="font-size:11pt"><span style="font-family:Arial,sans-serif"><span
-                                                    style="color:#000000"><strong class="text-red-600">Module 8:
+                                                    style="color:#000000"><strong class="text-orange-600">Module 8:
                                                         Revision II</strong></span></span></span></p>
 
                                     <ul>
@@ -4009,10 +4009,10 @@
             </div>
             <div class="relative">
                 <div class="lg:w-12/12 sticky top-4 md:top-[70px]">
-                    <div class="relative bg-white rounded-lg border-2 border-red-600 shadow mb-2">
+                    <div class="relative bg-white rounded-lg border-2 border-orange-600 shadow mb-2">
                         <!-- Modal header -->
                         <div class="flex items-center justify-between px-4 py-2 border-b rounded-t">
-                            <h3 class="text-[20px] font-[600] text-red-600 text-center">
+                            <h3 class="text-[20px] font-[600] text-orange-600 text-center">
                                 Book a Live Class
                             </h3>
 
@@ -4021,35 +4021,35 @@
                         <!-- Modal body -->
                         <form class="p-2 md:p-2 space-y-2">
                             <div>
-                                <label for="name" class="block text-sm mb-1 font-[600] text-red-600">Name</label>
+                                <label for="name" class="block text-sm mb-1 font-[600] text-orange-600">Name</label>
                                 <input type="text" name="name" id="name" placeholder="Name"
                                     required=""
-                                    class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
-                                <span id="name_error3" class="text-red-500 text-xs"></span>
+                                    class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                                <span id="name_error3" class="text-orange-500 text-xs"></span>
                             </div>
 
                             <div>
-                                <label for="email" class="block text-sm mb-1 font-[600] text-red-600">Email</label>
+                                <label for="email" class="block text-sm mb-1 font-[600] text-orange-600">Email</label>
                                 <input type="email" name="email" id="email" placeholder="Email"
                                     required=""
-                                    class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
-                                <span id="email_error3" class="text-red-500 text-xs"></span>
+                                    class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                                <span id="email_error3" class="text-orange-500 text-xs"></span>
                             </div>
 
                             <div>
-                                <label for="countryCode" class="block text-sm mb-1 font-[600] text-red-600">Country
+                                <label for="countryCode" class="block text-sm mb-1 font-[600] text-orange-600">Country
                                     Code</label>
                                 <div class="flex gap-2">
                                     <select name="countryCode"
-                                        class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg p-1">
+                                        class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg p-1">
                                         <option value="(+971)" selected="">UAE (+971)</option>
                                         <option value="(+91)">India (+91)</option>
                                         <option value="(+1)">USA (+1)</option>
                                     </select>
                                     <input type="number" name="phone" placeholder="Mobile no *"
-                                        class="bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg block w-full p-1">
+                                        class="bg-gray-50 border border-orange-300 text-gray-900 text-sm rounded-lg block w-full p-1">
                                 </div>
-                                <span id="phone_error3" class="text-red-500 text-xs"></span>
+                                <span id="phone_error3" class="text-orange-500 text-xs"></span>
                             </div>
 
                             <!-- Hidden Inputs -->
@@ -4064,7 +4064,7 @@
 
                             <div class="flex justify-center pt-2">
                                 <button type="submit"
-                                    class="bg-red-600 text-white px-2 py-1 text-lg rounded-md">Submit</button>
+                                    class="bg-orange-600 text-white px-2 py-1 text-lg rounded-md">Submit</button>
                             </div>
                         </form>
 
@@ -4094,16 +4094,16 @@
     </section>
     <section class="py-12 bg-gray-50">
         <div class="max-w-6xl mx-auto px-4" x-data="{ activeTab: 'tab1' }">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Our Certification
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize">Our Certification
             </h2>
             <div class="bg-white shadow-lg rounded-xl p-6">
                 <!-- Tabs -->
                 <div class="flex flex-col md:flex-row justify-center items-center gap-4 mb-6">
                     <!-- Tab 1 Button -->
                     <button
-                        :class="activeTab === 'tab1' ? 'bg-red-800 text-white border-purple-700' :
+                        :class="activeTab === 'tab1' ? 'bg-orange-800 text-white border-purple-700' :
                             'bg-white text-gray-700 border-gray-300'"
-                        class="flex items-center gap-4 px-6 py-3 border-2 rounded-lg shadow transition-all duration-200 bg-red-800 text-white border-purple-700"
+                        class="flex items-center gap-4 px-6 py-3 border-2 rounded-lg shadow transition-all duration-200 bg-orange-800 text-white border-purple-700"
                         @click="activeTab = 'tab1'">
                         <img src="https://cdn.henryharvin.com/images/1704868318hhicon.webp" alt="Henry Harvin"
                             class="h-10 w-auto bg-white rounded-full">
@@ -4112,7 +4112,7 @@
 
                     <!-- Tab 2 Button -->
                     <button
-                        :class="activeTab === 'tab2' ? 'bg-red-800 text-white border-purple-700' :
+                        :class="activeTab === 'tab2' ? 'bg-orange-800 text-white border-purple-700' :
                             'bg-white text-gray-700 border-gray-300'"
                         class="flex items-center gap-4 px-6 py-3 border-2 rounded-lg shadow transition-all duration-200 bg-white text-gray-700 border-gray-300"
                         @click="activeTab = 'tab2'">
@@ -4126,7 +4126,7 @@
                 <div class="mt-6 text-center md:text-left">
                     <!-- Tab 1 Content -->
                     <div x-show="activeTab === 'tab1'" x-transition="">
-                        <h3 class="text-xl font-[500] text-center mb-2 text-red-700">Henry Harvin® Certification</h3>
+                        <h3 class="text-xl font-[500] text-center mb-2 text-orange-700">Henry Harvin® Certification</h3>
                         <div class="flex justify-center items-center">
                             <img style="margin: auto; max-height: 400px;" loading="lazy"
                                 src="https://login.henryharvin.com/storage/app/public/images/16771460551677146055JAPANESELANGUAGECOURSE(collage).jpg"
@@ -4136,7 +4136,7 @@
 
                     <!-- Tab 2 Content -->
                     <div x-show="activeTab === 'tab2'" x-transition="" style="display: none;">
-                        <h3 class="text-xl font-[500] text-center mb-2 text-red-700">NSDC Certification</h3>
+                        <h3 class="text-xl font-[500] text-center mb-2 text-orange-700">NSDC Certification</h3>
                         <div class="flex justify-center items-center">
                             <img style="margin: auto; max-height: 400px;" loading="lazy"
                                 src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1712121396NSDC Henry Harvin Govt Certificate.png"
@@ -4149,51 +4149,51 @@
     </section>
     <section class="py-12">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Skills Covered</h2>
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize">Skills Covered</h2>
             <div class="grid md:grid-cols-3 gap-4">
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium"> Language Techniques</p>
                 </div>
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Communication Skills</p>
                 </div>
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Presentation Skills</p>
                 </div>
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Story-telling</p>
                 </div>
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Active Listening</p>
                 </div>
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Storyboard</p>
                 </div>
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Decision-Making</p>
                 </div>
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Critical thinking and analysis</p>
                 </div>
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Cultural Understanding</p>
                 </div>
 
@@ -4202,51 +4202,51 @@
     </section>
     <section class="py-12">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">Job Profiles</h2>
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize">Job Profiles</h2>
             <div class="grid md:grid-cols-3 gap-4">
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Translator / Interpreter</p>
                 </div>
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Language Teacher</p>
                 </div>
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Tour Guide</p>
                 </div>
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">International Relations Specialist</p>
                 </div>
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">International Business</p>
                 </div>
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Localization Specialist</p>
                 </div>
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Cultural Liaison Officer</p>
                 </div>
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Language Analyst</p>
                 </div>
                 <div class="flex items-start space-x-3">
                     <i
-                        class="fa fa-check text-lg text-red-600 border border-red-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
+                        class="fa fa-check text-lg text-orange-600 border border-orange-600 flex justify-center items-center rounded-full py-1 w-8 h-8"></i>
                     <p class="text-gray-700 font-medium">Diplomatic Services</p>
                 </div>
             </div>
@@ -4254,13 +4254,13 @@
     </section>
     <section class="py-12 bg-gray-50">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-red-600 capitalize">FAQ</h2>
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize">FAQ</h2>
             <div class="my-6">
                 <ul class="flex flex-col border-2 shadow-lg" x-data="{ selected: null }">
                     <!-- FAQ Item 1 -->
                     <li class="bg-white border-b">
                         <h2 @click="selected !== 1 ? selected = 1 : selected = null"
-                            class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                            class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                             <span>Who is this course for?</span>
                             <svg :class="selected === 1 ? 'rotate-180' : ''"
                                 class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -4268,7 +4268,7 @@
                                 <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                             </svg>
                         </h2>
-                        <div x-show="selected === 1" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                        <div x-show="selected === 1" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                             <p class="p-3 text-gray-900">
                                 This course is ideal for aspiring media managers, advertising professionals, marketing
                                 strategists, and business owners looking to manage and optimize advertising portfolios
@@ -4280,7 +4280,7 @@
                     <!-- FAQ Item 2 -->
                     <li class="bg-white border-b">
                         <h2 @click="selected !== 2 ? selected = 2 : selected = null"
-                            class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                            class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                             <span>Do I need prior experience?</span>
                             <svg :class="selected === 2 ? 'rotate-180' : ''"
                                 class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -4288,7 +4288,7 @@
                                 <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                             </svg>
                         </h2>
-                        <div x-show="selected === 2" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                        <div x-show="selected === 2" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                             <p class="p-3 text-gray-900">
                                 Yes, prior experience is required depending on a professional's last highest qualification.
                             </p>
@@ -4298,7 +4298,7 @@
                     <!-- FAQ Item 3 -->
                     <li class="bg-white border-b">
                         <h2 @click="selected !== 3 ? selected = 3 : selected = null"
-                            class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                            class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                             <span>What will I receive upon completion?</span>
                             <svg :class="selected === 3 ? 'rotate-180' : ''"
                                 class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -4306,7 +4306,7 @@
                                 <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                             </svg>
                         </h2>
-                        <div x-show="selected === 3" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                        <div x-show="selected === 3" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                             <p class="p-3 text-gray-900">
                                 You will receive a certificate of completion validating your skills in media account
                                 management.
@@ -4317,7 +4317,7 @@
                     <!-- FAQ Item 4 -->
                     <li class="bg-white border-b">
                         <h2 @click="selected !== 4 ? selected = 4 : selected = null"
-                            class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-red-700 text-white">
+                            class="flex flex-row justify-between items-center font-semibold px-4 py-4 cursor-pointer bg-orange-700 text-white">
                             <span>Can I take this course online?</span>
                             <svg :class="selected === 4 ? 'rotate-180' : ''"
                                 class="fill-current text-white h-6 w-6 transform transition-transform duration-500"
@@ -4325,7 +4325,7 @@
                                 <path d="M5.23 7.21l4.77 4.77 4.77-4.77"></path>
                             </svg>
                         </h2>
-                        <div x-show="selected === 4" x-transition class="border-l-2 ml-3 pl-3 border-red-700 bg-white">
+                        <div x-show="selected === 4" x-transition class="border-l-2 ml-3 pl-3 border-orange-700 bg-white">
                             <p class="p-3 text-gray-900">
                                 Yes! This course is available both online and in-person, allowing for flexible learning.
                             </p>
@@ -4337,7 +4337,7 @@
     </section>
     <section class="py-12 mx-auto px-4">
         <div class="max-w-6xl mx-auto" bis_skin_checked="1">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-2 text-[#da2028] capitalize my-4">Agota™
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-2 text-orange-600 capitalize my-4">Agota™
                 Framework
             </h2>
             <p class="text-[16px] text-gray-800 font-[600] text-center">AGOTA™ Framework is a trajectory that offers
@@ -4353,7 +4353,7 @@
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">1: Training
+                                <p class="col-span-2 text-orange-600">1: Training
                                     <span class="block text-[12px] text-gray-800 font-[600]">144 Hours of Two-Way Live
                                         Online Interactive Sessions</span>
                                 </p>
@@ -4378,7 +4378,7 @@
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">2: Projects
+                                <p class="col-span-2 text-orange-600">2: Projects
                                     <span class="block text-[12px] text-gray-800 font-[600]"> Facility to undergo projects
                                         along with the course</span>
                                 </p>
@@ -4405,7 +4405,7 @@
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">3: Student Engagement &amp; Events
+                                <p class="col-span-2 text-orange-600">3: Student Engagement &amp; Events
                                     <span class="block text-[12px] text-gray-800 font-[600]"> Free Access to #AskHenry
                                         Hackathons and Competitions &amp; many other facilities from Henry Harvin®</span>
                                 </p>
@@ -4430,7 +4430,7 @@
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">4: Masterclass
+                                <p class="col-span-2 text-orange-600">4: Masterclass
                                     <span class="block text-[12px] text-gray-800 font-[600]">Access to 52+ Masterclass
                                         Sessions for essential soft スキル (Sukiru) development</span>
                                 </p>
@@ -4457,7 +4457,7 @@
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">5: Membership
+                                <p class="col-span-2 text-orange-600">5: Membership
                                     <span class="block text-[12px] text-gray-800 font-[600]"> 30 Months Gold Membership of
                                         Henry Harvin® School of Languages</span>
                                 </p>
@@ -4479,7 +4479,7 @@
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">6: E-Learning Access
+                                <p class="col-span-2 text-orange-600">6: E-Learning Access
                                     <span class="block text-[12px] text-gray-800 font-[600]">Get free access to the LMS
                                         having PPTs, projects, self-paced video-based learning, library, quizzes, question
                                         bank, practice tests, final assessments, and a forum, powered by
@@ -4517,7 +4517,7 @@
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">7: 特徴 (Tokuchō) Certification + License
+                                <p class="col-span-2 text-orange-600">7: 特徴 (Tokuchō) Certification + License
                                     <span class="block text-[12px] text-gray-800 font-[600]">Distinguish your profile with
                                         global credentials and showcase expertise with our 特徴 (Tokuchō) Completion
                                         certificate with Professional License</span>
@@ -4543,7 +4543,7 @@
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">8: Internship Support
+                                <p class="col-span-2 text-orange-600">8: Internship Support
                                     <span class="block text-[12px] text-gray-800 font-[600]">Get Internship Support with
                                         Henry Harvin® and in top MNCs like J.P. Morgan, Accenture &amp; many more via 100X
                                         Suite and
@@ -4575,7 +4575,7 @@
                         <li class="grid md:grid-cols-2 grid-cols-1 gap-4 justify-between">
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">9: Entrepreneurship Mentorship
+                                <p class="col-span-2 text-orange-600">9: Entrepreneurship Mentorship
                                     <span class="block text-[12px] text-gray-800 font-[600]">Mentorship from Young
                                         Successful Entrepreneurs to set up a sustainable &amp; scalable Business from
                                         scratch at both Freelance &amp; Entrepreneur level</span>
@@ -4599,7 +4599,7 @@
                             </div>
                             <div class="text-[15px] py-2 text-left font-[600] grid grid-cols-3 gap-2 border-b border-purple"
                                 bis_skin_checked="1">
-                                <p class="col-span-2 text-red-600">10: Placement Support
+                                <p class="col-span-2 text-orange-600">10: Placement Support
                                     <span class="block text-[12px] text-gray-800 font-[600]">Get 3 in 1 Placement support
                                         through Placement Drives, Premium access to the Job portal &amp; Personalized Job
                                         Consulting</span>
@@ -4633,7 +4633,7 @@
     </section>
     <section class="py-12 bg-gray-100 mx-auto px-4">
         <div class="max-w-7xl mx-auto">
-            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-[#da2028] capitalize mt-4 mb-4"> Why
+            <h2 class="text-center text-2xl md:text-3xl font-semibold mb-10 text-orange-600 capitalize mt-4 mb-4"> Why
                 Kazumi Japanese &amp; Culture 文化 School?
             </h2>
             <div class="py-8">
@@ -4644,7 +4644,7 @@
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789102Trainerteaching.jpg"
                                 loading="lazy " alt="wwww">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Native Japanese Trainers</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Native Japanese Trainers</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Learn from certified, highly 経験豊富 (keiken hōfu) and 情熱的な
                             (jōnetsu-teki na) faculties.</p>
                     </div>
@@ -4653,7 +4653,7 @@
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789154examsheet.jpg"
                                 loading="lazy " alt="course">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">JLPT Intensive Course</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">JLPT Intensive Course</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Excel in the JLPT with our 専門的な (Senmon-teki na)
                             modules, mock tests, personalized coaching, and JLPT-focused materials sourced directly from
                             Japan.</p>
@@ -4663,7 +4663,7 @@
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881317elearning.jpg"
                                 loading="lazy " alt="access">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Access to E-learning Portal</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Access to E-learning Portal</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Kazumi partners with <span>
                                 <a href="https://examopedia.com/"
                                     class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
@@ -4679,7 +4679,7 @@
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789196OccupationalPrograms.jpg"
                                 loading="lazy " alt="offer">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Japanese Occupational Courses</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Japanese Occupational Courses</h3>
                         <p class="text-gray-700 text-[14px] mt-2">At Kazumi, we offer programs that will help you build
                             corporate, business and 職場 (shokuba) skills required to secure good 仕事 (shigoto)
                             internationally.</p>
@@ -4689,7 +4689,7 @@
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774339talking.jpg"
                                 loading="lazy " alt="">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Internship for Japanese Language</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Internship for Japanese Language</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Kazumi provides Internship Support via
                             <span><a href="https://yuvaintern.com//"
                                     class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
@@ -4706,7 +4706,7 @@
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881283study.jpg" loading="lazy "
                                 alt="study">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Study Abroad &amp; Recruitment Services</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Study Abroad &amp; Recruitment Services</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Kazumi offers study abroad and 就職支援 (Shūshoku Shien) via
                             <a href="https://leochase.com/"
                                 class="inline-flex text-[12px] font-bold text-orange-500 items-center gap-1"><img
@@ -4720,7 +4720,7 @@
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753881176agota2.jpg" loading="lazy "
                                 alt="Unique">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Unique 10 in 1 Program: Agota™ Framework</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Unique 10 in 1 Program: Agota™ Framework</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Learn through innovative teaching methods that make
                             learning easy and 実践的 (Jissen-teki). This framework essentially promotes the 能力 (Nōryoku)
                             development and キャリア (Kyaria) development.</p>
@@ -4730,7 +4730,7 @@
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753789015orconnections.jpg"
                                 loading="lazy " alt="globle">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Global Presence</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Global Presence</h3>
                         <p class="text-gray-700 text-[14px] mt-2">With offices in 4+ countries, UK, USA, Middle East, and
                             India, Kazumi is a global brand, offering a global learning 環境 (kankyō), with around 1200+
                             international 学生 (gakusei).</p>
@@ -4740,7 +4740,7 @@
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774903Network.jpg"
                                 loading="lazy " alt="international">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">International Alumni Network</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">International Alumni Network</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Join a diverse コミュニティ(Komyuniti) of learners and
                             professionals from around the world.</p>
                     </div>
@@ -4749,7 +4749,7 @@
                             <img src="https://d1d5cy0fmpy9m8.cloudfront.net/images/1753774206culture.jpg"
                                 loading="lazy " alt="culture two">
                         </div>
-                        <h3 class="text-xl font-[600] text-red-600 mt-4">Cultural Training</h3>
+                        <h3 class="text-xl font-[600] text-orange-600 mt-4">Cultural Training</h3>
                         <p class="text-gray-700 text-[14px] mt-2">Explore 伝統 (Dentō), etiquettes, festivals, and practices
                             used in an authentic environment.</p>
                     </div>

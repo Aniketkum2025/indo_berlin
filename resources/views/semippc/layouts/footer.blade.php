@@ -2,7 +2,7 @@
 <footer>
     <div class="bg-white py-6 px-4">
         <div
-            class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-red-700 text-sm font-medium">
+            class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-orange-700 text-sm font-medium">
 
             <!-- USA -->
             <div>
@@ -44,13 +44,13 @@
 
         <!-- ISO Badges -->
         <div class="flex flex-wrap justify-center gap-4 mt-6">
-            <span class="bg-red-800 text-white px-4 py-2 rounded-full text-sm shadow">ISO 9001:2015</span>
-            <span class="bg-red-800 text-white px-4 py-2 rounded-full text-sm shadow">ISO/IEC 27001:2013</span>
+            <span class="bg-orange-800 text-white px-4 py-2 rounded-full text-sm shadow">ISO 9001:2015</span>
+            <span class="bg-orange-800 text-white px-4 py-2 rounded-full text-sm shadow">ISO/IEC 27001:2013</span>
         </div>
 
         <!-- Footer Text -->
-<div class="text-center mt-6 px-4 py-6 border-t border-red-200">
-    <p class="text-sm text-red-600 font-medium">
+<div class="text-center mt-6 px-4 py-6 border-t border-orange-200">
+    <p class="text-sm text-orange-600 font-medium">
         © 2013–2025 <span class="font-semibold">Kazumi Japanese & Culture School by Henry Harvin®</span>. All Rights Reserved.
     </p>
 </div>
