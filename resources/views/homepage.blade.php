@@ -171,23 +171,28 @@ from beginner (N5) to advanced (N1) levels. Start learning Japanese today!')
         </div>
     </section> --}}
 
-<section id="course_section" class="pt-6 pb-4 px-4 max-w-7xl mx-auto">
-    <h2 class="text-center text-xl md:text-2xl font-semibold my-4 text-orange-600 capitalize">German Language
-        Institute
+<section id="course_section" class="pt-8 pb-6 px-4 max-w-7xl mx-auto">
+    <h2 class="text-center text-2xl md:text-3xl font-bold my-6 text-orange-500 tracking-wide">
+        Master German with Indo Berlin Language & Culture School
     </h2>
 
     <p id="japaneseText"
-        class="text-center text-gray-600 text-[14px] font-[600] my-2 overflow-hidden transition-all duration-300">
-        German Indo Berlin Language & Culture School is the leading German language institute offering an exceptional
-        blend of language learning and cultural immersion. Our expert native trainers deliver world-class German
-        language training from beginner to advanced levels, ensuring you speak German fluently and confidently.
-        Experience engaging online sessions designed to make you proficient in both the language and the rich German
-        culture. We also prepare students for international German proficiency exams such as Goethe-Zertifikat, TestDaF,
-        and TELC. Earn a recognized German language certificate and open global career opportunities in Germany and
-        beyond.
+        class="text-center text-gray-700 text-[15px] leading-relaxed font-medium my-3 overflow-hidden transition-all duration-500">
+        Step into the world of fluent communication with Indo Berlin Language & Culture School — your premier
+        destination for learning German with excellence. Guided by experienced native instructors, our programs help
+        you develop strong listening, speaking, reading, and writing skills.
+        <br><br>
+        Our interactive online learning environment brings Germany’s culture and language together for an immersive
+        learning experience. We also provide expert preparation for globally recognized certification exams including
+        <span class="font-semibold text-orange-600">Goethe-Zertifikat, TestDaF, and TELC</span>.
+        <br><br>
+        Gain an internationally valued German language certification and unlock exciting academic, professional, and
+        cultural opportunities across Germany and the world.
     </p>
+</section>
 
-    <!-- <div class="text-center mt-4">
+
+<!-- <div class="text-center mt-4">
             <button id="toggleButton"
                 class="text-orange-600 text-[12px] font-bold hover:underline border-orange-600 p-1 border rounded-md">
                 View More
